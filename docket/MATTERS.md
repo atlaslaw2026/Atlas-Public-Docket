@@ -95,7 +95,7 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Implementation | Locator replaced with `PRIVATE_RETAINED` / `EVT-J0001-E-T1`. Reachable git history of this repository rewritten so the old path is not on `master` |
 | Public commit | `186d04ce8749b0af2bef8c6e154dba2ef6c4db9e` |
 | Verification | Full-history scan of this repository after the rewrite (private review package) |
-| Status | **CLOSED** once the scan reports the prohibited path absent from all reachable commits |
+| Status | **CLOSED** — prohibited locator absent from reachable history of this repository |
 | Evidence pointer | `pointer: EVT-J0001-E-T1` — exhibit hash recorded only in the private companion |
 
 ---

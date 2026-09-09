@@ -74,7 +74,7 @@
       "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
       "private_commit_class": "not_applicable",
       "verification": "Full-history scan of this repository",
-      "status": "CLOSED_PENDING_HISTORY_SCAN",
+      "status": "CLOSED",
       "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-J0001-E-T1", "reviewed": true}
     },
     {
