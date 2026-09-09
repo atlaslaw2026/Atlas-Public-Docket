@@ -1,5 +1,9 @@
 # Atlas — public governance docket
 
+## About Atlas
+
+AI shouldn't merely be able to do work; it should have rules governing when it may act, evidence supporting what it believes, durable memory of what happened, and a record showing how a decision became an implementation.
+
 Atlas is a **governed AI/agent operating system**: a work framework that requires evidence, explicit authority, persistent state, an audit trail, and fail-closed execution. It is not a chat log and not a pile of scripts.
 
 This repository is the **public procedural record and portfolio**. It is not a backup of the private operational tree, not a second live docket host, and not a dump of private evidence.
