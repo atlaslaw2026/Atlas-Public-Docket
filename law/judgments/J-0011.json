@@ -1,0 +1,39 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0011",
+  "title": "Governance Viewer is a lens, not a source of law",
+  "status": "ACTIVE",
+  "issue_presented": "May the Atlas Governance V2 human Viewer constitute a second current-law authority, pointer, or competing branch of Governance?",
+  "known_facts": [
+    {
+      "fact": "User Order of 2026-08-23 requires a CourtListener-style Viewer inside private Atlas-Governance-V2, reading canonical artifacts and rendering PDFs.",
+      "evidence": "law/orders/O-V2-002.md"
+    },
+    {
+      "fact": "Universal current law is resolved through ATLAS_RECORD → CURRENT_LAW.md → Atlas-Governance-V2 SHA (J-0010).",
+      "evidence": "law/judgments/J-0010.json"
+    }
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [{"id": "O-V2-002", "locator": "law/orders/O-V2-002.md"}],
+  "existing_governing_law": ["J-0010", "CURRENT_LAW.md", "STARTUP.md"],
+  "analysis": "A permanent Viewer branch, a Viewer-owned current-law pointer, or copied authoritative artifacts inside viewer/ would recreate competing-authority. The Viewer must share the same SHA as the canonical record after merge.",
+  "judgment_rule": [
+    "The Governance Viewer lives in Atlas-Governance-V2/viewer/ and is a human lens over canonical artifacts. It is not a second Governance authority.",
+    "Canonical Judgments, Orders, Arguments, Findings, Jobs, and current-law records remain outside viewer/. The Viewer must not store independent authoritative copies of their substance.",
+    "The Viewer must resolve current law only through ATLAS_RECORD → CURRENT_LAW.md. Failure is UNKNOWN or USER_CONFIRMATION_REQUIRED. No silent fallback to cache, historical Governance, or another branch.",
+    "A generated PDF is a rendition. Filed PDFs are preserved and must not be silently regenerated to reflect later substantive changes; a later change is a new filing.",
+    "The Viewer endpoint is read-only as to canonical Governance state.",
+    "Viewer development may occur on a temporary branch. After validation it must be merged into the authoritative Governance branch. It must not remain a permanent parallel Governance branch.",
+    "A current Governance SHA represents both the canonical record and the Viewer code capable of rendering that record.",
+    "Plain-English caption PDFs are reading aids. They use the same docket numbers as the clerk index. They are not a second docket, not a Judgment, and not a source of law."
+  ],
+  "operational_effect": "AI docket at / (INDEX.json) is the record. My docket at /human is rebuilt from that record on each load. Caption PDF or full filed PDF. Agents continue to begin at ATLAS_RECORD, not at the Viewer.",
+  "exceptions": "Watcher overlay, Atlas Law Viewer, trading, Hunter, and Math are unchanged by this Judgment.",
+  "required_validation": "validation/VIEWER_VALIDATION.json tests A–K PASS; merge into main; ATLAS_RECORD SHA includes viewer/.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0010 entrypoint order", "J-0007 watcher-only classification"],
+  "provenance": {"job": "JOB-GOV-V2-VIEWER", "order": "O-V2-002"}
+}

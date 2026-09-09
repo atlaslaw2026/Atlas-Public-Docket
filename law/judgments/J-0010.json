@@ -1,0 +1,36 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0010",
+  "title": "Universal Governance entrypoint — ATLAS_RECORD first",
+  "status": "ACTIVE",
+  "issue_presented": "How must an Atlas agent resolve current universal law when historical Governance artifacts remain visible?",
+  "known_facts": [
+    {
+      "fact": "User Order 2026-08-23 requires every agent to begin governance resolution from ATLAS_RECORD/CURRENT_LAW.md.",
+      "evidence": "this-order"
+    },
+    {
+      "fact": "Finding F-V2-1 was that the public Atlas-Governance README could still appear authoritative if opened directly.",
+      "evidence": "findings/F-V2-1.json"
+    }
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["CURRENT_LAW.md", "J-0007"],
+  "analysis": "Availability of an older repo is not authority. The public historical README may carry a supersession banner. V2 startup guidance must state the six-step resolution order. Failure to resolve the pointer is UNKNOWN or USER_CONFIRMATION_REQUIRED, not silent fallback.",
+  "judgment_rule": [
+    "Every Atlas agent must begin governance resolution from ATLAS_RECORD/CURRENT_LAW.md (or the equivalent designated pointer in its environment).",
+    "The agent must not determine current universal Atlas law merely by encountering an older Governance repository, JUDGMENT.md, local docket, overlay, Clerk/Magistrate workflow, or historical artifact first.",
+    "If the current-law pointer cannot be resolved, classify authority as UNKNOWN or USER_CONFIRMATION_REQUIRED. Do not silently fall back to a historical source.",
+    "Historical sources may be used for governing_law_at_time and watcher-only operation after current law is resolved.",
+    "Onboarding text lives in STARTUP.md. Public historical README may name Atlas-Governance-V2 and ATLAS_RECORD but must not publish private V2 contents, private judgments, or private source."
+  ],
+  "operational_effect": "STARTUP.md is mandatory onboarding. Public historical README carries a HISTORICAL banner. F-V2-1 closes when validation of those two surfaces PASSES.",
+  "exceptions": "WATCHER_ONLY overlay in the historical repo may still run; that does not restore universal-law authority.",
+  "required_validation": "Banner at top of public README; STARTUP.md six-step order; no private V2 SHA/source in public README; overlay hashes unchanged; historical job-law attribution unchanged.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0007 watcher-only classification"],
+  "provenance": {"job": "JOB-GOV-V2-ENTRYPOINT-BANNER", "order": "2026-08-23 universal entrypoint"}
+}

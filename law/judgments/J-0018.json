@@ -1,0 +1,85 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0018",
+  "title": "Duty to identify and flag potential Governance issues — AI must not silently cross an authority gap",
+  "status": "ACTIVE",
+  "issue_presented": "Does Atlas Governance impose an express duty on a governed AI to identify and flag a potential Governance issue during authorized work, without that duty authorizing the AI to make new law?",
+  "known_facts": [
+    {
+      "fact": "J-0002 and standing gate §8 require asking and waiting on material factual unknowns and on acts that are ambiguous, risky, or outside set boundaries. They do not expressly define a POTENTIAL_GOVERNANCE_ISSUE flag or forbid silent checklist advancement across an authority-inadequacy gap as a distinct duty.",
+      "evidence": "law/judgments/J-0002.json; law/incorporated/STANDING_USER_GATES.md; findings/F-AI-INITIATED-ISSUES-RECORD.md"
+    },
+    {
+      "fact": "Meet and Confer on JOB_GOV_AI_INITIATED_ISSUES disposed UNRESOLVED_MATERIAL_GOVERNANCE_ISSUE. Argument advocated DUTY TO IDENTIFY AND FLAG. Counterargument advocated no new Judgment.",
+      "evidence": "findings/F-AI-INITIATED-ISSUES-MEET-CONFER.md; arguments/A-AI-INITIATED-ISSUES.md; counterarguments/CA-AI-INITIATED-ISSUES.md"
+    },
+    {
+      "fact": "Before J-0017, Project 1-2 marked S17–S20 procedurally complete and derived S21_HUMAN_APPROVAL without an ADEQUACY record while authorized acquisition remained available.",
+      "evidence": "findings/F-PREMATURE-PHASE-RECORD.md; law/judgments/J-0017.json"
+    },
+    {
+      "fact": "Human entered this Judgment adopting the duty to identify and flag. The duty does not authorize initiating a Judgment proceeding, Argument/Counterargument track, or self-granted authority. No Reply. Magistrate proceeding remains reserved.",
+      "evidence": "user-order-2026-08-24-j0018-duty-to-flag"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether a governed AI would necessarily have discovered the 1-2 authority-gap historically.",
+      "status": "UNKNOWN",
+      "effect": "This Judgment does not decide that counterfactual. It governs materially equivalent circumstances after the effective date."
+    },
+    {
+      "fact": "Whether the Orchestrator should be formally titled Magistrate.",
+      "status": "UNKNOWN",
+      "effect": "Reserved. This Judgment does not designate a Magistrate and does not make a Magistrate necessary to the flag duty."
+    }
+  ],
+  "evidence": [
+    {"id": "F-AII", "locator": "findings/F-AI-INITIATED-ISSUES-RECORD.md"},
+    {"id": "A-AII", "locator": "arguments/A-AI-INITIATED-ISSUES.md"},
+    {"id": "CA-AII", "locator": "counterarguments/CA-AI-INITIATED-ISSUES.md"},
+    {"id": "MC-AII", "locator": "findings/F-AI-INITIATED-ISSUES-MEET-CONFER.md"},
+    {"id": "O-AII", "locator": "law/orders/O-AI-INITIATED-ISSUES.md"}
+  ],
+  "existing_governing_law": [
+    "J-0001",
+    "J-0002",
+    "J-0006",
+    "STANDING_USER_GATES §8",
+    "J-0016 (undisturbed)",
+    "J-0017 (ACTIVE, not repealed)"
+  ],
+  "analysis": "The Court adopts the Argument’s DUTY TO IDENTIFY AND FLAG with the Counterargument’s limits: no unbidden Judgment track, no manufactured controversies for ordinary A/B/C, human still makes law. J-0002 remains for factual unknowns. J-0017 remains the adequacy gate. This Judgment supplies the missing detection/escalation duty.",
+  "judgment_rule": [
+    "AI MUST NOT SILENTLY CROSS AN AUTHORITY GAP.",
+    "A governed Atlas AI performing authorized work has an affirmative duty to identify and flag a potential Governance issue when the AI has a supported basis to conclude that existing controlling authority may be absent, ambiguous, conflicting, materially inadequate, incapable of governing the next material act, or that the matter has reached a point expressly reserved for Human Judgment.",
+    "The duty applies before the AI takes or authorizes a material next action where the circumstances reasonably indicate that the action may cross such an authority gap.",
+    "The AI shall not resolve such a condition by inventing authority, silently assuming authority, or performing the materially contested act.",
+    "The AI shall record the issue in the governed record and identify: the existing or potentially controlling authority; the factual circumstances giving rise to the issue; the precise authority uncertainty, ambiguity, conflict, or inadequacy; the material next action affected; and why existing authority may not adequately govern that action.",
+    "The duty to flag does not itself authorize the AI to initiate a new Judgment proceeding, file a full Argument/Counterargument track, create new law, alter existing Governance, or grant itself additional authority. A flag preserves and surfaces the issue so that existing Governance may determine the lawful next step.",
+    "Ordinary evidence gaps, implementation defects, specialist tasks, factual UNKNOWNs, and questions already resolved by existing controlling authority shall not be escalated as new Governance issues merely because uncertainty exists. Where the apparent problem can be resolved by applying existing authority, obtaining missing evidence, correcting implementation, or routing authorized specialist work, the AI shall use that existing process rather than manufacture a new Governance controversy.",
+    "The purpose is to ensure that a material Governance defect cannot remain invisible merely because no human happened to ask the AI about it.",
+    "APPLICATION (1-2 validation case): Before J-0017, S17–S20 procedurally complete plus proposed S21_HUMAN_APPROVAL, without substantive adequacy of the acquisition universe and with additional authorized acquisition available, presented a potential Governance issue. Proper response: FLAG; identify S21_HUMAN_APPROVAL as the affected material next action; do not silently advance across the gap. This does not hold that the AI would necessarily have discovered the issue historically.",
+    "After this Judgment, a governed AI presented with materially equivalent circumstances must evaluate and, where the trigger is satisfied, flag before proceeding.",
+    "Implementation is not proven merely because the Judgment, schema, prompt, or code exists. A regression test of the pre-J-0017 1-2 S21 class is required. A failed test shall be preserved as a Finding and shall not be represented as successful implementation. The test does not establish that every future Governance issue can be detected.",
+    "The AI raises the issue. The AI does not thereby make the law.",
+    "Does not designate a Magistrate. Does not disturb J-0016. Does not repeal J-0017. Does not authorize employer email or live trading."
+  ],
+  "operational_effect": "See O-J-0018-ISSUE-FLAG. Schema schema/governance_issue_flag.schema.json. atlas_gov.governance_issue evaluates proposed material transitions. 1-2 what_next must attach a POTENTIAL_GOVERNANCE_ISSUE flag and must not emit S21_HUMAN_APPROVAL when the 1-2 S21 authority-gap class is present. Validation: validation/test_j0018_pre_j0017_1_2_s21.py.",
+  "exceptions": "Does not authorize AI to open a Judgment proceeding by flagging. Does not require a flag for ordinary A/B/C. Does not decide the Magistrate question. Does not reopen Project 1-1.",
+  "required_validation": "J-0018 ACTIVE; regression test PASS on pre-J-0017 1-2 fixture (S17–S20 PROVEN, limited acquisition, authorized hunt remaining, no ADEQUACY, proposed S21) surfacing POTENTIAL_GOVERNANCE_ISSUE and not permitting S21; INDEX next_docket_no 88; J-0016 and J-0017 ACTIVE; Magistrate job still BLOCKED.",
+  "effective_date": "2026-08-24",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0002 factual ask", "J-0017 ADEQUACY gate", "JOB_GOV_ORCHESTRATOR_MAGISTRATE"],
+  "provenance": {
+    "job": "JOB_GOV_AI_INITIATED_ISSUES",
+    "argument": "A-AI-INITIATED-ISSUES",
+    "counterargument": "CA-AI-INITIATED-ISSUES",
+    "meet_and_confer": "F-AI-INITIATED-ISSUES-MEET-CONFER",
+    "order_opening": "O-AI-INITIATED-ISSUES",
+    "implementing_order": "O-J-0018-ISSUE-FLAG",
+    "adoption": "Explicit human Judgment 2026-08-24 duty to identify and flag. No Reply.",
+    "docket_note": "Entered as current-docket G-14 (docket/ATLAS_GOVERNANCE_FILINGS.json). INDEX next_docket_no remains 88."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0022",
+  "title": "Automatic briefing trigger — material governance-sensitive self-repair",
+  "status": "ACTIVE",
+  "issue_presented": "Whether Atlas shall automatically initiate genuine Argument and independent Counterargument before Magistrate review of a proposed software repair that would materially alter governance execution, institutional authority, routing, NEXT_ACT, room eligibility, or institutional behavior, without adopting a universal A/CA trigger for ordinary work.",
+  "known_facts": [
+    {
+      "fact": "G-213 opened Human-authorized adversarial briefing. G-218 is the qualifying fresh-AI Counterargument (g201_fresh_ai_satisfied true). G-217 remains FILED with freshness false.",
+      "evidence": "law/orders/O-ARGUMENT-COUNTERARGUMENT-ADVOCACY-BRIEFING.md; counterarguments/CA-G213-FRESH-AI-COUNTERARGUMENT.json; counterarguments/CA-ARGUMENT-COUNTERARGUMENT-ADVOCACY.json"
+    },
+    {
+      "fact": "MAG-GOV-G213-001 (G-222) CONNECT_THE_RECORD required HUMAN_JUDGMENT_ON_AUTOMATIC_BRIEFING_TRIGGER_LAW. Bounded J-0019 chooser/DEF repair was authorized under existing law and not implemented. Automatic R1–R3 were not adopted.",
+      "evidence": "findings/magistrate/MAG-GOV-G213-001.json; docket/ATLAS_GOVERNANCE_FILINGS.json G-222"
+    },
+    {
+      "fact": "Human entered this Judgment 2026-08-29. No Reply.",
+      "evidence": "human-judgment-2026-08-29-automatic-briefing-trigger-law"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether every future ordinary defect will be correctly classified as non-triggering at the moment of first inspection.",
+      "status": "UNKNOWN",
+      "effect": "Fail closed toward briefing when a proposed repair would materially alter listed governance surfaces. Do not manufacture A/CA for ordinary C."
+    }
+  ],
+  "evidence": [
+    {"id": "G-213", "locator": "law/orders/O-ARGUMENT-COUNTERARGUMENT-ADVOCACY-BRIEFING.md"},
+    {"id": "G-214", "locator": "findings/F-ARGUMENT-COUNTERARGUMENT-AUDIT.md"},
+    {"id": "G-215", "locator": "arguments/A-ARGUMENT-COUNTERARGUMENT-ADVOCACY.md"},
+    {"id": "G-216", "locator": "findings/flags/FLAG-ARGUMENT-COUNTERARGUMENT-ADVOCACY.json"},
+    {"id": "G-217", "locator": "counterarguments/CA-ARGUMENT-COUNTERARGUMENT-ADVOCACY.md"},
+    {"id": "G-218", "locator": "counterarguments/CA-G213-FRESH-AI-COUNTERARGUMENT.md"},
+    {"id": "G-222", "locator": "findings/magistrate/MAG-GOV-G213-001.json"}
+  ],
+  "existing_governing_law": [
+    "J-0018",
+    "J-0019",
+    "J-0020",
+    "O-ARGUMENT-COUNTERARGUMENT-ADVOCACY-BRIEFING",
+    "ATLAS_CONSTITUTION Art. I, VI, XVIII"
+  ],
+  "analysis": "G-218 is adopted as to rejecting a universal automatic A/CA overlay on ordinary research and MAG residue. G-215 is adopted only insofar as rooms are not advocates and MAG must receive genuine briefs before authorizing material governance-sensitive self-repair. The Court does not adopt G-215 R1–R3 as universal trigger classes. J-0018, J-0019, and J-0020 are undisturbed except for the narrow automatic briefing duty stated in this Judgment.",
+  "judgment_rule": [
+    "AUTOMATIC BRIEFING TRIGGER LAW IS ADOPTED FOR MATERIAL GOVERNANCE-SENSITIVE SELF-REPAIR. Atlas SHALL automatically initiate adversarial briefing when a proposed software repair would materially alter governance execution, institutional authority, routing, NEXT_ACT, room eligibility, or institutional behavior.",
+    "NO UNIVERSAL A/CA TRIGGER IS ADOPTED. Ordinary defects, research disagreements, uncertainty, investigation, diagnosis, testing, failed approaches, remands, and routine software repairs do not automatically require Argument and Counterargument merely because they occur.",
+    "MATERIAL GOVERNANCE-SENSITIVE SELF-REPAIR SHALL FOLLOW: DEFECT → DIAGNOSIS → AI ARGUMENT → INDEPENDENT AI COUNTERARGUMENT → MAGISTRATE REVIEW → BOUNDED REPAIR IF AUTHORIZED → INDEPENDENT VERIFICATION / REGRESSION → RESUME ORIGINAL GOAL.",
+    "ARGUMENT AND COUNTERARGUMENT SHALL BE SUBSTANTIVE ADVERSARIAL ACTORS, NOT COMPLETION STAMPERS. Argument shall present the strongest evidence-supported case for the proposed repair. Counterargument shall independently challenge the factual basis, necessity, scope, authority, unintended consequences, and reasonable alternatives. A different conversation identity from the Argument lineage is required for independence (G-201 / G-213 practice). Room ARGUMENT/COUNTERARGUMENT payload stampers are not sufficient.",
+    "MAGISTRATE AUTHORITY REMAINS BOUNDED BY EXISTING LAW. The Magistrate may determine whether existing law permits the proposed repair and may use only dispositions already authorized (including ROUTE, REMAND, HOLD, CONNECT_THE_RECORD, FLAG_AUTHORITY_GAP, ADVANCE, REQUIRE_ADEQUACY, REQUIRE_PROOF_PRECISION, DERIVE_WHAT_NEXT). This Judgment creates no new Magistrate disposition.",
+    "HUMAN-RESERVED AUTHORITY REMAINS HUMAN-RESERVED. Human Judgment remains required for creation or amendment of governing law, enlargement of institutional authority, Human-reserved decisions, live-money authorization, or any proposed action exceeding existing machine authority. Automatic briefing does not substitute for that Human act.",
+    "AUTHORIZED REPAIR DOES NOT AUTHORIZE GOVERNANCE REWRITING. A coding AI may exercise technical implementation judgment within an authorized repair scope but may not alter governing law, enlarge authority, modify unrelated routing or projects, or use the repair as authority for unrelated changes.",
+    "INDEPENDENT VERIFICATION IS REQUIRED BEFORE REPAIR COMPLETION. Verification must establish that the identified defect was corrected, implementation remained within authorized scope, applicable regression tests pass, and unrelated governance authority and behavior remain unchanged.",
+    "REPAIR IS NOT GOAL COMPLETION. After successful repair and verification, Atlas shall resume the interrupted governed work toward the original Goal from the appropriate current state.",
+    "EXISTING GOVERNING LAW OTHERWISE REMAINS UNDISTURBED. Nothing in this Judgment modifies J-0018, J-0019, J-0020, existing Human-reserved authority, or existing substantive project authority except to establish the AUTOMATIC BRIEFING TRIGGER LAW stated herein."
+  ],
+  "operational_effect": "G-223 / O-J-0022-AUTOMATIC-BRIEFING-TRIGGER (G-224). Module atlas_gov.j0022_briefing_trigger. Schema schema/j0022_self_repair.schema.json. Validation validation/test_j0022_automatic_briefing_trigger.py. INDEX next_docket_no remains 88.",
+  "exceptions": "Does not adopt G-215 R1–R3 as universal law. Does not require A/CA for ordinary C. Does not add MAG dispositions. Does not authorize live trading. Does not rewrite MAG-1-9-002. Does not treat repair as Goal completion. Does not disturb J-0016.",
+  "required_validation": "J-0022 ACTIVE on CURRENT_LAW.md; G-213–G-218 and G-222 unmodified in substance; validation/test_j0022_automatic_briefing_trigger.py; INDEX 88 unchanged.",
+  "effective_date": "2026-08-29",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [
+    "J-0018 flag does not open A/CA",
+    "J-0019 remaining_gap_rooms ordinary C",
+    "J-0020 MAG dispositions unchanged",
+    "G-215 R1–R3 universal automatic A/CA"
+  ],
+  "provenance": {
+    "job": "JOB_GOV_ARGUMENT_COUNTERARGUMENT_ADVOCACY",
+    "briefing": "G-213 G-214 G-215 G-216 G-217 G-218 G-222",
+    "adoption": "Explicit Human Judgment 2026-08-29 automatic briefing trigger law. IT IS SO ORDERED. No Reply.",
+    "docket_note": "G-223 on docket/ATLAS_GOVERNANCE_FILINGS.json. viewer/docket/INDEX.json next_docket_no remains 88."
+  }
+}

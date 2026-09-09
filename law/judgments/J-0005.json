@@ -1,0 +1,27 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0005",
+  "title": "User operational knowledge is evidence",
+  "status": "ACTIVE",
+  "issue_presented": "Is asking the user how an existing system is actually used a failure of agent autonomy?",
+  "known_facts": [
+    {"fact": "User instruction: if repositories and records cannot establish actual use, asking the user is evidence gathering.", "evidence": "this-job-instruction"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["J-0002"],
+  "analysis": "The user is a legitimate source of operational facts. Questions must be specific.",
+  "judgment_rule": [
+    "The user is a legitimate source of operational facts.",
+    "If repositories and records cannot establish how an existing system is actually used, asking the user is part of evidence gathering. It is not a failure of agent autonomy.",
+    "The agent must ask a specific factual question, not hand the entire technical problem back to the user."
+  ],
+  "operational_effect": "USER_CONFIRMATION_REQUIRED entries must contain a specific question string.",
+  "exceptions": "None.",
+  "required_validation": "Test C question specificity check.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

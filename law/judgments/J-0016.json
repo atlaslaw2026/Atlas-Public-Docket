@@ -1,0 +1,56 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0016",
+  "title": "Project 1-1 Final Judgment — substantive design phase closed; forward experiment continues",
+  "status": "ACTIVE",
+  "issue_presented": "Has Project 1-1 completed the substantive research, design, historical testing, and production-deployment work needed to enter Final Judgment while leaving the authorized paper-forward experiment running?",
+  "known_facts": [
+    {
+      "fact": "Controlling CA-ruler endings: Passive $5,444.07; ALG1-V1-CA-REPLAY $5,831.35; AI-ALG2-V1-CA-REPLAY $3,772.87; AI-ALG2-V2.1 $4,065.45.",
+      "evidence": "ATLAS_RECORD/21_ATLAS_MATH_CA_REPAIR_BASELINE.md; 22_TASK11_ALG1_CA_REPLAY.md; 23_TASK12_AI_ALG2_CA_REPLAY.md; 26_AI_ALG2_V2_1.md"
+    },
+    {
+      "fact": "GitHub production: atlaslaw2026/Atlas-ALG1-Paper-Forward workflow 341438811 active; run 32758309067 HOLD success 2026-08-24T17:44Z equity $99,971.13; 0 orders.",
+      "evidence": "DKT-0066; DKT-0069; Atlas-ALG1-Paper-Forward/state/RUN_RESULT.json"
+    },
+    {
+      "fact": "DKT-0063 searched the wrong repo; DKT-0066 cited the correct repo; SCHEDULER.json corrected in DKT-0069. Not a rebuild.",
+      "evidence": "DKT-0063; DKT-0066; DKT-0069"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {"fact": "Prospective skill of ALG1-V1-PAPER-FORWARD and AI-CHALLENGER-V1.", "status": "UNKNOWN"},
+    {"fact": "Dividend/total-return completeness.", "status": "UNKNOWN"},
+    {"fact": "Usage measurement.", "status": "UNKNOWN"},
+    {"fact": "JOB_5 remains RUNNING/CONFLICTED.", "status": "CONFLICTED"}
+  ],
+  "evidence": [
+    {"id": "A-J-0016", "locator": "arguments/A-J-0016.md"},
+    {"id": "CA-J-0016", "locator": "counterarguments/CA-J-0016.md"},
+    {"id": "O-FWD", "locator": "law/orders/O-PROJECT-1-1-FORWARD-MONITORING.md"}
+  ],
+  "existing_governing_law": ["J-0001","J-0003","J-0015","O-ALG1-V1-PAPER-FORWARD","O-ALG1-V1-PAPER-FORWARD-GITHUB","O-AI-CHALLENGER-V1"],
+  "analysis": "See A-J-0016 and CA-J-0016. No Reply. Holdings close the design phase without declaring skill or terminating the forward experiment.",
+  "judgment_rule": [
+    "Project 1-1 substantive design/research/production-deployment phase is complete (FINAL_JUDGMENT_ENTERED; SUBSTANTIVE_PHASE_CLOSED; FORWARD_MONITORING_CONTINUES).",
+    "ALG1-V1 historically beat corrected static Passive on SPACE_BASELINE_CA_V1; that does not prove unique stock-picking, durable market-beating skill, or prospective skill.",
+    "Historical AI-ALG2-V1 and AI-ALG2-V2.1 did not beat controlling ALG1 on corrected tests.",
+    "Controlling forward trio: ALG1-V1-PAPER-FORWARD (paper broker); PASSIVE-FORWARD-BASELINE (shadow); AI-CHALLENGER-V1 (shadow).",
+    "No judgment which forward book has superior prospective skill.",
+    "Complaint remains OPEN as to unanswered questions. Orchestrator must not archive or ignore the running forward experiment."
+  ],
+  "operational_effect": "Do not retune frozen strategies or rerun closed CA tests for performance. Continue authorized paper/shadow cycles. Read-only reporting may proceed under O-PROJECT-1-1-FORWARD-MONITORING.",
+  "exceptions": "Does not authorize live trading, shadow-to-broker conversion, J-0014 adoption, or closure of the Complaint.",
+  "required_validation": "J-0016 ACTIVE; forward jobs RUNNING; ALG1/Passive/AI-CHALLENGER unchanged; GitHub workflow still production scheduler.",
+  "effective_date": "2026-08-24",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0014 PROPOSED", "J-0015"],
+  "provenance": {
+    "job": "JOB_PROJECT_1_1_FINAL_JUDGMENT",
+    "order": "O-PROJECT-1-1-FORWARD-MONITORING",
+    "argument": "A-J-0016",
+    "counterargument": "CA-J-0016",
+    "adoption": "Explicit user instruction 2026-08-24. No Reply stage."
+  }
+}

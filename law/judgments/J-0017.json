@@ -1,0 +1,87 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0017",
+  "title": "Narrow major-phase substantive adequacy gate — procedurally complete is not substantively adequate to advance",
+  "status": "ACTIVE",
+  "issue_presented": "Whether Atlas Governance permits a project to advance procedurally when a major stage was executed correctly but is not substantively adequate relative to the operative project objective, Dkt. 1 GOAL, and intended outcome, and what narrow operational gate is required.",
+  "known_facts": [
+    {
+      "fact": "Standing gates §4 and §7 require that execution is not correctness and that a tool be finished and verified before the next is started. J-0001/J-0002 preserve unknowns. J-0006 distinguishes COMPLETED from CLOSED. Gate §8 keeps human judgment in the loop without making the human do AI-capable labor.",
+      "evidence": "law/incorporated/STANDING_USER_GATES.md; law/judgments/J-0001.json; J-0002.json; J-0006.json"
+    },
+    {
+      "fact": "Project 1-2 Hunter Batch 001 captured six jobs; Fit ran the same day; after résumé-upstream correction the registry held 13 targets; stages S17–S20 were marked PROVEN; derived WHAT NEXT became S21_HUMAN_APPROVAL. No ADEQUACY record existed. Test 001 send log was unchanged (no employer send).",
+      "evidence": "findings/F-PREMATURE-PHASE-RECORD.md; Atlas-Job-Search/record/results/CORRECTION_RUN.json"
+    },
+    {
+      "fact": "Project 1-2 what_next walked a stage-status list. Absence of an adequacy predicate is KNOWN from orchestrator.py as of the proceeding record.",
+      "evidence": "Atlas-Job-Search/atlas_jobsearch/orchestrator.py; arguments/A-PREMATURE-PHASE.md"
+    },
+    {
+      "fact": "Project 1-1 used DATA_SUFFICIENT_WITH_LIMITATIONS as a Hunter gate in the workflow register. That practice is not itself an ACTIVE Judgment imposing the same gate on all projects.",
+      "evidence": "atlas_gov/workflow.py; F-PREMATURE-PHASE-RECORD.md"
+    },
+    {
+      "fact": "Human reviewed A-PREMATURE-PHASE and CA-PREMATURE-PHASE, adopted Option B with Counterargument safeguards, and ordered entry of this Judgment. No Reply stage.",
+      "evidence": "user-order-2026-08-24-enter-judgment-option-b; arguments/A-PREMATURE-PHASE.md; counterarguments/CA-PREMATURE-PHASE.md"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether the Orchestrator should be formally titled Magistrate.",
+      "status": "UNKNOWN",
+      "effect": "Reserved to a separate proceeding. This Judgment does not designate the Orchestrator as Magistrate."
+    }
+  ],
+  "evidence": [
+    {"id": "F-PPA", "locator": "findings/F-PREMATURE-PHASE-RECORD.md"},
+    {"id": "A-PPA", "locator": "arguments/A-PREMATURE-PHASE.md"},
+    {"id": "CA-PPA", "locator": "counterarguments/CA-PREMATURE-PHASE.md"},
+    {"id": "O-PPA", "locator": "law/orders/O-PREMATURE-PHASE-ADVANCEMENT.md"},
+    {"id": "GOAL", "locator": "law/goal/DKT_1_GOAL.json"}
+  ],
+  "existing_governing_law": [
+    "J-0001",
+    "J-0002",
+    "J-0006",
+    "STANDING_USER_GATES §§4,7,8",
+    "DKT_1_GOAL",
+    "J-0016 (undisturbed)"
+  ],
+  "analysis": "A-PREMATURE-PHASE: existing gates do not operationalize objective-relative sufficiency before major advance; 1-2 checklist WHAT NEXT is a general defect. CA-PREMATURE-PHASE: do not constitutionalize an implementation failure; no quotas; do not dump infinite hunt; drafting requests are not silent waivers; Option C is too costly. The Court adopts Option B with those safeguards. No Reply.",
+  "judgment_rule": [
+    "PROCEDURALLY COMPLETE ≠ SUBSTANTIVELY ADEQUATE TO ADVANCE.",
+    "Existing law already requires correctness, verification, preservation of material unknowns, completion before downstream progression, and keeping human judgment in the loop without unnecessarily shifting AI-capable labor to the human. This Judgment does not repeal those gates.",
+    "Current law did not adequately operationalize whether a procedurally completed major stage is substantively adequate relative to the operative project objective before that stage authorizes major downstream work, human action, or substantive closure.",
+    "Atlas shall record a project-level ADEQUACY determination before a major phase advancement as defined herein. This is not a gate after every file write, API request, specialist action, or minor step. This is not Option C.",
+    "WHEN: immediately before (i) a major acquisition/research/evidence phase is treated as complete in a way that materially advances the project; (ii) substantial downstream implementation or execution begins; (iii) NEXT_REQUIRED is shifted to a human action or approval; (iv) a substantive project phase is closed; (v) a project is substantively closed.",
+    "The ADEQUACY record shall read: operative project objective/Complaint; Dkt. 1 GOAL; work the stage was supposed to produce; work actually produced; material gaps and UNKNOWNs; relevant coverage dimensions; work Atlas remains authorized and reasonably capable of performing; diminishing returns where relevant; cost/delay; any user-reserved action implicated.",
+    "Dispositions: SUFFICIENT_TO_ADVANCE; PARTIALLY_SUFFICIENT; INSUFFICIENT_TO_ADVANCE; BLOCKED. SUFFICIENT_TO_ADVANCE with expressly docketed limitations is permitted where diminishing returns support it (equivalent to SUFFICIENT_TO_ADVANCE_WITH_LIMITATIONS).",
+    "SUFFICIENT_TO_ADVANCE: the affected major stage may advance, subject to all other Governance.",
+    "PARTIALLY_SUFFICIENT: limited downstream work on the completed subset is allowed if useful and must be labeled preliminary/sample/limited. Materially incomplete upstream work remains open and ordinarily remains part of WHAT NEXT. PARTIALLY_SUFFICIENT shall not be converted into fictional completion.",
+    "INSUFFICIENT_TO_ADVANCE: the affected major downstream transition is blocked. Atlas shall continue authorized work capable of curing the inadequacy unless another governing condition prevents it.",
+    "BLOCKED: advancement is prohibited until the identified blocker is resolved or the human lawfully overrides.",
+    "No universal numerical search, evidence, testing, or lead quota. Sufficiency is contextual. Atlas shall not manufacture low-quality evidence, leads, tests, or records merely to appear broad. UNKNOWN remains UNKNOWN.",
+    "Human override must be explicit and preserved. The human may stop further work, accept an incomplete record, order limited downstream work, or advance despite PARTIAL/INSUFFICIENT where existing authority permits. A request for one downstream artifact does not silently waive remaining upstream adequacy concerns.",
+    "HUMAN-BURDEN (narrow): Atlas shall not require the human user to discover that a project has prematurely stopped performing material work Atlas remained authorized and reasonably capable of performing. This does not apply where the next act is user-reserved (external-send, live-money, deletion/alteration of controlling history/law, other expressly reserved acts), an express user stop, a genuine blocker, reasonable diminishing returns, or material cost/usage constraints. It does not authorize infinite autonomous work.",
+    "The existing Orchestrator shall enforce ADEQUACY status procedurally. It may not derive WHAT NEXT across a major transition where the required ADEQUACY record is absent or blocking. Absence fails closed for advancement, not for continued authorized work. This Judgment does not formally designate the Orchestrator as Magistrate.",
+    "Application: prospective; to currently open projects when they next reach an affected major phase transition. Do not reopen Final Judgment projects solely because this rule is entered. Project 1-1 / J-0016 remains undisturbed.",
+    "Project 1-2: remains held only until its acquisition stage receives a new ADEQUACY determination under this Judgment. Preserve canonical résumé, 13-target registry, historical Hunter/Fit/contacts/packages, Test 001, Graph evidence, and prior history. Do not delete or rewrite prior work. If acquisition is INSUFFICIENT_TO_ADVANCE, NEXT REQUIRED returns to capability-led acquisition rather than human send approval. External sending remains forbidden absent separate authority."
+  ],
+  "operational_effect": "See implementing Order O-J-0017-ADEQUACY-GATE. Schema schema/adequacy.schema.json. Orchestrators must read the latest ADEQUACY record at listed major transitions. Implementation evidence is filed separately from this Judgment.",
+  "exceptions": "Does not adopt Option C. Does not designate Magistrate. Does not disturb J-0016. Does not authorize employer email or live trading. Does not require ADEQUACY before ordinary post-judgment monitoring under a Continuing Order (e.g. 1-1 HOLDs).",
+  "required_validation": "J-0017 ACTIVE; ADEQUACY schema exists; 1-2 acquisition ADEQUACY filed; 1-2 WHAT NEXT is not S21 while acquisition is INSUFFICIENT; INDEX identities 1–87 and next_docket_no 88 unchanged; J-0016 still ACTIVE.",
+  "effective_date": "2026-08-24",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0014 PROPOSED", "J-0016", "Option C"],
+  "provenance": {
+    "job": "JOB_GOV_PREMATURE_PHASE_ADVANCEMENT",
+    "argument": "A-PREMATURE-PHASE",
+    "counterargument": "CA-PREMATURE-PHASE",
+    "order_opening": "O-PREMATURE-PHASE-ADVANCEMENT",
+    "implementing_order": "O-J-0017-ADEQUACY-GATE",
+    "adoption": "Explicit human Order 2026-08-24 enter Judgment Option B with Counterargument safeguards. No Reply stage.",
+    "docket_note": "Entered as current-docket G-1 (docket/ATLAS_GOVERNANCE_FILINGS.json) under Dkt. 1 GOAL. viewer/docket/INDEX.json is LEGACY_HISTORICAL_INDEX; next_docket_no remains 88 and is not consumed."
+  }
+}

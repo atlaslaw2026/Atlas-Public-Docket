@@ -1,0 +1,75 @@
+{
+  "schema_version": "gov-v2-1.0",
+  "status": "AUTHORITATIVE_AFTER_CUTOVER_2026-08-23",
+  "constitution_authority": "law/constitution/CURRENT_OPERATIVE_CONSTITUTION.json",
+  "constitution_status": "OPERATIVE",
+  "constitution_effective_utc": "2026-08-27T14:50:00-07:00",
+  "constitution_text": "law/constitution/ATLAS_CONSTITUTION.md",
+  "constitution_ratification_order": "O-ATLAS-CONSTITUTION-RATIFICATION",
+  "current_sha": "9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982",
+  "current_sha_pointer_hygiene": {
+    "updated_utc": "2026-08-30T01:30:05+00:00",
+    "job_id": "JOB_GOV_ARGUMENT_COUNTERARGUMENT_ADVOCACY",
+    "prior_current_sha_field": "e20a5cd8116aa32910a61a5dca700fb895fd9507",
+    "prior_current_sha_status": "LAGGED_ANCESTOR_MISSING_J-0022_NOT_COMPETING_LAW",
+    "live_git_head_at_hygiene_inspect": "9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982",
+    "judgment_set_commit": "9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982",
+    "history_not_rewritten": true,
+    "note": "e20a5cd8116aa32910a61a5dca700fb895fd9507 is an ancestor of 9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982. 9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982 contains ACTIVE J-0022. current_sha names that judgment-set commit. A later pointer-hygiene descendant of HEAD is not competing law. The operative Constitution is a separate pointer (constitution_authority); it is not inside the judgment-set SHA."
+  },
+  "cutover_sha": "4c19d8ce14422e2f3387ca18578d30c13bfdb9fa",
+  "cutover_sha_is_not_live_pointer": true,
+  "governance_repository": "https://github.com/atlaslaw2026/Atlas-Governance-V2",
+  "visibility_required": "private",
+  "current_law_document": "law/CURRENT.md",
+  "working_tree_judgment_resolution": {
+    "j0010_loads": "ACTIVE judgments from git show {current_sha}:law/judgments AND from disk law/judgments; sets must match",
+    "pinned_sha_role": "judgment-set commit \u2014 exclusive SHA checkout of current_sha must include the same ACTIVE ids as disk",
+    "fail_closed_on_set_mismatch": true,
+    "note": "J-0022 is in 9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982. Disk and SHA paths must agree. Lagged e20a5cd is historical, not current."
+  },
+  "judgment_authority": "law/judgments/",
+  "judgment_template": "law/JUDGMENT_TEMPLATE.md",
+  "judgment_schema": "schema/judgment.schema.json",
+  "job_schema_version": "gov-v2-job-1.0",
+  "job_store": "jobs/",
+  "finding_store": "findings/",
+  "evidence_store": "evidence/",
+  "audit_store": "audit/",
+  "usage_tracker": "D:\\atlas\\Atlas_Usage_Tracker",
+  "measurement_vocabulary": [
+    "MEASURED",
+    "RECONSTRUCTED",
+    "ESTIMATED",
+    "UNKNOWN"
+  ],
+  "supersedes_for_universal_atlas_governance": [
+    {
+      "id": "github-atlas-governance-public-statute",
+      "path": "https://github.com/atlaslaw2026/Atlas-Governance",
+      "local": "D:\\atlas\\Atlas-Governance\\statute",
+      "after_cutover": "HISTORICAL_STATUTE plus WATCHER-ONLY overlay code"
+    },
+    {
+      "id": "local-governance-docket-as-law",
+      "path": "D:\\atlas\\Atlas_Governance_Docket\\JUDGMENT.md",
+      "after_cutover": "HISTORICAL_CABINET \u2014 not current law; papers remain evidence"
+    }
+  ],
+  "does_not_supersede": [
+    "Watcher Clerk/Magistrate overlay runtime at D:\\atlas\\Atlas-Governance\\run_governance_overlay.py \u2014 WATCHER-ONLY"
+  ],
+  "human_viewer": {
+    "path": "viewer/",
+    "role": "lens_not_authority",
+    "judgment": "J-0011",
+    "docket_order": "sequential_docket_no",
+    "docket_timestamp_field": "filed_utc",
+    "docket_citation_rule": "J-0013_verify_before_KNOWN",
+    "ai_docket": "/",
+    "human_docket": "/human",
+    "human_docket_updated_from": "ai_docket_INDEX",
+    "clerk_record": "/record",
+    "captions": "reading_aid_not_law"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0003",
+  "title": "Heightened protection for operational systems",
+  "status": "ACTIVE",
+  "issue_presented": "What extra duties apply before changing a system that is actively used or operationally important?",
+  "known_facts": [
+    {"fact": "Task 3 recorded Law Viewer as operational Runtime with user ORDER DKT-0020.", "evidence": "ATLAS_RECORD/LAW_VIEWER_WIRE.md"},
+    {"fact": "Watchers LA-H, WI, APN run on GitHub Actions.", "evidence": "ATLAS_JOB1 audit + REGISTRY.json"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["J-0002"],
+  "analysis": "Operational reliance raises the cost of silent behavior change.",
+  "judgment_rule": [
+    "If evidence establishes a system is actively used, relied upon, scheduled, production-like, financially or legally consequential, or otherwise operationally important, agents apply heightened change protection.",
+    "Before modifying behavior, establish: what it currently does; what it did before; whether the behavior is intentional; whether the user relies on it; which component provides it; what the change will alter; how the existing workflow is preserved; and the rollback.",
+    "Where evidence cannot answer a material question, J-0002 applies (ask the user)."
+  ],
+  "operational_effect": "Operational systems listed in ATLAS_RECORD REGISTRY status ACTIVE require the protection checklist in the job record before behavior-changing commits.",
+  "exceptions": "Read-only audit does not require the checklist.",
+  "required_validation": "Test E (Law Viewer case study — no code change to Law Viewer).",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

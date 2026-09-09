@@ -1,0 +1,34 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0006",
+  "title": "Universal Atlas job lifecycle",
+  "status": "ACTIVE",
+  "issue_presented": "What is the single durable lifecycle of a material Atlas job?",
+  "known_facts": [
+    {"fact": "Task 1 found no universal Atlas job lifecycle; GitHub Actions and Safe Recorder are not that lifecycle.", "evidence": "ATLAS_JOB1 F-10"},
+    {"fact": "Task 3 used the local docket as a cabinet because the overlay has no job_id intake.", "evidence": "ATLAS_RECORD/CURRENT_LAW.md"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["Task 3 cabinet practice"],
+  "analysis": "COMPLETED must not mean the agent stopped typing. CLOSED requires validation/audit.",
+  "judgment_rule": [
+    "States: PROPOSED → AUTHORIZED → RUNNING → (BLOCKED if needed) → COMPLETED → AUDITED → CLOSED. REJECTED is terminal from PROPOSED/AUTHORIZED.",
+    "PROPOSED: job record exists; not permission to change operational systems.",
+    "AUTHORIZED: user instruction or recorded Order authorizes the work.",
+    "RUNNING: agent is executing authorized work.",
+    "BLOCKED: cannot proceed without user confirmation, missing evidence, or a Governance halt.",
+    "COMPLETED: declared outputs exist and are referenced; not yet audited.",
+    "AUDITED: required validation ran; audit_result recorded.",
+    "CLOSED: audit passed or user accepted residual Findings; no USER_CONFIRMATION_REQUIRED remains open.",
+    "COMPLETED is not CLOSED. Stopping a chat is not COMPLETED."
+  ],
+  "operational_effect": "atlas_gov enforces transitions. Material jobs live under jobs/.",
+  "exceptions": "Trivial non-material Q&A need not open a job.",
+  "required_validation": "Test A, Test B.",
+  "effective_date": "2026-08-23",
+  "supersedes": ["use of overlay as universal job queue"],
+  "amends": [],
+  "distinguished_from": ["GitHub Actions runs", "docket GOAL papers as the only job record"],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

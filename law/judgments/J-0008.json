@@ -1,0 +1,29 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0008",
+  "title": "Activity/usage integration; never invent MEASURED",
+  "status": "ACTIVE",
+  "issue_presented": "How does Governance V2 connect to Atlas usage tracking without a competing store or fake MEASURED numbers?",
+  "known_facts": [
+    {"fact": "Atlas_Usage_Tracker SQLite exists; Job 0 MEASURED proof failed; Task 3 usage UNKNOWN with null tokens.", "evidence": "ATLAS_RECORD/11_USAGE_TRACKING.md"},
+    {"fact": "Allowed statuses in tracker code: MEASURED, RECONSTRUCTED, ESTIMATED, UNKNOWN.", "evidence": "Atlas_Usage_Tracker/atlas_usage/record.py ALLOWED_STATUS"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["Job 0 vocabulary"],
+  "analysis": "Governance references the usage record. It must not duplicate token ledgers or mint MEASURED.",
+  "judgment_rule": [
+    "Preserve chain: USER INPUT → GOVERNING LAW → AGENT/RUN → SOURCES/EVIDENCE → ACTION → OUTPUT → VALIDATION → USAGE/COST → FINAL STATUS.",
+    "Provider-measured usage is MEASURED. Local reconstructed usage is RECONSTRUCTED. Unknown remains UNKNOWN.",
+    "Never manufacture MEASURED usage.",
+    "Job records store usage.tracker path, measurement_status, and event_id — not a second token warehouse."
+  ],
+  "operational_effect": "atlas_gov.attach_usage writes UNKNOWN unless caller supplies a permitted status and evidence.",
+  "exceptions": "None.",
+  "required_validation": "Test F.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

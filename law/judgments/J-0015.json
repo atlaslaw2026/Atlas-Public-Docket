@@ -1,0 +1,71 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0015",
+  "title": "Capital-at-risk rule — TARGET_STRATEGIC_CASH = 0% for the next AI challenger; AI-ALG2-V1 remains frozen",
+  "status": "ACTIVE",
+  "issue_presented": "If the user is putting experiment capital at risk to test whether an AI can allocate it better than ALG1, may the next AI challenger hold strategic cash, and may that constraint be applied retroactively to frozen AI-ALG2-V1?",
+  "known_facts": [
+    {
+      "fact": "User instruction 2026-08-24 directed that a rule of 0% cash be made because the capital is at risk, adopted the CAPITAL-AT-RISK RULE text, and forbade retroactive application to ALG2.",
+      "evidence": "user-instruction-capital-at-risk-2026-08-24; law/orders/O-CAPITAL-AT-RISK.md"
+    },
+    {
+      "fact": "AI-ALG2-V1-CA-REPLAY ended with CASH weight 0.2909 ($1,097.56 of $3,772.87). Verdict AI_ALG2_CA_REPLAY_BEATS_NEITHER versus Passive $5,444.07 and ALG1 $5,831.35.",
+      "evidence": "ATLAS_RECORD/23_TASK12_AI_ALG2_CA_REPLAY.md"
+    },
+    {
+      "fact": "Frozen AI-ALG2-V1 gates include CASH_FLOOR=0.08, CASH_CAP=0.35, DEFENSIVE_CASH=0.22.",
+      "evidence": "Atlas-AI-Algorithm-2/atlas_ai_alg2/constants.py"
+    },
+    {
+      "fact": "Task 8 historical endings remain $14,624.71 / $14,624.71 / $6,609.16 and verdict AI_ALG2_BEATS_NEITHER. Task 13 is a forensic audit that forbids redesigning AI-ALG2-V1 and forbids creating ALG3 in that job.",
+      "evidence": "ATLAS_RECORD/19_TASK8_AI_ALGORITHM_2.md; jobs/JOB_TASK_13_AI_ALG2_FORENSIC_AUDIT.json"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "The identity, job_id, and authorization date of the next AI challenger are not yet known.",
+      "status": "UNKNOWN",
+      "effect": "This Judgment binds that challenger when separately authorized. It does not create or name ALG3 in this job."
+    },
+    {
+      "fact": "Git SHA pointers remain CONFLICTED: ATLAS_RECORD CURRENT_LAW.md records d4c526b36a1448f328a0cdb2231ec24f536c5e13; CURRENT_LAW.json current_sha is a11a6c8870164ee7d3e8a3808264289c2c2f5eff.",
+      "status": "CONFLICTED",
+      "effect": "Neither SHA is silently chosen as the sole live pointer. This filing does not rewrite CURRENT_LAW.json current_sha."
+    }
+  ],
+  "evidence": [
+    {"id": "O-CAR", "locator": "law/orders/O-CAPITAL-AT-RISK.md"},
+    {"id": "T12", "locator": "D:\\atlas\\ATLAS_RECORD\\23_TASK12_AI_ALG2_CA_REPLAY.md"},
+    {"id": "ALG2-CONST", "locator": "D:\\atlas\\Atlas-AI-Algorithm-2\\atlas_ai_alg2\\constants.py"},
+    {"id": "A-J-0015", "locator": "arguments/A-J-0015.md"},
+    {"id": "CA-J-0015", "locator": "counterarguments/CA-J-0015.md"}
+  ],
+  "existing_governing_law": ["J-0001", "J-0002", "J-0003", "J-0005", "J-0006", "O-CAPITAL-AT-RISK"],
+  "analysis": "See A-J-0015 (experiment requires full deployment) and CA-J-0015 (cash is a risk control; this is a different test than ALG2). No Reply stage. The user adopted the rule text. J-0003 forbids rewriting the frozen operational/historical algorithm to fit the new rule. J-0005 treats the user's experiment definition as evidence of intent.",
+  "judgment_rule": [
+    "Holding 1 — CAPITAL-AT-RISK RULE. The next authorized AI challenger after frozen AI-ALG2-V1 shall target 100% deployment of experiment capital among currently eligible securities. TARGET_STRATEGIC_CASH = 0%.",
+    "Holding 2 — Cash is not an investment decision for that challenger. Strategic cash may not be held merely because the AI is uncertain, cautious, or prefers lower volatility.",
+    "Holding 3 — Reallocation. If that challenger reduces or exits an eligible position, released capital must be reallocated among other currently eligible positions according to its judgment.",
+    "Holding 4 — Execution cash. Temporary cash from settlement, fills, market closure, rounding, or other execution mechanics is permitted and is not a strategic allocation.",
+    "Holding 5 — Operational halt. If Governance or a risk rule makes every available investment ineligible, cash may be held as an operational necessity and the reason must be recorded.",
+    "Holding 6 — No retroactivity. This Judgment does not apply to AI-ALG2-V1, AI-ALG2-V1-CA-REPLAY, Task 8, or Task 12. Those artifacts and the 29.09% cash result remain frozen evidence.",
+    "Holding 7 — ALG1 unchanged. This Judgment does not rewrite ALG1-V1, ALG1-V1-CA-REPLAY, or ALG1-V1-PAPER-FORWARD.",
+    "Holding 8 — No silent ALG3. This Judgment does not authorize implementing a new algorithm, submitting broker orders, or closing JOB_TASK_13_AI_ALG2_FORENSIC_AUDIT.",
+    "Holding 9 — Purpose. The experiment measures how well AI allocates capital at risk, not how well it avoids allocating capital."
+  ],
+  "operational_effect": "Future AI-challenger jobs must load law/rules/CAPITAL_AT_RISK.json (TARGET_STRATEGIC_CASH=0) and must not copy AI-ALG2-V1 cash gates as defaults. Agents must not edit Atlas-AI-Algorithm-2 constants or Task 8/12 artifacts to satisfy this rule. This Judgment does not reopen Task 13.",
+  "exceptions": "Temporary execution cash; recorded all-ineligible operational cash. Does not bind ALG1. Does not bind frozen AI-ALG2-V1.",
+  "required_validation": "AI-ALG2-V1 CASH_FLOOR remains 0.08; Task 8/12 files unchanged; O-CAPITAL-AT-RISK and CAPITAL_AT_RISK.json state TARGET_STRATEGIC_CASH=0; no broker orders in this job; J-0012 usage is UNKNOWN if unmeasured.",
+  "effective_date": "2026-08-24",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0014 PROPOSED project-docket layer", "AI-ALG2-V1 frozen cash gates", "ALG1-V1 HOLD_PASSIVE_SLEEVES"],
+  "provenance": {
+    "job": "JOB_CAPITAL_AT_RISK_RULE",
+    "order": "O-CAPITAL-AT-RISK",
+    "argument": "A-J-0015",
+    "counterargument": "CA-J-0015",
+    "adoption": "Explicit user instruction 2026-08-24 to make the 0% cash rule and not apply it retroactively to ALG2. No Reply stage."
+  }
+}

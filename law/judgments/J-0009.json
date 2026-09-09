@@ -1,0 +1,31 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0009",
+  "title": "Law Viewer incident as governance case (no product change)",
+  "status": "ACTIVE",
+  "issue_presented": "What Governance behavior does the Law Viewer launcher/route issue require, without modifying Law Viewer?",
+  "known_facts": [
+    {"fact": "Law Viewer is an established operational Runtime (Task 3 ORDER DKT-0020; wire closeout 2026-08-23).", "evidence": "ATLAS_RECORD/LAW_VIEWER_WIRE.md"},
+    {"fact": "This remediation forbids modifying Law Viewer.", "evidence": "this-job-instruction"}
+  ],
+  "unknown_or_disputed_facts": [
+    {"status": "UNKNOWN", "fact": "The precise user-facing launcher/shortcut/route sequence that previously worked for /ninth is not independently reconstructed in this Governance job from runtime evidence beyond ATLAS_RECORD closeout notes."}
+  ],
+  "evidence": [{"id": "E-LV", "locator": "D:\\atlas\\ATLAS_RECORD\\LAW_VIEWER_WIRE.md"}],
+  "existing_governing_law": ["J-0002", "J-0003", "J-0004", "J-0005"],
+  "analysis": "If an agent sees unexpected /ninth behavior, adding or changing a route or shortcut without first establishing what previously worked, what served it, what changed, whether current work caused a regression, and what the user relied on, would violate J-0002–J-0004. If evidence remained insufficient, the agent must ask the user a specific question. This Judgment records that duty. It does not change Law Viewer code.",
+  "judgment_rule": [
+    "Law Viewer is an operational system under J-0003.",
+    "Unexpected launcher/route behavior requires J-0004 what-changed analysis before any implementation.",
+    "If material facts remain UNKNOWN, J-0002 requires USER_CONFIRMATION_REQUIRED — not a new route.",
+    "This Governance job MUST NOT modify Law Viewer."
+  ],
+  "operational_effect": "Test E simulates the halt. Law Viewer files are not touched.",
+  "exceptions": "None.",
+  "required_validation": "Test E PASS if engine blocks implementation and emits a specific user question.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["Law Viewer product architecture DKT-0020"],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

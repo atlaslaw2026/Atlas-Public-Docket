@@ -1,0 +1,81 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0012",
+  "title": "Universal AI Usage Accounting and Job Attribution",
+  "status": "ACTIVE",
+  "issue_presented": "Whether every material AI/model operation performed under Atlas Governance must be attributable to a governed job and reported to the authoritative Atlas Usage Tracker, and what Governance should require when exact usage measurement is unavailable or tracking fails.",
+  "known_facts": [
+    {
+      "fact": "Atlas Usage Tracker at D:\\atlas\\Atlas_Usage_Tracker is the existing usage-accounting system (SQLite usage_tracker.sqlite3 plus adapters). Governance must not duplicate token arithmetic inside the engine.",
+      "evidence": "D:\\atlas\\Atlas_Usage_Tracker\\atlas_usage\\cursor_measured.py; D:\\atlas\\Atlas_Usage_Tracker\\atlas_usage\\queries.py"
+    },
+    {
+      "fact": "Historical provider-grade Cursor proof for Job 0: 12,713,301 MEASURED tokens; disk reconciliation 55/55 PASS. Raw evidence SHA 35b994b4cded2ac09c1aa8c21306bc04e56ad91c40e80d6415c3c45e211a840c. That historical total must not be rewritten because later activity occurred.",
+      "evidence": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\job0_cursor_usage_raw.json; D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_forward_tracking\\post_repair_proof.py job0_reconcile"
+    },
+    {
+      "fact": "Forward Cursor tracking was disconnected because Composer emitted afterAgentResponse while hooks.json did not subscribe to that event. Missing active-job attribution sent capture to UNASSIGNED.",
+      "evidence": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_forward_tracking\\PRE_REPAIR_STATE.json; D:\\atlas\\.cursor\\hooks.json"
+    },
+    {
+      "fact": "Repair connected Cursor Composer afterAgentResponse, cloud bc- agents, and Governance V2 RUNNING job attribution via active_job.json. Two post-repair jobs were attributed rather than UNASSIGNED: TEST_LOCAL_USAGE_CAPTURE_POST_REPAIR (22,740 RECONSTRUCTED) and TEST_LOCAL_USAGE_CAPTURE_POST_REPAIR_2 (16,807 RECONSTRUCTED). Local session usage remained RECONSTRUCTED, not falsely MEASURED.",
+      "evidence": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_forward_tracking\\POST_REPAIR_PROOF.json"
+    },
+    {
+      "fact": "Non-Cursor/local execution routes may remain outside tracker coverage. Delta audit recorded WORKING_WITH_LIMITATIONS.",
+      "evidence": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_delta\\REPORT.md"
+    },
+    {
+      "fact": "User directed that AI usage tracking must live in Governance because Governance knows which job the work belongs to. Argument A-J-0012 and Counterargument CA-J-0012 were filed. There is no Reply stage.",
+      "evidence": "law/orders/O-J-0012.md; arguments/A-J-0012.md; counterarguments/CA-J-0012.md"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Which specific non-Cursor Atlas programs currently invoke models without any adapter is not fully enumerated in this Judgment.",
+      "status": "UNKNOWN",
+      "effect": "Coverage registry marks those routes NOT_CONNECTED or UNKNOWN; they are not treated as zero usage."
+    }
+  ],
+  "evidence": [
+    {"id": "JOB0-RAW", "locator": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\job0_cursor_usage_raw.json"},
+    {"id": "FWD-REPAIR", "locator": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_forward_tracking\\POST_REPAIR_PROOF.json"},
+    {"id": "DELTA", "locator": "D:\\atlas\\Atlas_Usage_Tracker\\evidence\\audits\\2026-08-23_delta\\REPORT.md"},
+    {"id": "O-J-0012", "locator": "law/orders/O-J-0012.md"}
+  ],
+  "existing_governing_law": ["J-0006", "J-0008", "J-0010", "law/incorporated/STANDING_USER_GATES.md"],
+  "analysis": "See docketed A-J-0012 (supporting) and CA-J-0012 (testing). The Argument is not law. The Counterargument requires distinguishing the accounting obligation from availability of exact measurement, and forbids making ordinary tracker failure halt all Atlas execution.",
+  "judgment_rule": [
+    "Holding 1 — Universal Usage Accounting. Every material AI/model operation performed as part of a governed Atlas job must be attributable to that job and reported to the authoritative Atlas Usage Tracker wherever technically possible. Usage accounting is part of governed Atlas execution.",
+    "Holding 2 — Job Must Exist Before Substantive AI Work. A governed Atlas job must establish a durable job_id before substantive AI/model work begins. Where Governance uses an active-job mechanism, the current RUNNING job must be exposed to approved usage-accounting integrations. Attribution priority: (1) explicit job_id supplied by execution context; (2) Governance RUNNING / active job; (3) legitimate shared activity; (4) UNASSIGNED with reason. UNASSIGNED must not be used merely because an integration failed to retrieve a known job ID.",
+    "Holding 3 — Authoritative Tracker. D:\\atlas\\Atlas_Usage_Tracker or its formally designated successor is the authoritative Atlas usage-accounting system. Individual Atlas programs must not create competing authoritative usage ledgers. Program-specific raw evidence may exist, but normalized Atlas usage accounting must flow into the authoritative tracker.",
+    "Holding 4 — Universal Usage Event Contract. Every current AI execution route must use the universal Atlas usage adapter, an approved model wrapper, or another approved integration producing the canonical Atlas usage event. The canonical event supports, where available: event_id, timestamp, job_id, program, module, agent, provider, runtime, model, session_id, conversation_id, run_id, request_id, input_tokens, output_tokens, cache_read_tokens, cache_write_tokens, reasoning_tokens, total_tokens, provider_reported_cost, calculated_cost, classification, measurement_source, evidence_reference, success/failure, duration, retry metadata. Unavailable fields remain null/UNKNOWN. Governance requires the contract. Usage Tracker owns the implementation.",
+    "Holding 5 — Evidence Classification Is Mandatory. Every usage quantity must retain one of MEASURED, RECONSTRUCTED, ESTIMATED, UNKNOWN. MEASURED: directly reported by a provider/runtime/tool or contemporaneously preserved from such a report. RECONSTRUCTED: calculated later from preserved evidence using a documented reproducible method. ESTIMATED: approximate because exact measurement cannot be established. UNKNOWN: insufficient evidence to defensibly quantify usage. No Atlas agent may promote a weaker class to a stronger one merely because the number appears plausible.",
+    "Holding 6 — Unknown Does Not Mean Zero. UNKNOWN != 0. MISSING != 0. NO COST RECORD != $0.00. A provider-reported or otherwise proven zero remains a legitimate zero. An absent value remains absent.",
+    "Holding 7 — AI Activity Must Not Silently Disappear. Where evidence establishes that AI/model activity occurred but exact tokens cannot be established, Atlas should still record the activity where technically possible (job_id, activity PROVEN, tokens UNKNOWN, cost UNKNOWN, classification UNKNOWN). Failure to obtain exact token counts is not permission to omit the event entirely.",
+    "Holding 8 — Usage Tracker Failure Does Not Automatically Stop Atlas. A Usage Tracker or adapter failure does not, by itself, halt every Atlas job. TRACKING HEALTHY → normal execution. TRACKING DEGRADED → preserve available evidence, create Finding, mark job USAGE_TRACKING_DEGRADED, continue unless another gate requires stop.",
+    "Holding 9 — Circumstances Requiring Stop. A tracking failure must stop or prevent further applicable execution when another governing rule requires measurement, including where applicable: explicit job token limit; explicit job cost limit; daily AI budget; provider/model budget; hard user spending gate; Order requiring measured accounting before continuation; another applicable Governance rule requiring STOP. Do not invent such a gate where none exists. A job may carry a temporary test-only usage_hard_gate for validation; that is not a standing production budget.",
+    "Holding 10 — Tracking Failure Creates a Finding. If material AI work occurs and the approved accounting route fails: preserve available execution evidence; create a Governance Finding; identify affected job(s); mark the tracking status accurately; determine whether the failure is adapter failure, attribution failure, provider limitation, measurement limitation, persistence failure, deduplication conflict, or unknown cause. Do not silently ignore the failure.",
+    "Holding 11 — No Competing Tracker. An Atlas agent may not silently disable Atlas Usage Tracker, bypass it, replace it, create another authoritative usage database, invent incompatible classification rules, or create program-specific cost accounting as a substitute for universal accounting. A material proposed replacement requires separate Governance authority.",
+    "Holding 12 — Deduplication Required. The same AI invocation may be visible through more than one evidence source (for example Cursor hook + provider endpoint). Multiple pieces of evidence may be associated with the same usage event. They must not automatically become multiple billed/accounted calls. Usage Tracker must preserve deterministic deduplication rules and provenance.",
+    "Holding 13 — Future Atlas Programs Must Integrate. Every newly built Atlas program that materially invokes AI must either (1) use an already instrumented Atlas model/usage wrapper, or (2) connect its execution path to the universal Usage Tracker, or (3) explicitly declare the route NOT_CONNECTED / UNKNOWN and create the applicable Finding before being described as fully usage-accounted. Usage tracking must become part of new-program architecture rather than an afterthought.",
+    "Holding 14 — Governance Owns Attribution, Not Token Arithmetic. Governance establishes job identity, job status, the requirement to account for AI usage, degraded-tracking status, applicable cost/token gates, Findings, and enforcement. Atlas Usage Tracker establishes measurement, normalization, reconstruction, cost calculation, evidence classification, storage, deduplication, and reporting. Do not duplicate Tracker calculation logic inside Governance.",
+    "Holding 15 — Job Completion Must State Usage Status. Every governed job completion record must include an AI-usage-accounting section reporting at minimum: job_id; usage_tracking_status; MEASURED usage if any; RECONSTRUCTED usage if any; ESTIMATED usage if any; UNKNOWN activity/gaps; provider-reported cost if any; calculated cost if any; unknown cost if any; unassigned/shared usage relevant to job if known; tracking limitations. Permitted tracking status: USAGE_TRACKING_PROVEN, USAGE_TRACKING_PROVEN_WITH_LIMITATIONS, USAGE_TRACKING_DEGRADED, USAGE_TRACKING_UNKNOWN. A job must not claim zero usage because no usage row was found.",
+    "Holding 16 — Usage Accounting Does Not Equal Billing. Usage Tracker must preserve the distinction between model tokens, provider/API charges, calculated theoretical cost, subscription allowance, included usage, local-compute use, and unknown cost. Token count does not automatically establish dollar cost."
+  ],
+  "operational_effect": "REGISTER JOB → RUNNING writes Atlas_Usage_Tracker/active_job.json → AI work → adapter records available evidence → Tracker classifies/persists → job continues → COMPLETED queries Tracker and writes usage_accounting. On COMPLETED/CLOSED/REJECTED, that job_id is released from active_job.json. If tracking breaks: preserve evidence, Finding, USAGE_TRACKING_DEGRADED, continue unless a hard gate requires STOP. Coverage view: Atlas_Usage_Tracker/AI_USAGE_COVERAGE.json.",
+  "exceptions": "Watcher overlay remains WATCHER_ONLY (J-0007). Historical Job 0 MEASURED totals remain frozen historical proof. This Judgment amends J-0008 by making accounting a universal Governance requirement; it does not supersede J-0008’s prohibition on inventing MEASURED.",
+  "required_validation": "validation/validate_j0012.py tests A–H; validation/J-0012_VALIDATION.json. Historical Job 0 remains 55/55 PASS.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": ["J-0008"],
+  "distinguished_from": ["J-0008 never-invent-MEASURED (still binding)", "J-0011 Viewer is a lens"],
+  "provenance": {
+    "job": "JOB-J0012-USAGE-ACCOUNTING",
+    "order": "O-J-0012",
+    "argument": "A-J-0012",
+    "counterargument": "CA-J-0012",
+    "governing_sha_at_open": "a11a6c8870164ee7d3e8a3808264289c2c2f5eff",
+    "adoption": "Explicit user instruction that usage tracking belongs in Governance because Governance knows the job_id; filed ACTIVE after Argument and Counterargument. No Reply stage. Not a manufactured extra click."
+  }
+}

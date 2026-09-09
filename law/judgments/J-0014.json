@@ -1,0 +1,56 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0014",
+  "title": "Atlas project docket — Dkt. 1 is the Goal; 1-x are projects; INDEX Dkt. 1 is preserved until adopted migration",
+  "status": "PROPOSED",
+  "issue_presented": "How should Atlas represent the universal Goal as Dkt. 1 when Governance INDEX docket_no 1 is already occupied by O-V2-001, without rewriting history or creating a competing source of law?",
+  "known_facts": [
+    {
+      "fact": "INDEX.json docket_no 1 is Order O-V2-001, filed_utc 2026-08-23T21:08:06+00:00, source_path law/orders/O-V2-001.md.",
+      "evidence": "viewer/docket/INDEX.json"
+    },
+    {
+      "fact": "User instruction 2026-08-24 requires Dkt. 1 GOAL with an exact immutable sentence, projects 1-1…1-N, one Atlas docket, and no silent overwrite or renumber of the existing Dkt. 1.",
+      "evidence": "JOB_TASK_12_GOVERNANCE_WORKFLOW_ORCHESTRATOR user instruction"
+    },
+    {
+      "fact": "The Goal sentence was filed at law/goal/DKT_1_GOAL.json with hash 495c6a3e2f49cc1af70e87b34a81e3505822e57c447024c338fb050e7d5b4847.",
+      "evidence": "law/goal/DKT_1_GOAL.json"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether the human Viewer landing page (/human) should display the project docket or the Governance INDEX after this Judgment is adopted.",
+      "status": "USER_CONFIRMATION_REQUIRED"
+    }
+  ],
+  "evidence": [
+    {"id": "INDEX-1", "locator": "viewer/docket/INDEX.json"},
+    {"id": "GOAL", "locator": "law/goal/DKT_1_GOAL.json"},
+    {"id": "A-J-0014", "locator": "arguments/A-J-0014.md"},
+    {"id": "CA-J-0014", "locator": "counterarguments/CA-J-0014.md"}
+  ],
+  "existing_governing_law": ["J-0011", "J-0013", "J-0010", "J-0001"],
+  "analysis": "See A-J-0014 (layer without rewrite) and CA-J-0014 (dual Dkt. 1 is unsafe). This proposed Judgment does not silently adopt either. It is not ACTIVE.",
+  "judgment_rule": [
+    "PROPOSED Holding 1 — The universal Atlas Goal is the exact sentence stored in law/goal/DKT_1_GOAL.json. It must not be silently edited. A later change is a new filing (AMENDED GOAL) plus a pointer move.",
+    "PROPOSED Holding 2 — CURRENT_OPERATIVE_GOAL initially resolves to DKT_1.",
+    "PROPOSED Holding 3 — Projects under that Goal are 1-1, 1-2, … 1-N. Identifiers are stable and never reused for a different project.",
+    "PROPOSED Holding 4 — Until a user-adopted migration Order, viewer/docket/INDEX.json docket_no 1 remains O-V2-001. Agents citing Dkt. 1 must name the series: ATLAS_PROJECT_DOCKET or GOVERNANCE_INDEX.",
+    "PROPOSED Holding 5 — Task 12 workflow treats ATLAS_PROJECT_DOCKET Dkt. 1 as the root. Space Investment Research is project 1-1.",
+    "PROPOSED Holding 6 — This Judgment is not law while status is PROPOSED."
+  ],
+  "operational_effect": "Operational architecture implemented without adoption: docket/ATLAS_DOCKET.json is the current Atlas docket; INDEX is LEGACY_HISTORICAL_INDEX with frozen identities 1–87 and alias LEGACY_GOV_V2_DKT_1 for O-V2-001. This Judgment remains PROPOSED and is not law. Human Atlas docket is /atlas. / and /human display the legacy INDEX labeled as historical.",
+  "exceptions": "Does not authorize redocketing INDEX. Does not rewrite Task 7/8, Hunter, or Atlas-Math. Does not close the Space Complaint when a task closes.",
+  "required_validation": "Exact Goal sentence and hash; INDEX docket_no 1 still O-V2-001; CURRENT_OPERATIVE_GOAL=DKT_1; project 1-1 exists; J-0014 remains PROPOSED until user adoption.",
+  "effective_date": "2026-08-24",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": ["J-0013 sequential INDEX 1..N", "J-0011 Viewer is a lens"],
+  "provenance": {
+    "job": "JOB_TASK_12_GOVERNANCE_WORKFLOW_ORCHESTRATOR",
+    "argument": "A-J-0014",
+    "counterargument": "CA-J-0014",
+    "adoption": "NOT ADOPTED. Proposed only. No Reply stage."
+  }
+}

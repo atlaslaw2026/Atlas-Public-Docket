@@ -1,0 +1,49 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0013",
+  "title": "Docket is sequential by docket number; citations must be verified",
+  "status": "ACTIVE",
+  "issue_presented": "How must Atlas agents treat Governance V2 docket order, timestamps, and any cited docket number?",
+  "known_facts": [
+    {
+      "fact": "The human Viewer Docket is ordered by sequential docket number (Dkt. 1, 2, 3, …). Each row’s timestamp is that entry’s filed_utc, which must not contradict that number order.",
+      "evidence": "viewer/app/docket_store.py chronological(); viewer/docket/INDEX.json"
+    },
+    {
+      "fact": "User instruction 2026-08-23: the Docket must run by docket numbers with matching timestamps, and any AI reference to a docket number must be double-checked.",
+      "evidence": "this-order"
+    },
+    {
+      "fact": "J-0011: the Viewer and its INDEX.json are a lens, not a second source of law. The index is not authoritative if it disagrees with a canonical artifact hash.",
+      "evidence": "law/judgments/J-0011.json"
+    }
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [
+    {"id": "INDEX", "locator": "viewer/docket/INDEX.json"},
+    {"id": "J-0011", "locator": "law/judgments/J-0011.json"}
+  ],
+  "existing_governing_law": ["J-0011", "J-0010", "STARTUP.md"],
+  "analysis": "Sorting the Docket by document date or title groups later refilings next to earlier numbers and makes a guessed Dkt. N unsafe. Agents must not invent or reuse a docket number from chat, memory, a PDF filename, or a prior message without reading the current index (and, if citing substance, the canonical source path on that entry).",
+  "judgment_rule": [
+    "The Governance V2 Docket is ordered by sequential docket number with no gaps: Dkt. 1, 2, 3, … through N. Display and citation order is that sequence — not document date, title, or type.",
+    "The timestamp shown for a docket row is that entry’s filed_utc. Along increasing docket numbers, timestamps must be non-decreasing. A later docket number is a later (or same-second) entry.",
+    "A new filing receives the next sequential docket number and a new filed_utc at the moment it is docketed. A later change to a canonical artifact is a new filing (new number, new timestamp); the prior filing and its PDF are preserved.",
+    "If numbers have gaps, duplicates, or timestamps that do not match docket order, redocketing is authorized: keep each entry’s original filed_utc, sort by that timestamp, reassign Dkt. 1..N, and rename filed PDFs to the new numbers. Do not rewrite canonical artifacts. Record prior_docket_nos. After a redocket, every docket-number citation must be verified again.",
+    "Any agent reference to a docket number (Dkt. N, docket_no, a Dkt-NNNN PDF name, or equivalent) must be double-checked against the current viewer/docket/INDEX.json (or the live Viewer Docket) before it is treated as KNOWN. Do not cite a docket number from memory, a previous chat, or an inferred grouping.",
+    "A verified citation states: docket_no, filed_utc, artifact_id, and source_path from that index row. If the index row’s source_hash disagrees with the canonical file, flag a discrepancy and do not silently prefer the index (J-0011).",
+    "If the number cannot be verified, label the citation UNKNOWN or USER_CONFIRMATION_REQUIRED. Do not invent a docket number to fill a gap — redocket instead, then cite the new verified number.",
+    "This Judgment does not make INDEX.json current law. Canonical artifacts remain outside viewer/. The Viewer remains read-only as to canonical Governance state."
+  ],
+  "operational_effect": "STARTUP.md and Viewer onboarding require this check. Agents loading J-0011 also load J-0013 before using docket numbers in Findings, Jobs, Orders, or user-facing text.",
+  "exceptions": "Historical public Atlas-Governance cabinet docket numbers (DKT-NNNN papers) are a different series. They remain historical evidence and must not be treated as Governance V2 Viewer docket numbers without an explicit mapping that has been verified.",
+  "required_validation": "Viewer Docket lists entries in docket_no order; filed_utc is non-decreasing along that order; agent citations to Dkt. N are checked against INDEX.json.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": ["J-0011"],
+  "distinguished_from": ["J-0011 Viewer is a lens", "historical cabinet DKT-NNNN papers"],
+  "provenance": {
+    "job": "JOB-GOV-V2-VIEWER",
+    "order": "user-instruction-2026-08-23-docket-number-order-and-verify-citations"
+  }
+}

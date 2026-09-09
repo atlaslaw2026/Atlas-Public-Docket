@@ -1,0 +1,38 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0001",
+  "title": "Facts before Judgment; epistemic statuses",
+  "status": "ACTIVE",
+  "issue_presented": "How must an Atlas agent classify facts before judging or acting?",
+  "known_facts": [
+    {"fact": "Task 1 found multiple JUDGMENT.md copies and overlapping governance structures.", "evidence": "ATLAS_JOB1_SYSTEM_WIDE_AUDIT.md F-06"},
+    {"fact": "Task 3 designated GitHub Atlas-Governance main as statute and the local docket as cabinet, not law.", "evidence": "ATLAS_RECORD/CURRENT_LAW.md"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [
+    {
+      "id": "E-T1",
+      "evidence_class": "PRIVATE_RETAINED",
+      "pointer": "EVT-J0001-E-T1",
+      "reviewed": true,
+      "locator_public": "ATLAS_JOB1_SYSTEM_WIDE_AUDIT.md (private operational record; not published)",
+      "note": "Public docket does not carry workstation paths. The exhibit remains in the private companion."
+    }
+  ],
+  "existing_governing_law": ["Historical statute/JUDGMENT.md no-fabrication and source-verify gates"],
+  "analysis": "Without epistemic labels, agents promote guesses to Known. V2 forbids that promotion.",
+  "judgment_rule": [
+    "Every material factual claim in Governance work must be labeled KNOWN, INFERRED, CONFLICTED, UNKNOWN, or USER_CONFIRMATION_REQUIRED.",
+    "KNOWN requires direct support from cited evidence.",
+    "INFERRED, CONFLICTED, and UNKNOWN must not be silently promoted to KNOWN.",
+    "USER_CONFIRMATION_REQUIRED is used when J-0002's materiality test is met."
+  ],
+  "operational_effect": "Job records and Judgments must carry these labels. Engine rejects close() when USER_CONFIRMATION_REQUIRED items remain without a user confirmation id.",
+  "exceptions": "Non-material drafting choices (identifier spelling in TEST jobs) need not be labeled.",
+  "required_validation": "Test C (unknown) and engine unit checks on promotion.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION", "adopted_under": "user Task 1 remediation instruction 2026-08-23"}
+}

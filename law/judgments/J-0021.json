@@ -1,0 +1,82 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0021",
+  "title": "Goal derivation and objective control — purpose must control material AI execution",
+  "status": "ACTIVE",
+  "issue_presented": "Whether Atlas presently has a sufficient deterministic chain from Dkt. 1 and Project Goals to the objective actually controlling material AI execution, and what architecture is required so the executing AI cannot silently invent success or substitute internal proxies for the result the job exists to cause.",
+  "known_facts": [
+    {
+      "fact": "PROC-GOAL-DERIVATION was opened as G-60, briefed as G-67/G-68/G-69, and returned by MAG-GOV-GOAL-DERIVATION-001 (G-70) with a J-0018 flag. No Reply.",
+      "evidence": "law/orders/O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL.md; findings/F-GOAL-DERIVATION.md; arguments/A-GOAL-DERIVATION.md; counterarguments/CA-GOAL-DERIVATION.md; findings/magistrate/MAG-GOV-GOAL-DERIVATION-001.json; findings/flags/FLAG-GOAL-DERIVATION-TASK-OBJECTIVE-GAP.json"
+    },
+    {
+      "fact": "Dkt. 1 GOAL and 1-x Project Goals exist on disk. Job schema had no canonical JOB_OBJECTIVE. Isolated 1-2 letter composers received TARGET_ARGUMENT, FACT_SOURCE, STYLE_SOURCE, and validation criteria, not an explicit TASK_PURPOSE of earning a conversation.",
+      "evidence": "law/goal/DKT_1_GOAL.json; schema/job.schema.json; Atlas-Job-Search/record/cycles/CYCLE-003/UNSEEN_FIRST_PASS/OPP-C3-NATERA-FDSE-6115020004/COMPOSITION_PACK.json"
+    },
+    {
+      "fact": "The Natera UNSEEN_FIRST_PASS letter is preserved unchanged. Human criticism: rhetoric and architecture where the commercial purpose was one need, one proven capability, credible evidence, and a natural ask.",
+      "evidence": "Atlas-Job-Search/record/cycles/CYCLE-003/UNSEEN_FIRST_PASS/OPP-C3-NATERA-FDSE-6115020004/letter.txt; Atlas-Job-Search/record/cycles/CYCLE-003/HUMAN_REVIEW/COMMENTS.json"
+    },
+    {
+      "fact": "Human entered this Judgment 2026-08-25 after considering Argument and Counterargument. The Court adopts the purpose-through-execution architecture. Prompt decoration is not the implementation.",
+      "evidence": "this-order"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether every historical RUNNING job will have JOB_OBJECTIVE filled in the same session as this Judgment.",
+      "status": "UNKNOWN",
+      "effect": "Prospective for material execution after the effective date. Historical artifacts are not rewritten. Missing JOB_OBJECTIVE on a later material act is OBJECTIVE_GAP fail-closed."
+    }
+  ],
+  "evidence": [
+    {"id": "G-60", "locator": "law/orders/O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL.md"},
+    {"id": "G-67", "locator": "findings/F-GOAL-DERIVATION.md"},
+    {"id": "G-68", "locator": "arguments/A-GOAL-DERIVATION.md"},
+    {"id": "G-69", "locator": "counterarguments/CA-GOAL-DERIVATION.md"},
+    {"id": "G-70", "locator": "findings/magistrate/MAG-GOV-GOAL-DERIVATION-001.json"}
+  ],
+  "existing_governing_law": [
+    "DKT_1_GOAL",
+    "J-0006",
+    "J-0010",
+    "J-0017",
+    "J-0018",
+    "J-0020",
+    "STANDING_USER_GATES §§4,7,8"
+  ],
+  "analysis": "The Argument is adopted as to architecture: Dkt. 1 and Project Goals are insufficient if the executing model never receives a concrete, traceable objective. The Counterargument is adopted as to limits: Magistrate shall not draft every task or bottleneck ordinary cycles; routine work inherits; Atlas retains judgment over how. J-0020 is not rewritten to require mid-draft editing. Prompt sentences are not the cure.",
+  "judgment_rule": [
+    "ATLAS PRESENTLY LACKED A SUFFICIENT DETERMINISTIC GOAL CHAIN FROM THE OPERATIVE PROJECT GOAL TO THE OBJECTIVE ACTUALLY CONTROLLING MATERIAL AI EXECUTION. THAT IS A GOVERNANCE DEFECT.",
+    "Material governed execution shall resolve DKT_1_GOAL → PROJECT_GOAL → CONTROLLING_AUTHORITY → JOB_OBJECTIVE → TASK_PURPOSE → SUCCESS_CRITERIA → ACTION → RESULT. That chain shall be available to the executing AI as typed operating state, not merely recoverable somewhere on the docket.",
+    "Every material governed job SHALL have canonical JOB_OBJECTIVE: the concrete result the job exists to produce in furtherance of the operative Project Goal. It is not software description, output format, checklist, constraint dump, or restatement of every rule.",
+    "Before a material AI task executes, Atlas SHALL resolve TASK_PURPOSE (why this particular thing) and SUCCESS_CRITERIA (what result would show the Job Objective was advanced). These MAY be derived automatically from JOB_OBJECTIVE and current authority. The Human need not write them for every task.",
+    "A material AI task SHALL NOT silently invent its own purpose. If Atlas cannot resolve a sufficiently definite purpose from PROJECT_GOAL + CONTROLLING_AUTHORITY + JOB_OBJECTIVE + CURRENT_RECORD, it SHALL record OBJECTIVE_GAP and fail closed as to the material act. Authority uncertainty additionally invokes J-0018. Not every objective gap is an authority gap.",
+    "Purpose, instruction, and authority are distinct. Atlas SHALL NOT silently substitute one for another. An AI MAY NOT violate a controlling Human instruction or Governance limitation merely because it believes doing so would better serve the Goal. If an instruction materially conflicts with resolved purpose or controlling authority, Atlas SHALL flag the conflict rather than silently choosing.",
+    "Material AI work SHALL be evaluated against the result it exists to cause. Atlas SHALL detect and prevent material substitution of internal proxies for the actual objective, including GOOD_WRITING for EARN_A_CONVERSATION, HIGH_BACKTEST_RETURN for the investment-research question, TESTS_PASS for faithful implementation of a frozen specification, PAGE_GENERATED for accurate current-docket representation, and RESEARCH_COMPLETED for determination of the question the project exists to answer. Internal metrics may support an objective. They may not silently become the objective.",
+    "The Natera UNSEEN_FIRST_PASS letter remains preserved unchanged. For the present class of 1-2 employer outreach, TASK_PURPOSE is substantially: earn a conversation by identifying one real employer need, showing one proven Human capability that addresses it, providing credible evidence, and making a natural request to talk. That is the commercial objective against which the task is judged, not a universal email template.",
+    "The Magistrate remains Goal custodian and material goal-drift supervisor. It SHALL NOT draft every task objective, approve every AI output, perform mid-draft editing, or become the routine execution bottleneck. At appropriate material supervisory points it SHALL determine whether PROJECT_GOAL → JOB_OBJECTIVE → TASK_PURPOSE → RESULT remains coherent. It MAY remand work that is competently performing the wrong objective and MAY flag unresolved objective or authority gaps.",
+    "Routine execution does not require repetitive objective proceedings. A routine task MAY inherit already sufficient JOB_OBJECTIVE, TASK_PURPOSE, and SUCCESS_CRITERIA when controlling authority, purpose, and objective-relevant circumstances are unchanged, the task introduces no material new judgment, and execution is already authorized by governing Order or frozen specification. Scheduled HOLDs and comparable ordinary cycles do not create new G-n merely to restate purpose.",
+    "DO NOT IMPLEMENT THIS JUDGMENT BY ADDING A SENTENCE TO PROMPTS. Purpose is typed operating state: stored, derived, loaded, inspected, logged, validated, and audited against results. Implementation SHALL establish whether the executing model actually received the objective context.",
+    "NO MATERIAL ATLAS AI TASK MAY SILENTLY DEFINE WHAT SUCCESS MEANS FOR ITSELF. ITS PURPOSE MUST BE TRACEABLE TO THE OPERATIVE PROJECT GOAL, CONTROLLING AUTHORITY, AND CURRENT JOB OBJECTIVE. Atlas remains free to determine how to accomplish an authorized objective unless the Human or controlling law constrains the method. The Goal controls why. The objective defines what result is sought. The AI retains appropriate judgment over how."
+  ],
+  "operational_effect": "See O-J-0021-OBJECTIVE-CONTROL.md. Schema schema/objective.schema.json. Module atlas_gov.objective. Proof tokens in findings/objective/. Validation validation/test_j0021_objective.py. INDEX next_docket_no remains 88.",
+  "exceptions": "Does not authorize employer send or live trading. Does not rewrite UNSEEN_FIRST_PASS or Cycle 2 drafts. Does not repeal J-0006/J-0010/J-0017/J-0018/J-0020. Does not make the Magistrate a keystroke court. Does not require a new G-n per HOLD cycle. Does not disturb J-0016.",
+  "required_validation": "J-0021 ACTIVE on CURRENT_LAW.md; G-60/G-67/G-68/G-69/G-70 unmodified in substance; validation/test_j0021_objective.py; separate proof tokens not inferred from prose; INDEX 88 unchanged.",
+  "effective_date": "2026-08-25",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [
+    "J-0010 law-pointer startup",
+    "J-0006 job lifecycle without JOB_OBJECTIVE",
+    "J-0017 ADEQUACY major-phase gate",
+    "J-0018 authority-gap flag",
+    "J-0020 Magistrate material-label gate"
+  ],
+  "provenance": {
+    "job": "JOB_GOV_GOAL_DERIVATION",
+    "briefing": "G-60 G-67 G-68 G-69 G-70",
+    "adoption": "Explicit Human Judgment 2026-08-25. No Reply.",
+    "docket_note": "Entered on docket/ATLAS_GOVERNANCE_FILINGS.json. viewer/docket/INDEX.json next_docket_no remains 88."
+  }
+}

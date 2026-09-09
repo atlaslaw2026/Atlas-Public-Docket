@@ -1,0 +1,29 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0004",
+  "title": "Regression / what changed?",
+  "status": "ACTIVE",
+  "issue_presented": "When previously working operational behavior fails after a change, what is the first investigation?",
+  "known_facts": [
+    {"fact": "User instruction: the Law Viewer incident exposes that the first question must be what changed, not what new code can hide the symptom.", "evidence": "this-job-instruction"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["J-0002", "J-0003"],
+  "analysis": "Adding a new route or shortcut to suppress a symptom, without establishing prior behavior and cause, is a Governance failure even if the UI 'works' afterward.",
+  "judgment_rule": [
+    "When previously working operational behavior fails following a change, the first investigation is: WHAT CHANGED?",
+    "Not: WHAT NEW CODE CAN I ADD TO MAKE THE SYMPTOM DISAPPEAR?",
+    "Classify cause as: caused by current task; exposed by current task; existed beforehand; configuration; runtime/environment; or cannot yet be determined.",
+    "Prefer restoration of established intended behavior when current work introduced a regression.",
+    "Do not add unrelated functionality merely to suppress the symptom."
+  ],
+  "operational_effect": "Regression jobs must record a what_changed analysis object before proposing new behavior.",
+  "exceptions": "None for operational systems.",
+  "required_validation": "Test E.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

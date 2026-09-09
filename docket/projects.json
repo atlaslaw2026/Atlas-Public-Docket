@@ -1,0 +1,304 @@
+{
+  "schema_version": "atlas-public-docket-projects-1.0",
+  "role": "PUBLIC_SANITIZED_PROJECT_INDEX",
+  "authoritative_for_law": false,
+  "note": "Sanitized export. Not the private operational docket. Private evidence is pointer-only.",
+  "projects": [
+    {
+      "title": "Governed Job-Search, Outreach, and Cited Email",
+      "status": "OPEN",
+      "next_required": "CAPABILITY_LED_ACQUISITION",
+      "parent": "1",
+      "project_id": "1-2",
+      "retired": false,
+      "adequacy_id": "ADEQ-1-2-ACQUISITION-001",
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": "J-0017",
+      "subject": "Identify employment and project-based opportunities that fit Clinton Brown's actual record; research those opportunities; prepare evidence-grounded outreach; manage the associated email workflow; preserve a complete record of claims, evidence, sends, replies, and results.",
+      "phase_advancement": "ACQUISITION_INSUFFICIENT_TO_ADVANCE",
+      "governing_goal": "DKT_1",
+      "registered_utc": "2026-08-24T18:57:17+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "AI Stock Basket Autonomous Algorithmic Trading",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "P13_GENUINE_EXECUTE_SESSION_PROOF",
+      "parent": "1",
+      "project_id": "1-3",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020"
+      ],
+      "subject": "Independently design a defensible trading algorithm for the Human-selected 10-stock AI basket; paper-only Alpaca operation; Project 1-1 is methodological precedent only.",
+      "magistrate_review": "MAG-1-3-002",
+      "phase_advancement": "HOSTED_EXECUTION_PROVEN_NOT_ACCEPTED",
+      "governing_goal": "DKT_1",
+      "registered_utc": "2026-08-25T00:46:00+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Non-Technology Autonomous Paper Algorithm (Generalization Test)",
+      "status": "OPEN / RUNNING / REMANDED",
+      "paper_authorized": true,
+      "next_required": "SPLIT_P14_CREDENTIAL_REGENERATION_AND_P14_RESEARCH_REMANDED",
+      "parent": "1",
+      "project_id": "1-4",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020"
+      ],
+      "subject": "Independently research genuinely different algorithms for the Human-selected non-technology ten-stock universe; isolated $1,000 Alpaca PAPER; do not inherit P13-ALG-V2; do not modify 1-1 or 1-3.",
+      "magistrate_review": "MAG-1-4-004",
+      "phase_advancement": "FREEZE_VACATED_RESEARCH_REMANDED_AUTH_FAILED",
+      "governing_goal": "DKT_1",
+      "registered_utc": "2026-08-25T15:05:00+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Shared-Account Strategy Sleeve and Independent Paper Algorithm",
+      "status": "OPEN / RUNNING / HOLD",
+      "paper_authorized": true,
+      "next_required": "ACCUMULATE_252_SEALED_FORWARD_SESSIONS_THEN_HUMAN_FREEZE_OR_REMAND",
+      "parent": "1",
+      "project_id": "1-5",
+      "retired": false,
+      "adequacy_id": "AAA-1-5-DD20-AI-ALLOC-SHADOW-001",
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "candidate_characterization": "SHADOW_ONLY_INITIALIZED_NOT_ACCEPTED",
+      "subject": "Operate a Project 1-5 sleeve on the existing Project 1-1 Alpaca PAPER account; Human-selected small-cap universe; Atlas-determined non-rebalancing algorithm; live forbidden.",
+      "magistrate_review": "MAG-1-5-014",
+      "phase_advancement": "PEAD_BLOCKED_PIT_DATA_RISK_CANDIDATE_PROPOSED_FOR_AUDIT",
+      "governing_goal": "DKT_1",
+      "registered_utc": "2026-08-25T17:52:00+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Atlas-Selected Universe and Algorithm 4 Paper Sleeve",
+      "algorithm_4_status": "FROZEN_FAILED_UNVERIFIED_CANDIDATE",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "ATLAS_STOCK_SELECTION_THEN_PAPER_INIT",
+      "parent": "1",
+      "project_id": "1-6",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Atlas independently selects ten stocks and operates Algorithm 4 as a $1,000 paper sleeve on the shared Project 1-1 Alpaca PAPER account; Algorithm 3 remains frozen unmodified.",
+      "magistrate_review": "MAG-1-6-001",
+      "phase_advancement": "AUTHORIZED_SELECTION_PENDING",
+      "governing_goal": "DKT_1",
+      "registered_utc": "2026-08-25T23:50:00+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Atlas-Investigated Ten-Stock Paper Basket",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "GOVERNED_MARKET_INVESTIGATION_THEN_SELECTION_IF_EVIDENCE_SUPPORTS",
+      "parent": "1",
+      "project_id": "1-7",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Atlas independently investigates the market and, if evidence supports, selects ten stocks and tests a strategy; paper only; live unproven; no hardcoded basket.",
+      "magistrate_review": "MAG-1-7-001",
+      "phase_advancement": "INVESTIGATION_PENDING",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-08-26T20:14:27+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Fresh Atlas-Investigated Ten-Stock Paper Basket",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "GOVERNED_MARKET_INVESTIGATION_THEN_SELECTION_IF_EVIDENCE_SUPPORTS",
+      "parent": "1",
+      "project_id": "1-8",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Fresh Project 1-8 identity. Atlas independently investigates the market and, if evidence supports, selects ten stocks, tests a strategy, and pursues acceptance; paper only; live unproven; no hardcoded basket; no reuse of stale 1-8.",
+      "magistrate_review": "MAG-1-8-001",
+      "phase_advancement": "INVESTIGATION_PENDING",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-08-27T21:53:50+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Fresh Atlas-Investigated Ten-Stock Paper Basket",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "GOVERNED_MARKET_INVESTIGATION_THEN_SELECTION_IF_EVIDENCE_SUPPORTS",
+      "parent": "1",
+      "project_id": "1-9",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Fresh Project 1-9 identity. Atlas independently investigates the market and, if evidence supports, selects ten stocks, tests a strategy, and pursues acceptance; paper only; live unproven; no hardcoded basket.",
+      "magistrate_review": "MAG-1-9-001",
+      "phase_advancement": "INVESTIGATION_PENDING",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-08-29T03:14:12+00:00"
+    },
+    {
+      "title": "AI Real-Estate CRM / Lead Conversion (Wisconsin and Los Angeles)",
+      "status": "OPEN",
+      "next_required": "HUNTER_GET_MALIBU_TIMES_2026_08_20_PDF_THEN_MAGISTRATE_EVALUATE",
+      "parent": "1",
+      "project_id": "1-10",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0001",
+        "J-0007",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Daily-use CRM that receives real WI and LA leads, researches opportunities, and prepares conversion materials. Preserve working lead systems. Drafts only.",
+      "magistrate_review": "MAG-1-10-012",
+      "phase_advancement": "MAG005_HOLD_STANDS_AS_TO_SEND_CORROBORATION_ROUTED",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-08-29T20:30:21+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Alpaca AI Trading Agents Hackathon Submission Agent",
+      "status": "OPEN",
+      "paper_authorized": true,
+      "next_required": "J0019_SEAL_THEN_PROVE",
+      "parent": "1",
+      "project_id": "1-11",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Build, test, and demonstrate autonomous Alpaca paper agent for Alpaca AI Trading Agents Hackathon submission with full compliance audit and submission package by 2026-09-04.",
+      "phase_advancement": "HUMAN_ORDER_QUANTUM_EQUITIES_20260908",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-08-31T05:40:00+00:00"
+    },
+    {
+      "title": "CRM review, Human report, AI drafts, Graph send, reply wakeup",
+      "status": "OPEN",
+      "next_required": "PROVE_HUMAN_REVIEW_REPLY_CYCLE_ON_EXISTING_WI_AND_LA_LEADS",
+      "parent": "1",
+      "project_id": "1-12",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0001",
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Repair existing Real Estate CRM Human review and reply wakeup using current Watcher, staging, CRM, Hunter, Librarian, Microsoft Graph, and Governance V2. Do not replace those systems. Human review email authorized. Lead send forbidden.",
+      "phase_advancement": "OPENED_REUSE_REQUIRED",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-05T23:58:00+00:00"
+    },
+    {
+      "title": "Resume Room and AI Recruiter",
+      "status": "OPEN",
+      "next_required": "HUMAN_REVIEW_OF_ACCEPTANCE_PACKAGES_NO_SEND",
+      "parent": "1",
+      "project_id": "1-13",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0012",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Match real jobs to Clinton Brown's actual evidence; generate job-specific resume and cover letter; track only qualified opportunities. Reuse Library, Hunter, 1-2, HWC, CRM. Drafts only.",
+      "phase_advancement": "ACCEPTANCE_EXECUTED_NOT_HUMAN_ACCEPTED",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-06T00:10:00+00:00"
+    },
+    {
+      "live_authorized": false,
+      "title": "Alpaca equity stock picker (Phase 1 audit only)",
+      "status": "OPEN",
+      "paper_authorized": false,
+      "next_required": "HUMAN_REVIEW_OF_EQUITY_SYSTEM_AUDIT",
+      "parent": "1",
+      "project_id": "1-14",
+      "retired": false,
+      "initiating_filing": "COMPLAINT",
+      "judgment_applied": [
+        "J-0019",
+        "J-0020",
+        "J-0021"
+      ],
+      "subject": "Phase 1 audit of existing Atlas equity selection and Alpaca paper path for a future $1,000 / up-to-10-stock picker. Independent of 1-11, 1-12, and 1-13. No strategy, no names, no orders this phase.",
+      "phase_advancement": "AUDIT_ONLY",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-06T00:30:00+00:00"
+    },
+    {
+      "title": "CRM database recovery and prospecting \u2014 historical contacts, RedX, Santa Monica, Palisades, Watcher leads",
+      "status": "OPEN",
+      "next_required": "CONTINUE_MACHINE_AUTHORIZED_WORK",
+      "parent": "1",
+      "project_id": "1-15",
+      "retired": false,
+      "initiating_filing": "HUMAN_GRANT_NOTICE",
+      "subject": "Turn existing real-estate contacts, historical leads, property records, RedX-derived information, Santa Monica and Pacific Palisades contacts, authorized email context, and continuing Watcher leads into a researched, prioritized CRM that produces brokerage outreach. Reuse Atlas-Real-Estate-CRM. Do not bind to 1-10, 1-12, or GOV-REMOTE-DOCKET. Drafts only; do not send.",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-07T22:05:17+00:00"
+    },
+    {
+      "title": "Prior business forensic audit \u2014 BUSINESS LESSONS RECORD from existing evidence",
+      "status": "OPEN",
+      "next_required": "CONTINUE_MACHINE_AUTHORIZED_WORK",
+      "parent": "1",
+      "project_id": "1-16",
+      "retired": false,
+      "initiating_filing": "HUMAN_GRANT_NOTICE",
+      "subject": "Reconstruct prior businesses and serious commercial projects from records already possessed; determine from evidence what worked, failed, why, remaining assets, and what to do differently. Continue F-20260907-BUSINESS-LESSONS-RECORD.md. Do not construct new software. Do not bind to 1-10, 1-12, or GOV-REMOTE-DOCKET.",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-07T22:08:40+00:00"
+    },
+    {
+      "title": "Human Docket live publication, semantic search, and precedent index \u2014 existing Docket only",
+      "status": "OPEN",
+      "next_required": "CONTINUE_MACHINE_AUTHORIZED_WORK",
+      "parent": "1",
+      "project_id": "1-17",
+      "retired": false,
+      "initiating_filing": "HUMAN_GRANT_NOTICE",
+      "subject": "Repair and refine the existing Human Docket so it is the live, searchable decisional record Atlas uses. No second docket, law store, or publication system. Continue from worktree-timeout repair. Do not bind to 1-10, 1-12, or GOV-REMOTE-DOCKET.",
+      "governing_goal": "AMENDED_DKT_1",
+      "registered_utc": "2026-09-07T22:11:07+00:00"
+    }
+  ]
+}

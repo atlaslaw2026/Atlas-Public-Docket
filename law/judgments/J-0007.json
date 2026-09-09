@@ -1,0 +1,31 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0007",
+  "title": "Watcher governance is not universal Atlas law",
+  "status": "ACTIVE",
+  "issue_presented": "May Clerk/Magistrate overlay over LA/WI watcher JSON be treated as universal Atlas Governance?",
+  "known_facts": [
+    {"fact": "run_governance_overlay.py reads LA/WI staging JSON and writes overlay reports. It does not scrape and has no job_id intake.", "evidence": "D:\\atlas\\Atlas-Governance\\run_governance_overlay.py"},
+    {"fact": "Task 3: overlay did not govern Jobs 0–2 or Task 3 decisions.", "evidence": "ATLAS_RECORD/CURRENT_LAW.md"},
+    {"fact": "Task 1 F-07: Magistrate is still live in overlay code.", "evidence": "ATLAS_JOB1"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["Task 3 classification"],
+  "analysis": "Useful watcher behavior is preserved in place. It must be labeled WATCHER-ONLY so it cannot silently become universal law, and universal V2 must not redesign working watchers.",
+  "judgment_rule": [
+    "GENERAL ATLAS GOVERNANCE is this V2 repository after cutover.",
+    "WATCHER-SPECIFIC GOVERNANCE is the Clerk/Magistrate overlay and watcher GitHub workflows that govern LA/WI/APN watcher packets.",
+    "A workflow that exists specifically to govern watcher output must not automatically become universal Atlas law.",
+    "Universal Atlas Governance must not accidentally break working watcher workflows.",
+    "Magistrate overlay remains watcher-only; it is not deleted; it is not Atlas-wide current law."
+  ],
+  "operational_effect": "watcher/README.md is the classification. Engine rejects treating overlay reports as CURRENT_LAW.",
+  "exceptions": "Watcher jobs may still be *recorded* as V2 jobs that *cite* overlay outputs as evidence.",
+  "required_validation": "Test G.",
+  "effective_date": "2026-08-23",
+  "supersedes": ["any reading of overlay as statute"],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0002",
+  "title": "Material unknown — duty to ask",
+  "status": "ACTIVE",
+  "issue_presented": "May an Atlas agent convert a material unanswered factual question into an implementation assumption?",
+  "known_facts": [
+    {"fact": "User remediation instruction states an agent must not convert a material unanswered factual question into an implementation assumption and must ask after investigating.", "evidence": "this-job-instruction"},
+    {"fact": "Standing user gate §8: when ambiguous, risky, or outside boundaries, surface it and wait.", "evidence": "law/incorporated/STANDING_USER_GATES.md"}
+  ],
+  "unknown_or_disputed_facts": [],
+  "evidence": [],
+  "existing_governing_law": ["J-0001", "STANDING_USER_GATES §8"],
+  "analysis": "Autonomy is not a license to guess. Investigation comes first. If still unknown and material, ask a specific factual question.",
+  "judgment_rule": [
+    "AN ATLAS AGENT MUST NOT CONVERT A MATERIAL UNANSWERED FACTUAL QUESTION INTO AN IMPLEMENTATION ASSUMPTION.",
+    "The agent must first investigate available evidence (code, config, runtime, git, Atlas records, logs, docs, launchers, shortcuts, workflows, tests, stored evidence, previously validated behavior).",
+    "If the material question still cannot be answered, the agent MUST ask the user before acting.",
+    "A question is material when different answers could reasonably change: whether to modify; what to modify; what behavior to preserve; whether to delete; whether evidence/data could be lost; whether an operational workflow could break; whether a transaction/action should occur; or whether the resulting representation would materially differ.",
+    "The engine state for such a halt is BLOCKED with blocked_reason USER_CONFIRMATION_REQUIRED."
+  ],
+  "operational_effect": "atlas_gov refuse_action_if_material_unknown(); jobs cannot skip to COMPLETED.",
+  "exceptions": "The user may answer and thereby convert UNKNOWN to KNOWN for that job.",
+  "required_validation": "Test C.",
+  "effective_date": "2026-08-23",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [],
+  "provenance": {"job": "JOB-GOV-V2-UNIFICATION"}
+}

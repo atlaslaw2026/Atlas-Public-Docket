@@ -1,0 +1,81 @@
+{
+  "schema_version": "gov-v2-judgment-1.0",
+  "judgment_id": "J-0020",
+  "title": "Atlas Magistrate — continuing three-dimensional Goal custodian",
+  "status": "ACTIVE",
+  "issue_presented": "Whether Atlas requires a continuing Magistrate function that holds the operative Project Goal and supervises cross-layer coherence, or whether existing Orchestrator, ADEQUACY, flag, and acceptance mechanisms were sufficient without that function.",
+  "known_facts": [
+    {
+      "fact": "JOB_GOV_ORCHESTRATOR_MAGISTRATE was briefed (G-5–G-8) and remained BLOCKED pending Human Judgment. Argument and Counterargument are preserved. No Magistrate designation issued until this Judgment.",
+      "evidence": "law/orders/O-ORCHESTRATOR-MAGISTRATE.md; findings/F-ORCHESTRATOR-MAGISTRATE-RECORD.md; arguments/A-ORCHESTRATOR-MAGISTRATE.md; counterarguments/CA-ORCHESTRATOR-MAGISTRATE.md; jobs/JOB_GOV_ORCHESTRATOR_MAGISTRATE.json"
+    },
+    {
+      "fact": "G-31 established that no Magistrate function actually supervised Project 1-3 at material advancement points; local technical success was treated as whole-project success; WORKING/SCHEDULER_PROVEN tokens were broader than the evidence; the Human had to discover project-defining contradictions.",
+      "evidence": "findings/F-P13-MAGISTRATE-REVIEW.md; ADEQ-1-3-PAPER-003; findings/acceptance/1-3/AAA-1-3-P13-ALG-V2-002.json; J-0019"
+    },
+    {
+      "fact": "Human entered this Order 2026-08-25. The prior BLOCKED posture is resolved. JOB_GOV_ORCHESTRATOR_MAGISTRATE is UNBLOCKED and ACTIVE as the Atlas Magistrate. G-5–G-8 remain preserved. Watcher overlay Magistrate remains WATCHER_ONLY.",
+      "evidence": "law/orders/O-MAGISTRATE-ACTIVATION.md"
+    }
+  ],
+  "unknown_or_disputed_facts": [
+    {
+      "fact": "Whether any given future project will require a Magistrate filing at a particular ordinary operation.",
+      "status": "UNKNOWN",
+      "effect": "Ordinary operations remain ungated. Material transitions require Magistrate review. Do not invent a filing duty for every keystroke."
+    }
+  ],
+  "evidence": [
+    {"id": "G-5", "locator": "law/orders/O-ORCHESTRATOR-MAGISTRATE.md"},
+    {"id": "G-6", "locator": "findings/F-ORCHESTRATOR-MAGISTRATE-RECORD.md"},
+    {"id": "G-7", "locator": "arguments/A-ORCHESTRATOR-MAGISTRATE.md"},
+    {"id": "G-8", "locator": "counterarguments/CA-ORCHESTRATOR-MAGISTRATE.md"},
+    {"id": "G-31", "locator": "findings/F-P13-MAGISTRATE-REVIEW.md"}
+  ],
+  "existing_governing_law": [
+    "J-0006",
+    "J-0007",
+    "J-0017",
+    "J-0018",
+    "J-0019",
+    "STANDING_USER_GATES §§4,7,8",
+    "DKT_1_GOAL",
+    "J-0016 (undisturbed)"
+  ],
+  "analysis": "G-5–G-8 correctly framed Options A–E when operating evidence of whole-project drift was thin. Project 1-3 later showed that ADEQUACY, J-0018 flags, and J-0019 acceptance still permitted locally correct artifacts to diverge from the Project Goal when no officer continuously compared Goal, freeze, executable, external state, proof tokens, and WHAT NEXT. The Court activates a continuing Magistrate function. It is not the Watcher overlay Magistrate (J-0007). It is not a merits Algorithm room. It is not a silent rewrite of Orchestrator class names. J-0017, J-0018, and J-0019 remain; the Magistrate applies them against the operative Goal.",
+  "judgment_rule": [
+    "THE ATLAS MAGISTRATE FUNCTION IS REQUIRED AND IS ACTIVE.",
+    "JOB_GOV_ORCHESTRATOR_MAGISTRATE is the standing Magistrate job. The prior proceeding is RESOLVED — JUDGMENT ENTERED — MAGISTRATE ACTIVATED. G-5 through G-8 are preserved as historical briefing. They are not deleted.",
+    "The Magistrate is custodian of the operative Project Goal. A technically successful task does not establish project advancement merely because the task succeeded.",
+    "The Magistrate maintains three-dimensional coherence: Goal, current law, project Order, docket history, evidence, math, judgments, freeze, executable, external system state, proof states, and WHAT NEXT.",
+    "Magistrate review is required before material representations or transitions into ACCEPTED, OPERATIVE, WORKING, PROVEN_WORKING, PAPER_READY, PRODUCTION_READY, SCHEDULER_PROVEN, FORWARD_OPERATION_PROVEN, MONITORING, SUBSTANTIVELY_COMPLETE, CLOSED, or equivalent; before treating a major evidence/research phase as sufficient; before substantial downstream implementation on a materially incomplete upstream record; before a material change of direction; before WHAT NEXT into a new substantive phase; and before returning work to the Human despite remaining authorized machine work.",
+    "Ordinary operations, research fetches, function calls, HOLD cycles, trade cycles, tests, and trivial implementation changes do not require Magistrate review.",
+    "At material transitions, WHAT NEXT is derived from the complete project record and the operative Goal, not from the last agent's completed task.",
+    "If NEXT_REQUIRED is authorized machine work that Atlas is reasonably capable of performing, the Magistrate shall route it for execution and shall not return the matter to the Human merely for another continue instruction.",
+    "Human intervention remains appropriate for reserved Human Judgment, an unresolved J-0018 authority gap, genuine external credentials/permission, evidence that cannot support further advancement, or action beyond existing authority.",
+    "The Magistrate shall not make new substantive law; enter Human-reserved Judgment; choose trading strategy on the merits; perform specialist-room merits work; silently modify a frozen specification; invent facts; resolve UNKNOWN by assumption; or constitutionalize ordinary implementation defects where existing authority supplies the cure. It remands or routes.",
+    "Material Magistrate decisions leave a canonical record stating OPERATIVE GOAL, CURRENT POSTURE, CROSS-LAYER FACTS CONSIDERED, CONTRADICTIONS/GAPS, ADEQUACY, DISPOSITION, NEXT_REQUIRED, and WHY THAT NEXT ACTION ADVANCES THE GOAL. Proof language shall be no broader than the evidence.",
+    "This Judgment does not designate the Watcher overlay Magistrate as universal law (J-0007 undisturbed). It does not disturb J-0016. It does not repeal J-0017, J-0018, or J-0019. It does not authorize live trading.",
+    "Project 1-3 is the first continuing operating application. G-31 is preserved as historical review. The Magistrate supervises the outstanding 1-3 remand in its current posture and shall not redo completed V2 research merely because V1 failed."
+  ],
+  "operational_effect": "See O-J-0020-MAGISTRATE. Schema schema/magistrate_review.schema.json. atlas_gov.magistrate fail-closes material labels without a supporting Magistrate record. First continuing application MAG-1-3-001. INDEX next_docket_no remains 88.",
+  "exceptions": "Not every keystroke. Not Watcher overlay Magistrate. Not Algorithm merits. Not Hunter/Math substitution. Not live trading. Not a reopen of J-0016. Not a rewrite of G-5–G-8 briefs.",
+  "required_validation": "J-0020 ACTIVE on CURRENT_LAW.md; JOB_GOV_ORCHESTRATOR_MAGISTRATE unblocked and RUNNING as Magistrate; G-5–G-8 unmodified in substance; validation/test_j0020_magistrate.py; INDEX 88 unchanged.",
+  "effective_date": "2026-08-25",
+  "supersedes": [],
+  "amends": [],
+  "distinguished_from": [
+    "J-0007 Watcher overlay Magistrate",
+    "J-0017 ADEQUACY",
+    "J-0018 flag duty",
+    "J-0019 Algorithm Acceptance Audit",
+    "J-0016 Project 1-1",
+    "Option B class-rename Orchestrator=Magistrate"
+  ],
+  "provenance": {
+    "job": "JOB_GOV_ORCHESTRATOR_MAGISTRATE",
+    "briefing": "G-5 through G-8; operating evidence G-31",
+    "adoption": "Explicit Human Order O-MAGISTRATE-ACTIVATION 2026-08-25 IT IS SO ORDERED. No Reply.",
+    "docket_note": "Entered on docket/ATLAS_GOVERNANCE_FILINGS.json. viewer/docket/INDEX.json next_docket_no remains 88."
+  }
+}

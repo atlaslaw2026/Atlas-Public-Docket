@@ -1,0 +1,388 @@
+{
+  "orders": [
+    {
+      "id": "O-AI-CHALLENGER-V1",
+      "title": "O-AI-CHALLENGER-V1 \u2014 ORDER: Prospective AI forward challenger",
+      "public_body": true
+    },
+    {
+      "id": "O-AI-INITIATED-ISSUES",
+      "title": "O-AI-INITIATED-ISSUES",
+      "public_body": true
+    },
+    {
+      "id": "O-ALG1-V1-PAPER-FORWARD-GITHUB-PROPOSED",
+      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB \u2014 PROPOSED ORDER",
+      "public_body": true
+    },
+    {
+      "id": "O-ALG1-V1-PAPER-FORWARD-GITHUB",
+      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB \u2014 ORDER",
+      "public_body": true
+    },
+    {
+      "id": "O-ALG1-V1-PAPER-FORWARD",
+      "title": "O-ALG1-V1-PAPER-FORWARD \u2014 ORDER",
+      "public_body": true
+    },
+    {
+      "id": "O-ARGUMENT-COUNTERARGUMENT-ADVOCACY-BRIEFING",
+      "title": "O-ARGUMENT-COUNTERARGUMENT-ADVOCACY-BRIEFING",
+      "public_body": true
+    },
+    {
+      "id": "O-ATLAS-CONSTITUTION-RATIFICATION",
+      "title": "O-ATLAS-CONSTITUTION-RATIFICATION",
+      "public_body": true
+    },
+    {
+      "id": "O-ATLAS-CONTINUATION-LAW-PROPOSED",
+      "title": "O-ATLAS-CONTINUATION-LAW \u2014 PROPOSED ORDER",
+      "public_body": true
+    },
+    {
+      "id": "O-CAPITAL-AT-RISK",
+      "title": "O-CAPITAL-AT-RISK \u2014 ORDER: Capital-at-risk; TARGET_STRATEGIC_CASH = 0% for the next AI challenger",
+      "public_body": true
+    },
+    {
+      "id": "O-CONSTITUTION-CONSULT-CONFORMITY",
+      "title": "O-CONSTITUTION-CONSULT-CONFORMITY",
+      "public_body": true
+    },
+    {
+      "id": "O-CURRENT-DOCKET-INTEGRITY",
+      "title": "O-CURRENT-DOCKET-INTEGRITY",
+      "public_body": true
+    },
+    {
+      "id": "O-FORWARD-TRACKING",
+      "title": "O-FORWARD-TRACKING \u2014 ORDER",
+      "public_body": true
+    },
+    {
+      "id": "O-G193-CAPABILITY-OVERSTATEMENT-BRIEFING",
+      "title": "O-G193-CAPABILITY-OVERSTATEMENT-BRIEFING",
+      "public_body": true
+    },
+    {
+      "id": "O-GC-002-MANDATORY-CAPABILITY-DISCOVERY-REUSE-INTAKE",
+      "title": "O-GC-002 \u2014 Mandatory Capability Discovery and Reuse Intake",
+      "public_body": true
+    },
+    {
+      "id": "O-GC-003-ATLAS-V4-PORTABLE-BOOTSTRAP",
+      "title": "O-GC-003 \u2014 Atlas V4 Portable Bootstrap and Authoritative Docket",
+      "public_body": true
+    },
+    {
+      "id": "O-GC-004-CAPABILITY-ACCOUNTING-BEFORE-COMPLETION",
+      "title": "O-GC-004 \u2014 Capability Accounting Before Completion or Human Escalation",
+      "public_body": true
+    },
+    {
+      "id": "O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL",
+      "title": "O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL",
+      "public_body": true
+    },
+    {
+      "id": "O-HUNTER-EVIDENCE-ACQUISITION-CONTINUITY",
+      "title": "O-HUNTER-EVIDENCE-ACQUISITION-CONTINUITY",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0012",
+      "title": "O-J-0012 \u2014 ORDER: Adopt Universal AI Usage Accounting (J-0012)",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0017-ADEQUACY-GATE",
+      "title": "O-J-0017-ADEQUACY-GATE",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0018-ISSUE-FLAG",
+      "title": "O-J-0018-ISSUE-FLAG",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-ALGORITHM-ACCEPTANCE",
+      "title": "O-J-0019-ALGORITHM-ACCEPTANCE",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-ALGORITHM-FAILURE-RESEARCH-RECOVERY",
+      "title": "O-J-0019-ALGORITHM-FAILURE-RESEARCH-RECOVERY",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-DISTINCT-RESEARCH-BRANCH-LOOP",
+      "title": "O-J-0019-DISTINCT-RESEARCH-BRANCH-LOOP",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-HUNTER-EVIDENCE-HANDOFF",
+      "title": "O-J-0019-HUNTER-EVIDENCE-HANDOFF",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-INDEPENDENT-RESEARCH-STATES",
+      "title": "O-J-0019-INDEPENDENT-RESEARCH-STATES",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-INVOCATION-BOUND-NOT-PROJECT-STOP",
+      "title": "O-J-0019-INVOCATION-BOUND-NOT-PROJECT-STOP",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-NOT-ACCEPTED-PROJECT-CONTINUATION",
+      "title": "O-J-0019-NOT-ACCEPTED-PROJECT-CONTINUATION",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-NOT-ACCEPTED-RESEARCH-REMAND",
+      "title": "O-J-0019-NOT-ACCEPTED-RESEARCH-REMAND",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-OPEN-BRANCH-AUTO-DISPATCH",
+      "title": "O-J-0019-OPEN-BRANCH-AUTO-DISPATCH",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-REMAINING-GAP-ROOMS",
+      "title": "O-J-0019-REMAINING-GAP-ROOMS",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0019-REMEDIABLE-EVIDENCE-REMAND",
+      "title": "O-J-0019-REMEDIABLE-EVIDENCE-REMAND",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0020-AUTOMATIC-CONTINUATION",
+      "title": "O-J-0020-AUTOMATIC-CONTINUATION",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0020-MAGISTRATE",
+      "title": "O-J-0020-MAGISTRATE",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0020-POST-CHAIN-REEVALUATION",
+      "title": "O-J-0020-POST-CHAIN-REEVALUATION",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0021-OBJECTIVE-CONTROL",
+      "title": "O-J-0021-OBJECTIVE-CONTROL",
+      "public_body": true
+    },
+    {
+      "id": "O-J-0022-AUTOMATIC-BRIEFING-TRIGGER",
+      "title": "O-J-0022-AUTOMATIC-BRIEFING-TRIGGER",
+      "public_body": true
+    },
+    {
+      "id": "O-KEY-ROOM-AND-CREDENTIAL-GOVERNANCE",
+      "title": "O-KEY-ROOM-AND-CREDENTIAL-GOVERNANCE",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-LIBRARIAN-SOURCE-ADMISSIBILITY",
+      "title": "O-LIBRARIAN-SOURCE-ADMISSIBILITY",
+      "public_body": true
+    },
+    {
+      "id": "O-MAG-1-10-IND-20260906-1F098B-AFFIRMANCE-BRIEFING",
+      "title": "O-MAG-1-10-IND-20260906-1F098B-AFFIRMANCE-BRIEFING",
+      "public_body": true
+    },
+    {
+      "id": "O-MAGISTRATE-ACTIVATION",
+      "title": "O-MAGISTRATE-ACTIVATION",
+      "public_body": true
+    },
+    {
+      "id": "O-MATERIAL-UNCERTAINTY-CANONICAL-CONSULT",
+      "title": "O-MATERIAL-UNCERTAINTY-CANONICAL-CONSULT",
+      "public_body": true
+    },
+    {
+      "id": "O-ORCHESTRATOR-MAGISTRATE",
+      "title": "O-ORCHESTRATOR-MAGISTRATE",
+      "public_body": true
+    },
+    {
+      "id": "O-PREMATURE-PHASE-ADVANCEMENT",
+      "title": "O-PREMATURE-PHASE-ADVANCEMENT",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-1-FORWARD-MONITORING",
+      "title": "O-PROJECT-1-1-FORWARD-MONITORING \u2014 ORDER",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-10",
+      "title": "O-PROJECT-1-10",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-11-CLOSE",
+      "title": "O-PROJECT-1-11-CLOSE",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-11-QUANTUM",
+      "title": "O-PROJECT-1-11-QUANTUM",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-11",
+      "title": "O-PROJECT-1-11",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-12-CRM-THREE-TIER-STANDARD",
+      "title": "O-PROJECT-1-12-CRM-THREE-TIER-STANDARD",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-12",
+      "title": "O-PROJECT-1-12",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-13",
+      "title": "O-PROJECT-1-13",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-14",
+      "title": "O-PROJECT-1-14",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-4",
+      "title": "O-PROJECT-1-4",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-5-CONTINUE",
+      "title": "O-PROJECT-1-5-CONTINUE",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-5",
+      "title": "O-PROJECT-1-5",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-6",
+      "title": "O-PROJECT-1-6",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-7-ALGORITHM-RESEARCH-LOOP",
+      "title": "O-PROJECT-1-7-ALGORITHM-RESEARCH-LOOP",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-7-OBJECTIVE-ENFORCEMENT",
+      "title": "O-PROJECT-1-7-OBJECTIVE-ENFORCEMENT",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-7-PAPER-SLEEVE",
+      "title": "O-PROJECT-1-7-PAPER-SLEEVE",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-7-RESEARCH-CONTINUE-EXECUTION-HOLD",
+      "title": "O-PROJECT-1-7-RESEARCH-CONTINUE-EXECUTION-HOLD",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-7",
+      "title": "O-PROJECT-1-7",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-8-PAPER-SLEEVE",
+      "title": "O-PROJECT-1-8-PAPER-SLEEVE",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-8",
+      "title": "O-PROJECT-1-8",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-9-EXECUTION-PROOF",
+      "title": "O-PROJECT-1-9-EXECUTION-PROOF",
+      "public_body": true
+    },
+    {
+      "id": "O-PROJECT-1-9-PAPER-FORWARD-DAILY-EW",
+      "title": "O-PROJECT-1-9-PAPER-FORWARD-DAILY-EW",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-9-PAPER-FORWARD",
+      "title": "O-PROJECT-1-9-PAPER-FORWARD",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-9-PAPER-SLEEVE",
+      "title": "O-PROJECT-1-9-PAPER-SLEEVE",
+      "public_body": false,
+      "private_fields": "REDACTED"
+    },
+    {
+      "id": "O-PROJECT-1-9",
+      "title": "O-PROJECT-1-9",
+      "public_body": true
+    },
+    {
+      "id": "O-SHARED-AI-REASSESSMENT-DELIBERATION",
+      "title": "O-SHARED-AI-REASSESSMENT-DELIBERATION",
+      "public_body": true
+    },
+    {
+      "id": "O-SOURCE-GROUNDED-INDEPENDENT-VERIFICATION",
+      "title": "O-SOURCE-GROUNDED-INDEPENDENT-VERIFICATION",
+      "public_body": true
+    },
+    {
+      "id": "O-V2-001",
+      "title": "Order O-V2-001 \u2014 Build private Governance V2 (this job)",
+      "public_body": true
+    },
+    {
+      "id": "O-V2-002",
+      "title": "Order O-V2-002 \u2014 Governance V2 Viewer application, branch, and endpoint",
+      "public_body": true
+    },
+    {
+      "id": "O-V2-003-PROPOSED",
+      "title": "Proposed Order O-V2-003 \u2014 Adopt Atlas Goal as project-docket Dkt. 1",
+      "public_body": true
+    }
+  ],
+  "authoritative_for_law": false
+}
