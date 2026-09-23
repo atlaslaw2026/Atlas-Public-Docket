@@ -129,7 +129,7 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Review | EXP-GT1 results (directional; test environment disclosed as contaminated) and outsider audit |
 | Judgment / Order | Human Order of stated scope, 2026-09-23: bounded public-docket repair. No new law. J-0001, J-0002, and Constitution Arts. XII, XIV, XVI, XVII govern unchanged |
 | Implementation | Root [AGENTS.md](../AGENTS.md) separates PUBLIC ATLAS GOVERNANCE (apply it) from the PRIVATE ATLAS RUNTIME (do not claim it). Labeled publication notes (not law) at the top of `ATLAS_FIRST_READ.md` and `CURRENT_LAW.md`; the copied bodies are byte-identical to the export. README points agents to AGENTS.md |
-| Public commit | Recorded in [changes/README.md](../changes/README.md). BEFORE condition: `31408cff5f778987115a62db7cf92cb6d57d0c01` |
+| Public commit | `e8f6845e8aae9359100fdbf0bcf7b243087e59a5` (index: [changes/README.md](../changes/README.md)). BEFORE condition: `31408cff5f778987115a62db7cf92cb6d57d0c01` |
 | Verification | Identical EXP-GT1 re-run after publication (AFTER arm). A context-free external run (GT1-C) is still required before any claim that the repair works for clean agents |
 | Status | **PENDING** — clean external verification (GT1-C) |
 | Evidence pointer | `pointer: EVT-PUB-M-007` (test transcripts and scoring retained in the private record) |

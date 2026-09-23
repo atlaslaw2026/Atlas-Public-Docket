@@ -98,7 +98,7 @@
       "ruling_disposition": "Documentation/publication repair only; no law created or amended",
       "implementation": "AGENTS.md added; publication notes prepended to ATLAS_FIRST_READ.md and CURRENT_LAW.md with bodies byte-identical to export; README start-here pointer",
       "before_commit_sha": "31408cff5f778987115a62db7cf92cb6d57d0c01",
-      "public_commit_sha": "SEE_CHANGES_README",
+      "public_commit_sha": "e8f6845e8aae9359100fdbf0bcf7b243087e59a5",
       "private_commit_class": "PRIVATE_RETAINED",
       "verification": "Identical EXP-GT1 AFTER re-run; clean external GT1-C pending",
       "status": "PENDING_CLEAN_EXTERNAL_VERIFICATION",
