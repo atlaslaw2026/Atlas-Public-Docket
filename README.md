@@ -10,6 +10,8 @@ This repository is the **public procedural record and portfolio**. It is not a b
 
 ## Start here (about 10 minutes)
 
+**AI agents:** start at [AGENTS.md](AGENTS.md). It explains how to apply the public Atlas standards without the private Atlas runtime.
+
 1. This README — what Atlas is, what Clinton directed, how it responds to real failure modes
 2. [GLOSSARY.md](GLOSSARY.md) — plain English for Atlas terms
 3. [docket/MATTERS.md](docket/MATTERS.md) — representative traces you can follow end to end

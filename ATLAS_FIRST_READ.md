@@ -1,3 +1,5 @@
+> **Public-docket reading note (publication note, not law; added under PUB-M-007).** The body below is a verbatim copy of the private Atlas runtime's first-read. Commands such as `python -m atlas_personal_context`, `python -m atlas_gov librarian`, and `python -m atlas_room` run only inside that private runtime and are not in this repository. **Public agents: start at [AGENTS.md](AGENTS.md).** You can apply the working method and Truth Discipline below without them. Do not report private steps as performed.
+
 # ATLAS V2 — READ THIS FIRST
 
 ## 50,000-Foot Purpose

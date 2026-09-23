@@ -31,5 +31,17 @@
   "skipped_pii": [],
   "order_public_bodies": 61,
   "order_redacted_bodies": 13,
-  "projects": 16
+  "projects": 16,
+  "publication_notes": {
+    "matter": "PUB-M-007",
+    "note": "A labeled publication note (not law) is prepended to these copied files. Everything after the first blank line following the note is byte-identical to the exported copy.",
+    "files": {
+      "ATLAS_FIRST_READ.md": {
+        "body_sha256": "1eb7cf491e3e2f432ba77520da775d5810a80cd6dcc842ff67afb3fda1fdf775"
+      },
+      "CURRENT_LAW.md": {
+        "body_sha256": "64208a8a9934c1281b23e9b1448d03515c50d3c4006bdcfde9df61be47761a3b"
+      }
+    }
+  }
 }

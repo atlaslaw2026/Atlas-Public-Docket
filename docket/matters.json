@@ -89,6 +89,20 @@
       "verification": "Judgment rule text in this repository",
       "status": "LAW_CLOSED_ALGORITHMS_PENDING",
       "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-006", "reviewed": true}
+    },
+    {
+      "public_docket_id": "PUB-M-007",
+      "title": "Public-agent entry: public governance is not the private runtime",
+      "filing_request": "EXP-GT1 clean-agent entry test and outsider audit: entry files required private runtime steps unavailable to outside agents",
+      "governing_authority": ["Human Order of stated scope 2026-09-23 (bounded public-docket repair)", "J-0001", "J-0002", "Constitution Arts. XII, XIV, XVI, XVII"],
+      "ruling_disposition": "Documentation/publication repair only; no law created or amended",
+      "implementation": "AGENTS.md added; publication notes prepended to ATLAS_FIRST_READ.md and CURRENT_LAW.md with bodies byte-identical to export; README start-here pointer",
+      "before_commit_sha": "31408cff5f778987115a62db7cf92cb6d57d0c01",
+      "public_commit_sha": "SEE_CHANGES_README",
+      "private_commit_class": "PRIVATE_RETAINED",
+      "verification": "Identical EXP-GT1 AFTER re-run; clean external GT1-C pending",
+      "status": "PENDING_CLEAN_EXTERNAL_VERIFICATION",
+      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-007", "reviewed": true}
     }
   ]
 }

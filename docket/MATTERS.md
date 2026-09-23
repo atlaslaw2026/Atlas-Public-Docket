@@ -115,3 +115,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | The Judgment text and rule list in `law/judgments/J-0019.json` |
 | Status | **CLOSED** as law; individual algorithms remain **PENDING** acceptance |
 | Evidence pointer | `pointer: EVT-PUB-M-006` (underlying project exhibits private) |
+
+---
+
+## PUB-M-007
+
+**Public-agent entry: public governance is not the private runtime**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-007 |
+| Filing / request | Outsider audit and clean-agent entry test EXP-GT1 (2026-09-23): outside agents given only this repository applied parts of the public law, but the entry files sent them to private runtime steps (`verify.py`, `python -m atlas_*`). Both test arms were unsure whether "operate under Atlas" meant running those tools or adopting the published standards |
+| Review | EXP-GT1 results (directional; test environment disclosed as contaminated) and outsider audit |
+| Judgment / Order | Human Order of stated scope, 2026-09-23: bounded public-docket repair. No new law. J-0001, J-0002, and Constitution Arts. XII, XIV, XVI, XVII govern unchanged |
+| Implementation | Root [AGENTS.md](../AGENTS.md) separates PUBLIC ATLAS GOVERNANCE (apply it) from the PRIVATE ATLAS RUNTIME (do not claim it). Labeled publication notes (not law) at the top of `ATLAS_FIRST_READ.md` and `CURRENT_LAW.md`; the copied bodies are byte-identical to the export. README points agents to AGENTS.md |
+| Public commit | Recorded in [changes/README.md](../changes/README.md). BEFORE condition: `31408cff5f778987115a62db7cf92cb6d57d0c01` |
+| Verification | Identical EXP-GT1 re-run after publication (AFTER arm). A context-free external run (GT1-C) is still required before any claim that the repair works for clean agents |
+| Status | **PENDING** — clean external verification (GT1-C) |
+| Evidence pointer | `pointer: EVT-PUB-M-007` (test transcripts and scoring retained in the private record) |

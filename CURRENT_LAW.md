@@ -1,3 +1,5 @@
+> **Public-docket reading note (publication note, not law; added under PUB-M-007).** The body below is a verbatim copy of the private runtime's current-law file. Its entrypoint steps (`verify.py`, ATLAS_RECORD, `python -m atlas_gov …`, `viewer/`, private SHAs and paths) describe the private Atlas runtime and cannot be performed from this repository. They are not prerequisites for applying the public standards. **Public agents: start at [AGENTS.md](AGENTS.md).** Do not report these steps as performed.
+
 # CURRENT LAW
 
 **Machine pointer:** `CURRENT_LAW.json`  
