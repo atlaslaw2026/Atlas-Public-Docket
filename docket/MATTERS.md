@@ -145,7 +145,7 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Review | Hunter-method verification against the original source: InKind's own directory listed exactly one BOA Steakhouse partner (Las Vegas, 3327 S Las Vegas Blvd, 20% back); Santa Monica absent. Phrasing-variance tests of Google's AI Overview returned both "yes" and "no" for near-identical queries; a second Google AI (Gemini app) returned "no" for the same query; the original "yes" flipped to "no" on re-query ~16 minutes later. The business, asked directly by the Human, said no. |
 | Judgment / Order | [O-VERIFICATION-STANDARD](../law/orders/O-VERIFICATION-STANDARD.md) (Human verdict, 2026-09-23): the system succeeded in this instance — right answer, plus why the wrong answer looked tempting. Standing principles: probability gives answers, verification gives truth; never let the middleman be the authority; AI output is a lead, not a verdict. J-0001 governs; no new ACTIVE Judgment. |
 | Implementation | Frozen verbatim record of the test (date, source, versions preserved) filed as this matter's evidence. |
-| Public commit | `TBD on push` |
+| Public commit | `62e4a07fd08991a0ed1d340311e0245ffca7d18c` |
 | Verification | InKind directory (original source) + direct confirmation from the business. AI answers documented as unstable across phrasings, devices, and time. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-008` (frozen record retained; screenshots retained in the private record) |
