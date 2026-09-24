@@ -1,7 +1,7 @@
-# CRCR — Clinton Rules of Computational Procedure
+# Atlas Rules
 
-**Working name. Not adopted law.**
+## Rule: Standing order
 
-This directory is reserved for the universal procedural code under development. Until a Human instrument adopts CRCR, Governance V2 (CURRENT_LAW.md, Constitution, Judgments, Orders) remains the governing procedure.
+A standing order stays on. It applies to every run automatically, with no per-run permission. A regular order covers one matter; a standing order governs all of them until revoked.
 
-Do not treat drafts placed here as CURRENT_LAW.
+O-PROVE-DONE is a standing order: the challenge track opens with every capability accounting.
