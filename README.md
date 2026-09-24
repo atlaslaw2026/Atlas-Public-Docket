@@ -77,7 +77,7 @@ Governing law for agents now: [CURRENT_LAW.md](CURRENT_LAW.md). How to read an O
 | Architecture and capability documentation | PERSONAL_CONTEXT corpus |
 | This git history | Entra-protected Human docket viewer |
 
-Atlas Rules: [crcr/README.md](crcr/README.md).
+Atlas Rules: [AR/README.md](AR/README.md).
 
 Related public work: [atlas-portable-index](https://github.com/atlaslaw2026/atlas-portable-index) (bootstrap), [Atlas-Law-Viewer](https://github.com/atlaslaw2026/Atlas-Law-Viewer) (product demo).
 
