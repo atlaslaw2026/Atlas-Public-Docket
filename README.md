@@ -55,7 +55,7 @@ Ordinary agent setups fail in predictable ways:
 | Failure mode | Atlas response |
 |---|---|
 | Lost state | Durable docket, jobs, and derived current-state packets (operational memory, not law) |
-| False completion | Explicit closure rules; Magistrate review; mechanical PASS is not Human Goal completion |
+| False completion | Explicit closure rules; Magistrate review; mechanical PASS is not Human Goal completion; [O-PROVE-DONE](law/orders/O-PROVE-DONE.md): nobody gets to say "done" until someone's tried to prove them wrong |
 | Unauthorized execution | Fail-closed gates; paper vs live; send remains ungranted until an Order says otherwise |
 | Weak evidence | J-0001 labels (known / inferred / unknown); evidence pointers; private exhibits stay private |
 | Duplicate construction | O-GC-002: discover and reuse; replacement needs a recorded mismatch or Human override |
