@@ -27,6 +27,9 @@ This repository is the **public procedural record and portfolio**. It is not a b
 | [PUB-M-003](docket/MATTERS.md#pub-m-003) | CRM lifecycle quality: a finished-looking page is not done |
 | [PUB-M-004](docket/MATTERS.md#pub-m-004) | Paper trading: freeze and connectivity are not acceptance |
 | [PUB-M-005](docket/MATTERS.md#pub-m-005) | Publication hygiene: private paths do not belong on a public docket |
+| [PUB-M-006](docket/MATTERS.md#pub-m-006) | "Proven working" without an acceptance audit — freeze and connectivity are not acceptance (J-0019) |
+| [PUB-M-007](docket/MATTERS.md#pub-m-007) | Public governance is not the private runtime — clean-agent entry repair |
+| [PUB-M-008](docket/MATTERS.md#pub-m-008) | Trust test: probability gives answers, verification gives truth (O-VERIFICATION-STANDARD) |
 
 ## What Clinton did
 
