@@ -31,6 +31,8 @@ This repository is the **public procedural record and portfolio**. It is not a b
 | [PUB-M-007](docket/MATTERS.md#pub-m-007) | Public governance is not the private runtime — clean-agent entry repair |
 | [PUB-M-008](docket/MATTERS.md#pub-m-008) | Trust test: probability gives answers, verification gives truth (O-VERIFICATION-STANDARD) |
 
+Standing order: [O-PROVE-DONE](law/orders/O-PROVE-DONE.md) — nobody gets to say "done" until someone's tried to prove them wrong.
+
 ## What Clinton did
 
 Clinton Brown is the Human whose system this is. He **designed, directed, tested, audited, and governed** Atlas and its AI-assisted implementation: Goal and Orders, what must remain private, what counts as done, and when execution must stop.
