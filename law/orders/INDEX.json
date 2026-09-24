@@ -387,6 +387,11 @@
    "id": "O-VERIFICATION-STANDARD",
    "title": "O-VERIFICATION-STANDARD \u2014 ORDER: Probability gives answers, verification gives truth",
    "public_body": true
+  },
+  {
+   "id": "O-PROVE-DONE",
+   "title": "O-PROVE-DONE \u2014 ORDER: Nobody gets to say done until someone's tried to prove them wrong",
+   "public_body": true
   }
  ],
  "authoritative_for_law": false
