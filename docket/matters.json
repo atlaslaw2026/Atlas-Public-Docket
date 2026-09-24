@@ -1,108 +1,180 @@
 {
-  "schema_version": "atlas-public-matters-1.0",
-  "role": "PUBLIC_SAFE_TRACE_ROWS",
-  "authoritative_for_law": false,
-  "trace": [
-    "FILING_REQUEST",
-    "REVIEW",
-    "JUDGMENT_ORDER",
-    "IMPLEMENTATION",
-    "COMMIT",
-    "VERIFICATION",
-    "CLOSURE_OR_PENDING"
-  ],
-  "matters": [
-    {
-      "public_docket_id": "PUB-M-001",
-      "title": "Supervisor liveness is not progress",
-      "filing_request": "Unattended worker treated PID/heartbeat as proof of progress",
-      "governing_authority": ["fail-closed unattended operation", "J-0001"],
-      "ruling_disposition": "Heartbeat is not progress; exactly one watchdog",
-      "implementation": "Supervisor runtime stall classification",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "Isolated private-engine tests recorded in private review package",
-      "status": "CLOSED",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-001", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-002",
-      "title": "Capability discovery before new construction",
-      "filing_request": "Parallel capability construction without reuse intake",
-      "governing_authority": ["O-GC-002"],
-      "ruling_disposition": "Reuse or record concrete mismatch; unpublished Room shim not published",
-      "implementation": "Public Order + architecture; shim excluded from public/private push pending ruling",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "O-GC-002 text in this repository",
-      "status": "HOLD_ON_SHIM_CLOSED_ON_RULE",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-002", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-003",
-      "title": "CRM lifecycle quality without lead payloads",
-      "filing_request": "Finished-looking page treated as completion",
-      "governing_authority": ["CRM process-next program", "standing send ungranted"],
-      "ruling_disposition": "Canonical process-next; no customer records on the public docket",
-      "implementation": "Private CRM program; public trace only",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "Private program tests; no lead identities in this repository",
-      "status": "RULE_CLOSED_OPERATIONS_PENDING",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-003", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-004",
-      "title": "Project 1-11 authority and acceptance controls",
-      "filing_request": "Paper-only 1-11 work; live money forbidden",
-      "governing_authority": ["O-PROJECT-1-11-QUANTUM (stub)", "J-0019", "J-0020", "J-0021"],
-      "ruling_disposition": "Fail-closed execution; freeze/connectivity are not acceptance",
-      "implementation": "Private gates; public stub Order + J-0019",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "J-0019 in this repository; private controlling-review tests",
-      "status": "PENDING",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-004", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-005",
-      "title": "F-PUB-001 workstation path removed from public Judgment locator",
-      "filing_request": "Pre-publication audit F-PUB-001",
-      "governing_authority": ["J-0001", "publication security audit (accepted)"],
-      "ruling_disposition": "Redact locator; retain exhibit privately; rewrite reachable public history",
-      "implementation": "J-0001.json PRIVATE_RETAINED pointer EVT-J0001-E-T1",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "not_applicable",
-      "verification": "Full-history scan of this repository",
-      "status": "CLOSED",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-J0001-E-T1", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-006",
-      "title": "Freeze and connectivity are not algorithm acceptance",
-      "filing_request": "Proven-working claim after freeze and broker connect",
-      "governing_authority": ["J-0019"],
-      "ruling_disposition": "Algorithm Acceptance Audit required before ACCEPTED/OPERATIVE/PROVEN_WORKING",
-      "implementation": "Judgment published in law/judgments/J-0019.json",
-      "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "Judgment rule text in this repository",
-      "status": "LAW_CLOSED_ALGORITHMS_PENDING",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-006", "reviewed": true}
-    },
-    {
-      "public_docket_id": "PUB-M-007",
-      "title": "Public-agent entry: public governance is not the private runtime",
-      "filing_request": "EXP-GT1 clean-agent entry test and outsider audit: entry files required private runtime steps unavailable to outside agents",
-      "governing_authority": ["Human Order of stated scope 2026-09-23 (bounded public-docket repair)", "J-0001", "J-0002", "Constitution Arts. XII, XIV, XVI, XVII"],
-      "ruling_disposition": "Documentation/publication repair only; no law created or amended",
-      "implementation": "AGENTS.md added; publication notes prepended to ATLAS_FIRST_READ.md and CURRENT_LAW.md with bodies byte-identical to export; README start-here pointer",
-      "before_commit_sha": "31408cff5f778987115a62db7cf92cb6d57d0c01",
-      "public_commit_sha": "e8f6845e8aae9359100fdbf0bcf7b243087e59a5",
-      "private_commit_class": "PRIVATE_RETAINED",
-      "verification": "Identical EXP-GT1 AFTER re-run; clean external GT1-C pending",
-      "status": "PENDING_CLEAN_EXTERNAL_VERIFICATION",
-      "evidence_pointer": {"evidence_class": "PRIVATE_RETAINED", "pointer": "EVT-PUB-M-007", "reviewed": true}
-    }
-  ]
+ "schema_version": "atlas-public-matters-1.0",
+ "role": "PUBLIC_SAFE_TRACE_ROWS",
+ "authoritative_for_law": false,
+ "trace": [
+  "FILING_REQUEST",
+  "REVIEW",
+  "JUDGMENT_ORDER",
+  "IMPLEMENTATION",
+  "COMMIT",
+  "VERIFICATION",
+  "CLOSURE_OR_PENDING"
+ ],
+ "matters": [
+  {
+   "public_docket_id": "PUB-M-001",
+   "title": "Supervisor liveness is not progress",
+   "filing_request": "Unattended worker treated PID/heartbeat as proof of progress",
+   "governing_authority": [
+    "fail-closed unattended operation",
+    "J-0001"
+   ],
+   "ruling_disposition": "Heartbeat is not progress; exactly one watchdog",
+   "implementation": "Supervisor runtime stall classification",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Isolated private-engine tests recorded in private review package",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-001",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-002",
+   "title": "Capability discovery before new construction",
+   "filing_request": "Parallel capability construction without reuse intake",
+   "governing_authority": [
+    "O-GC-002"
+   ],
+   "ruling_disposition": "Reuse or record concrete mismatch; unpublished Room shim not published",
+   "implementation": "Public Order + architecture; shim excluded from public/private push pending ruling",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "O-GC-002 text in this repository",
+   "status": "HOLD_ON_SHIM_CLOSED_ON_RULE",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-002",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-003",
+   "title": "CRM lifecycle quality without lead payloads",
+   "filing_request": "Finished-looking page treated as completion",
+   "governing_authority": [
+    "CRM process-next program",
+    "standing send ungranted"
+   ],
+   "ruling_disposition": "Canonical process-next; no customer records on the public docket",
+   "implementation": "Private CRM program; public trace only",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Private program tests; no lead identities in this repository",
+   "status": "RULE_CLOSED_OPERATIONS_PENDING",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-003",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-004",
+   "title": "Project 1-11 authority and acceptance controls",
+   "filing_request": "Paper-only 1-11 work; live money forbidden",
+   "governing_authority": [
+    "O-PROJECT-1-11-QUANTUM (stub)",
+    "J-0019",
+    "J-0020",
+    "J-0021"
+   ],
+   "ruling_disposition": "Fail-closed execution; freeze/connectivity are not acceptance",
+   "implementation": "Private gates; public stub Order + J-0019",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "J-0019 in this repository; private controlling-review tests",
+   "status": "PENDING",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-004",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-005",
+   "title": "F-PUB-001 workstation path removed from public Judgment locator",
+   "filing_request": "Pre-publication audit F-PUB-001",
+   "governing_authority": [
+    "J-0001",
+    "publication security audit (accepted)"
+   ],
+   "ruling_disposition": "Redact locator; retain exhibit privately; rewrite reachable public history",
+   "implementation": "J-0001.json PRIVATE_RETAINED pointer EVT-J0001-E-T1",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "not_applicable",
+   "verification": "Full-history scan of this repository",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-J0001-E-T1",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-006",
+   "title": "Freeze and connectivity are not algorithm acceptance",
+   "filing_request": "Proven-working claim after freeze and broker connect",
+   "governing_authority": [
+    "J-0019"
+   ],
+   "ruling_disposition": "Algorithm Acceptance Audit required before ACCEPTED/OPERATIVE/PROVEN_WORKING",
+   "implementation": "Judgment published in law/judgments/J-0019.json",
+   "public_commit_sha": "186d04ce8749b0af2bef8c6e154dba2ef6c4db9e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Judgment rule text in this repository",
+   "status": "LAW_CLOSED_ALGORITHMS_PENDING",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-006",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-007",
+   "title": "Public-agent entry: public governance is not the private runtime",
+   "filing_request": "EXP-GT1 clean-agent entry test and outsider audit: entry files required private runtime steps unavailable to outside agents",
+   "governing_authority": [
+    "Human Order of stated scope 2026-09-23 (bounded public-docket repair)",
+    "J-0001",
+    "J-0002",
+    "Constitution Arts. XII, XIV, XVI, XVII"
+   ],
+   "ruling_disposition": "Documentation/publication repair only; no law created or amended",
+   "implementation": "AGENTS.md added; publication notes prepended to ATLAS_FIRST_READ.md and CURRENT_LAW.md with bodies byte-identical to export; README start-here pointer",
+   "before_commit_sha": "31408cff5f778987115a62db7cf92cb6d57d0c01",
+   "public_commit_sha": "e8f6845e8aae9359100fdbf0bcf7b243087e59a5",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Identical EXP-GT1 AFTER re-run; clean external GT1-C pending",
+   "status": "PENDING_CLEAN_EXTERNAL_VERIFICATION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-007",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-008",
+   "title": "Trust test: probability gives answers, verification gives truth (InKind/BOA)",
+   "filing_request": "Human's cold question 2026-09-23: is BOA Steakhouse Santa Monica on the InKind app? Conflicting Google AI 'yes' revealed only after the source check",
+   "governing_authority": [
+    "O-VERIFICATION-STANDARD (Human order 2026-09-23)",
+    "J-0001"
+   ],
+   "ruling_disposition": "Standing verification standard ordered; no new ACTIVE Judgment",
+   "implementation": "Frozen verbatim test record filed as this matter's evidence",
+   "before_commit_sha": "ed6e8780fcdb4dd1e3153081ee81034789176048",
+   "public_commit_sha": "TBD on push",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "InKind directory (original source) + direct business confirmation; AI answers documented unstable",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-008",
+    "reviewed": true
+   }
+  }
+ ]
 }

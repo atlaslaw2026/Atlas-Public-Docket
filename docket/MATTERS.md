@@ -133,3 +133,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Identical EXP-GT1 re-run after publication (AFTER arm). A context-free external run (GT1-C) is still required before any claim that the repair works for clean agents |
 | Status | **PENDING** — clean external verification (GT1-C) |
 | Evidence pointer | `pointer: EVT-PUB-M-007` (test transcripts and scoring retained in the private record) |
+
+## PUB-M-008
+
+**Trust test: probability gives answers, verification gives truth (InKind/BOA)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-008 |
+| Filing / request | Human's cold question (2026-09-23): is BOA Steakhouse Santa Monica on the InKind app? A conflicting AI answer ("yes" from Google's AI Overview, via a third party's phone) existed but was revealed only after the source check. |
+| Review | Hunter-method verification against the original source: InKind's own directory listed exactly one BOA Steakhouse partner (Las Vegas, 3327 S Las Vegas Blvd, 20% back); Santa Monica absent. Phrasing-variance tests of Google's AI Overview returned both "yes" and "no" for near-identical queries; a second Google AI (Gemini app) returned "no" for the same query; the original "yes" flipped to "no" on re-query ~16 minutes later. The business, asked directly by the Human, said no. |
+| Judgment / Order | [O-VERIFICATION-STANDARD](../law/orders/O-VERIFICATION-STANDARD.md) (Human verdict, 2026-09-23): the system succeeded in this instance — right answer, plus why the wrong answer looked tempting. Standing principles: probability gives answers, verification gives truth; never let the middleman be the authority; AI output is a lead, not a verdict. J-0001 governs; no new ACTIVE Judgment. |
+| Implementation | Frozen verbatim record of the test (date, source, versions preserved) filed as this matter's evidence. |
+| Public commit | `TBD on push` |
+| Verification | InKind directory (original source) + direct confirmation from the business. AI answers documented as unstable across phrasings, devices, and time. |
+| Status | **CLOSED** |
+| Evidence pointer | `pointer: EVT-PUB-M-008` (frozen record retained; screenshots retained in the private record) |
