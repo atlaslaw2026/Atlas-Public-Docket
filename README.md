@@ -6,7 +6,7 @@ AI shouldn't merely be able to do work; it should have rules governing when it m
 
 Atlas is a **governed AI/agent operating system**: a work framework that requires evidence, explicit authority, persistent state, an audit trail, and fail-closed execution. It is not a chat log and not a pile of scripts.
 
-That governed system also functions as a portable state/control layer across AI workers: a new model or session can bind to Atlas via [AGENTS.md](AGENTS.md) and operate from the same verified facts, rules, precedent, and known/unknown boundaries instead of starting epistemically from scratch. Truth has state; reasoning has probability — the AI can still think probabilistically while Atlas keeps the underlying record of what has actually been established.
+Atlas is a portable, model-independent operating and epistemic control layer that lets different AI workers operate from the same governed record of what is known, what is uncertain, what they're authorized to do, and why. A new model or session binds via [AGENTS.md](AGENTS.md) instead of starting epistemically from scratch. Truth has state; reasoning has probability — the AI can still think probabilistically while Atlas keeps the underlying record of what has actually been established.
 
 This repository is the **public procedural record and portfolio**. It is not a backup of the private operational tree, not a second live docket host, and not a dump of private evidence.
 
