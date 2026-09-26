@@ -6,6 +6,8 @@ AI shouldn't merely be able to do work; it should have rules governing when it m
 
 Atlas is a **governed AI/agent operating system**: a work framework that requires evidence, explicit authority, persistent state, an audit trail, and fail-closed execution. It is not a chat log and not a pile of scripts.
 
+That governed system also functions as a portable state/control layer across AI workers: a new model or session can bind to Atlas via [AGENTS.md](AGENTS.md) and inherit the same verified facts, rules, precedent, and known/unknown boundaries instead of starting epistemically from scratch. Truth has state; reasoning has probability — the AI can still think probabilistically while Atlas keeps the underlying record of what has actually been established.
+
 This repository is the **public procedural record and portfolio**. It is not a backup of the private operational tree, not a second live docket host, and not a dump of private evidence.
 
 ## Start here (about 10 minutes)
@@ -79,6 +81,6 @@ Governing law for agents now: [CURRENT_LAW.md](CURRENT_LAW.md). How to read an O
 
 Atlas Rules: [AR/README.md](AR/README.md).
 
-Related public work: [atlas-portable-index](https://github.com/atlaslaw2026/atlas-portable-index) (bootstrap), [Atlas-Law-Viewer](https://github.com/atlaslaw2026/Atlas-Law-Viewer) (product demo).
+Related public work: [atlas-portable-index](https://github.com/atlaslaw2026/atlas-portable-index) (the bind entry point — where a new model or session binds to Atlas and inherits its verified state), [Atlas-Law-Viewer](https://github.com/atlaslaw2026/Atlas-Law-Viewer) (product demo).
 
 See [SECURITY.md](SECURITY.md). If you find a secret or lead-level record here, treat it as an incident.
