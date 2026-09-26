@@ -8,7 +8,7 @@ Atlas is a **governed AI/agent operating system**: a work framework that require
 
 Atlas is a portable, model-independent operating and epistemic control layer that lets different AI workers operate from the same governed record of what is known, what is uncertain, what they're authorized to do, and why. A new model or session binds via [AGENTS.md](AGENTS.md) instead of starting epistemically from scratch. Truth has state; reasoning has probability — the AI can still think probabilistically while Atlas keeps the underlying record of what has actually been established.
 
-This repository is the **public procedural record and portfolio**. It is not a backup of the private operational tree, not a second live docket host, and not a dump of private evidence.
+Sanitized public Atlas governance docket and portfolio. Not the private operational record or a second live Atlas host. Private Room capabilities, enforcement machinery, and operational tooling are not included.
 
 ## Start here (about 10 minutes)
 
