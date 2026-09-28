@@ -192,10 +192,10 @@
    ],
    "ruling_disposition": "Standing order: action success is not objective completion; done is a factual claim earned from the resulting state; verify resulting state where proportionate; repair-then-re-verify within authority; preserve defect chronology; fail closed. No new ACTIVE Judgment.",
    "implementation": "Order filed in law/orders/ and recorded in law/orders/INDEX.json; sanitized incident recorded in MATTERS.md",
-   "public_commit_sha": "STAGED-LOCALLY — public push requires Human content approval per standing warm-door rule",
+   "public_commit_sha": "c94824c5f580ef8e8fe2cfa6411d9dd7a5485223",
    "private_commit_class": "PRIVATE_RETAINED",
    "verification": "Repaired invitation re-inspected against the authoritative calendar record (event re-read: exact body, single join path, intended participants and time confirmed) before the incident closed; filed Order and matter then passed independent verification (acceptance test, private record)",
-   "status": "PENDING_HUMAN_PUSH_APPROVAL",
+   "status": "CLOSED",
    "evidence_pointer": {
     "evidence_class": "PRIVATE_RETAINED",
     "pointer": "EVT-PUB-M-009",
