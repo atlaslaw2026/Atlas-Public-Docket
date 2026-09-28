@@ -175,6 +175,32 @@
     "pointer": "EVT-PUB-M-008",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-009",
+   "title": "Action success is not objective completion — resulting-state verification (meeting-link incident)",
+   "filing_request": "Human Order 2026-09-28: convert the day's meeting-scheduling incident into durable precedent — external business video meeting with two private counterparties ended up with two competing meeting links despite every operation reporting success",
+   "governing_authority": [
+    "O-RESULTING-STATE-VERIFICATION (Human order 2026-09-28)",
+    "J-0001",
+    "J-0017",
+    "J-0021",
+    "O-VERIFICATION-STANDARD",
+    "O-PROVE-DONE",
+    "O-GC-004",
+    "O-SOURCE-GROUNDED-INDEPENDENT-VERIFICATION"
+   ],
+   "ruling_disposition": "Standing order: action success is not objective completion; done is a factual claim earned from the resulting state; verify resulting state where proportionate; repair-then-re-verify within authority; preserve defect chronology; fail closed. No new ACTIVE Judgment.",
+   "implementation": "Order filed in law/orders/ and recorded in law/orders/INDEX.json; sanitized incident recorded in MATTERS.md",
+   "public_commit_sha": "STAGED-LOCALLY — public push requires Human content approval per standing warm-door rule",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Repaired invitation re-inspected against the authoritative calendar record (event re-read: exact body, single join path, intended participants and time confirmed) before the incident closed; filed Order and matter then passed independent verification (acceptance test, private record)",
+   "status": "PENDING_HUMAN_PUSH_APPROVAL",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-009",
+    "reviewed": true
+   }
   }
  ]
 }

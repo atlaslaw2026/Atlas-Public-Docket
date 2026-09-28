@@ -149,3 +149,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | InKind directory (original source) + direct confirmation from the business. AI answers documented as unstable across phrasings, devices, and time. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-008` (frozen record retained; screenshots retained in the private record) |
+
+---
+
+## PUB-M-009
+
+**Action success is not objective completion — resulting-state verification (meeting-link incident)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-009 |
+| Filing / request | Human Order of 2026-09-28: convert that day's meeting-scheduling incident into durable precedent. The Human's objective was an external business video meeting with two [PRIVATE COUNTERPARTIES]. Every requested operation reported success — yet the resulting invitation contained two competing meeting links pointing at two different meetings. |
+| Review | Audit of existing law: J-0017, J-0021, O-VERIFICATION-STANDARD, O-PROVE-DONE, O-GC-004, and O-SOURCE-GROUNDED-INDEPENDENT-VERIFICATION already govern adjacent ground (adequacy, purpose-satisfaction, witness verification, challenge-before-done, capability accounting, claim limits, history preservation). The gap was the resulting-state inspection rule for executed actions and the repair-before-return rule. |
+| Judgment / Order | [O-RESULTING-STATE-VERIFICATION](../law/orders/O-RESULTING-STATE-VERIFICATION.md) (standing User Order, 2026-09-28): action success is not objective completion; "done" is a factual claim that must be earned from the resulting state; verify the resulting state where proportionate; repair-then-re-verify defects within existing authority; preserve the defect chronology; fail closed on material uncertainty. Extends existing Orders; creates no parallel law; no new ACTIVE Judgment. |
+| Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json`; sanitized incident recorded as this matter. |
+| Public commit | `STAGED-LOCALLY` — local staging commit recorded here on push; public push to `atlaslaw2026/Atlas-Public-Docket` requires Human content approval per the standing warm-door rule and has not occurred. |
+| Verification | The repaired invitation was re-inspected against the authoritative calendar record (event re-read: exact body, single join path, intended participants and time confirmed) before the incident closed; the filed Order and matter then passed independent verification — see the acceptance test in the private record. |
+| Status | **PENDING** — public push awaiting Human approval |
+| Evidence pointer | `pointer: EVT-PUB-M-009` (complete chronology, identities, and artifacts retained in the private record) |

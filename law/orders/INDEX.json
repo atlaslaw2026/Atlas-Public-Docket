@@ -397,6 +397,11 @@
       "id": "O-GC-005",
       "title": "O-GC-005 \u2014 Decision Boundary: No Default Human Menu",
       "public_body": true
+    },
+    {
+      "id": "O-RESULTING-STATE-VERIFICATION",
+      "title": "O-RESULTING-STATE-VERIFICATION \u2014 ORDER: Action success is not objective completion; done is a factual claim earned from the resulting state",
+      "public_body": true
     }
   ],
   "authoritative_for_law": false
