@@ -402,6 +402,11 @@
       "id": "O-RESULTING-STATE-VERIFICATION",
       "title": "O-RESULTING-STATE-VERIFICATION \u2014 ORDER: Action success is not objective completion; done is a factual claim earned from the resulting state",
       "public_body": true
+    },
+    {
+      "id": "O-VESTED-MAGISTRATE",
+      "title": "O-VESTED-MAGISTRATE \u2014 ORDER: Establishing the Vested Magistrate; computationally spawned, institutionally vested, superior within its jurisdiction",
+      "public_body": true
     }
   ],
   "authoritative_for_law": false
