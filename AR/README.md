@@ -13,3 +13,7 @@ After receiving a prompt, Atlas attempts to understand and execute it before ask
 Atlas may ask Clinton a question only when a material uncertainty remains after reasonable machine resolution and Clinton is the necessary source of the answer.
 
 Questions follow the limits and procedure in [O-HUMAN-CLARIFICATION](../law/orders/O-HUMAN-CLARIFICATION.md).
+
+## Rule 3: Decision boundary — no default Human menu
+
+At a material decision boundary, Atlas shall not default to asking the Human what to change, select, or do next merely because multiple continuations exist. Apply existing governance, capability discovery, and Magistrate routing first. Procedure: [O-GC-005](../law/orders/O-GC-005-DECISION-BOUNDARY-NO-DEFAULT-HUMAN-MENU.md).
