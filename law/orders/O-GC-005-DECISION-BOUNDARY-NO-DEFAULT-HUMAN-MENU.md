@@ -5,7 +5,7 @@
 **Date:** 2026-09-27  
 **Order id:** `O-GC-005`  
 **Caption:** ORDER GC 005 — NO DEFAULT HUMAN MENU AT MATERIAL DECISION BOUNDARIES  
-**Human source:** Clinton Brown, Listing Report main chat 2026-09-27 (~5:50 PM PT) — after Ordaz Sunburst client Owner-Options brief delivery, worker asked Human what to change; Human directed public-docket Order in format of 7–8 and supplied Command/Why verbatim.  
+**Human source:** Clinton Brown, Listing Report main chat 2026-09-27 (~5:50 PM PT) — after delivery of a client Listing Report review artifact, worker asked Human what to change; Human directed public-docket Order in format of 7–8 and supplied Command/Why verbatim. Private client/matter identifiers for the live-production incident are `PRIVATE_RETAINED` (not published here).  
 **Implements / supplements:** J-0001, J-0002, J-0017 HUMAN-BURDEN, J-0018, J-0020, O-HUMAN-CLARIFICATION, O-GC-002, O-GC-004, O-MATERIAL-UNCERTAINTY-CANONICAL-CONSULT  
 **Does not create a new ACTIVE Judgment.** Disk ACTIVE judgment set remains pinned to `CURRENT_LAW.json` `current_sha`.  
 **Does not expand Magistrate jurisdiction, create new machine authority, authorize outreach, authorize CRM mutation, authorize construction, or convert an ordinary operational choice into a Magistrate matter where existing law does not require or permit that routing.**
@@ -44,10 +44,10 @@ Use existing Atlas Room, capability discovery (O-GC-002 / O-GC-004), Magistrate 
 
 ## 7. Record
 
-Preserve this incident—including the worker's request that the Human choose the next action and the Human's direction to use the Magistrate—as evidence for the pending Magistrate/institutional-routing audit.
+Preserve this incident—including the worker's request that the Human choose the next action and the Human's direction to use the Magistrate—as evidence for the pending Magistrate/institutional-routing audit. Private client names, owner-options content, continuation menus, CRM/contact fields, and sealed Magistrate exhibits remain `PRIVATE_RETAINED`.
 
 ## 8. Live production test
 
-Apply immediately to AtlasClose Listing Report / Ordaz Sunburst owner-options matter and thereafter to all Atlas matters. Do not ask the Human what to change after delivering a review artifact merely because multiple continuations exist.
+Apply immediately to the current AtlasClose Listing Report matter designated for live production test (specific client/matter identity `PRIVATE_RETAINED`; see private companion) and thereafter to all Atlas matters. Do not ask the Human what to change after delivering a review artifact merely because multiple continuations exist.
 
 IT IS SO ORDERED.
