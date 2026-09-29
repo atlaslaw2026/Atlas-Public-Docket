@@ -1,0 +1,7 @@
+# Clerk log — EXP-GED-001
+
+Chronological record of the Clerk's own acts. Corrections are appended, never rewritten.
+
+1. 2026-09-29 — Built synthetic data room at `/home/user/dataroom/` with sealed generator (seed 46, chosen by documented criteria in the sealed generator). Wrote sealed answer key and rubric to `/root/sealed/` (outside the repository). Committed matter opening and pre-registration hashes (commit `32063f6`).
+2. 2026-09-29 — **Pre-run amendment (defect caught by Clerk before any agent run).** `MATTER.md` as committed in `32063f6` described the Magistrate validation instance as receiving an "identical packet with one substantive evidence change". Any Magistrate instance reading the matter file would learn that a perturbation test exists, which would contaminate the test. The row now reads "Specification sealed until after the run". The original wording remains in git history at `32063f6`. Residual risk: an instance reading git history could still find it. Agents are instructed not to read git history.
+3. Procedure fixed for the Magistrate validation run: Magistrate A runs on the served data room. Its outputs are then moved outside the repository. The single perturbed file is swapped into `/home/user/dataroom/` at the same path, and Magistrate B runs on the identical packet. The original file is then restored and re-verified against the pre-registered hash, and Magistrate A's outputs are moved back. Every step is logged here.

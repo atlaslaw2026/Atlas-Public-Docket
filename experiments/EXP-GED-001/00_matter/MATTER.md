@@ -45,7 +45,7 @@ See [ACCESS_GRANT.json](ACCESS_GRANT.json). The data room is at `/home/user/data
 | Analyst (Argument) | 1 governed instance | Matter record, access grant, data room, public Atlas law |
 | Challenger (Counterargument) | 1 independent instance | The record only; must reconstruct independently |
 | Magistrate | 1 independent instance | Full record + direct data access (O-VESTED-MAGISTRATE §II) |
-| Magistrate validation | 1 independent instance | Identical packet with one substantive evidence change (O-VESTED-MAGISTRATE §VIII) |
+| Magistrate validation | 1 independent instance | Specification sealed until after the run (O-VESTED-MAGISTRATE §VIII) |
 | Report | Analyst, bound by the determination | Determination |
 | Resulting-state verifier | 1 independent instance | Report + record |
 | Scorer | 1 independent instance | Outputs + sealed rubric (after unsealing) |
