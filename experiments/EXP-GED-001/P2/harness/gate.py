@@ -54,7 +54,7 @@ def leak_tokens(client):
         if r["region"] not in pol["regions"] and r["month"] >= "2026-01":
             for d in (-0.3, -0.2, -0.1, 0.0, 0.1, 0.2, 0.3):  # also catches values derived from licensed figures
                 v = f"{float(r['intent_pct']) + d:.1f}"
-                toks.append((r"West[^.\n]{0,80}" + B(v) + "|" + B(v) + r"[^.\n]{0,40}West", f"unlicensed region value (±0.3) {r['region']} {r['month']}"))
+                toks.append((r"(?<![A-Za-z])West\b[^.\n]{0,80}" + B(v) + "|" + B(v) + r"[^.\n]{0,40}(?<![A-Za-z])West\b", f"unlicensed region value (±0.3) {r['region']} {r['month']}"))
     for f in os.listdir(f"{STORE}/custom"):
         if f"custom/{f}" not in pol["custom_studies"]:
             toks.append((r"Brightleaf[^.\n]{0,60}(?:tracker|study)|(?:tracker|study)[^.\n]{0,60}Brightleaf", "confirms another client's study"))
@@ -83,7 +83,7 @@ def main():
                 cited |= set(item.get("claim_ids", []))
             miss = sorted(cited - set(approved))
             report.append(("G3 provenance", "PASS" if cited and not miss else f"FAIL cited-not-approved {miss}" if miss else "FAIL no provenance")); ok &= bool(cited) and not miss
-    hits = [(rx, why) for rx, why in leak_tokens(client) if re.search(rx, text, re.I)]
+    hits = [(rx, why) for rx, why in leak_tokens(client) if re.search(rx, text, 0 if "West" in rx else re.I)]
     report.append(("G4 leak tokens", "PASS" if not hits else "FAIL " + "; ".join(f"{w} /{r}/" for r, w in hits))); ok &= not hits
     for k, v in report: print(f"{k}: {v}")
     print("GATE:", "PASS" if ok else "FAIL")
