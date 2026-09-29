@@ -1,0 +1,68 @@
+
+== M-00 custody (authorized files only)
+tracker_topline.csv MATCH
+tracker_by_age.csv MATCH
+bridge_study_2026-02.csv MATCH
+methodology_notes.md MATCH
+market_context_digest.md MATCH
+
+== M-01 Q2 existence checks
+topline columns: ['month', 'n', 'pct_online_primary', 'status']
+age columns: ['month', 'age_group', 'n', 'pct_online_primary', 'status']
+bridge columns: ['fielding_mode', 'age_group', 'n', 'pct_online_primary']
+last month in topline: 2026-08 | any 2026-09 row: False | any 2026-09 in age: False
+methodology_notes.md | 'West': False | 'September': False | 'region': 1 | 'Harlow': 0
+market_context_digest.md | 'West': False | 'September': False | 'region': 1 | 'Harlow': 4
+
+== M-02 the jump and legacy month-to-month noise
+Feb->Mar 2026 = +4.20; legacy MoM SD = 1.11; max |MoM| = 3.40; z = 3.78
+prior Feb->Mar: {'2024': 1.2, '2025': 0.5}
+
+== M-03 bridge design effect
+design effect = 3.60, SRS SE 1.313, 95% CI 1.03..6.17; share of jump 85.7%
+  18-24: -1.4 (SE 4.08)
+  25-34: +5.1 (SE 3.27)
+  35-54: +4.8 (SE 2.22)
+  55+: +3.3 (SE 2.04)
+published Feb-2026 28.9 vs bridge legacy arm 27.5: diff +1.40; alt design effect anchored on published Feb = 2.20
+
+== M-04 seasonality in the legacy series (legacy FINAL months only, 2024-01..2026-02)
+trend+summer: slope 0.0823/mo (0.99/yr); summer(Apr-Jul) -1.69 SE 0.32 t=-5.2; resid SD 0.75; df 23
+  2024: Apr-Jul mean 25.20, rest 27.38, diff -2.18; Mar-AprJul +2.40; Dec-AprJul +3.90
+  2025: Apr-Jul mean 26.73, rest 28.22, diff -1.50; Mar-AprJul +1.67; Dec-AprJul +1.97
+  2026: Apr-Jul mean 30.95; Mar-AprJul +2.15
+legacy-only counterfactual: mean gap Mar-Jul 2026 +3.64; Apr-Jul +3.51 (vs bridge 3.60; residual -0.09)
+
+== M-05 intervention models on all FINAL months (2024-01..2026-07): step estimated from the tracker itself
+summer: step +3.71 SE 0.49 (95% CI 2.70..4.71); step - bridge = +0.11 (SE 1.40); slope 0.97/yr; resid SD 0.72; df 27
+month-of-year: step +3.52 SE 0.57 (95% CI 2.31..4.73); step - bridge = -0.08 (SE 1.43); slope 0.99/yr; resid SD 0.77; df 17
+
+== M-06 December 2026 forecasts (published, online-panel basis)
+summer: Dec 33.37  80% PI 32.3..34.4  95% PI 31.7..35.1 | legacy-equiv (minus bridge 3.6) 29.77 | Sep 33.12 (80% 32.1..34.2)
+month-of-year: Dec 33.91  80% PI 32.5..35.3  95% PI 31.7..36.1 | legacy-equiv (minus bridge 3.6) 30.31 | Sep 32.96 (80% 31.6..34.3)
+trend-only (Analyst method A): Apr-Jul mean 30.95 + 0.1008*6.5 = 31.61; legacy resid SD 1.09
+naive seasonal: Apr-Jul 2026 + mean historical (Dec - Apr-Jul) = 33.89
+
+== M-07 backtest: fit on 2024-01..2025-07, forecast 2025-08..2025-12 (legacy only, no step term)
+trend-only-from-AprJul: preds [26.84, 26.92, 27.0, 27.08, 27.16] actual [27.4, 28.2, 28.7, 28.4, 28.7] mean err -1.28 MAE 1.28; Dec err -1.54
+summer: preds [28.91, 29.03, 29.14, 29.26, 29.38] actual [27.4, 28.2, 28.7, 28.4, 28.7] mean err +0.86 MAE 0.86; Dec err +0.68
+month-of-year: preds [28.26, 29.06, 27.86, 29.16, 30.46] actual [27.4, 28.2, 28.7, 28.4, 28.7] mean err +0.68 MAE 1.01; Dec err +1.76
+
+== M-08 August 2026 preliminary by age vs Apr-Jul 2026 means
+  18-24: Aug 65.3 (n=49, SE 6.8) vs AprJul 43.90: +21.40, z 3.15, contribution +2.55
+  25-34: Aug 44.6 (n=74, SE 5.8) vs AprJul 37.20: +7.40, z 1.28, contribution +1.33
+  35-54: Aug 30.0 (n=140, SE 3.9) vs AprJul 30.77: -0.77, z -0.20, contribution -0.26
+  55+: Aug 28.4 (n=148, SE 3.7) vs AprJul 23.65: +4.75, z 1.28, contribution +1.71
+  total deviation +5.33; Aug topline 36.3 SE 2.37; vs Jul z 2.16
+  seasonal-model expectation for Aug 2026 33.04; Aug prelim minus expectation +3.26 (z 1.37)
+
+== M-09 age: same-month YoY (Apr-Jul 2026 vs Apr-Jul 2025) minus pooled bridge effect
+  18-24: YoY +3.70; minus pooled 3.6 = +0.10; minus own-cell -1.4 = +5.10
+  25-34: YoY +3.98; minus pooled 3.6 = +0.37; minus own-cell +5.1 = -1.13
+  35-54: YoY +4.32; minus pooled 3.6 = +0.72; minus own-cell +4.8 = -0.48
+  55+: YoY +4.32; minus pooled 3.6 = +0.72; minus own-cell +3.3 = +1.02
+  topline YoY +4.23; minus bridge +0.62; minus bridge and legacy trend (1.21/yr) -0.58
+  March YoY +4.70; minus bridge +1.10; minus bridge and trend -0.11
+
+== M-10 internal consistency: age cells recombine to topline
+max |n-weighted recombination - topline| = 0.062
