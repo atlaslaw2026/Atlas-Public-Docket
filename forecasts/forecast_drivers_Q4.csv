@@ -1,0 +1,7 @@
+driver,direction,rank,contribution_pp,input_latest_value
+Spending Momentum Index,positive,1,0.9,SMI 104.6 (Aug 2026)
+Transaction-data signal (licensed third-party card panel),positive,2,0.8,card-panel apparel spend +3.8% YoY (Aug 2026)
+Fuel prices,negative,3,-0.4,regular gasoline $3.71/gal (Aug 2026 avg)
+Consumer confidence,positive,4,0.3,confidence proxy 98.2 (Aug 2026)
+Holiday calendar (Thanksgiving timing),positive,5,0.2,Thanksgiving Nov 26 (late)
+Baseline trend and other factors,positive,6,0.3,n/a
