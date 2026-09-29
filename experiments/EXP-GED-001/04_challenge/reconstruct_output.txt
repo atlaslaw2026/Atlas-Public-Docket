@@ -1,0 +1,174 @@
+
+==============================================================================
+R-00  Custody: sha256 of the five AUTHORIZED files only
+==============================================================================
+tracker_topline.csv          MATCH  2ada28b8705c7229a28ce758d5988c6fa652d987d0735980c9dfca09e3b68a52
+tracker_by_age.csv           MATCH  786e88b5331a0c4d80fa13b64d855c581a3685dcc432a4a84bff10c5633957c0
+bridge_study_2026-02.csv     MATCH  db4cde599d26f87a2e87f3001733a65eb7c2f05e625c82d5cb6d97af9fc1af8e
+methodology_notes.md         MATCH  9b66e424f0842190b3acb2c5abc8d18c1530c0f412fb18883e45166edaad0373
+market_context_digest.md     MATCH  b96620df3c3a536c17b6df278aa761421480597a99e31dd37143aa2a1c398102
+months loaded 2024-01..2026-08 (32); legacy 26; online FINAL 5
+
+==============================================================================
+R-01  Feb->Mar 2026 jump and legacy month-to-month noise
+==============================================================================
+Feb-26 28.9  Mar-26 33.1  jump +4.20
+legacy MoM changes: n=25 sd=1.110 max|d|=3.40  jump/sd=3.78
+Feb->Mar 2024: +1.20   Mar->Apr 2024: -3.40
+Feb->Mar 2025: +0.50   Mar->Apr 2025: -0.60
+Mar->Apr 2026: -2.50
+
+==============================================================================
+R-02  Bridge study (own recomputation)
+==============================================================================
+LEGACY_MIXED_MODE  ALL reported 27.5  n-weighted cells 27.542
+ONLINE_PANEL       ALL reported 31.1  n-weighted cells 31.112
+mode effect (online - legacy) +3.60  SE 1.313  95% CI +1.03..+6.17
+share of Feb->Mar jump: 0.857
+  18-24  cell effect -1.40 SE 4.08
+  25-34  cell effect +5.10 SE 3.27
+  35-54  cell effect +4.80 SE 2.22
+  55+    cell effect +3.30 SE 2.04
+inverse-variance pooled +3.62; Cochran Q=2.03 df=3 p=0.57
+age share of n: tracker legacy mean vs bridge: 18-24 0.120/0.120, 25-34 0.180/0.180, 35-54 0.340/0.340, 55+ 0.360/0.360
+mode effect re-weighted to tracker age mix: +3.57
+
+==============================================================================
+R-03  Mode effect WITHOUT the bridge legacy arm (same-design comparisons)
+==============================================================================
+bridge ONLINE arm Feb-26 31.1  vs  Mar-26 33.1 (+2.00, SE 1.33)
+bridge ONLINE arm Feb-26 31.1  vs  Apr-Jul-26 mean 30.950 (-0.15)
+bridge LEGACY arm 27.5  vs  published Feb-26 28.9 (+1.40, SE 1.28)
+mode effect anchored on published Feb (online arm - published Feb): +2.20
+
+==============================================================================
+R-04  Seasonality in the legacy series (not modelled in a trend-only view)
+==============================================================================
+2024: annual 26.650  Apr-Jul 25.200  other 8 27.375  Mar 27.6  Dec 29.1  Dec-AprJul +3.90  Mar-AprJul +2.40  Jul->Dec +2.50
+2025: annual 27.725  Apr-Jul 26.725  other 8 28.225  Mar 28.4  Dec 28.7  Dec-AprJul +1.97  Mar-AprJul +1.67  Jul->Dec +2.30
+S1 trend+summer: intercept 26.786  slope 0.0823/mo (SE 0.0200)  summer -1.688 (SE 0.325, t=-5.20)  resid SD 0.752 dof 23
+S0 trend only:   slope 0.1008/mo (1.210/yr)  resid SD 1.086
+F-test adding summer dummy: F(1,23)=27.03
+mean SRS SE of one legacy month: 0.891
+S2 trend+month dummies: slope 0.0829/mo  resid SD 0.842 dof 13
+  S2 month effects (centred): 01:+0.58 02:+0.43 03:+1.12 04:-0.97 05:-1.50 06:-1.33 07:-0.72 08:-0.15 09:+0.57 10:+0.14 11:+0.55 12:+1.27
+
+==============================================================================
+R-05  Seasonal counterfactual: what legacy design would have read in 2026, and implied mode+real gap
+==============================================================================
+  S1 2026-03: published 33.1  legacy counterfactual 28.93  gap +4.17
+  S1 2026-04: published 30.6  legacy counterfactual 27.32  gap +3.28
+  S1 2026-05: published 30.8  legacy counterfactual 27.40  gap +3.40
+  S1 2026-06: published 31.6  legacy counterfactual 27.49  gap +4.11
+  S1 2026-07: published 30.8  legacy counterfactual 27.57  gap +3.23
+  S1 mean gap Mar-Jul +3.64; Apr-Jul +3.51 (SE ~0.58); minus bridge 3.6 -> real residual -0.09 (SE incl. bridge ~1.44); March gap +4.17
+  S2 2026-03: published 33.1  legacy counterfactual 29.49  gap +3.61
+  S2 2026-04: published 30.6  legacy counterfactual 27.49  gap +3.11
+  S2 2026-05: published 30.8  legacy counterfactual 27.04  gap +3.76
+  S2 2026-06: published 31.6  legacy counterfactual 27.29  gap +4.31
+  S2 2026-07: published 30.8  legacy counterfactual 27.99  gap +2.81
+  S2 mean gap Mar-Jul +3.52; Apr-Jul +3.50 (SE ~0.67); minus bridge 3.6 -> real residual -0.10 (SE incl. bridge ~1.47); March gap +3.61
+
+==============================================================================
+R-06  Same-month year-over-year (seasonality cancels)
+==============================================================================
+  2026-03: 33.1 vs 28.4  YoY +4.70
+  2026-04: 30.6 vs 27.8  YoY +2.80
+  2026-05: 30.8 vs 27.0  YoY +3.80
+  2026-06: 31.6 vs 25.7  YoY +5.90
+  2026-07: 30.8 vs 26.4  YoY +4.40
+Apr-Jul YoY +4.23; Mar-Jul YoY +4.32; prior legacy YoY (2025 vs 2024, 12 mo) +1.07
+Apr-Jul YoY - bridge 3.6 - prior YoY = real acceleration -0.45
+Mar YoY - 3.6 - prior YoY = +0.03
+
+==============================================================================
+R-07  Is March 2026 anomalous relative to Apr-Jul once seasonality is allowed for?
+==============================================================================
+  2024: Mar 27.6  Apr-Jul 25.200  Mar minus Apr-Jul +2.40
+  2025: Mar 28.4  Apr-Jul 26.725  Mar minus Apr-Jul +1.67
+  2026: Mar 33.1  Apr-Jul 30.950  Mar minus Apr-Jul +2.15
+
+==============================================================================
+R-08  Age groups: step, seasonally matched YoY, minus pooled/own mode effects
+==============================================================================
+  18-24  pre12 39.01 AprJul26 43.90 step +4.89 | AprJul25 40.20 YoY +3.70 (SRS SE ~2.02) | YoY-pooled +0.10  YoY-own +5.10
+  25-34  pre12 34.68 AprJul26 37.20 step +2.52 | AprJul25 33.23 YoY +3.98 (SRS SE ~1.61) | YoY-pooled +0.38  YoY-own -1.12
+  35-54  pre12 27.98 AprJul26 30.77 step +2.80 | AprJul25 26.45 YoY +4.32 (SRS SE ~1.12) | YoY-pooled +0.72  YoY-own -0.48
+  55+    pre12 20.58 AprJul26 23.65 step +3.07 | AprJul25 19.33 YoY +4.32 (SRS SE ~1.00) | YoY-pooled +0.72  YoY-own +1.02
+  25-34 last 6 legacy months: [35.4, 33.2, 33.9, 36.4, 37.0, 38.8]
+
+==============================================================================
+R-09  Unweighted age mix of n over time (panel composition check)
+==============================================================================
+  legacy 26 mo   18-24 0.120  25-34 0.180  35-54 0.340  55+ 0.360
+  Mar-Jul 26     18-24 0.120  25-34 0.180  35-54 0.340  55+ 0.360
+  Aug-26 prelim  18-24 0.119  25-34 0.180  35-54 0.341  55+ 0.360
+
+==============================================================================
+R-10  Recombination check (n-weighted age cells vs topline)
+==============================================================================
+max |n-weighted cells - topline| = 0.062 over 32 months; n sums equal in 32/32
+
+==============================================================================
+R-11  August 2026 preliminary decomposition (contribution vs Apr-Jul cell means)
+==============================================================================
+  18-24  n= 49 Aug 65.3  AprJul 43.90  dev +21.40 (SE 6.8, z 3.15)  contribution +2.55
+  25-34  n= 74 Aug 44.6  AprJul 37.20  dev +7.40 (SE 5.8, z 1.28)  contribution +1.33
+  35-54  n=140 Aug 30.0  AprJul 30.77  dev -0.77 (SE 3.9, z -0.20)  contribution -0.26
+  55+    n=148 Aug 28.4  AprJul 23.65  dev +4.75 (SE 3.7, z 1.28)  contribution +1.71
+  total deviation +5.33; Aug at Apr-Jul cell means (Aug mix) = 30.93; published 36.3
+  Aug SRS SE 2.37; z vs Jul 2.16
+  seasonal reference: Jul->Aug 2024 +0.30
+  seasonal reference: Jul->Aug 2025 +1.00
+
+==============================================================================
+R-12  December 2026 forecast, published (online-panel) basis
+==============================================================================
+  a_trend_only                      31.61
+  b_S2_plus_AprJul_gap              33.89
+  c_S1_plus_AprJul_gap              33.17
+  d_AprJul_plus_hist_Dec_diff       33.89
+  e_Dec25_plus_trend_plus_bridge    33.51
+  f_Dec25_plus_AprJul_YoY           32.92
+  seasonal methods b-f: range 32.92..33.89, mean 33.48
+  historical Dec-AprJul diffs +3.90, +1.97; approx PI SD for (d) 1.35; 80% PI 32.2..35.6
+  legacy-equivalent basis (subtract bridge 3.6): seasonal mean 29.88; trend-only 28.01
+
+==============================================================================
+R-13  Backtest: forecast Dec-2025 using data through Jul-2025 only
+==============================================================================
+  actual Dec-25 28.7; trend-only 27.24 (err -1.46); seasonal-diff 30.63 (err +1.93); YoY 30.63 (err +1.93)
+  NOTE: a single backtest point; not decisive.
+
+==============================================================================
+R-14  Aug->Dec path implied by seasonality (why 'still rising' into Q4 is expected on any basis)
+==============================================================================
+  2026-08: S2 seasonal expectation (published basis) 32.14
+  2026-09: S2 seasonal expectation (published basis) 32.94
+  2026-10: S2 seasonal expectation (published basis) 32.59
+  2026-11: S2 seasonal expectation (published basis) 33.09
+  2026-12: S2 seasonal expectation (published basis) 33.89
+
+==============================================================================
+R-15  Backtest over Aug-Dec 2025, fitted on data through Jul-2025 only (5 correlated points)
+==============================================================================
+  2025-08: actual 27.4  trend-only 26.92 (-0.48)  S1 seasonal 28.95 (+1.55)
+  2025-09: actual 28.2  trend-only 27.00 (-1.20)  S1 seasonal 29.07 (+0.87)
+  2025-10: actual 28.7  trend-only 27.08 (-1.62)  S1 seasonal 29.19 (+0.49)
+  2025-11: actual 28.4  trend-only 27.16 (-1.24)  S1 seasonal 29.31 (+0.91)
+  2025-12: actual 28.7  trend-only 27.24 (-1.46)  S1 seasonal 29.43 (+0.73)
+  mean error: trend-only -1.20, S1 +0.91;  MAE: trend-only 1.20, S1 0.91
+  S1 summer effect estimated from 2024-01..2025-07 only: -1.93
+
+==============================================================================
+R-16  Same-design (online arm) comparison with seasonal adjustment
+==============================================================================
+  expected seasonal+trend change Feb->Apr-Jul -1.27; observed online-arm->Apr-Jul -0.15; residual +1.12 (SE ~1.03; 95% CI -0.90..+3.15)
+  This comparison does not use the bridge LEGACY arm and does not need the mode effect to be stable after Feb.
+
+==============================================================================
+R-17  Known-answer self-test of this script's regression code (O-SOURCE-GROUNDED §4)
+==============================================================================
+  recover (20, 0.25, -2.0): got (20.000000, 0.250000, -2.000000)  PASS
+  defect detection: trend-only fit on seasonal truth gives resid SD 0.945 (>0 flags omitted seasonality): DETECTED
+  defect detection: mis-keyed time index -> slope 0.1410 vs true 0.25: DETECTED
