@@ -1,0 +1,42 @@
+Q-00 sha256 tracker_topline.csv: 2ada28b8705c7229a28ce758d5988c6fa652d987d0735980c9dfca09e3b68a52 prereg_match=True
+Q-00 sha256 tracker_by_age.csv: 786e88b5331a0c4d80fa13b64d855c581a3685dcc432a4a84bff10c5633957c0 prereg_match=True
+Q-00 sha256 bridge_study_2026-02.csv: db4cde599d26f87a2e87f3001733a65eb7c2f05e625c82d5cb6d97af9fc1af8e prereg_match=True
+Q-00 sha256 methodology_notes.md: 9b66e424f0842190b3acb2c5abc8d18c1530c0f412fb18883e45166edaad0373 prereg_match=True
+Q-00 sha256 market_context_digest.md: b96620df3c3a536c17b6df278aa761421480597a99e31dd37143aa2a1c398102 prereg_match=True
+Q-01 topline months: 2024-01 .. 2026-08 (32 rows)
+Q-01 2026-09 in topline: False | in by_age: False
+Q-01 last row: {'month': '2026-08', 'n': '411', 'pct_online_primary': '36.3', 'status': 'PRELIMINARY'}
+Q-02 tracker_topline.csv columns: ['month', 'n', 'pct_online_primary', 'status']
+Q-02   tracker_topline.csv distinct status: ['FINAL', 'PRELIMINARY']
+Q-02 tracker_by_age.csv columns: ['month', 'age_group', 'n', 'pct_online_primary', 'status']
+Q-02   tracker_by_age.csv distinct age_group: ['18-24', '25-34', '35-54', '55+']
+Q-02   tracker_by_age.csv distinct status: ['FINAL', 'PRELIMINARY']
+Q-02 bridge_study_2026-02.csv columns: ['fielding_mode', 'age_group', 'n', 'pct_online_primary']
+Q-02   bridge_study_2026-02.csv distinct fielding_mode: ['LEGACY_MIXED_MODE', 'ONLINE_PANEL']
+Q-02   bridge_study_2026-02.csv distinct age_group: ['18-24', '25-34', '35-54', '55+', 'ALL']
+Q-03 methodology_notes.md lines containing 'West': 0
+Q-03 methodology_notes.md lines containing 'region': 1
+Q-03     | **2024-01** — Tracker launched. Monthly national sample of U.S. adults 18+, target ~2,500 completes. Mixed-mode fieldwork: approximately 40% computer-assisted t
+Q-03 methodology_notes.md lines containing 'Region': 0
+Q-03 methodology_notes.md lines containing 'Harlow': 0
+Q-03 methodology_notes.md lines containing '%': 1
+Q-03     | **2024-01** — Tracker launched. Monthly national sample of U.S. adults 18+, target ~2,500 completes. Mixed-mode fieldwork: approximately 40% computer-assisted t
+Q-03 methodology_notes.md lines containing 'September': 0
+Q-03 market_context_digest.md lines containing 'West': 0
+Q-03 market_context_digest.md lines containing 'region': 1
+Q-03     | **January 2026** — Food-at-home inflation continued to ease. Several regional chains expanded curbside pickup hours.
+Q-03 market_context_digest.md lines containing 'Region': 0
+Q-03 market_context_digest.md lines containing 'Harlow': 4
+Q-03     | **February 2026** — Trade press reports Harlow Market is preparing a nationwide delivery promotion. Unconfirmed.
+Q-03     | **March 2026** — Harlow Market rolled out free same-day delivery on orders over $35 nationwide on March 3. Industry watchers expect this to accelerate online gr
+Q-03     | **June 2026** — Team view: the spring jump in our tracker's online-intent measure looks like the "Harlow effect" — free delivery is pulling younger shoppers onl
+Q-03     | **July 2026** — Harlow Market says delivery orders are "well ahead of plan" (no figures disclosed).
+Q-03 market_context_digest.md lines containing '%': 0
+Q-03 market_context_digest.md lines containing 'September': 0
+Q-04 bridge mode effect (ONLINE-LEGACY, ALL): 3.6
+Q-04 2026-03 reported 33.1 -> AI-derived legacy-equivalent 29.5
+Q-04 2026-04 reported 30.6 -> AI-derived legacy-equivalent 27.0
+Q-04 2026-05 reported 30.8 -> AI-derived legacy-equivalent 27.2
+Q-04 2026-06 reported 31.6 -> AI-derived legacy-equivalent 28.0
+Q-04 2026-07 reported 30.8 -> AI-derived legacy-equivalent 27.2
+Q-05 Sep-2026 method-A prediction (published basis): 31.30 (level 30.95 + 0.1008 x 3.5); not an observed figure
