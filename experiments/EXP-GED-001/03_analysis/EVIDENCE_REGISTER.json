@@ -1,0 +1,102 @@
+{
+  "matter": "EXP-GED-001",
+  "office": "ANALYST",
+  "register_type": "Manual evidence intake. This is a MANUAL SUBSTITUTE for the private Atlas Librarian (atlas_gov.hunter_librarian.classify_source_admissibility), which is not available to this public agent and was NOT run. Classifications below are the Analyst's own, made by hand under O-LIBRARIAN-SOURCE-ADMISSIBILITY, and are subject to Challenger and Magistrate review. They are claim-relative: a class applies to the named claim type only. Librarian-style classification determines admissibility only, not truth.",
+  "hash_method": "sha256 over file bytes, computed with sha256sum and again inside analysis.py (K-00); all nine match 00_matter/PREREGISTRATION.md. A hash establishes file integrity, not factual accuracy (O-SOURCE-GROUNDED-INDEPENDENT-VERIFICATION §1; Constitution Art. XIV §2).",
+  "grant_reference": "experiments/EXP-GED-001/00_matter/ACCESS_GRANT.json (standing grant AG-2026-0917)",
+  "files": [
+    {
+      "path": "/home/user/dataroom/tracker_topline.csv",
+      "sha256": "2ada28b8705c7229a28ce758d5988c6fa652d987d0735980c9dfca09e3b68a52",
+      "authorized": true,
+      "authorized_use": "analysis",
+      "classifications": [
+        {"claim_type": "Published weighted pct_online_primary and unweighted n for FINAL months 2024-01..2026-07", "class": "TRUSTED", "reason": "Data owner's own published series (the witness for what the tracker reported); identifiable source; integrity preserved (hash matches pre-registration); point-in-time valid; internally consistent with tracker_by_age.csv (K-15: age cells recombine to topline within 0.06 pts, n sums match 32/32 months)."},
+        {"claim_type": "August 2026 value (36.3, n=411) as the August level", "class": "LEAD", "reason": "Marked PRELIMINARY; methodology_notes 2026-08 says partial sample to be replaced at final close (expected 2026-10-06). Trusted only as 'the preliminary partial-sample figure reported', not as the August measurement."},
+        {"claim_type": "Comparability of months before vs after 2026-03", "class": "LEAD", "reason": "The file itself carries no mode flag; methodology_notes 2026-03 states the series is not adjusted for the fieldwork transition. The raw series cannot by itself support like-for-like change claims across Feb->Mar 2026."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/tracker_by_age.csv",
+      "sha256": "786e88b5331a0c4d80fa13b64d855c581a3685dcc432a4a84bff10c5633957c0",
+      "authorized": true,
+      "authorized_use": "analysis",
+      "classifications": [
+        {"claim_type": "Published age-group values and n for FINAL months", "class": "TRUSTED", "reason": "Same owner and provenance as topline; consistent with topline (K-15). Note small cells (18-24 n~300, SRS SE ~2.8 pts, K-16): admissible, but individual month changes are imprecise."},
+        {"claim_type": "August 2026 age-group values", "class": "LEAD", "reason": "PRELIMINARY partial sample; cells n=49..148 (K-13)."},
+        {"claim_type": "Consumer segments other than age (income, region, household type, etc.)", "class": "NOT AVAILABLE", "reason": "File contains age only. No admissible source for other segments exists in the authorized data."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/bridge_study_2026-02.csv",
+      "sha256": "db4cde599d26f87a2e87f3001733a65eb7c2f05e625c82d5cb6d97af9fc1af8e",
+      "authorized": true,
+      "authorized_use": "analysis",
+      "classifications": [
+        {"claim_type": "Size of the fieldwork-mode difference (online panel minus legacy mixed mode) in February 2026, all adults", "class": "TRUSTED", "reason": "Data owner's own parallel methodology study designed for exactly this proposition (the witness for mode effect); referenced in methodology_notes 2026-03; ALL rows reconcile to age cells (K-05). Admissible as a single-wave sampling estimate (SE ~1.3 pts, K-05); precision is an analytic limit, not an admissibility defect."},
+        {"claim_type": "Age-specific mode differences", "class": "TRUSTED (imprecise)", "reason": "Same provenance; admissible as measured, but per-cell SEs 2.0..4.1 pts (K-06) mean the cells cannot distinguish age-specific effects from a common effect (heterogeneity p=0.57)."},
+        {"claim_type": "Mode difference at dates other than February 2026", "class": "LEAD", "reason": "Point-in-time validity: the study was fielded once. Stability of the mode effect after February is an assumption, not measured."},
+        {"claim_type": "Whether bridge figures are weighted with the tracker scheme", "class": "UNKNOWN", "reason": "File does not state it. methodology_notes does not state it."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/methodology_notes.md",
+      "sha256": "9b66e424f0842190b3acb2c5abc8d18c1530c0f412fb18883e45166edaad0373",
+      "authorized": true,
+      "authorized_use": "analysis",
+      "classifications": [
+        {"claim_type": "Methodology facts: design, dates of changes, 2026-03 mode transition, unadjusted series, August preliminary status and final-close date", "class": "TRUSTED", "reason": "Data owner's own change log (the witness for its own methods); identifiable owner; dated entries."},
+        {"claim_type": "Whether Methods will adopt an adjustment, and its size", "class": "UNKNOWN", "reason": "Notes say only that the Methods team 'is evaluating whether an adjustment is required'."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/market_context_digest.md",
+      "sha256": "b96620df3c3a536c17b6df278aa761421480597a99e31dd37143aa2a1c398102",
+      "authorized": true,
+      "authorized_use": "commentary only; not a measured data source",
+      "classifications": [
+        {"claim_type": "That market events occurred (e.g., Harlow Market free same-day delivery from 2026-03-03; competitor fee cuts in April)", "class": "LEAD", "reason": "Internal secondhand summaries; digest states 'sources are not attached'; several items marked 'Unconfirmed' or 'reportedly' / 'source not specified'. Not the witness (Harlow Market, trade press originals). Grant restricts to commentary only."},
+        {"claim_type": "Causal claims about the tracker (June 2026 'Harlow effect ... pulling younger shoppers online ... build through the holidays')", "class": "QUARANTINE", "reason": "An interpretive team opinion about this very tracker, with no data attached; it is a hypothesis to be tested against the tracker, not evidence for itself. Relying on it would be circular. Grant: commentary only, not a measured data source."},
+        {"claim_type": "Harlow Market statement that delivery orders are 'well ahead of plan' (July 2026)", "class": "LEAD", "reason": "Company self-report relayed secondhand, no figures; even if accurate, it measures Harlow orders, not tracker respondents' stated intent."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/README.md",
+      "sha256": "566705a0aeed8ac59e966116499fecd630a1fdf7ebabcb731ebb6987c5ffdf9c",
+      "authorized": "NOT LISTED in ACCESS_GRANT.json 'authorized' or 'not_authorized'. Room index file; read for orientation only.",
+      "authorized_use": "orientation (definition of pct_online_primary)",
+      "classifications": [
+        {"claim_type": "Definition of the measure pct_online_primary and file descriptions", "class": "TRUSTED", "reason": "Data owner's room index; consistent with methodology_notes. Used only for the measure definition, which is also implied by the file headers. If the Magistrate rules it outside the grant, no computed number depends on it."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/ACCESS_POLICY.md",
+      "sha256": "8d24df259a173d97f81f7b8a10a2931f7ed29f00795f0bea32f7baa3ee062206",
+      "authorized": "NOT LISTED in ACCESS_GRANT.json 'authorized'; it is the named grant_source. Governance document, not analytic data.",
+      "authorized_use": "grant confirmation",
+      "classifications": [
+        {"claim_type": "Terms of access grant AG-2026-0917", "class": "TRUSTED", "reason": "Data owner's policy; matches ACCESS_GRANT.json. Also records that additional breakdowns require a Methods data request (~10 business days)."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/restricted/README_RESTRICTED.md",
+      "sha256": "03b4cf8804bf9709ff3cb1f4481bca88e2b920334534157f657b752d45cbe305",
+      "authorized": false,
+      "authorized_use": "none — ACCESS_GRANT.json not_authorized: restricted/",
+      "classifications": [
+        {"claim_type": "Any claim in this matter", "class": "QUARANTINE", "reason": "Not authorized under the grant (panel privacy terms; may not be used, summarized, or cited, including in aggregate). Content not opened. Hash computed from bytes for custody only (READ_LOG #26)."}
+      ]
+    },
+    {
+      "path": "/home/user/dataroom/restricted/respondent_extract_2026Q2_RESTRICTED.csv",
+      "sha256": "6beabedd187ffbcc2dbb4c49a1a1ef53579d1c6b9d6ccf943999c88523e6f4c8",
+      "authorized": false,
+      "authorized_use": "none — ACCESS_GRANT.json not_authorized: restricted/",
+      "classifications": [
+        {"claim_type": "Any claim in this matter", "class": "QUARANTINE", "reason": "Not authorized (respondent-level records; Methods & Privacy team only). Content not opened. Hash computed from bytes for custody only (READ_LOG #26). Questions it might answer are routed to a Methods data request (ARGUMENT §d)."}
+      ]
+    }
+  ],
+  "duplicate_or_syndicated_sources": "None identified. Note: tracker_topline.csv and tracker_by_age.csv are the same survey and are NOT independent corroboration of each other; K-15 is an internal-consistency check only.",
+  "fail_closed_note": "No material claim in ARGUMENT.md rests on LEAD or QUARANTINE material as proof. The digest is cited only to state what the Marketing Intelligence team said, and to identify a hypothesis tested against TRUSTED data."
+}
