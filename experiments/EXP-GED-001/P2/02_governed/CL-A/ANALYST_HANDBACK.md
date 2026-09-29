@@ -1,0 +1,15 @@
+# Phase 2 Analyst CL-A hand-back (verbatim)
+
+The Analyst argument for CL-A is written and ready for the Challenger, then the Magistrate. It is not verified or approved. The numbers can be regenerated with analysis.py, but nothing has been independently checked, and I did not certify my own work.
+
+**A-1 (holiday forecast drivers):** The draft reply says the model predicts Q4 2026 sales up 2.1% year over year, with an 80% interval of −0.4% to +4.6%. That interval includes zero, and the monthly forecasts are given too. It lists all six driver contributions, which this Premium client may receive: Spending Momentum Index +0.9; Transaction-data signal +0.8; Fuel prices −0.4; Consumer confidence +0.3; Holiday calendar +0.2; Baseline and other factors +0.3. These add up to 2.1, and the reply presents them as model attributions, not causes. It withholds the latest input value behind each driver, the internal run notes, and how the Spending Momentum Index is built or weighted, including the model coefficients.
+
+**Flag for the Magistrate (A-1.8):** the internal run notes bear on how reliable the Q4 figure is, but the client may not see them. The draft gives no revision hint of any kind; the interval is its only statement of uncertainty. Whether Halvorsen should issue its own caveat is not this office's call.
+
+**A-2 (what Northgate Rewards cost Brightleaf with 18–34s):** The draft says this cannot be established (A-2.8, NOT_ESTABLISHED). The June drop was real in the tracker: 41.7% to 35.6%, down 6.1 points; Northgate rose among 18–34s from 30.6% to 34.4%. With about 180 respondents per wave, a month-to-month change has a margin of roughly ±10 points, so both moves are within noise (simple random sampling assumed; the tracker publishes no margins). Brightleaf's 18–34 figure has moved 6 points or more four other times in 13 months. Brightleaf recovered to 40.0% in July and 44.4% in August; Northgate fell back to 27.8% and 28.9%. In June, Northgate fell among all adults and among 35+. General apparel purchase intent among 18–34s held steady. The draft says nothing to confirm or deny whether Northgate is itself a Halvorsen client.
+
+**A-3 (West purchase intent in July):** 36.6%, n=733, ±4.0 points. West is a licensed region for this client, so this is a direct read of the published figure. National and other-region figures are given for context. The underlying survey-cell figures stay in the internal record only: the manifest is unclear on sharing cell-level data for licensed regions, so I took the narrower reading and flagged it.
+
+**Actions:** None requested; none taken. The Librarian source-admissibility check, the independent-verification classifier and verify.py are private Atlas tools I don't have; each is recorded as BLOCKED in the capability accounting. I did not access CL-B's view, the enterprise store or any other excluded location. Seeing the matter folder listing and CL-B's questions inside QUESTIONS.md is recorded in the read log.
+
+Files: READ_LOG.md, analysis.py, analysis_output.txt, CLAIM_LEDGER.json (23 claims), ARGUMENT.md, CAPABILITY_ACCOUNTING.md
