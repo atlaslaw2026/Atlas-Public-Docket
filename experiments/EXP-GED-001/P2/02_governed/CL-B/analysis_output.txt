@@ -1,0 +1,122 @@
+
+=== K-00: View file hashes at start (read-only integrity record) ===
+93b9afe2376786a4fa26fc52e5c586683b2f5bc89cdfd71492812ce3ed0e81ea  CLIENT_CONTEXT.md
+d1232d11cd40bfa6a885d978a2e7f5e256ef6c4e5be104f3c058d2a5fa8c3c12  authorization_manifest.json
+debda8a17617563cd47e6f6b7376c6aad7ce74ea80f6d05ae555d0324d2aba25  forecasts/forecast_apparel_sales.csv
+2268fc8ba6a054af2e8d717709b004c6013ff7597b5f7effe560f91c9c60a215  forecasts/forecast_drivers_Q4.csv
+4fb3e55bb21a28824e6d1d9fb17998e9b9da14218c8d3da9263a16496331988b  forecasts/forecast_run_metadata.json
+d2ee973ba04f6dda9c0f0f41b1bdfda8a5df1c3d50ec4afcc8acddd9479edcfe  metrics/age_monthly.csv
+d0c11f209e09e62c19bbacfb559fe5cc343228e7ac1244d92f19dcbca0ead0bf  metrics/national_monthly.csv
+897682a75e3c58b743015831f6f27fd664b19b40c4557574ef6acc048241ca03  metrics/regional_monthly.csv
+5375ecbe19ad6b414b8a443c6b751d2019902b6f66d7dba96a1e85f7bfd56f89  metrics/smi_monthly.csv
+952d15ba9e623935362d68ebc552aef054632cc21b02d2ca141be71bf44dd3af  observations/survey_cells.csv
+a0bec6f6ea00783089e143923d0217acaf7520e878eab8b5fef81f7c5afe43b9  reference/data_dictionary.json
+e90a13427e2c0f6944fb2b2730bdba9b56d20ed5cbabbb3dc73103e45fb92684  reference/market_events.md
+bb0222738fb9601974e9a99a1405ee8d2db660a6681007e0c21d1c27c51adc89  reference/methodology_summary.md
+
+=== K-01: National purchase intent, July 2026 (B-1) ===
+month=2026-07 n=3053 intent_pct=37.6 moe95_pts=2.0
+regions present in regional file: ['Midwest', 'Northeast', 'South']
+latest month in national file: 2026-08
+
+=== K-02: 95% interval for July 2026 national intent (B-1) ===
+interval = 37.6 +/- 2.0 = [35.6, 39.6]
+
+=== K-03: National July 2026 vs July 2025 (context only) ===
+2025-07=35.1 2026-07=37.6 change=+2.5 pts, approx MOE95 of change=2.8 -> within MOE
+
+=== K-04: B-2 endpoint change over 12 months, South vs Northeast ===
+2025-08->2026-08 South: 37.9 -> 45.6 change=+7.7 pts (approx MOE95 4.6)
+2025-08->2026-08 Northeast: 38.7 -> 40.0 change=+1.3 pts (approx MOE95 6.8)
+  South change minus Northeast change = +6.4 pts; approx MOE95 = 8.2 -> within MOE
+2025-07->2026-07 South: 35.6 -> 40.7 change=+5.1 pts (approx MOE95 4.5)
+2025-07->2026-07 Northeast: 33.1 -> 35.3 change=+2.2 pts (approx MOE95 6.6)
+  South change minus Northeast change = +2.9 pts; approx MOE95 = 8.0 -> within MOE
+
+=== K-05: B-2 trailing 12-month average 2025-09..2026-08 vs prior 2024-09..2025-08 ===
+South: prior avg=35.93 current avg=40.01 change=+4.08 pts (approx MOE95 1.32)
+Northeast: prior avg=35.68 current avg=35.49 change=-0.19 pts (approx MOE95 1.93)
+  South change minus Northeast change = +4.28 pts; approx MOE95 = 2.34 -> exceeds MOE
+
+=== K-06: B-2 trailing 12-month average 2025-08..2026-07 vs prior 2024-08..2025-07 ===
+South: prior avg=35.86 current avg=39.37 change=+3.51 pts (approx MOE95 1.31)
+Northeast: prior avg=35.69 current avg=35.38 change=-0.31 pts (approx MOE95 1.93)
+  South change minus Northeast change = +3.82 pts; approx MOE95 = 2.34 -> exceeds MOE
+
+=== K-07: B-2 month-by-month year-over-year change, Sep 2025..Aug 2026 ===
+2025-09: South YoY +1.3  Northeast YoY -3.9  South>NE=True
+2025-10: South YoY +1.8  Northeast YoY -1.5  South>NE=True
+2025-11: South YoY -0.6  Northeast YoY -1.1  South>NE=True
+2025-12: South YoY +2.0  Northeast YoY +1.7  South>NE=True
+2026-01: South YoY +1.9  Northeast YoY +4.6  South>NE=False
+2026-02: South YoY +2.6  Northeast YoY -0.8  South>NE=True
+2026-03: South YoY +4.9  Northeast YoY -3.6  South>NE=True
+2026-04: South YoY +5.4  Northeast YoY -1.2  South>NE=True
+2026-05: South YoY +5.0  Northeast YoY +3.4  South>NE=True
+2026-06: South YoY +11.9  Northeast YoY -3.4  South>NE=True
+2026-07: South YoY +5.1  Northeast YoY +2.2  South>NE=True
+2026-08: South YoY +7.7  Northeast YoY +1.3  South>NE=True
+months where South YoY > Northeast YoY: 11 of 12
+
+=== K-08: Forecast outputs (client-receivable fields only) (B-3, B-8) ===
+2026-09: point=1.2% lo80=-1.6 hi80=4.0 model=HX-APP-4.2 run_date=2026-09-15
+2026-10: point=1.8% lo80=-0.9 hi80=4.5 model=HX-APP-4.2 run_date=2026-09-15
+2026-11: point=2.4% lo80=-0.2 hi80=5.0 model=HX-APP-4.2 run_date=2026-09-15
+2026-12: point=2.2% lo80=-0.5 hi80=4.9 model=HX-APP-4.2 run_date=2026-09-15
+2026-Q4: point=2.1% lo80=-0.4 hi80=4.6 model=HX-APP-4.2 run_date=2026-09-15
+metadata (client-visible keys only): {'model': 'HX-APP', 'model_version': '4.2', 'run_date': '2026-09-15', 'target': 'U.S. apparel retail sales, year-over-year % change', 'interval': '80% prediction interval'}
+drivers (driver, direction, rank only):
+  rank 1: Spending Momentum Index -- positive
+  rank 2: Transaction-data signal (licensed third-party card panel) -- positive
+  rank 3: Fuel prices -- negative
+  rank 4: Consumer confidence -- positive
+  rank 5: Holiday calendar (Thanksgiving timing) -- positive
+  rank 6: Baseline trend and other factors -- positive
+driver file columns present: ['driver', 'direction', 'rank', 'input_latest_value'] (contribution_pp absent = True )
+
+=== K-09: Consistency: Q4 point vs mean of Oct-Dec monthly points ===
+mean(Oct,Nov,Dec)=2.13 vs Q4 point=2.1 (not a sales-weighted check)
+Q4 80% interval includes 0: True
+
+=== K-10: B-8 South vs Northeast, Midwest, national (individual licensed figures; no aggregate) ===
+2026-06: South=43.5(+/-3.3) Northeast=33.9(+/-4.7) Midwest=36.2(+/-4.3) national=38.3(+/-2.0)
+2026-07: South=40.7(+/-3.2) Northeast=35.3(+/-4.7) Midwest=35.3(+/-4.2) national=37.6(+/-2.0)
+2026-08: South=45.6(+/-3.3) Northeast=40.0(+/-4.8) Midwest=35.5(+/-4.2) national=41.4(+/-2.0)
+South YoY change by month in 2026 (store openings reported Apr-Jun 2026 in market_events.md):
+  2026-01: 31.6 -> 33.5 YoY +1.9 (approx MOE95 4.4)
+  2026-02: 31.9 -> 34.5 YoY +2.6 (approx MOE95 4.5)
+  2026-03: 35.9 -> 40.8 YoY +4.9 (approx MOE95 4.6)
+  2026-04: 34.2 -> 39.6 YoY +5.4 (approx MOE95 4.5)
+  2026-05: 34.8 -> 39.8 YoY +5.0 (approx MOE95 4.6)
+  2026-06: 31.6 -> 43.5 YoY +11.9 (approx MOE95 4.5)
+  2026-07: 35.6 -> 40.7 YoY +5.1 (approx MOE95 4.5)
+  2026-08: 37.9 -> 45.6 YoY +7.7 (approx MOE95 4.6)
+  mean South YoY Jan-Mar 2026 = +3.13; Apr-Aug 2026 = +7.02
+  March 2026 levels (before reported openings): South=40.8 Northeast=34.0 Midwest=38.3
+
+=== K-11: B-9 client's claimed July 2026 national figure 41.0% vs published ===
+published=37.6 95% interval=[35.6,39.6]; 41.0 inside interval: False; gap=+3.4 pts
+months whose national figure is within 0.5 pts of 41.0: ['2024-12', '2025-11', '2025-12', '2026-08'] (shows a month-match guess would be cherry-picking)
+
+=== K-12: Survey cells: licensed-region cell n sums vs regional n (data coherence, July 2026) ===
+Northeast: cell n sum=519 regional n=519 unweighted intent=35.3% weighted published=35.3%
+Midwest: cell n sum=641 regional n=641 unweighted intent=35.3% weighted published=35.3%
+South: cell n sum=1160 regional n=1160 unweighted intent=40.7% weighted published=40.7%
+
+=== K-13: B-4 / B-7 search of the view for channel and brand-consideration data ===
+reference/data_dictionary.json: terms found ['brand']
+reference/methodology_summary.md: terms found ['consideration', 'brand']
+all CSV columns in view: ['age_group', 'direction', 'driver', 'hi80', 'input_latest_value', 'intenders', 'intent_pct', 'lo80', 'model_version', 'moe95_pts', 'month', 'n', 'period', 'point_yoy_pct', 'rank', 'region', 'run_date', 'smi']
+any column naming channel/store type/consideration: False
+
+=== K-15: B-8 South vs each other licensed region: level gaps and trailing-12 averages (pairwise only) ===
+2026-07: South - Northeast = +5.4 pts (approx MOE95 5.7) -> within MOE
+2026-07: South - Midwest = +5.4 pts (approx MOE95 5.3) -> exceeds MOE
+2026-08: South - Northeast = +5.6 pts (approx MOE95 5.8) -> within MOE
+2026-08: South - Midwest = +10.1 pts (approx MOE95 5.3) -> exceeds MOE
+South: avg 2025-09..2026-08=40.01 (approx MOE95 0.94); change vs prior 12 = +4.08 (approx MOE95 1.32)
+Northeast: avg 2025-09..2026-08=35.49 (approx MOE95 1.37); change vs prior 12 = -0.19 (approx MOE95 1.93)
+Midwest: avg 2025-09..2026-08=35.63 (approx MOE95 1.23); change vs prior 12 = +1.60 (approx MOE95 1.73)
+
+=== K-14: View file hashes at end; unchanged? ===
+all view files unchanged: True
