@@ -1,0 +1,7 @@
+# Clerk log — EXP-GED-001 Phase 3 (controlling A/B experiment)
+
+Kept outside every office's read scope. No ground-truth value or test specification is written here while offices run; those stay in the sealed store until close.
+
+1. 2026-09-30 — Human approved (answer "yes" to both questions): (1) run the paired A/B design through a simulated MCP-style interface, with 3 runs and Phases 1–2 kept as pilot evidence; (2) keep the named-counterparty white paper private and out of the public repository.
+2. 2026-09-30 — **Resulting-state check after container restart.** Uptime was 0 min, so the container restarted overnight. All files persisted. The authoritative store (17 files), both client views (27 files), and the Phase 1 data room (9 files) all match their pre-registered SHA-256 manifests (0 mismatches). **The read-only bind mounts did not survive the restart**, so read-only enforcement lapsed between restart and remount. No office was running during that interval (all Phase 1–2 offices had filed; the Human was answering). The mounts were reapplied and a probe write as root failed.
+3. 2026-09-30 — Phase 3 sealed inputs finalized: answer key, questions, perturbation v2 (v1 found insufficient before sealing and revised; see the key), and perturbed backend. Interface built (build_backend.py → backend.bin, hash equal to the sealed copy); access_boundary.py and the P3 gate written and self-tested. Pre-registration written.
