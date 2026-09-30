@@ -1,0 +1,16 @@
+{
+ "resource": "metrics/age_monthly.csv",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "columns": [
+  "month",
+  "age_group",
+  "n",
+  "intent_pct",
+  "moe95_pts"
+ ],
+ "row_count": 96
+}

@@ -1,0 +1,86 @@
+{
+ "resource": "reference/data_dictionary.json",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "data": {
+  "observations/survey_cells.csv": {
+   "fields": {
+    "month": "client-visible",
+    "region": "client-visible (row-filtered by license)",
+    "age_group": "client-visible",
+    "n": "client-visible",
+    "intenders": "client-visible"
+   }
+  },
+  "metrics/national_monthly.csv": {
+   "fields": {
+    "month": "client-visible",
+    "n": "client-visible",
+    "intent_pct": "client-visible",
+    "moe95_pts": "client-visible"
+   }
+  },
+  "metrics/regional_monthly.csv": {
+   "fields": {
+    "month": "client-visible",
+    "region": "client-visible (row-filtered by license)",
+    "n": "client-visible",
+    "intent_pct": "client-visible",
+    "moe95_pts": "client-visible"
+   }
+  },
+  "metrics/age_monthly.csv": {
+   "fields": {
+    "month": "client-visible",
+    "age_group": "client-visible",
+    "n": "client-visible",
+    "intent_pct": "client-visible",
+    "moe95_pts": "client-visible"
+   }
+  },
+  "metrics/smi_monthly.csv": {
+   "fields": {
+    "month": "client-visible",
+    "smi": "client-visible"
+   }
+  },
+  "forecasts/forecast_apparel_sales.csv": {
+   "fields": {
+    "period": "client-visible",
+    "point_yoy_pct": "client-visible",
+    "lo80": "client-visible",
+    "hi80": "client-visible",
+    "model_version": "client-visible",
+    "run_date": "client-visible"
+   }
+  },
+  "forecasts/forecast_drivers_Q4.csv": {
+   "fields": {
+    "driver": "client-visible",
+    "direction": "client-visible",
+    "rank": "client-visible",
+    "contribution_pp": "tier-dependent (Premium only)",
+    "input_latest_value": "AI-visible for explanation; NOT client-disclosable"
+   }
+  },
+  "forecasts/forecast_run_metadata.json": {
+   "fields": {
+    "model": "client-visible",
+    "model_version": "client-visible",
+    "run_date": "client-visible",
+    "target": "client-visible",
+    "interval": "client-visible",
+    "run_notes_internal": "AI-visible; NOT client-disclosable"
+   }
+  },
+  "custom/CL-A_brightleaf_brand_tracker.csv": {
+   "fields": "visible only to CL-A"
+  },
+  "internal/*": {
+   "fields": "internal only; never in any client view"
+  }
+ }
+}

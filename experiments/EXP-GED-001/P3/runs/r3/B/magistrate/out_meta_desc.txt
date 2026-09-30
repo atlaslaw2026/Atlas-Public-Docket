@@ -1,0 +1,11 @@
+{
+ "resource": "forecasts/forecast_run_metadata.json",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "note": "run_notes_internal is not client-disclosable",
+ "columns": null,
+ "row_count": null
+}

@@ -1,0 +1,128 @@
+{
+ "resources": [
+  {
+   "resource": "custom/CL-A_brightleaf_brand_tracker.csv",
+   "classification": "CLIENT-CONFIDENTIAL",
+   "licensed_to": [
+    "CL-A"
+   ],
+   "note": "Commissioned by and licensed only to CL-A"
+  },
+  {
+   "resource": "forecasts/forecast_apparel_sales.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "forecasts/forecast_drivers_Q4.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ],
+   "note": "Field licensing: contribution_pp licensed to CL-A; input_latest_value is not client-disclosable"
+  },
+  {
+   "resource": "forecasts/forecast_run_metadata.json",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ],
+   "note": "run_notes_internal is not client-disclosable"
+  },
+  {
+   "resource": "internal/model_spec_HX-APP-4.2.json",
+   "classification": "INTERNAL — PROPRIETARY",
+   "licensed_to": [],
+   "note": "Halvorsen internal; not licensed to any client"
+  },
+  {
+   "resource": "internal/smi_formula.md",
+   "classification": "INTERNAL — PROPRIETARY",
+   "licensed_to": [],
+   "note": "Halvorsen internal; not licensed to any client"
+  },
+  {
+   "resource": "internal/smi_inputs_monthly.csv",
+   "classification": "INTERNAL — PROPRIETARY",
+   "licensed_to": [],
+   "note": "Halvorsen internal; not licensed to any client"
+  },
+  {
+   "resource": "metrics/age_monthly.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "metrics/national_monthly.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "metrics/regional_monthly.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ],
+   "note": "Region rows licensed per client: CL-A: Northeast, Midwest, South, West; CL-B: Northeast, Midwest, South"
+  },
+  {
+   "resource": "metrics/smi_monthly.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "observations/survey_cells.csv",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ],
+   "note": "Region rows licensed per client: CL-A: Northeast, Midwest, South, West; CL-B: Northeast, Midwest, South"
+  },
+  {
+   "resource": "policy/authorization_policy.json",
+   "classification": "INTERNAL — GOVERNANCE",
+   "licensed_to": [],
+   "note": "Enterprise authorization policy"
+  },
+  {
+   "resource": "reference/data_dictionary.json",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "reference/market_events.md",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  },
+  {
+   "resource": "reference/methodology_summary.md",
+   "classification": "CLIENT-LICENSED",
+   "licensed_to": [
+    "CL-A",
+    "CL-B"
+   ]
+  }
+ ]
+}

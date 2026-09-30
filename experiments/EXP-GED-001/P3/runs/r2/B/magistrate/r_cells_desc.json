@@ -1,0 +1,17 @@
+{
+ "resource": "observations/survey_cells.csv",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "note": "Region rows licensed per client: CL-A: Northeast, Midwest, South, West; CL-B: Northeast, Midwest, South",
+ "columns": [
+  "month",
+  "region",
+  "age_group",
+  "n",
+  "intenders"
+ ],
+ "row_count": 384
+}
