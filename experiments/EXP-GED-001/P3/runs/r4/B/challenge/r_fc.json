@@ -1,0 +1,50 @@
+{
+ "resource": "forecasts/forecast_apparel_sales.csv",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "data": [
+  {
+   "period": "2026-09",
+   "point_yoy_pct": "1.2",
+   "lo80": "-1.6",
+   "hi80": "4.0",
+   "model_version": "HX-APP-4.2",
+   "run_date": "2026-09-15"
+  },
+  {
+   "period": "2026-10",
+   "point_yoy_pct": "1.8",
+   "lo80": "-0.9",
+   "hi80": "4.5",
+   "model_version": "HX-APP-4.2",
+   "run_date": "2026-09-15"
+  },
+  {
+   "period": "2026-11",
+   "point_yoy_pct": "2.4",
+   "lo80": "-0.2",
+   "hi80": "5.0",
+   "model_version": "HX-APP-4.2",
+   "run_date": "2026-09-15"
+  },
+  {
+   "period": "2026-12",
+   "point_yoy_pct": "2.2",
+   "lo80": "-0.5",
+   "hi80": "4.9",
+   "model_version": "HX-APP-4.2",
+   "run_date": "2026-09-15"
+  },
+  {
+   "period": "2026-Q4",
+   "point_yoy_pct": "2.1",
+   "lo80": "-0.4",
+   "hi80": "4.6",
+   "model_version": "HX-APP-4.2",
+   "run_date": "2026-09-15"
+  }
+ ]
+}
