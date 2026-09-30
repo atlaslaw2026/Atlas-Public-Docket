@@ -1,6 +1,8 @@
 # Magistrate's own computation from its own CL-B retrievals (r_*.json). No West computed.
 import json, math, statistics as st
-L=lambda f: json.load(open(f))['data']
+import sys,os
+D=sys.argv[1] if len(sys.argv)>1 else '.'
+L=lambda f: json.load(open(os.path.join(D,f)))['data']
 nat={r['month']:r for r in L('r_national.json')}
 reg={}
 for r in L('r_regional.json'): reg[(r['region'],r['month'])]=r

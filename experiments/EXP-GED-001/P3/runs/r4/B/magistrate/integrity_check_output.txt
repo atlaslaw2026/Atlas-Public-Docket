@@ -1,0 +1,21 @@
+(1) backend.bin INTERFACE_MANIFEST 7534daeab5e11de7
+    /home/user/p3_iface_r4/backend.bin 519254ea3409c438
+    /home/user/Atlas-Public-Docket/experiments/EXP-GED-001/P3/harness/backend.bin 7534daeab5e11de7
+    /home/user/p3_iface_r4/mcp.py a025a35ac96fff28 manifest a025a35ac96fff28
+    /home/user/p3_iface_r4/mcp_session.json 196766e7b9b51515 manifest 196766e7b9b51515
+(2) re-serialised CSV sha256 vs STORE_MANIFEST
+    metrics/national_monthly.csv: store d0c11f209e09e62c | r4-served 5038a8a48fa3467f NO MATCH | manifest-build d0c11f209e09e62c MATCH
+    metrics/smi_monthly.csv: store 5375ecbe19ad6b41 | r4-served 5375ecbe19ad6b41 MATCH | manifest-build 5375ecbe19ad6b41 MATCH
+    forecasts/forecast_apparel_sales.csv: store debda8a17617563c | r4-served debda8a17617563c MATCH | manifest-build debda8a17617563c MATCH
+    (regional_monthly not hash-checkable from CL-B-licensed rows alone; West rows deliberately not retrieved)
+(3) party logs
+    A/mcp_log.jsonl: entries 11 chain_recomputes True; logged national 2026-07 = [{'intent_pct': '35.7', 'moe95_pts': '1.9', 'month': '2026-07', 'n': '3053'}]
+    B/analyst/mcp_log.jsonl: entries 16 chain_recomputes True; logged national 2026-07 = [{'intent_pct': '35.7', 'moe95_pts': '1.9', 'month': '2026-07', 'n': '3053'}]
+    B/challenge/mcp_log.jsonl: entries 14 chain_recomputes True; logged national 2026-07 = [{'intent_pct': '35.7', 'moe95_pts': '1.9', 'month': '2026-07', 'n': '3053'}]
+    party work product: A/ANSWERS.md, analyst/analysis_output.txt, challenge/r_national.json + reconstruct_output.txt all state 37.6 (2.0)
+(4) licensed rows differing, r4-served vs manifest-build
+    r_national.json: 15 rows differ; span ('2025-06',) .. ('2026-08',)
+    r_regional.json: 15 rows differ; span ('South', '2025-06') .. ('South', '2026-08')
+    r_smi.json: 0 rows differ
+    r_fc.json: 0 rows differ
+    r_drivers.json (not fetched from manifest build)
