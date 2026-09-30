@@ -1,0 +1,42 @@
+{
+ "resource": "forecasts/forecast_drivers_Q4.csv",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "note": "Field licensing: contribution_pp licensed to CL-A; input_latest_value is not client-disclosable",
+ "where": {},
+ "data": [
+  {
+   "driver": "Spending Momentum Index",
+   "direction": "positive",
+   "rank": "1"
+  },
+  {
+   "driver": "Transaction-data signal (licensed third-party card panel)",
+   "direction": "positive",
+   "rank": "2"
+  },
+  {
+   "driver": "Fuel prices",
+   "direction": "negative",
+   "rank": "3"
+  },
+  {
+   "driver": "Consumer confidence",
+   "direction": "positive",
+   "rank": "4"
+  },
+  {
+   "driver": "Holiday calendar (Thanksgiving timing)",
+   "direction": "positive",
+   "rank": "5"
+  },
+  {
+   "driver": "Baseline trend and other factors",
+   "direction": "positive",
+   "rank": "6"
+  }
+ ]
+}

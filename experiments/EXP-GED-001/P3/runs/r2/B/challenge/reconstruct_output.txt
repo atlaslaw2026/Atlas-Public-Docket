@@ -1,0 +1,79 @@
+[C-01] my log entries 11 prev_hash links consistent True ; A log entries 11 links consistent True
+[C-01] metrics/national_monthly.csv identical to A log: True
+[C-01] metrics/regional_monthly.csv identical to A log: True
+[C-01] metrics/smi_monthly.csv identical to A log: True
+[C-01] forecasts/forecast_apparel_sales.csv identical to A log: True
+[C-01] forecasts/forecast_drivers_Q4.csv identical to A log: True
+[C-01] reference/methodology_summary.md identical to A log: True
+[C-01] reference/market_events.md identical to A log: True
+[C-01] reference/data_dictionary.json identical to A log: True
+[C-01] note: identity with A's log is REPRODUCTION of the source, not independent verification (O-SGIV s3, s6)
+[C-01] months covered 2024-01 to 2026-08 ( 32 )
+[C-02] Nat 2026-07 37.6 +/-2.0 n=3053; CI 35.6-39.6; Jun 38.3 -> Jul change -0.7
+[C-02] MOE of difference of two national months (independence assumed) = 2.83
+[C-02] national moe95 range whole series: 1.9 - 2.0
+[C-03] South: Aug25 37.9 -> Aug26 45.6 (+7.7); avg last12 40.01 prev12 35.92 diff +4.08; moe range last12 3.1-3.3; YoY by month [1.3, 1.8, -0.6, 2.0, 1.9, 2.6, 4.9, 5.4, 5.0, 11.9, 5.1, 7.7]; positive 11/12
+[C-03] South: MOE of Aug-Aug change ~4.6; approx MOE of 12-mo-avg difference ~1.3 (independence assumed)
+[C-03] Northeast: Aug25 38.7 -> Aug26 40.0 (+1.3); avg last12 35.49 prev12 35.68 diff -0.19; moe range last12 4.7-4.8; YoY by month [-3.9, -1.5, -1.1, 1.7, 4.6, -0.8, -3.6, -1.2, 3.4, -3.4, 2.2, 1.3]; positive 5/12
+[C-03] Northeast: MOE of Aug-Aug change ~6.8; approx MOE of 12-mo-avg difference ~1.9 (independence assumed)
+[C-03] Midwest: Aug25 34.3 -> Aug26 35.5 (+1.2); avg last12 35.63 prev12 34.03 diff +1.60; moe range last12 4.1-4.4; YoY by month [-0.7, 4.1, 2.2, -2.0, 2.2, 1.2, 6.3, 1.3, 0.3, 3.7, -0.6, 1.2]; positive 9/12
+[C-03] Midwest: MOE of Aug-Aug change ~5.9; approx MOE of 12-mo-avg difference ~1.7 (independence assumed)
+[C-03] Aug-Aug gap S-NE +6.4, combined MOE 8.2
+[C-03] 12-mo-avg gap S-NE +4.28, approx MOE 2.3 -> 'Yes, faster' supported on averages
+[C-04] 2026 monthly YoY (South | national), with South YoY MOE (independence assumed):
+[C-04]   2026-01: South 33.5 (YoY +1.9, MOE~4.4) | national 33.1 (YoY +2.2)
+[C-04]   2026-02: South 34.5 (YoY +2.6, MOE~4.5) | national 34.3 (YoY +1.0)
+[C-04]   2026-03: South 40.8 (YoY +4.9, MOE~4.6) | national 38.1 (YoY +2.5)
+[C-04]   2026-04: South 39.6 (YoY +5.4, MOE~4.5) | national 38.1 (YoY +4.0)
+[C-04]   2026-05: South 39.8 (YoY +5.0, MOE~4.6) | national 38.2 (YoY +2.5)
+[C-04]   2026-06: South 43.5 (YoY +11.9, MOE~4.5) | national 38.3 (YoY +4.6)
+[C-04]   2026-07: South 40.7 (YoY +5.1, MOE~4.5) | national 37.6 (YoY +2.5)
+[C-04]   2026-08: South 45.6 (YoY +7.7, MOE~4.6) | national 41.4 (YoY +3.2)
+[C-04] Feb->Mar 2024: South 33.0->37.6 (+4.6); national 33.1->35.5 (+2.4)
+[C-04] Feb->Mar 2025: South 31.9->35.9 (+4.0); national 33.3->35.6 (+2.3)
+[C-04] Feb->Mar 2026: South 34.5->40.8 (+6.3); national 34.3->38.1 (+3.8)
+[C-04] South mean YoY Jan-Mar +3.13 vs Apr-Aug +7.02 (Analyst's split)
+[C-04] South mean YoY Jan-Feb +2.25 vs Mar-Aug +6.67 (split at March)
+[C-04] South mean YoY Apr-Aug excluding Jun +5.80; median Apr-Aug +5.4
+[C-04] national mean YoY Jan-Mar +1.90 vs Apr-Aug +3.36
+[C-04] national avg last12 37.98 vs prev12 35.75
+[C-05] South 2026-08 45.6 +/-3.3
+[C-05] Northeast 2026-08 40.0 +/-4.8
+[C-05] Midwest 2026-08 35.5 +/-4.2
+[C-05] National 2026-08 41.4 +/-2.0
+[C-05] West: NOT computed, NOT derived (not licensed; national-minus-regions prohibited).
+[C-06] SMI months 2024-01..2026-08; moves n=31; mean|chg| 3.00; median|chg| 2.00; |chg|>=2.7: 13/31; ups 16
+[C-06] SMI Jul->Aug 2024: 106.4 -> 104.5 (-1.9)
+[C-06] SMI Jul->Aug 2025: 101.9 -> 108.4 (+6.5)
+[C-06] SMI Jul->Aug 2026: 101.9 -> 104.6 (+2.7)
+[C-06] SMI Jun->Jul 2026 105.9 -> 101.9; Aug26 vs Aug25 104.6 vs 108.4
+[C-06] percentile rank of +2.7 among |moves|: 18/31 smaller
+[C-07] 2026-09: 1.2 (-1.6, 4.0) HX-APP-4.2 run 2026-09-15
+[C-07] 2026-10: 1.8 (-0.9, 4.5) HX-APP-4.2 run 2026-09-15
+[C-07] 2026-11: 2.4 (-0.2, 5.0) HX-APP-4.2 run 2026-09-15
+[C-07] 2026-12: 2.2 (-0.5, 4.9) HX-APP-4.2 run 2026-09-15
+[C-07] 2026-Q4: 2.1 (-0.4, 4.6) HX-APP-4.2 run 2026-09-15
+[C-07] driver rank 1: Spending Momentum Index (positive)
+[C-07] driver rank 2: Transaction-data signal (licensed third-party card panel) (positive)
+[C-07] driver rank 3: Fuel prices (negative)
+[C-07] driver rank 4: Consumer confidence (positive)
+[C-07] driver rank 5: Holiday calendar (Thanksgiving timing) (positive)
+[C-07] driver rank 6: Baseline trend and other factors (positive)
+[C-08] national months within 0.5 of 41.0, plus all licensed July-2026 values and any exact 41.0 in licensed series:
+[C-08]   age 18-34 2024-07 41.0
+[C-08]   national 2024-12 40.6
+[C-08]   age 18-34 2025-03 41.0
+[C-08]   national 2025-11 40.8
+[C-08]   national 2025-12 41.2
+[C-08]   Midwest 2026-07 35.3
+[C-08]   Northeast 2026-07 35.3
+[C-08]   South 2026-07 40.7
+[C-08]   age 18-34 2026-07 44.0
+[C-08]   age 35-54 2026-07 38.9
+[C-08]   age 55+ 2026-07 31.2
+[C-08]   national 2026-08 41.4
+[C-09] methodology mentions 'account team': False ; 'change process': False
+[C-09] digest mentions 'account team': False
+[C-09] dictionary mentions any channel/store-type field: False
+[C-09] digest header: # Market events digest (client-visible; compiled by Halvorsen from public sources)
+[C-09] dictionary contribution_pp: tier-dependent (Premium only)
