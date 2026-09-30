@@ -1,0 +1,151 @@
+== store vs STORE_MANIFEST ==
+./README.md: OK
+./custom/CL-A_brightleaf_brand_tracker.csv: OK
+./forecasts/forecast_apparel_sales.csv: OK
+./forecasts/forecast_drivers_Q4.csv: OK
+./forecasts/forecast_run_metadata.json: OK
+./internal/model_spec_HX-APP-4.2.json: OK
+./internal/smi_formula.md: OK
+./internal/smi_inputs_monthly.csv: OK
+./metrics/age_monthly.csv: OK
+./metrics/national_monthly.csv: OK
+./metrics/regional_monthly.csv: OK
+./metrics/smi_monthly.csv: OK
+./observations/survey_cells.csv: OK
+./policy/authorization_policy.json: OK
+./reference/data_dictionary.json: OK
+./reference/market_events.md: OK
+./reference/methodology_summary.md: OK
+== store: files not in manifest ==
+none
+/home/user/enterprise_store:
+total 40
+drwxr-xr-x  9 root root 4096 2026-09-29 20:27:39.634376854 +0000 .
+drwxr-xr-x 10 root root 4096 2026-09-30 20:32:49.269888321 +0000 ..
+-rw-r--r--  1 root root 1241 2026-09-29 20:27:39.634376854 +0000 README.md
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:05.152805677 +0000 custom
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:05.152659014 +0000 forecasts
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:05.152737416 +0000 internal
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:05.151789477 +0000 metrics
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:05.144676534 +0000 observations
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:39.662904795 +0000 policy
+drwxr-xr-x  2 root root 4096 2026-09-29 20:27:39.656675744 +0000 reference
+
+/home/user/enterprise_store/custom:
+total 16
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:05.152805677 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root 4492 2026-09-29 20:27:05.154863616 +0000 CL-A_brightleaf_brand_tracker.csv
+
+/home/user/enterprise_store/forecasts:
+total 20
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:05.152659014 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root  275 2026-09-29 20:27:05.152576389 +0000 forecast_apparel_sales.csv
+-rw-r--r-- 1 root root  514 2026-09-29 20:27:05.152659014 +0000 forecast_drivers_Q4.csv
+-rw-r--r-- 1 root root  476 2026-09-29 20:27:05.152737416 +0000 forecast_run_metadata.json
+
+/home/user/enterprise_store/internal:
+total 20
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:05.152737416 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root  396 2026-09-29 20:27:05.152805677 +0000 model_spec_HX-APP-4.2.json
+-rw-r--r-- 1 root root  205 2026-09-29 20:27:05.152444599 +0000 smi_formula.md
+-rw-r--r-- 1 root root  639 2026-09-29 20:27:05.152351491 +0000 smi_inputs_monthly.csv
+
+/home/user/enterprise_store/metrics:
+total 24
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:05.151789477 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root 2722 2026-09-29 20:27:05.151789477 +0000 age_monthly.csv
+-rw-r--r-- 1 root root  766 2026-09-29 20:27:05.150773659 +0000 national_monthly.csv
+-rw-r--r-- 1 root root 3813 2026-09-29 20:27:05.151407167 +0000 regional_monthly.csv
+-rw-r--r-- 1 root root  489 2026-09-29 20:27:05.152181317 +0000 smi_monthly.csv
+
+/home/user/enterprise_store/observations:
+total 20
+drwxr-xr-x 2 root root  4096 2026-09-29 20:27:05.144676534 +0000 .
+drwxr-xr-x 9 root root  4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root 11123 2026-09-29 20:27:05.149711546 +0000 survey_cells.csv
+
+/home/user/enterprise_store/policy:
+total 12
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:39.662904795 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+-rw-r--r-- 1 root root 3347 2026-09-29 20:27:39.663053756 +0000 authorization_policy.json
+
+/home/user/enterprise_store/reference:
+total 20
+drwxr-xr-x 2 root root 4096 2026-09-29 20:27:39.656675744 +0000 .
+drwxr-xr-x 9 root root 4096 2026-09-29 20:27:39.634376854 +0000 ..
+== harness vs INTERFACE_MANIFEST ==
+mcp.py: OK
+backend.bin: OK
+mcp_session.json: OK
+INTERFACE.md: OK
+build_backend.py: OK
+access_boundary.py: OK
+gate.py: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match
+== /home/user/p3_iface_r1 ==
+total 40
+drwxr-xr-x  2 root root  4096 Sep 30 20:32 .
+drwxr-xr-x 10 root root  4096 Sep 30 20:32 ..
+-rw-r--r--  1 root root   795 Sep 30 20:32 INTERFACE.md
+-rw-r--r--  1 root root 12596 Sep 30 20:32 backend.bin
+-rw-r--r--  1 root root  5185 Sep 30 20:32 mcp.py
+-rw-r--r--  1 root root   115 Sep 30 20:32 mcp_session.json
+bbf91fa09e6c819ff31bd32b9206b4e4677d14446742a59eba096f6ff9f1372c  INTERFACE.md
+7534daeab5e11de7660716968057e799e5f9443f627227c28126ace58dcf0b32  backend.bin
+a025a35ac96fff289350a2a256dbed424460bbe644c886146c68b4373a3fbad0  mcp.py
+196766e7b9b515152197ae28eca5db23dab445197d5ac003eda4b1b3c6dd9af2  mcp_session.json
+== /home/user/p3_iface_r2 ==
+total 40
+drwxr-xr-x  2 root root  4096 Sep 30 20:32 .
+drwxr-xr-x 10 root root  4096 Sep 30 20:32 ..
+-rw-r--r--  1 root root   795 Sep 30 20:32 INTERFACE.md
+-rw-r--r--  1 root root 12596 Sep 30 20:32 backend.bin
+-rw-r--r--  1 root root  5185 Sep 30 20:32 mcp.py
+-rw-r--r--  1 root root   115 Sep 30 20:32 mcp_session.json
+bbf91fa09e6c819ff31bd32b9206b4e4677d14446742a59eba096f6ff9f1372c  INTERFACE.md
+7534daeab5e11de7660716968057e799e5f9443f627227c28126ace58dcf0b32  backend.bin
+a025a35ac96fff289350a2a256dbed424460bbe644c886146c68b4373a3fbad0  mcp.py
+196766e7b9b515152197ae28eca5db23dab445197d5ac003eda4b1b3c6dd9af2  mcp_session.json
+== /home/user/p3_iface_r3 ==
+total 40
+drwxr-xr-x  2 root root  4096 Sep 30 20:32 .
+drwxr-xr-x 10 root root  4096 Sep 30 20:32 ..
+-rw-r--r--  1 root root   795 Sep 30 20:32 INTERFACE.md
+-rw-r--r--  1 root root 12596 Sep 30 20:32 backend.bin
+-rw-r--r--  1 root root  5185 Sep 30 20:32 mcp.py
+-rw-r--r--  1 root root   115 Sep 30 20:32 mcp_session.json
+bbf91fa09e6c819ff31bd32b9206b4e4677d14446742a59eba096f6ff9f1372c  INTERFACE.md
+7534daeab5e11de7660716968057e799e5f9443f627227c28126ace58dcf0b32  backend.bin
+a025a35ac96fff289350a2a256dbed424460bbe644c886146c68b4373a3fbad0  mcp.py
+196766e7b9b515152197ae28eca5db23dab445197d5ac003eda4b1b3c6dd9af2  mcp_session.json
+== /home/user/p3_iface_r4 ==
+total 40
+drwxr-xr-x  2 root root  4096 Sep 30 20:32 .
+drwxr-xr-x 10 root root  4096 Sep 30 20:32 ..
+-rw-r--r--  1 root root   795 Sep 30 20:32 INTERFACE.md
+-rw-r--r--  1 root root 12660 Sep 30 20:32 backend.bin
+-rw-r--r--  1 root root  5185 Sep 30 20:32 mcp.py
+-rw-r--r--  1 root root   115 Sep 30 20:32 mcp_session.json
+bbf91fa09e6c819ff31bd32b9206b4e4677d14446742a59eba096f6ff9f1372c  INTERFACE.md
+519254ea3409c438d2c79ad38b7dc2dda45d0c3f8379fb7c685e825406e490a1  backend.bin
+a025a35ac96fff289350a2a256dbed424460bbe644c886146c68b4373a3fbad0  mcp.py
+196766e7b9b515152197ae28eca5db23dab445197d5ac003eda4b1b3c6dd9af2  mcp_session.json
+== pre-registered served files ==
+31b63bac6e05ba8d8024050f640f5d739c6530891bb5ed71cfe7649b544b71e0  STORE_MANIFEST.sha256
+6456fa790bf1f69a3c4d6a02af30f229275fcb5ffaf513dc15c0323d5191ef37  INTERFACE_MANIFEST.sha256
+4b2f4a7fe8ae2fd381f2ffdca4dfb0e0944445993b1d01ad4965bed1058dadf1  QUESTIONS.md
+086172634a6de95eb3ec775ae59cfd2edc0ef79c2e4d581945c4592db57b84ac  authorization_policy.json
+f018fa2311c005797423ef30086f984091aa45e3767119d1b5dbdcadf10022c6  MATTER.md
+d47678e960b2bf769e319de86b6347293b7c7fe4a357f5897e852b70eff81be5  INTERFACE_SPEC.md
+d5735cbbd6abe29410f0268f7f1fcb1c37ce8cc8eb57d7b88df87de6f14c0904  prompts/A_CONDITION.md
+98a845bb583fdc8c7c6b2e3f671f77ec447533a5cc9e7094f43c058912f639dc  prompts/B1_ANALYST.md
+6a2832875338ea3b7ef3c264af01fa72bcd32a3553fadbdc5b0064972f1997ff  prompts/B2_CHALLENGER.md
+5c2f16538e9866f15a07a722f670169b0229da8eceb5239ad2d461100d3335c0  prompts/B3_MAGISTRATE.md
+161f62b734296740434d82eb4c94080afb98fe65bdc0ed08503e60e6a03cdbea  prompts/B4_COMPOSER.md
+5b84ad7394db3490d9eb846dfd27e6413e8aa4774a4c678bc548ac2d06497777  prompts/C1_AUDITOR.md
+0b3398e67069e1ec57579ac6985d3cb23fcb7b057918e474315cf405ea673b73  prompts/C_OVERSIGHT.md
