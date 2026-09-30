@@ -1,0 +1,15 @@
+May-Jul 2026 vs 2025: South +7.33  NE +0.73
+2025-09 South-NE gap +4.1
+2025-10 South-NE gap +2.8
+2025-11 South-NE gap +5.1
+2025-12 South-NE gap +2.9
+2026-01 South-NE gap -0.9
+2026-02 South-NE gap +2.4
+2026-03 South-NE gap +6.8
+2026-04 South-NE gap +5.8
+2026-05 South-NE gap +4.6
+2026-06 South-NE gap +9.6
+2026-07 South-NE gap +5.4
+2026-08 South-NE gap +5.6
+pre-period (2024-01..2025-05) mean South-NE gap +0.45
+DGP true South YoY advantage (steady state, from 2026-06): +3.00 pts; Aug 2026 true cumulative South growth: +3.75

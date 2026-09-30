@@ -1,0 +1,3 @@
+# Fresh-context memory test — prompt summary (verbatim prompt preserved in the Clerk session; key constraints below)
+
+A fresh in-session agent cloned branch `claude/exp-governed-enterprise-data` from GitHub into an empty scratch directory. It was restricted to reading only that clone: not the working copy, /root, or ~/.claude, and no one would answer questions. It was asked to reconstruct four paths (r3 Q4 "separate agreement"; r2 Q7 "timing doesn't settle…" and the first gate check; r1 non-disclosable content; the Q8 numeric error introduced by governance offices), to cite file:line or claim IDs at each step, and to state where the record was insufficient. Clone HEAD: 24771e19b1ebe952d69fd9d0303a38bcdc6c791b.

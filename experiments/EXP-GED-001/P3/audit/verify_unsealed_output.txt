@@ -1,0 +1,44 @@
+== P1 (00_matter/PREREGISTRATION.md): 15 hashed rows
+   ANSWER_KEY_AND_RUBRIC.md                      MATCH
+   generate_dataroom.py                          MATCH
+   generation_log.json                           MATCH
+   USER_QUESTION.txt                             MATCH
+   ACCESS_POLICY.md                              (not an unsealed file; served/other)
+   README.md                                     (not an unsealed file; served/other)
+   bridge_study_2026-02.csv                      (not an unsealed file; served/other)
+   market_context_digest.md                      (not an unsealed file; served/other)
+   methodology_notes.md                          (not an unsealed file; served/other)
+   restricted/README_RESTRICTED.md               (not an unsealed file; served/other)
+   restricted/respondent_extract_2026Q2_RESTRICTED.csv (not an unsealed file; served/other)
+   tracker_by_age.csv                            (not an unsealed file; served/other)
+   tracker_topline.csv                           (not an unsealed file; served/other)
+   USER_QUESTION_Q2.txt                          MATCH
+   ANSWER_KEY_Q2.md                              MATCH
+   commits touching prereg: ['f9a0dfc', '32063f6']; hashes removed since first commit 32063f6: []; added: 2
+== P2 (P2/00_matter/PREREGISTRATION.md): 5 hashed rows
+   ANSWER_KEY_P2.md                              MATCH
+   QUESTIONS.json                                MATCH
+   generate_store.py                             MATCH
+   generation_log.json                           MATCH
+   CL-B_perturbed                                MATCH
+   commits touching prereg: ['7434ce2']; hashes removed since first commit 7434ce2: []; added: 0
+== P3 (P3/00_matter/PREREGISTRATION.md): 15 hashed rows
+   ANSWER_KEY_P3.md                              MATCH
+   QUESTIONS_P3.json                             MATCH
+   perturb_backend.py                            MATCH
+   backend_PERTURBED.bin                         MATCH
+   STORE_MANIFEST.sha256                         (not an unsealed file; served/other)
+   INTERFACE_MANIFEST.sha256                     (not an unsealed file; served/other)
+   QUESTIONS.md                                  (not an unsealed file; served/other)
+   authorization_policy.json                     (not an unsealed file; served/other)
+   MATTER.md                                     (not an unsealed file; served/other)
+   INTERFACE_SPEC.md                             (not an unsealed file; served/other)
+   prompts/A_CONDITION.md                        (not an unsealed file; served/other)
+   prompts/B1_ANALYST.md                         (not an unsealed file; served/other)
+   prompts/B2_CHALLENGER.md                      (not an unsealed file; served/other)
+   prompts/B3_MAGISTRATE.md                      (not an unsealed file; served/other)
+   prompts/B4_COMPOSER.md                        (not an unsealed file; served/other)
+   commits touching prereg: ['fb634ef']; hashes removed since first commit fb634ef: []; added: 0
+not pre-registered (by name): P1/bridge_study_2026-02_PERTURBED.csv 54c3e5cb2b44ff30
+not pre-registered (by name): P1/dataroom_manifest_sha256.txt da941dfc3bbbe96b
+not pre-registered (by name): P3/replay_log.py e8360bcb65768195
