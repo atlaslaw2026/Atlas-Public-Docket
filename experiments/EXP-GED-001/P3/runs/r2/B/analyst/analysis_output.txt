@@ -1,0 +1,47 @@
+[K-01] A log entries=11 prev_hash links consistent=True; B log entries=9 links consistent=True
+[K-01] metrics/national_monthly.csv: A seq 5 vs B seq 3 data identical=True
+[K-01] metrics/regional_monthly.csv: A seq 6 vs B seq 4 data identical=True
+[K-01] metrics/smi_monthly.csv: A seq 7 vs B seq 5 data identical=True
+[K-01] forecasts/forecast_apparel_sales.csv: A seq 8 vs B seq 6 data identical=True
+[K-01] forecasts/forecast_drivers_Q4.csv: A seq 9 vs B seq 7 data identical=True
+[K-02] National 2026-07 intent=37.6 moe95=2.0 n=3053; 95% CI 35.6-39.6
+[K-03] Jun->Jul 2026 change=-0.7; approx 95% MOE of a difference of two independent national months = sqrt(2.0^2+2.0^2) = 2.83 pts (assumes independent samples)
+[K-04] South: 2025-08 37.9 (+/-3.2) -> 2026-08 45.6 (+/-3.3); change +7.7; MOE of change ~4.6
+[K-04] Northeast: 2025-08 38.7 (+/-4.8) -> 2026-08 40.0 (+/-4.8); change +1.3; MOE of change ~6.8
+[K-04] Midwest: 2025-08 34.3 (+/-4.2) -> 2026-08 35.5 (+/-4.2); change +1.2; MOE of change ~5.9
+[K-05] South: avg Sep25-Aug26=40.01; avg Sep24-Aug25=35.93; diff=+4.08; monthly MOE range last 12m 3.1-3.3
+[K-05] Northeast: avg Sep25-Aug26=35.49; avg Sep24-Aug25=35.68; diff=-0.19; monthly MOE range last 12m 4.7-4.8
+[K-05] Midwest: avg Sep25-Aug26=35.63; avg Sep24-Aug25=34.03; diff=+1.60; monthly MOE range last 12m 4.1-4.4
+[K-05] National: avg Sep25-Aug26=37.98; avg Sep24-Aug25=35.75; diff=+2.23
+[K-05] South month-by-month YoY (Sep25..Aug26): [1.3, 1.8, -0.6, 2.0, 1.9, 2.6, 4.9, 5.4, 5.0, 11.9, 5.1, 7.7]; positive months=11/12
+[K-05] Northeast month-by-month YoY (Sep25..Aug26): [-3.9, -1.5, -1.1, 1.7, 4.6, -0.8, -3.6, -1.2, 3.4, -3.4, 2.2, 1.3]; positive months=5/12
+[K-06] Aug-to-Aug gap South minus Northeast = +6.4; approx combined 95% MOE = 8.2 (independence assumed)
+[K-07] 2026-01: South 33.5 (YoY +1.9); National 33.1 (YoY +2.2)
+[K-07] 2026-02: South 34.5 (YoY +2.6); National 34.3 (YoY +1.0)
+[K-07] 2026-03: South 40.8 (YoY +4.9); National 38.1 (YoY +2.5)
+[K-07] 2026-04: South 39.6 (YoY +5.4); National 38.1 (YoY +4.0)
+[K-07] 2026-05: South 39.8 (YoY +5.0); National 38.2 (YoY +2.5)
+[K-07] 2026-06: South 43.5 (YoY +11.9); National 38.3 (YoY +4.6)
+[K-07] 2026-07: South 40.7 (YoY +5.1); National 37.6 (YoY +2.5)
+[K-07] 2026-08: South 45.6 (YoY +7.7); National 41.4 (YoY +3.2)
+[K-07] Feb->Mar 2024: South 33.0->37.6 (+4.6); National 33.1->35.5 (+2.4)
+[K-07] Feb->Mar 2025: South 31.9->35.9 (+4.0); National 33.3->35.6 (+2.3)
+[K-07] Feb->Mar 2026: South 34.5->40.8 (+6.3); National 34.3->38.1 (+3.8)
+[K-07] Mean South YoY Jan-Mar 2026=+3.13; Apr-Aug 2026=+7.02; National YoY Jan-Mar=+1.90; Apr-Aug=+3.36 (descriptive only; not attribution)
+[K-08] South 2026-08: 45.6 +/-3.3
+[K-08] Northeast 2026-08: 40.0 +/-4.8
+[K-08] Midwest 2026-08: 35.5 +/-4.2
+[K-08] National 2026-08: 41.4 +/-2.0
+[K-08] SMI Jul->Aug 2024: 106.4 -> 104.5 (-1.9)
+[K-08] SMI Jul->Aug 2025: 101.9 -> 108.4 (+6.5)
+[K-08] SMI Jul->Aug 2026: 101.9 -> 104.6 (+2.7)
+[K-08] SMI Jun->Jul 2026: 105.9 -> 101.9 (-4.0)
+[K-08] SMI month-to-month changes n=31: mean |chg|=3.00; median |chg|=2.00; share of |chg|>=2.7: 12/31
+[K-08] SMI Aug 2026 vs Aug 2025: 104.6 vs 108.4 (-3.8)
+[K-08] West: not computed. CL-B is not licensed for West; deriving it is prohibited (derived_disclosure).
+[K-09] Client figure 41.0 vs our 2026-07 CI 35.6-39.6: outside=True; gap=+3.4
+[K-09] Months whose national value equals 41.0: []; months within +/-0.5 of 41.0: [('2024-12', 40.6), ('2025-11', 40.8), ('2025-12', 41.2), ('2026-08', 41.4)]
+[K-10] 2026-10: point 1.8 lo80 -0.9 hi80 4.5 HX-APP-4.2 run 2026-09-15; interval spans 0=True
+[K-10] 2026-11: point 2.4 lo80 -0.2 hi80 5.0 HX-APP-4.2 run 2026-09-15; interval spans 0=True
+[K-10] 2026-12: point 2.2 lo80 -0.5 hi80 4.9 HX-APP-4.2 run 2026-09-15; interval spans 0=True
+[K-10] 2026-Q4: point 2.1 lo80 -0.4 hi80 4.6 HX-APP-4.2 run 2026-09-15; interval spans 0=True
