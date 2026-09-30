@@ -838,10 +838,10 @@
    "statement": "SMI Jul→Aug: 2026 +2.7; 2025 +6.5 (before Rewards launched).",
    "class": "EVIDENCE",
    "j0001_label": "KNOWN",
-   "evidence": "A seq7 / B seq10 metrics/smi_monthly.csv rows 2025-07, 2025-08, 2026-07, 2026-08; A seq3 / B seq13 reference/market_events.md (Rewards launched June 2026)",
+   "evidence": "A seq7 / B seq10 metrics/smi_monthly.csv rows 2025-07, 2025-08, 2026-07, 2026-08; A seq3 / B seq13 reference/market_events.md (Rewards launched June 2026); 2024 rows added per K-06",
    "access": "AUTHORIZED",
    "truth": "SUPPORTED",
-   "proposed_disposition": "KEEP",
+   "proposed_disposition": "MODIFY",
    "proposed_wording": "The SMI rose from 101.9 in July to 104.6 in August 2026 (+2.7). A year earlier, before Rewards existed, it rose more over the same months, from 101.9 to 108.4 (+6.5); in 2024 it fell over those months (106.4 to 104.5)."
   },
   {

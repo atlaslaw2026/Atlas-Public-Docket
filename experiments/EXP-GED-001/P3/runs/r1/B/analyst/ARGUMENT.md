@@ -34,7 +34,7 @@ Evidence notation: `A seqN` = `runs/r1/A/mcp_log.jsonl`; `B seqN` = `runs/r1/B/a
      - **Q3/Q8 forecast.** The stated shift is about 0.12 of the 80% interval's half-width, and the shifted point stays inside the published interval (K-04). The governed wording therefore presents the forecast as a dated prediction with its interval, and is not rendered misleading by withholding the note. **The note must not be disclosed or hinted at.**
      - **Q8 SMI.** Whether the published August 2026 SMI itself contains imputed transaction data is **UNKNOWN**. I did not open `internal/*`, because it is outside my inspection licence: A never read it. The governed Q8 conclusion ("not evidence Rewards is working") holds whether or not the August value is revised, so the unknown is not material to the reply under J-0002. I record it as UNKNOWN and flag it for the Magistrate.
 
-Disposition counts (75 claims): KEEP 46 · MODIFY 25 · SUBSTITUTE 3 (Q7.7 added; Q4.B1 and Q9.B1 are authority record notes) · REMOVE 1 (Q8.10).
+Disposition counts (75 claims): KEEP 45 · MODIFY 26 · SUBSTITUTE 3 (Q7.7 added; Q4.B1 and Q9.B1 are authority record notes) · REMOVE 1 (Q8.10).
 
 ---
 
