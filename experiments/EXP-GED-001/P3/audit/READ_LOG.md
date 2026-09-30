@@ -83,3 +83,25 @@ Instance: the auditor instance spawned for stage 1. I took no part in the experi
 - `gate_probe/` with `gate_probe_output.txt`, `ab_probe/` with `ab_probe_output.txt`, and `gate_rerun_output.txt`.
 
 No external action was taken. Nothing was pushed, and no enterprise or interface file was modified.
+
+## Stage 2 additions
+
+- `UNSEALED/README.md`, `UNSEALED/P3/ANSWER_KEY_P3.md` and `QUESTIONS_P3.json`: read.
+- `UNSEALED/P1/ANSWER_KEY_AND_RUBRIC.md`, `ANSWER_KEY_Q2.md`, `USER_QUESTION*.txt`, `UNSEALED/P2/ANSWER_KEY_P2.md` and `generation_log.json`: read.
+- `UNSEALED/P2/generate_store.py`: grep (DGP lines).
+- All `UNSEALED/` files hashed.
+- `CLERK/P3_CLERK_LOG.md`: items 23–25.
+- `CLERK/P2_CLERK_LOG.md` and `00_matter/CLERK_LOG.md`: grep.
+- The three PREREGISTRATION.md files and their git history.
+- **Phase 1:**
+  - `02_baseline/README.md`, `C1–C3_ANSWER.md`, `B1–B3_ANSWER.md`: read.
+  - `origin/exp-ged-001-clean-c{1,2,3}-q2`: fetched; `ANSWER_Q2.md` read; diff stat taken.
+  - `05_magistrate/MAGISTRATE_HANDBACK.md`: read.
+  - Prompts `P5_Q2.md` and `P1b_CLEAN_BASELINE.md`: grep.
+- **Phase 2:**
+  - `P2/00_matter/QUESTIONS.md`: read.
+  - `P2/01_baseline/*_ANSWERS.md`: trap sections and a token grep.
+  - `CL-B_r*_AUDIT.md`: grep.
+  - Base-branch diff stats.
+- **Phase 3:** `runs/r4/B/magistrate/APPROVED_CLAIMS.json` and r1's (Q2 claims).
+- Written: `AUDIT_STAGE2.md`, `verify_unsealed.py` with its output, and `key_check.py` with its output. `AUDIT_STAGE1.md` was not edited.
