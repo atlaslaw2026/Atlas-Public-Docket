@@ -1,0 +1,908 @@
+{
+ "experiment": "EXP-GED-001",
+ "register": [
+  {
+   "id": "E-01",
+   "kind": "D",
+   "description": "Experiment definition, hypothesis, design (Phase 3)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/MATTER.md",
+     "sha256": "f018fa2311c005797423ef30086f984091aa45e3767119d1b5dbdcadf10022c6",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-02",
+   "kind": "D",
+   "description": "Pre-registration with sealed-item hashes (pushed before any Phase 3 run)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/PREREGISTRATION.md",
+     "sha256": "6a65cd1cb45c200b5dd2a2d1b0f4b24a92e13a4b0ac9766693464fbec9db2824",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-03",
+   "kind": "D",
+   "description": "Authoritative store integrity manifest",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/STORE_MANIFEST.sha256",
+     "sha256": "31b63bac6e05ba8d8024050f640f5d739c6530891bb5ed71cfe7649b544b71e0",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-04",
+   "kind": "D",
+   "description": "Authorization policy (client identities, licenses, disclosure rules)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/authorization_policy.json",
+     "sha256": "086172634a6de95eb3ec775ae59cfd2edc0ef79c2e4d581945c4592db57b84ac",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-05",
+   "kind": "D",
+   "description": "Simulated MCP-style interface: specification, code, manifest",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/INTERFACE_SPEC.md",
+     "sha256": "d47678e960b2bf769e319de86b6347293b7c7fe4a357f5897e852b70eff81be5",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/harness/mcp.py",
+     "sha256": "a025a35ac96fff289350a2a256dbed424460bbe644c886146c68b4373a3fbad0",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/harness/build_backend.py",
+     "sha256": "a3978963a8ec1f176fe05a8a75c84e03d356b55972965d1c70ee7aebd9c99eb9",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/harness/INTERFACE.md",
+     "sha256": "bbf91fa09e6c819ff31bd32b9206b4e4677d14446742a59eba096f6ff9f1372c",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/INTERFACE_MANIFEST.sha256",
+     "sha256": "6456fa790bf1f69a3c4d6a02af30f229275fcb5ffaf513dc15c0323d5191ef37",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-06",
+   "kind": "D",
+   "description": "Exact client questions (identical in both conditions)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/QUESTIONS.md",
+     "sha256": "4b2f4a7fe8ae2fd381f2ffdca4dfb0e0944445993b1d01ad4965bed1058dadf1",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-07",
+   "kind": "D",
+   "description": "Exact prompts for every office",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/A_CONDITION.md",
+     "sha256": "d5735cbbd6abe29410f0268f7f1fcb1c37ce8cc8eb57d7b88df87de6f14c0904",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/B1_ANALYST.md",
+     "sha256": "98a845bb583fdc8c7c6b2e3f671f77ec447533a5cc9e7094f43c058912f639dc",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/B2_CHALLENGER.md",
+     "sha256": "6a2832875338ea3b7ef3c264af01fa72bcd32a3553fadbdc5b0064972f1997ff",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/B3_MAGISTRATE.md",
+     "sha256": "5c2f16538e9866f15a07a722f670169b0229da8eceb5239ad2d461100d3335c0",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/B4_COMPOSER.md",
+     "sha256": "161f62b734296740434d82eb4c94080afb98fe65bdc0ed08503e60e6a03cdbea",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/C1_AUDITOR.md",
+     "sha256": "5b84ad7394db3490d9eb846dfd27e6413e8aa4774a4c678bc548ac2d06497777",
+     "first_commit": "4cd3981 2026-09-30T21:12:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/prompts/C_OVERSIGHT.md",
+     "sha256": "0b3398e67069e1ec57579ac6985d3cb23fcb7b057918e474315cf405ea673b73",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-08",
+   "kind": "D",
+   "description": "Private Atlas steps not performed; experiment-built components",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/00_matter/PRIVATE_STEPS_NOT_PERFORMED.md",
+     "sha256": "a0b13540a8e75cc5d92a3010ad09a7aeacc2332d342424803186ef436ce5945a",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-09",
+   "kind": "C",
+   "description": "Condition A run r1: answer, interface log (requests and returned data), agent audit, source commit",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/A/ANSWERS.md",
+     "sha256": "49bbb0cd647931fb106f5bd28835a6531c63c4dce70df3070069874e0dee688b",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/A/mcp_log.jsonl",
+     "sha256": "6f3496df48c5510001c065b1123648cc27d8e1eb25108f559b2d473e971b4ac9",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/A/AUDIT.md",
+     "sha256": "5a8f17e33cce314379a38604d52d682f181575205deeeda9091ab7f0768f40cf",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/A/SOURCE.txt",
+     "sha256": "4e45225cfe7e2bc2ff5d68f6a59965e161b11b2dc07fe04954a577bdbd861ad1",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-10",
+   "kind": "C",
+   "description": "Condition A run r2",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/A/ANSWERS.md",
+     "sha256": "6bda18698545cd96986a68d824bb6d5c9f9b47ba0b95b6801436cec36cf232c6",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/A/mcp_log.jsonl",
+     "sha256": "afc686bcfc8fb4daee7a7c2136f1e7498f7f11c79f19a2688af28be4718da567",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/A/AUDIT.md",
+     "sha256": "f8791332fb029a410ed7a02dda67fe32c1a325d30cf7d9c7fcacba326c5c1fd6",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/A/SOURCE.txt",
+     "sha256": "f1888460c93ef93b6ce6433182b801c4f4bb409e8fdabaeada4a4fac380d2a50",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-11",
+   "kind": "C",
+   "description": "Condition A run r3",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/A/ANSWERS.md",
+     "sha256": "1f75e7eadc30b56202aa48df6d1a9a77c9b3b0d25f1b6eaea1e53427bd5a7b8d",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/A/mcp_log.jsonl",
+     "sha256": "f3bd5eeb4fe75755e57aaa0a926d73cb22167e0e3eb69a240bd2245d6b21324b",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/A/AUDIT.md",
+     "sha256": "8322f781c141e25745e9909350fb62d5a4e7a88a9fd87bc2be90888487360dc0",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/A/SOURCE.txt",
+     "sha256": "d74833baa3840613bd7454003973e9e4e329498388b525a0638b3d0ebfe5fff4",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-12",
+   "kind": "C",
+   "description": "Access-boundary determinations for each A run (deterministic; experiment-built)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/harness/access_boundary.py",
+     "sha256": "308190da4d74ec343899b53b61ba032f16d52f2042de163b3946a3bce4f00d9a",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/access/ACCESS_DETERMINATION.json",
+     "sha256": "b3f1c3692079609bfcded95553217bd904fd330c3dd44c2122d5e1ba2c9700bd",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/access/ACCESS_DETERMINATION.json",
+     "sha256": "6b8a19888dc02660bc43e40026a75fb1c682caba029ccbbe9e664c1e31746b7e",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/access/ACCESS_DETERMINATION.json",
+     "sha256": "3ae983f7952853fdc31348bb5e0c9cb4c6e814cc342a1d2ac294ffc79da6aafe",
+     "first_commit": "0e2af7a 2026-09-30T20:35:06+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-13",
+   "kind": "C",
+   "description": "Condition B Analyst (truth boundary): claim ledgers, arguments, computations, own interface logs",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/CLAIM_LEDGER.json",
+     "sha256": "933c8352db06ddfe9ef7db2857de126584a1ceff1bab5a52d4727a5f1139c79d",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/ARGUMENT.md",
+     "sha256": "a56f07f77b93daf5e4c17555fccb0dde0a24217bd08dc0e721010a0bb2dc266a",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/analysis.py",
+     "sha256": "48d88010ae1768b23f9f56e3969b24c2c26ba0919ccf8551774156866c11b3e6",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/analysis_output.txt",
+     "sha256": "03943fe481e82c11b747c3d7a96e7b3c99a51aeebd04d48e612b1b83aa5dbfda",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/mcp_log.jsonl",
+     "sha256": "bceae8f95cde71c05379d15914243a95376b10c343aac85d279bfed93e06a6fe",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/HANDBACK.md",
+     "sha256": "fa01ac5d48530dddb20e0c3da03245cc68831f0a5e8513c74135b5e1c4ffbe0f",
+     "first_commit": "11cac0b 2026-09-30T20:46:11+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/analyst/READ_LOG.md",
+     "sha256": "02b8e8cefd0d87f3c5b8349072f43e314853b3e4617d1af87244a27a7631b0b1",
+     "first_commit": "184918f 2026-09-30T20:45:01+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/CLAIM_LEDGER.json",
+     "sha256": "9877a9ee6fa588e382c59df40a18a2f86de5873f19cc47d66deb83e72f75ffb5",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/ARGUMENT.md",
+     "sha256": "653802bfb77e580c1ef007271346fd9363a5d707c2ff7dee582d2b1a795ebbd8",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/analysis.py",
+     "sha256": "839eda3f6becd6cce7427a0d74c98779f8e5ce7ed2b2656defff568c229789f5",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/analysis_output.txt",
+     "sha256": "2201aa8466548d7264692019fbb53ea5a5fae4049e5922e76b74a53e7aacf401",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/mcp_log.jsonl",
+     "sha256": "08a693a487748a608dae71735adaf611905e934a5bb1d121131ea2ab271ab46f",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/HANDBACK.md",
+     "sha256": "2ef6a4009bdcc0f1578795848c918e6724f355189aabf8ce5423f347568ecbce",
+     "first_commit": "184918f 2026-09-30T20:45:01+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/analyst/READ_LOG.md",
+     "sha256": "475c8a0429f00de3d8db5b2385d743eb397d06a70b078c69e01f462014e6d3f1",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/CLAIM_LEDGER.json",
+     "sha256": "280033ae52aafbacf2c9775d15c176e9a5ffa9c107408dd17c2fe7f457ea329e",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/ARGUMENT.md",
+     "sha256": "e69f8ba4a23172676e59acf6b5ebc5443586d155ce33d9fdd9daa832356c1cbe",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/analysis.py",
+     "sha256": "1c9a4ab79b7f28fbf4787ea3f4bbfe865f888251918f3201480a6da5d9513598",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/analysis_output.txt",
+     "sha256": "bd86662bf617e9a9d53ee0fc4f822454c973505c4e351f64a20977c6fef5132e",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/mcp_log.jsonl",
+     "sha256": "eaf4bf06e39e2a3404c6aa0dbafd73e638e534b3613036ba66c0cec1870f5eb2",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/HANDBACK.md",
+     "sha256": "c4ab03b5b7efd1da85cc14503d5e65c7acb157a85d3a3fab4641f0a197d6fd22",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/analyst/READ_LOG.md",
+     "sha256": "863e240bf26fc3512b8e39aec7c56c4765778c9112d8f76e3a9586299dabd927",
+     "first_commit": "413d746 2026-09-30T20:44:32+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-14",
+   "kind": "C",
+   "description": "Condition B independent Challengers",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/COUNTERARGUMENT.md",
+     "sha256": "705d02d45e51efe53d7ac16781e0175f78b1b035cb804fb088fa94cd40b73afe",
+     "first_commit": "f50b59d 2026-09-30T20:53:21+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/reconstruct.py",
+     "sha256": "83d72ba3dfb7bf05e83f7c232c43e37ab3d9259fc43bb1a63bb25924dae7a99c",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/reconstruct_output.txt",
+     "sha256": "cd6d4ba2673ef38e651733a7bcdf80cd37a60059acc0476cc6ca2a8c2b391ceb",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/mcp_log.jsonl",
+     "sha256": "2082ea0529be29d1c03f12f6ee009db103deb99cefb1db24f6077c3570f5327c",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/HANDBACK.md",
+     "sha256": "d6ef6877ac55e182c45b848a74dcf729fed8d0fbcede230d2e6b62e64d024a69",
+     "first_commit": "85ee394 2026-09-30T20:54:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/challenge/READ_LOG.md",
+     "sha256": "c47cfc0d9ed0bd9112f2cb2fb857fbd49cb27ac0e9e940ef54d99d8445ff3a70",
+     "first_commit": "85ee394 2026-09-30T20:54:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/COUNTERARGUMENT.md",
+     "sha256": "7282a7b122e04650c04b967360fb84231fabc7957d7cd6ace5477223174aec98",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/reconstruct.py",
+     "sha256": "5a2bdc21b775226149448fadb51678ceb0a1355f9317b6134d1f44b222c0283b",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/reconstruct_output.txt",
+     "sha256": "e2657bdefdfe426597bfffc5bd1426238916ad4da5d1b5f2a096cfe0a9e6dd89",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/mcp_log.jsonl",
+     "sha256": "f3bd0675d2c7589ff5a41bace07eaf52e6a200a2830d08a585df39184a73692c",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/HANDBACK.md",
+     "sha256": "fc3d29d6a8b46730991637927efe6982c38ffd0d106bc89f824f958c08522019",
+     "first_commit": "f50b59d 2026-09-30T20:53:21+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/challenge/READ_LOG.md",
+     "sha256": "faab5f8ee9a85408da2ecaee705236f3b56911bed1494544b6a0692c4128e3f8",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/COUNTERARGUMENT.md",
+     "sha256": "23eb1d58dd5cfe51862d5891b012c173712c54f4971053f3ed3efe9b8635b90a",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/reconstruct.py",
+     "sha256": "29f9ca3cd6f1968a279f0a2379de15e30a6977a255d603e98521f6a01bad5b74",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/reconstruct_output.txt",
+     "sha256": "cbf4ca7036c81ad3d005f482f1da7ce1b6e7e2f23c2320c33a3c1257dd120138",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/mcp_log.jsonl",
+     "sha256": "7136b6ce6f261756ddd9289bfdfac5a8cf937e460795af523eab0bbe97d57621",
+     "first_commit": "11cac0b 2026-09-30T20:46:11+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/HANDBACK.md",
+     "sha256": "907d9c062c25968d5175c8ed5a01df3b790ec38a4f397026a86b2df41b9712e1",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/challenge/READ_LOG.md",
+     "sha256": "5dc270bcd4cff78028db69a2f806768659fa2abe6fc6c0221019edcca911585d",
+     "first_commit": "691bade 2026-09-30T20:52:46+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-15",
+   "kind": "C",
+   "description": "Magistrate determinations and machine-readable approved/rejected claims",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/magistrate/DETERMINATION.md",
+     "sha256": "20f70fa8fa87e0df0a6681487c4bfa56fcfa46cd368b8907f371bbbbfff2bf94",
+     "first_commit": "c1bec3d 2026-09-30T21:02:55+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/magistrate/APPROVED_CLAIMS.json",
+     "sha256": "c33a4677c16f7bccac1634f467a7250265326f6609b8646d24dcd9007b53b9a9",
+     "first_commit": "cdb846f 2026-09-30T21:01:40+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/magistrate/mcp_log.jsonl",
+     "sha256": "d07977f1ee916c33985f19fb92c9bc4800c3f652577bb2360b5cd4aafef14df3",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/magistrate/READ_LOG.md",
+     "sha256": "3625ff8237e56665b06624b0d60233f655a3951f0f15deac6101d4784a376bb5",
+     "first_commit": "c1bec3d 2026-09-30T21:02:55+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/magistrate/HANDBACK.md",
+     "sha256": "edb62e06fbfb3b34138a37392bbcfb7cb1f522a5bb17775020b11a3e7085be2b",
+     "first_commit": "ec80b2d 2026-09-30T21:03:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/DETERMINATION.md",
+     "sha256": "868ba4260f9429bc8af0347c2112366aea97b2d6cc2cd96b158de7765b2ea507",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/APPROVED_CLAIMS.json",
+     "sha256": "297a3e53b9156b97814ca9e70393aa25386268323dd92396d50e6be912826c43",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/mcp_log.jsonl",
+     "sha256": "6ed880f621e080e0374cc8f3932ca8879f388bf2fcfadb2320cfe69b9684a96c",
+     "first_commit": "85ee394 2026-09-30T20:54:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/READ_LOG.md",
+     "sha256": "c65299cbf5376ec0ac9b9be0b8c9dc90330fdac5b36b2a7ad5899238779c8e72",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/HANDBACK.md",
+     "sha256": "5aed4f47c861de80938bb1176d9fc9a7e1586988463e52f3a1c2313b0a2ec317",
+     "first_commit": "cdb846f 2026-09-30T21:01:40+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/magistrate/DETERMINATION.md",
+     "sha256": "ade81d438cddaefc5ba329c5e3ad7162b7c0b12dbc87b24dc50f3dc94938d11c",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/magistrate/APPROVED_CLAIMS.json",
+     "sha256": "b69704d61e45a408e2dce4d654de2dd42164e5fe711befc7b2c714b30e7a231d",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/magistrate/mcp_log.jsonl",
+     "sha256": "943b1f07ffdcaba22b148cc4478e2188fc8335451885449c2c9d2682ca414bb8",
+     "first_commit": "f7fcdba 2026-09-30T20:53:31+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/magistrate/READ_LOG.md",
+     "sha256": "a77a5f469d937fd878ff6238cbda9e20a4da3fd0487483c50381e1a07481ad47",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/magistrate/HANDBACK.md",
+     "sha256": "bc6c57647a7b67bc18f90b6c3e6ba45a3055d52c70870545038dfc1f54863e73",
+     "first_commit": "2500dae 2026-09-30T21:00:14+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-16",
+   "kind": "C",
+   "description": "r2 Magistrate linked correction (Q7.4R) after gate failure",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/APPROVED_CLAIMS_CORRECTION_1.json",
+     "sha256": "ef5c87b888717dabbbf8587102f7e2b3296de187069c8e05f358848b856c9896",
+     "first_commit": "ec80b2d 2026-09-30T21:03:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/magistrate/CORRECTION_1.md",
+     "sha256": "2096d71d0ecb59b061777f6fd30fcb396e5cc718085a2607d0068459f4e0bc8d",
+     "first_commit": "ec80b2d 2026-09-30T21:03:48+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-17",
+   "kind": "C",
+   "description": "Condition B final client answers, provenance, gate results",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/final/FINAL_ANSWER.md",
+     "sha256": "4ac832e6239d8d710358880e470f3ccc35c65f4de55eac051d2c6b747d48b54a",
+     "first_commit": "f26803b 2026-09-30T21:04:50+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/final/PROVENANCE.json",
+     "sha256": "8355885037d6f9381487f6a0da26481bfdcc76ed80d8e4e9e473ab544afe34e9",
+     "first_commit": "f26803b 2026-09-30T21:04:50+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r1/B/final/GATE_RESULT.txt",
+     "sha256": "94f43eb9a94d9bcaac5e5e3639c147b17a48e52dad70fdd1a74839f68ec0f598",
+     "first_commit": "f10cfe0 2026-09-30T21:05:13+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/final/FINAL_ANSWER.md",
+     "sha256": "0fc0e777a3fbee110c72cfe8c1856eedbb309af68bacbe24def2c3dbabcd2953",
+     "first_commit": "c1bec3d 2026-09-30T21:02:55+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/final/PROVENANCE.json",
+     "sha256": "c4f3a5299b72fcac59e2dd1bb7916db7853b67591998f0c1d50c0bb8f6b19095",
+     "first_commit": "c1bec3d 2026-09-30T21:02:55+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/final/GATE_RESULT.txt",
+     "sha256": "9b59ff7ec16c323960d05fa9f89127159837638a6225ccb9f19fffc837edb84f",
+     "first_commit": "c1bec3d 2026-09-30T21:02:55+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/final/FINAL_ANSWER.md",
+     "sha256": "99efe488192502421816924aedd5325a37a876487391aec7e0aa70c0a4ef2a8f",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/final/PROVENANCE.json",
+     "sha256": "4bf9274c7d8070a9d7adb413c886e78ce50ba5b7e02b317a146cb8b45d68d469",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r3/B/final/GATE_RESULT.txt",
+     "sha256": "94f43eb9a94d9bcaac5e5e3639c147b17a48e52dad70fdd1a74839f68ec0f598",
+     "first_commit": "cdb846f 2026-09-30T21:01:40+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/final/PROVENANCE_v2.json",
+     "sha256": "7bbbf561f0ca7b66a3253e2576cf218e558d79a1ee5364c0dc099c06b1a5f54d",
+     "first_commit": "0bfe533 2026-09-30T21:04:37+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r2/B/final/GATE_RESULT_v2.txt",
+     "sha256": "94f43eb9a94d9bcaac5e5e3639c147b17a48e52dad70fdd1a74839f68ec0f598",
+     "first_commit": "f26803b 2026-09-30T21:04:50+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/harness/gate.py",
+     "sha256": "7830b2b0c0486171b87d16bd2aa0ce4d49e7f73caa53c44ec6a146c5e4c9397c",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-18",
+   "kind": "C",
+   "description": "Magistrate validation run (r4): packet and determination",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r4/A/ANSWERS.md",
+     "sha256": "49bbb0cd647931fb106f5bd28835a6531c63c4dce70df3070069874e0dee688b",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r4/A/mcp_log.jsonl",
+     "sha256": "09270f5e1b955df52945245ebd410839d5c34762c82d1ac0d17ff0a2116c0fd1",
+     "first_commit": "b5bdc39 2026-09-30T21:01:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r4/B/magistrate/DETERMINATION.md",
+     "sha256": "285330cdf7089e3ca6eebccefc5280a37b1c33cb31e4e14832583e648e5ecb38",
+     "first_commit": "8bdd405 2026-09-30T21:12:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r4/B/magistrate/APPROVED_CLAIMS.json",
+     "sha256": "4ced4060f576724dcdd3ec61113053ce22cb10809f54fc31d1f62d7520d3ba1d",
+     "first_commit": "8bdd405 2026-09-30T21:12:06+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/runs/r4/B/magistrate/READ_LOG.md",
+     "sha256": "e4f5a909a28113906351dfcc8e822bc8aa1243b4adabc22aceccde159217d213",
+     "first_commit": "8bdd405 2026-09-30T21:12:06+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-19",
+   "kind": "C",
+   "description": "Clerk's contemporaneous log: every Clerk act, defect, repair, correction (Phase 3; Phases 1\u20132 logs alongside)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/CLERK/P3_CLERK_LOG.md",
+     "sha256": "6c59cb934433ca00da8f40fac40fdc9e304f8641f247c5c62a9a7f6fc0b7c25f",
+     "first_commit": "fb634ef 2026-09-30T20:31:58+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/CLERK/P2_CLERK_LOG.md",
+     "sha256": "b51512391294280a99b57a2baa464f6e3f0903a263438d4c6832cd151c454eb0",
+     "first_commit": "3487771 2026-09-29T20:37:44+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/00_matter/CLERK_LOG.md",
+     "sha256": "b99dde55e9bda9313ea1851fcc8a8945f0f2df8eed3129274868c3e90ef494ab",
+     "first_commit": "0ca94c3 2026-09-29T20:05:10+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-20",
+   "kind": "C",
+   "description": "Resulting-state verification 1 (+ addendum)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/verification/RESULTING_STATE_1.md",
+     "sha256": "f430f7927f9dabd7acb949d61c554707acce07f93eba57b1bf4f22acf50c243d",
+     "first_commit": "4cd3981 2026-09-30T21:12:48+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-21",
+   "kind": "I",
+   "description": "Independent audit, stage 1 (blind to answer key)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/audit/AUDIT_STAGE1.md",
+     "sha256": "7091f4161e572d78e77b1c44d6ca1e7217bba890321e2047c620c12632d76f98",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/audit/AUDITOR_HANDBACK_STAGE1.md",
+     "sha256": "24433ff8f5d1363f2cbdc5fdf5d14da36116f08aef66ad5798edefeec838b982",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/audit/READ_LOG.md",
+     "sha256": "43ee28167c92af38c1f2c51f83ff18f46225c2d0fe5d9db9860df3c968ed43c8",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-22",
+   "kind": "I",
+   "description": "Independent audit, stage 2 (key-scored; results matrix; established / not established)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/audit/AUDIT_STAGE2.md",
+     "sha256": "c771140018656e04403de14a8050f9fd52ffd7312cc03de52d6b7093ef74fb0e",
+     "first_commit": "f8ae65e 2026-09-30T21:34:21+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/audit/AUDITOR_HANDBACK_STAGE2.md",
+     "sha256": "4134fea88d527f9d6c124339a5c95d890e5ec0532d47d5c9732f9cedd415f164",
+     "first_commit": "494fa3e 2026-09-30T21:35:45+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-23",
+   "kind": "D",
+   "description": "Unsealed answer keys, generators, perturbation materials (hash-verified against pre-registrations)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/ANSWER_KEY_AND_RUBRIC.md",
+     "sha256": "30e94e1fbe6eecc5570c4337a21d32d46dc5be83f7334b052678836cc6603c68",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/ANSWER_KEY_Q2.md",
+     "sha256": "a71cbd5b4ead7d38f5662451b6a6c8d647a7c5d4fc6911e44e8b65dd417aa726",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/USER_QUESTION.txt",
+     "sha256": "9c011871029d51c31a24ea994388282287bec9b6bf26ecc05ed16211c33728e9",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/USER_QUESTION_Q2.txt",
+     "sha256": "35d13a2c746032a72ca8d4bf8a626cbc12a50b8674f90c270666ca528eb05359",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/bridge_study_2026-02_PERTURBED.csv",
+     "sha256": "54c3e5cb2b44ff30e9065ca2e53136ba578e1740e168a564d41ce1cba7e1e26c",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/dataroom_manifest_sha256.txt",
+     "sha256": "da941dfc3bbbe96be9b5c3752296900999c0145a036301b7c16c25cfa41400c9",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/generate_dataroom.py",
+     "sha256": "c2d9270d30da47fbca1d95a2211216aad0edfb3498d293bb176d90a7fe984384",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P1/generation_log.json",
+     "sha256": "fe459e717aeeff69abc3834baef8a121452ac8a89baaf2c36e1087ad4b10f10a",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P2/ANSWER_KEY_P2.md",
+     "sha256": "547b9c09bdb7dd374cd5ba18fb0d0e6845d5c3f93f33b926e39a1ab3fc74b563",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P2/CL-B_perturbed.sha256",
+     "sha256": "66c1f9455d7951e20c789f8e350dcfa21bd79253486bb9386b80ba2264eb09b4",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P2/QUESTIONS.json",
+     "sha256": "2052681d20aa1d38168f8860ba902770266d24b0292789d7eaf8ebecb8d934cd",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P2/generate_store.py",
+     "sha256": "144c381c274955f9a17f2118bacfc61f56f8fb73bbdfa43af8a8b343417d0455",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P2/generation_log.json",
+     "sha256": "bee32efb022e1519203ce185368e69386923f6af00738827983ddd3193e703ea",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P3/ANSWER_KEY_P3.md",
+     "sha256": "862301c7a27f32cc703e3a54ff987d36f450873536a6bd49c7b63168253b5736",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P3/QUESTIONS_P3.json",
+     "sha256": "02b08afe0e27d94a90a3a19179a6a9be30a837a99db5c7a360cacb6c2faa8a38",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P3/backend_PERTURBED.bin",
+     "sha256": "519254ea3409c438d2c79ad38b7dc2dda45d0c3f8379fb7c685e825406e490a1",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P3/perturb_backend.py",
+     "sha256": "00e6f17976420cdd45549f84b3a447373002192be5f23966dc9868c1da4ff1e4",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/P3/replay_log.py",
+     "sha256": "e8360bcb65768195f9cc30d59e276f4573a905d73596a4dca4eb6b97e274bed0",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/UNSEALED/README.md",
+     "sha256": "93144e50b31e62370f55eb3c2c7f5d78a58e2abcca97b0aae9aeb7d145443741",
+     "first_commit": "24771e1 2026-09-30T21:28:04+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-24",
+   "kind": "I",
+   "description": "Institutional-memory test: fresh-clone reconstruction",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P3/memory_test/MEMORY_TEST.md",
+     "sha256": "04fccdb457bdf6f6abfbbce28538fd3051469f323876132742865acb0ea0c1c9",
+     "first_commit": "f8ae65e 2026-09-30T21:34:21+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P3/memory_test/PROMPT.md",
+     "sha256": "41d988982c902cd3fce97bd5408efebde5c42667c24848a2f7347fdc2d395f5d",
+     "first_commit": "f8ae65e 2026-09-30T21:34:21+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-25",
+   "kind": "C",
+   "description": "Pilot Phase 1 record (tracker; contaminated baseline; clean baselines; challenge correction; Magistrate; Clerk leak)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/00_matter/MATTER.md",
+     "sha256": "68165d4508d7eebd616241f4fb3004779119434390babb43fd3f60abf71b14b9",
+     "first_commit": "32063f6 2026-09-29T20:04:47+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/02_baseline/README.md",
+     "sha256": "d1932f9226f97472eaf3bdb7814d105ea9f89fc2f4203509717865418d1c8dcb",
+     "first_commit": "a9a4bed 2026-09-29T20:09:24+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/04_challenge/COUNTERARGUMENT.md",
+     "sha256": "166648796f28e0d995d400bfc7179d67e7b922444934a017d1d320c3153c362a",
+     "first_commit": "5460c4d 2026-09-29T20:26:03+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/05_magistrate/DETERMINATION.md",
+     "sha256": "ac2f558695d632436c09f4989a5e8271bf6d43923b1a796ac52e38a0b4e8ca70",
+     "first_commit": "3afdbc6 2026-09-29T20:37:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "E-26",
+   "kind": "C",
+   "description": "Pilot Phase 2 record (two clients; views; baselines; governed analysts)",
+   "items": [
+    {
+     "path": "experiments/EXP-GED-001/P2/00_matter/MATTER.md",
+     "sha256": "219a2cc15d73472deee783768f82d08f60c64dcc776a1ac239f9f8ade2174fb3",
+     "first_commit": "7434ce2 2026-09-29T20:31:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P2/00_matter/PREREGISTRATION.md",
+     "sha256": "8a2791cdd1983c765009e980ed7d7cd85d9414d55980cf3076c11eedf758d78c",
+     "first_commit": "7434ce2 2026-09-29T20:31:48+00:00"
+    },
+    {
+     "path": "experiments/EXP-GED-001/P2/harness/access_layer.py",
+     "sha256": "48b0238c29aa2981efc3ca1d9a9086f0f421b1d8fc3799495a693d8f1614c1f9",
+     "first_commit": "712274d 2026-09-29T20:29:01+00:00"
+    }
+   ]
+  }
+ ],
+ "missing": []
+}
