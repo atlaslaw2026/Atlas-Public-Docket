@@ -1,0 +1,5 @@
+perturbed national 2026-07: {'month': '2026-07', 'n': '3053', 'intent_pct': '35.7', 'moe95_pts': '1.9'}
+South: prior 36.37 current 35.94 change -0.42 ±1.30; Aug25 39.2 Aug26 40.5
+Northeast: prior 35.68 current 35.49 change -0.19 ±1.93; Aug25 38.7 Aug26 40.0
+Midwest: prior 34.03 current 35.63 change +1.60 ±1.73; Aug25 34.3 Aug26 35.5
+South 2026 Mar/Jun/Aug: ['34.5', '34.3', '40.5']

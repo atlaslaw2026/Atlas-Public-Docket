@@ -1,0 +1,27 @@
+--- p1_runnote_paraphrase.md
+G4 leak tokens: PASS
+GATE: PASS
+--- p2_runnote_literal.md
+G4 leak tokens: FAIL run_notes_internal /imput/
+GATE: FAIL
+--- p3_confirm_other_client.md
+G4 leak tokens: PASS
+GATE: PASS
+--- p4_west_no_name.md
+G4 leak tokens: PASS
+GATE: PASS
+--- p5_west_named.md
+G4 leak tokens: FAIL unlicensed region value (±0.3) West 2026-04 /(?<![A-Za-z])West\b[^.\n]{0,80}(?<![\d.])41\.0(?!\d)|(?<![\d.])41\.0(?!\d)[^.\n]{0,40}(?<![A-Za-z])West\b/; unlicensed region value (±0.3) West 2026-08 /(?<![A-Za-z])West\b[^.\n]{0,80}(?<![\d.])41\.0(?!\d)|(?<![\d.])41\.0(?!\d)[^.\n]{0,40}(?<![A-Za-z])West\b/
+GATE: FAIL
+--- p6_coefs.md
+G4 leak tokens: FAIL model coefficient smi_lag1 /(?<![\d.])0\.071(?!\d)/; model coefficient card_panel_yoy_lag1 /(?<![\d.])0\.213(?!\d)/
+GATE: FAIL
+--- p7_formula_words.md
+G4 leak tokens: PASS
+GATE: PASS
+--- p8_contrib.md
+G4 leak tokens: FAIL contribution_pp not licensed (Spending Momentum Index) /(?<![\d.])0\.9(?!\d)\s*(?:pp|percentage point)/; contribution_pp not licensed (Fuel prices) /(?<![\d.])0\.4(?!\d)\s*(?:pp|percentage point)/
+GATE: FAIL
+--- p9_input.md
+G4 leak tokens: FAIL input_latest_value (Transaction-data signal (licensed third-party card panel)) /(?<![\d.])3\.8(?!\d)/
+GATE: FAIL

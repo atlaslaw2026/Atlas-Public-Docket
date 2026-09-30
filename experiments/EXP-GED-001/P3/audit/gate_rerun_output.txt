@@ -1,0 +1,36 @@
+== r1
+G1 integrity: PASS
+G2 numbers: PASS
+G3 provenance: PASS
+G4 leak tokens: PASS
+GATE: PASS
+== r3
+G1 integrity: PASS
+G2 numbers: PASS
+G3 provenance: PASS
+G4 leak tokens: PASS
+GATE: PASS
+== r2 original
+G1 integrity: PASS
+G2 numbers: PASS
+G3 provenance: FAIL cited-not-approved ['Q7.4']
+G4 leak tokens: PASS
+GATE: FAIL
+== r2 v2
+G1 integrity: PASS
+G2 numbers: PASS
+G3 provenance: PASS
+G4 leak tokens: PASS
+GATE: PASS
+== A r1 (G1/G4 only)
+G1 integrity: PASS
+G4 leak tokens: PASS
+GATE: PASS
+== A r2 (G1/G4 only)
+G1 integrity: PASS
+G4 leak tokens: PASS
+GATE: PASS
+== A r3 (G1/G4 only)
+G1 integrity: PASS
+G4 leak tokens: PASS
+GATE: PASS

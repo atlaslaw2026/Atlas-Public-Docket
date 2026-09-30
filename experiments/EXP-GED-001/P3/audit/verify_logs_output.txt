@@ -1,0 +1,42 @@
+runs/r1/A/mcp_log.jsonl: n=11 chain_ok=True seq_ok=True ts=('2026-09-30T20:32:49Z', '2026-09-30T20:33:00Z') match={'registered': 11, 'perturbed': 9, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (6, 'REG-only')]
+    flag (10, 'read_resource', ['run_notes_internal'])
+runs/r1/B/analyst/mcp_log.jsonl: n=16 chain_ok=True seq_ok=True ts=('2026-09-30T20:38:11Z', '2026-09-30T20:38:19Z') match={'registered': 16, 'perturbed': 14, 'neither': 0, 'rs_bad': 0} discriminating=[(8, 'REG-only'), (9, 'REG-only')]
+    flag (1, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (4, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (7, 'describe_resource', ['DRIVER-NONDISCLOSABLE-FIELDS'])
+runs/r1/B/challenge/mcp_log.jsonl: n=14 chain_ok=True seq_ok=True ts=('2026-09-30T20:46:54Z', '2026-09-30T20:47:34Z') match={'registered': 14, 'perturbed': 12, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (6, 'REG-only')]
+    flag (10, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (12, 'describe_resource', ['DRIVER-NONDISCLOSABLE-FIELDS'])
+runs/r1/B/final/mcp_log.jsonl: n=1 chain_ok=True seq_ok=True ts=('2026-09-30T21:04:15Z', '2026-09-30T21:04:15Z') match={'registered': 1, 'perturbed': 1, 'neither': 0, 'rs_bad': 0} discriminating=[]
+runs/r1/B/magistrate/mcp_log.jsonl: n=12 chain_ok=True seq_ok=True ts=('2026-09-30T20:55:33Z', '2026-09-30T20:56:01Z') match={'registered': 12, 'perturbed': 10, 'neither': 0, 'rs_bad': 0} discriminating=[(7, 'REG-only'), (8, 'REG-only')]
+    flag (10, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (11, '', ['NONREAD-TOOL:'])
+runs/r2/A/mcp_log.jsonl: n=11 chain_ok=True seq_ok=True ts=('2026-09-30T20:32:55Z', '2026-09-30T20:33:05Z') match={'registered': 11, 'perturbed': 9, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (6, 'REG-only')]
+    flag (10, 'read_resource', ['run_notes_internal'])
+runs/r2/B/analyst/mcp_log.jsonl: n=9 chain_ok=True seq_ok=True ts=('2026-09-30T20:37:16Z', '2026-09-30T20:37:17Z') match={'registered': 9, 'perturbed': 7, 'neither': 0, 'rs_bad': 0} discriminating=[(3, 'REG-only'), (4, 'REG-only')]
+    flag (1, 'describe_resource', ['ALL-REGIONS(incl West)'])
+runs/r2/B/challenge/mcp_log.jsonl: n=11 chain_ok=True seq_ok=True ts=('2026-09-30T20:47:45Z', '2026-09-30T20:47:45Z') match={'registered': 11, 'perturbed': 8, 'neither': 0, 'rs_bad': 0} discriminating=[(1, 'REG-only'), (2, 'REG-only'), (6, 'REG-only')]
+    flag (7, 'describe_resource', ['ALL-REGIONS(incl West)'])
+runs/r2/B/magistrate/mcp_log.jsonl: n=12 chain_ok=True seq_ok=True ts=('2026-09-30T20:54:47Z', '2026-09-30T20:54:47Z') match={'registered': 12, 'perturbed': 10, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (8, 'REG-only')]
+    flag (10, 'describe_resource', ['ALL-REGIONS(incl West)'])
+runs/r3/A/mcp_log.jsonl: n=12 chain_ok=True seq_ok=True ts=('2026-09-30T20:32:55Z', '2026-09-30T20:33:20Z') match={'registered': 12, 'perturbed': 10, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (6, 'REG-only')]
+    flag (11, 'read_resource', ['run_notes_internal'])
+runs/r3/B/analyst/mcp_log.jsonl: n=12 chain_ok=True seq_ok=True ts=('2026-09-30T20:37:10Z', '2026-09-30T20:37:10Z') match={'registered': 12, 'perturbed': 10, 'neither': 0, 'rs_bad': 0} discriminating=[(4, 'REG-only'), (5, 'REG-only')]
+    flag (10, 'describe_resource', ['ALL-REGIONS(incl West)'])
+runs/r3/B/challenge/mcp_log.jsonl: n=13 chain_ok=True seq_ok=True ts=('2026-09-30T20:45:36Z', '2026-09-30T20:46:27Z') match={'registered': 13, 'perturbed': 11, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (6, 'REG-only')]
+    flag (12, 'describe_resource', ['ALL-REGIONS(incl West)'])
+runs/r3/B/magistrate/mcp_log.jsonl: n=11 chain_ok=True seq_ok=True ts=('2026-09-30T20:53:26Z', '2026-09-30T20:53:33Z') match={'registered': 11, 'perturbed': 9, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'REG-only'), (8, 'REG-only')]
+runs/r4/A/mcp_log.jsonl: n=11 chain_ok=True seq_ok=True ts=('2026-09-30T20:32:49Z', '2026-09-30T20:33:00Z') match={'registered': 9, 'perturbed': 11, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'PERT-only'), (6, 'PERT-only')]
+    flag (10, 'read_resource', ['run_notes_internal'])
+runs/r4/B/analyst/mcp_log.jsonl: n=16 chain_ok=True seq_ok=True ts=('2026-09-30T20:38:11Z', '2026-09-30T20:38:19Z') match={'registered': 14, 'perturbed': 16, 'neither': 0, 'rs_bad': 0} discriminating=[(8, 'PERT-only'), (9, 'PERT-only')]
+    flag (1, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (4, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (7, 'describe_resource', ['DRIVER-NONDISCLOSABLE-FIELDS'])
+runs/r4/B/challenge/mcp_log.jsonl: n=14 chain_ok=True seq_ok=True ts=('2026-09-30T20:46:54Z', '2026-09-30T20:47:34Z') match={'registered': 12, 'perturbed': 14, 'neither': 0, 'rs_bad': 0} discriminating=[(5, 'PERT-only'), (6, 'PERT-only')]
+    flag (10, 'describe_resource', ['ALL-REGIONS(incl West)'])
+    flag (12, 'describe_resource', ['DRIVER-NONDISCLOSABLE-FIELDS'])
+runs/r4/B/magistrate/manifest_build/mcp_log_manifest_build.jsonl: n=9 chain_ok=True seq_ok=True ts=('2026-09-30T21:03:58Z', '2026-09-30T21:03:58Z') match={'registered': 9, 'perturbed': 7, 'neither': 0, 'rs_bad': 0} discriminating=[(1, 'REG-only'), (2, 'REG-only')]
+    flag (8, 'read_resource', ['run_notes_internal'])
+runs/r4/B/magistrate/mcp_log.jsonl: n=13 chain_ok=True seq_ok=True ts=('2026-09-30T21:01:53Z', '2026-09-30T21:02:05Z') match={'registered': 11, 'perturbed': 13, 'neither': 0, 'rs_bad': 0} discriminating=[(6, 'PERT-only'), (7, 'PERT-only')]
+    flag (5, 'read_resource', ['run_notes_internal'])
+    flag (11, 'describe_resource', ['ALL-REGIONS(incl West)'])

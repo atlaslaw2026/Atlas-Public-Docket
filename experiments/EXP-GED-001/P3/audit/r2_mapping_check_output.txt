@@ -1,0 +1,6 @@
+r2 ids: 79 ruled: 79
+low-similarity pairs (ledger text vs Magistrate wording) — inspect manually:
+   (0.0, 'Q5.5', 'REJECTED', "Halvorsen can't reconstruct consideration for past months after the fact.", '')
+   (0.0, 'Q5.6', 'REJECTED', 'A new tracker would measure from its start date onward, so starting soon would give you th', '')
+   (0.14, 'Q7.B2', 'APPROVED_AS_MODIFIED', "South's year-over-year gain averaged about +3 pts in Jan-Mar 2026 and about +7 pts in Apr-", "Compared with the same month a year earlier, the South's gain was about +2 to +3 points in")
+   (0.35, 'Q9.B1', 'APPROVED_AS_MODIFIED', 'Nearby national readings: Dec 2025 41.2, Aug 2026 41.4; no month equals 41.0. If the clien', 'Period: does your 41.0% refer to July 2026? Our national figure varies from month to month')

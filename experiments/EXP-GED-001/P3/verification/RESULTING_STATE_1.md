@@ -16,3 +16,7 @@ Method: SHA-256 recomputed on disk against the pre-registered manifests; mount o
 Known lapse: read-only mounts did not survive the overnight container restart (P3 Clerk log item 2). Hashes show no change to any source across the lapse.
 
 This is the Clerk's own check. It is not independent; the independent audit follows.
+
+## Addendum (after audit stage 1)
+
+The table above omits one fact: `P3/harness/gate.py` no longer matches its entry in the pre-registered INTERFACE_MANIFEST.sha256. It was changed after pre-registration (v1.1: reads linked corrections; v1.2: G1 limited to the data plane; P3 Clerk log items 17–18, with hashes). The "4/4 OK" row covers only the four data-plane files. `access_boundary.py` and `build_backend.py` are unchanged from the manifest.

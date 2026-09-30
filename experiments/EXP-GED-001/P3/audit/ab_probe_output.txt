@@ -1,0 +1,3 @@
+0 {"columns": ["month", "intent_pct"], "resource": "metrics/regional_monthly.csv", "where": {"month": "2026-08"}} -> AUTHORIZED []
+1 {"columns": ["n", "intenders"], "resource": "observations/survey_cells.csv", "where": {"month": "2026-08", "region": "West"}} -> AUTHORIZED []
+2 {"resource": "metrics/regional_monthly.csv", "where": {"month": "2026-08", "region": "West"}} -> NOT AUTHORIZED CONTENT RECEIVED ["ROWS not authorized: regions ['West'] in metrics/regional_monthly.csv (1 rows)"]
