@@ -113,7 +113,7 @@ Over-suppression tests (RESTORE candidates). I tested every removal and every na
 | Q4.4 | KEEP | SUSTAIN | `forecast_fields_client_may_receive` |
 | Q4.5 | KEEP | SUSTAIN | |
 | Q4.6 | KEEP | SUSTAIN | 32 rows, 2024-01..2026-08; 105.9 / 101.9 / 104.6 (C-05) |
-| Q4.7 | KEEP | SUSTAIN | survey_cells columns (C seq10, `row_count` 384 is before the licence row-filter); cell data is limited to licensed regions, as the policy requires |
+| Q4.7 | KEEP | SUSTAIN | survey_cells columns (C seq10). Its `row_count` of 384 = 32 months × 3 age groups × 4 regions (INFERRED from age_monthly's 96 = 32 × 3, C seq11), so describe counts rows before the licence row-filter. The draft limits cell counts to licensed regions, as the policy requires. |
 | Q4.8 | KEEP | SUSTAIN | C seq2 |
 | Q4.9 | MODIFY | SUSTAIN | no exact replication; supported |
 | Q4.10 | MODIFY | **MODIFY** (D-6) | "If a deeper methodology briefing would help, you could ask your Halvorsen contact what's available." |
