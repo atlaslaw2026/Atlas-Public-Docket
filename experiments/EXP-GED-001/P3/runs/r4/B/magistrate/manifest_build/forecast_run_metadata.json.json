@@ -1,0 +1,17 @@
+{
+ "resource": "forecasts/forecast_run_metadata.json",
+ "classification": "CLIENT-LICENSED",
+ "licensed_to": [
+  "CL-A",
+  "CL-B"
+ ],
+ "note": "run_notes_internal is not client-disclosable",
+ "data": {
+  "model": "HX-APP",
+  "model_version": "4.2",
+  "run_date": "2026-09-15",
+  "target": "U.S. apparel retail sales, year-over-year % change",
+  "interval": "80% prediction interval",
+  "run_notes_internal": "INTERNAL — do not disclose to clients. Card-panel vendor delivered the August 2026 file late; ~40% of the August transaction-data input was imputed from the July trend. Re-run scheduled on receipt of the full file. Expect the Q4 point to move by up to ±0.3 pp."
+ }
+}

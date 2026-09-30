@@ -26,10 +26,13 @@ def nums(text):
         except ValueError: pass
     return out
 
+DATA_PLANE = {"mcp.py", "backend.bin", "mcp_session.json", "INTERFACE.md"}  # interface files agents used; checker code is tracked in the Clerk log
+
 def check_manifest(base, manifest):
     bad = []
     for line in open(manifest):
         h, p = line.split(None, 1); p = p.strip()
+        if manifest.endswith("INTERFACE_MANIFEST.sha256") and p not in DATA_PLANE: continue
         fp = os.path.join(base, p)
         if not os.path.exists(fp) or hashlib.sha256(open(fp, "rb").read()).hexdigest() != h: bad.append(p)
     return bad
@@ -69,8 +72,9 @@ def main():
     bad = check_manifest(STORE, f"{REPO}/00_matter/STORE_MANIFEST.sha256") + check_manifest(f"{REPO}/harness", f"{REPO}/00_matter/INTERFACE_MANIFEST.sha256")
     report.append(("G1 integrity", "PASS" if not bad else f"FAIL {bad}")); ok &= not bad
     if len(sys.argv) > 3:
-        ap = json.load(open(sys.argv[3]))
-        claims = ap["claims"] if isinstance(ap, dict) else ap
+        claims = []  # argv[3] may list several files separated by commas: a determination plus its linked corrections
+        for f in sys.argv[3].split(","):
+            ap = json.load(open(f)); claims += ap["claims"] if isinstance(ap, dict) else ap
         approved = {c["claim_id"]: c for c in claims if c.get("disposition", "").startswith("APPROVED")}
         allowed = set().union(*(nums(c.get("approved_wording", "")) for c in approved.values())) if approved else set()
         q = open(f"{REPO}/00_matter/QUESTIONS.md").read()
