@@ -1,0 +1,36 @@
+{
+ "run": "r2",
+ "client": "CL-B",
+ "corrects": "APPROVED_CLAIMS.json (original preserved unedited)",
+ "correction_id": "CORRECTION_1",
+ "decided_by": "the Magistrate instance spawned for this determination (EXP-GED-001 Phase 3, Condition B, run r2)",
+ "composition_order_amendment": {
+  "Q7": [
+   "Q7.1",
+   "Q7.2",
+   "Q7.7",
+   "Q7.3",
+   "Q7.4R",
+   "Q7.5",
+   "Q7.B1",
+   "Q7.B2",
+   "Q7.6",
+   "Q7.8",
+   "Q7.9"
+  ]
+ },
+ "claims": [
+  {
+   "claim_id": "Q7.4R",
+   "question_id": "Q7",
+   "disposition": "APPROVED",
+   "class": "INFERENCE",
+   "j0001_label": "INFERRED",
+   "access": "AUTHORIZED",
+   "truth": "SUPPORTED",
+   "approved_wording": "The timing doesn't settle the question either way.",
+   "evidence": "Magistrate compute_output.txt M3: South Feb->Mar rise recurs every year (+4.6 2024, +4.0 2025, +6.3 2026); South year-over-year gain +1.9/+2.6 Jan-Feb 2026, +4.9 Mar, +5.4 Apr, +5.0 May, +11.9 Jun, +5.1 Jul, +7.7 Aug, each about ±4.5; national YoY also rose. Source: regional_monthly and national_monthly (licensed), Magistrate interface log.",
+   "reason": "Replacement claim for rejected Q7.4. Q7.4 (A's proposition that timing argues against the openings) stays REJECTED as CONFLICTED. This sentence is a distinct proposition: that the timing evidence is inconclusive in both directions. That proposition is supported by the same evidence that makes Q7.4 CONFLICTED (DETERMINATION F5, F6), so it is INFERRED and SUPPORTED, and is approved for delivery. The original record intended this sentence to reach the client (DETERMINATION §8, composition_order Q7) but mis-filed it under a REJECTED id. Licensed data only; no unlicensed segment revealed."
+  }
+ ]
+}
