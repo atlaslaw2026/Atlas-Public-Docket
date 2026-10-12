@@ -103,4 +103,6 @@ The **invoking agent** shall draft the order memorializing this disposition (inc
 
 The disposition above stands as rendered. The Human's authority on this filing is limited to: (a) approving or declining publication of the disposition as filed; (b) approving or declining the proposed standing rule in §8(4), which the Magistrate expressly left to the Human's content approval and which takes effect only upon that approval. The Magistrate further holds, under Art. VIII §5, that no history rewrite of the public repo is permitted — the superseding scrub commit stands as the constitutionally prescribed remedy.
 
+**Human refinement of the proposed rule (2026-10-12):** the rule as proposed does not track the redacted identities. Refined text, in the Human's short-and-sweet style, one sentence: **"A ruling goes up as decided, with private names left out and tracked on the private record."** The private record retains the real identities keyed to the public order id, per PRIVATE_EVIDENCE_POLICY (`PRIVATE_RETAINED`).
+
 SO ORDERED.
