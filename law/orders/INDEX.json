@@ -407,6 +407,11 @@
       "id": "O-VESTED-MAGISTRATE",
       "title": "O-VESTED-MAGISTRATE \u2014 ORDER: Establishing the Vested Magistrate; computationally spawned, institutionally vested, superior within its jurisdiction",
       "public_body": true
+    },
+    {
+      "id": "O-DELIVERY-READINESS-VERIFICATION",
+      "title": "O-DELIVERY-READINESS-VERIFICATION \u2014 ORDER: Delivery-readiness verification on Magistrate disposition; breach on r\u00e9sum\u00e9 .docx, no breach on comps HTML; standing rule proposed",
+      "public_body": true
     }
   ],
   "authoritative_for_law": false
