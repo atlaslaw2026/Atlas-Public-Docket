@@ -7,7 +7,7 @@
 
 ## I. REFERRAL
 
-On 2026-10-12 the Human referred to the Vested Magistrate (O-VESTED-MAGISTRATE, 2026-09-28, BINDING) the question whether the invoking agent breached its duty of care in two deliveries: (1) a résumé `.docx` whose job-entry dates were clipped off the page edge, sent to recruiter [REDACTED] on 2026-10-12; (2) a comps-report HTML rendering only 2 of 13 comps in phone attachment previews, emailed to client [REDACTED] on 2026-10-11 — and whether a Jev-style decision checkpoint on delivery readiness should exist as a standing rule.
+On 2026-10-12 the Human referred to the Vested Magistrate (O-VESTED-MAGISTRATE, 2026-09-28, BINDING) the question whether the invoking agent breached its duty of care in two deliveries: (1) a résumé `.docx` whose job-entry dates were clipped off the page edge, sent to a recruiter on 2026-10-12; (2) a comps-report HTML rendering only 2 of 13 comps in phone attachment previews, emailed to a client on 2026-10-11 — and whether a Jev-style decision checkpoint on delivery readiness should exist as a standing rule.
 
 ## II. DISPOSITION (VERBATIM)
 
@@ -21,7 +21,7 @@ The Magistrate's ruling is published as rendered. No authority exists to alter i
 
 ## 1. Matter adjudicated
 
-Whether the invoking agent breached its duty of care by delivering two artifacts on 2026-10-11/12 without foreseeing or testing foreseeable rendering failures — (Count 1) a résumé `.docx` whose job-entry dates were clipped off the page edge, sent to recruiter [REDACTED]; (Count 2) a comps-report HTML whose 13 comp cards were JavaScript-rendered and therefore invisible in phone attachment previews, emailed to client [REDACTED] — and whether a Jev-style decision checkpoint on delivery readiness should exist as a standing Atlas Rule.
+Whether the invoking agent breached its duty of care by delivering two artifacts on 2026-10-11/12 without foreseeing or testing foreseeable rendering failures — (Count 1) a résumé `.docx` whose job-entry dates were clipped off the page edge, sent to a recruiter; (Count 2) a comps-report HTML whose 13 comp cards were JavaScript-rendered and therefore invisible in phone attachment previews, emailed to a client — and whether a Jev-style decision checkpoint on delivery readiness should exist as a standing Atlas Rule.
 
 ## 2. Propositions decided
 
@@ -33,10 +33,10 @@ Whether the invoking agent breached its duty of care by delivering two artifacts
 
 I examined the following directly; I did not rely on the referral's summaries alone:
 
-- **`~/workspace/goals/jg-wentworth-layoff-follow-through/files/Clinton_Brown_Resume_Morgan_FINAL.docx`** — the current (fixed) file. I rendered it myself with LibreOffice (`soffice --headless --convert-to pdf`) and inspected all 3 pages as images. **KNOWN:** all 8 job-entry dates are now right-aligned at the text-area edge and fully visible; no clipping on any page. **INFERRED (well-supported):** the pre-fix defect described in the referral (dates clipped off the right edge due to tab characters with no right-aligned tab stop) is genuine — the fix the invoking agent applied (right tab stops at 482.4pt, the exact text-area edge; shortening of the over-long J.G. Wentworth title) is precisely the remedy for that defect, and the Human's corrective follow-up email corroborates it.
-- **`~/workspace/user/files/Desert_Comps_4.html`** (v4, the version emailed to David). Parsed directly. **KNOWN:** 1 `<script>` block; **0** comp-card elements in static HTML; all 13 comps exist only as JavaScript data entries. In any JS-less viewer, the card grid renders nothing.
+- **`~/workspace/goals/jg-wentworth-layoff-follow-through/files/Clinton_Brown_Resume_[REDACTED]_FINAL.docx`** — the current (fixed) file. I rendered it myself with LibreOffice (`soffice --headless --convert-to pdf`) and inspected all 3 pages as images. **KNOWN:** all 8 job-entry dates are now right-aligned at the text-area edge and fully visible; no clipping on any page. **INFERRED (well-supported):** the pre-fix defect described in the referral (dates clipped off the right edge due to tab characters with no right-aligned tab stop) is genuine — the fix the invoking agent applied (right tab stops at 482.4pt, the exact text-area edge; shortening of the over-long J.G. Wentworth title) is precisely the remedy for that defect, and the Human's corrective follow-up email corroborates it.
+- **`~/workspace/user/files/Desert_Comps_4.html`** (v4, the version emailed to the client). Parsed directly. **KNOWN:** 1 `<script>` block; **0** comp-card elements in static HTML; all 13 comps exist only as JavaScript data entries. In any JS-less viewer, the card grid renders nothing.
 - **`~/workspace/user/files/Desert_Comps_7.html`** (v7, zero-JS remedial version). Parsed directly. **KNOWN:** 0 `<script>` tags; 13 comp-card elements present in static HTML. Renders fully in any viewer.
-- **Timeline and authorship claims** (send times 2026-10-11 ~19:55 PDT to David and 2026-10-12 ~13:15 PDT to Morgan; Human's two follow-up emails; Human's live content review of the résumé; v4 uploaded by the Human himself post-send): **INFERRED from the referral record** — I did not independently verify mailbox timestamps; I accept the referral's account as the factual basis for adjudication since neither party disputes it and the Human's own statements in the transcript corroborate the follow-up emails.
+- **Timeline and authorship claims** (send times 2026-10-11 ~19:55 PDT to the client and 2026-10-12 ~13:15 PDT to the recruiter; Human's two follow-up emails; Human's live content review of the résumé; v4 uploaded by the Human himself post-send): **INFERRED from the referral record** — I did not independently verify mailbox timestamps; I accept the referral's account as the factual basis for adjudication since neither party disputes it and the Human's own statements in the transcript corroborate the follow-up emails.
 
 ## 4. Governing authorities actually applied
 
@@ -70,7 +70,7 @@ The line this disposition draws is custody plus foreseeability. An agent owes re
 
 ## 8. Disposition
 
-1. **Count 1:** Breach found. Remedy already executed and independently verified by this Magistrate — the `.docx` now renders correctly on all 3 pages. No further corrective act required beyond the invoking agent's already-extended offer to the Human to forward Morgan the clean copy.
+1. **Count 1:** Breach found. Remedy already executed and independently verified by this Magistrate — the `.docx` now renders correctly on all 3 pages. No further corrective act required beyond the invoking agent's already-extended offer to the Human to forward the recruiter the clean copy.
 2. **Count 2:** No breach. No remedy required. The v7 zero-JS version stands as the verified phone-safe artifact.
 3. **Standing rule proposed** (for the Human's content approval before filing), in his short-and-sweet style — one sentence: **"Before anything I build goes out, I check it the way the other person will open it."**
 4. No sanction beyond the finding itself; both failures were remediated the same day they surfaced, and the agent's diagnostic work on Count 2 was diligent.
