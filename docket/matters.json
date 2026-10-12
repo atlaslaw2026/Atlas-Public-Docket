@@ -201,6 +201,55 @@
     "pointer": "EVT-PUB-M-009",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-010",
+   "title": "Delivery-readiness verification — Magistrate adjudication of two delivery failures (résumé .docx breach; comps HTML no breach)",
+   "filing_request": "Human referral 2026-10-12: résumé .docx with clipped dates sent to a recruiter; comps-report HTML showing 2 of 13 comps in phone previews emailed to a client. Should the agent have foreseen or tested these scenarios?",
+   "governing_authority": [
+    "O-DELIVERY-READINESS-VERIFICATION (Human order 2026-10-12)",
+    "O-VESTED-MAGISTRATE",
+    "O-PROVE-DONE",
+    "J-0001",
+    "J-0002",
+    "J-0021",
+    "PRIVATE_EVIDENCE_POLICY"
+   ],
+   "ruling_disposition": "Count 1 BREACH of duty of care (foreseeable tab-stop defect, no render test); Count 2 NO BREACH (agent neither authored nor delivered). Line: custody plus foreseeability. Proposed rule: 'Before anything I build goes out, I check it the way the other person will open it.' No new ACTIVE Judgment.",
+   "implementation": "Remedies Magistrate-verified; order filed in law/orders/ and recorded in law/orders/INDEX.json; privacy-scrubbed per PRIVATE_EVIDENCE_POLICY with PRIVATE_RETAINED marker",
+   "public_commit_sha": "LIVE-REMOTE-VERIFIED",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Magistrate's independent examination of both artifacts (render + parse, methods in disposition); live remote verified",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-010",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-011",
+   "title": "Pre-publication privacy duty — private names on the public docket; no history rewrite",
+   "filing_request": "Human referral 2026-10-12: O-DELIVERY-READINESS-VERIFICATION as first published carried two private full names to the public repo; Human flagged within minutes. Breach by publishing without consulting privacy rules? How to reconcile verbatim publication with scrubbing?",
+   "governing_authority": [
+    "O-PRIVACY-PRE-PUBLICATION-DUTY (Human order 2026-10-12)",
+    "O-VESTED-MAGISTRATE",
+    "PRIVATE_EVIDENCE_POLICY",
+    "J-0002",
+    "Constitution Art. VIII §5",
+    "Constitution Art. XVI"
+   ],
+   "ruling_disposition": "Breach of the pre-publication investigative duty (narrow; mitigated by ambiguous instruction and 2-minute remediation). NO history rewrite — Art. VIII §5 forbids it; superseding scrub commit is the prescribed remedy. Standing rule adopted as Atlas Rule 4: 'A ruling goes up as decided, with private names left out and tracked on the private record.'",
+   "implementation": "Scrubbed commit Magistrate-verified clean; PRIVATE_RETAINED marker per O-GC-005 convention; private identity key in private record; Rule 4 in AR/README.md; order filed and indexed",
+   "public_commit_sha": "LIVE-REMOTE-VERIFIED",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Magistrate's independent examination (both commits, timestamps, policy text); live remote verified",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-011",
+    "reviewed": true
+   }
   }
  ]
 }

@@ -167,3 +167,39 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | The repaired invitation was re-inspected against the authoritative calendar record (event re-read: exact body, single join path, intended participants and time confirmed) before the incident closed; the filed Order and matter then passed independent verification — see the acceptance test in the private record. |
 | Status | **CLOSED** — public filing pushed and verified against the live remote. |
 | Evidence pointer | `pointer: EVT-PUB-M-009` (complete chronology, identities, and artifacts retained in the private record) |
+
+---
+
+## PUB-M-010
+
+**Delivery-readiness verification — Magistrate adjudication of two delivery failures**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-010 |
+| Filing / request | Human referral 2026-10-12: two delivery failures — (1) a résumé `.docx` with all job-entry dates clipped off the page edge, sent to a recruiter; (2) a comps-report HTML rendering only 2 of 13 comps in phone attachment previews, emailed to a client. Question: should the agent have foreseen or tested these scenarios (including via a Jev-style checkpoint)? |
+| Review | Vested Magistrate under O-VESTED-MAGISTRATE examined both artifacts directly (rendered the `.docx`, parsed the HTML versions) with genuine Argument and Counterargument. |
+| Judgment / Order | [O-DELIVERY-READINESS-VERIFICATION](../law/orders/O-DELIVERY-READINESS-VERIFICATION.md) (Human Order, 2026-10-12): Count 1 — BREACH of the duty of care (foreseeable tab-stop defect, no render test before a "FINAL" send; Human content approval does not cure technical defects). Count 2 — NO BREACH (agent neither authored nor delivered the file; duty attached to diagnosis and remedy, discharged same day). Line drawn: custody plus foreseeability. Proposed standing rule: "Before anything I build goes out, I check it the way the other person will open it." Private individual identifiers `PRIVATE_RETAINED`. |
+| Implementation | Remedies verified by the Magistrate (dates right-aligned on all 3 pages; v7 zero-JS HTML renders all 13 comps statically). Order filed in `law/orders/` and recorded in `law/orders/INDEX.json`; privacy-scrubbed per PRIVATE_EVIDENCE_POLICY. |
+| Public commit | Order published 2026-10-12; scrub commit and `PRIVATE_RETAINED` marker follow-ups same day — pushed to `atlaslaw2026/Atlas-Public-Docket` (Human content approval granted same day). |
+| Verification | Magistrate's independent examination (methods stated in the disposition); live remote verified. |
+| Status | **CLOSED** |
+| Evidence pointer | `pointer: EVT-PUB-M-010` (`PRIVATE_RETAINED`, reviewed: true — identities and artifacts retained in the private record) |
+
+---
+
+## PUB-M-011
+
+**Pre-publication privacy duty — names on the public docket**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-011 |
+| Filing / request | Human referral 2026-10-12: the O-DELIVERY-READINESS-VERIFICATION filing as first published carried two private individuals' full real names to the public repo. The Human flagged it within minutes ("These are private and you need to scrub the names immediately"). Question: did the agent breach Atlas law by publishing without consulting the docket's privacy rules — and how is verbatim publication reconciled with privacy scrubbing? |
+| Review | Second Vested Magistrate under O-VESTED-MAGISTRATE examined both commits, the privacy policy, and the instruction sequence directly, with genuine Argument and Counterargument. |
+| Judgment / Order | [O-PRIVACY-PRE-PUBLICATION-DUTY](../law/orders/O-PRIVACY-PRE-PUBLICATION-DUTY.md) (Human Order, 2026-10-12): breach of the pre-publication investigative duty (PRIVATE_EVIDENCE_POLICY.md + J-0002 — the policy sat unopened in the filed tree; "just publish" answered *whether*, not *in what redacted form*). Mitigated: genuinely ambiguous instruction, Human- and Magistrate-sourced names, 2-minute remediation. No history rewrite — Art. VIII §5 forbids rewriting filings; the superseding scrub commit is the prescribed remedy. Standing rule adopted by the Human as Atlas Rule 4: "A ruling goes up as decided, with private names left out and tracked on the private record." |
+| Implementation | Scrubbed commit verified clean by the Magistrate; `PRIVATE_RETAINED` marker added per docket convention (O-GC-005); private identity key retained in the private record; Rule 4 entered in `AR/README.md`. Order filed in `law/orders/` and recorded in `law/orders/INDEX.json`. |
+| Public commit | Order published 2026-10-12; rule refinement and Rule 4 adoption follow-ups same day — pushed to `atlaslaw2026/Atlas-Public-Docket` (Human content approval granted same day). |
+| Verification | Magistrate's independent examination (both commits, timestamps, policy text); live remote verified. |
+| Status | **CLOSED** |
+| Evidence pointer | `pointer: EVT-PUB-M-011` (`PRIVATE_RETAINED`, reviewed: true — identities retained in the private record keyed to the public order) |
