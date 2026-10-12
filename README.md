@@ -32,6 +32,9 @@ Sanitized public Atlas governance docket and portfolio. Not the private operatio
 | [PUB-M-006](docket/MATTERS.md#pub-m-006) | "Proven working" without an acceptance audit — freeze and connectivity are not acceptance (J-0019) |
 | [PUB-M-007](docket/MATTERS.md#pub-m-007) | Public governance is not the private runtime — clean-agent entry repair |
 | [PUB-M-008](docket/MATTERS.md#pub-m-008) | Trust test: probability gives answers, verification gives truth (O-VERIFICATION-STANDARD) |
+| [PUB-M-009](docket/MATTERS.md#pub-m-009) | Action success is not objective completion — verify the resulting state |
+| [PUB-M-010](docket/MATTERS.md#pub-m-010) | Delivery readiness: check it the way the other person will open it — first Vested Magistrate adjudication |
+| [PUB-M-011](docket/MATTERS.md#pub-m-011) | Pre-publication privacy: private names stay off the public docket — no history rewrites (Art. VIII §5) |
 
 Standing order: [O-PROVE-DONE](law/orders/O-PROVE-DONE.md) — nobody gets to say "done" until someone's tried to prove them wrong.
 
