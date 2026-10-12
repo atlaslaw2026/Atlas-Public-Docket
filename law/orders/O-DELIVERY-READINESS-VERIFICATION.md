@@ -1,9 +1,11 @@
 # O-DELIVERY-READINESS-VERIFICATION
 
 **Filing type:** HUMAN ORDER (on Magistrate disposition)
-**Status:** PROPOSED — pending Human content approval
+**Status:** BINDING (Human-approved 2026-10-12; privacy-scrubbed 2026-10-12 per PRIVATE_EVIDENCE_POLICY)
 **Date:** 2026-10-12
 **Title:** Order on Delivery-Readiness Verification
+
+**Privacy:** Private individual identifiers in this matter are `PRIVATE_RETAINED` — reviewed by the Magistrate, not published here. Role descriptors ("a recruiter," "a client") are used throughout; a redacted filename appears as `[REDACTED]`.
 
 ## I. REFERRAL
 
@@ -91,4 +93,4 @@ The **invoking agent** shall draft the order memorializing this disposition (inc
 
 The disposition above stands as rendered. The Human's authority on this filing is limited to: (a) approving or declining publication of the disposition as filed; (b) approving or declining the proposed standing rule in §8(3), which the Magistrate expressly left to the Human's content approval and which takes effect only upon that approval.
 
-SO ORDERED (upon approval).
+SO ORDERED.
