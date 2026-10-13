@@ -37,6 +37,7 @@ Sanitized public Atlas governance docket and portfolio. Not the private operatio
 | [PUB-M-011](docket/MATTERS.md#pub-m-011) | Pre-publication privacy: private names stay off the public docket — no history rewrites (Art. VIII §5) |
 | [PUB-M-012](docket/MATTERS.md#pub-m-012) | Live gate activation: not authorized on this record — magistrate ruled against the Human's informal order |
 | [PUB-M-013](docket/MATTERS.md#pub-m-013) | Live gate activation, reconsidered: AUTHORIZED with entered waivers — T7 waived, hygiene declined, forged-approval still open |
+| [PUB-M-014](docket/MATTERS.md#pub-m-014) | Public docket history rewrite: non-conforming — corrected prospectively, remediation open (D-26) |
 
 Standing order: [O-PROVE-DONE](law/orders/O-PROVE-DONE.md) — nobody gets to say "done" until someone's tried to prove them wrong.
 
