@@ -288,7 +288,7 @@
    ],
    "ruling_disposition": "Activation AUTHORIZED (v1.2.1 to live master, master-publication-gate ruleset, blocklist secret; scope strictly limited). PUB-M-012 HOLD lifted/superseded. T7 waived and hygiene declined entered as decided (residuals accepted, not remediated). Forged-approval defect remains OPEN at validator layer. Five residual warnings as terms of authorization (canary first; secret before ruleset Active).",
    "implementation": "Order filed in law/orders/ and INDEX.json; activation not yet performed — canary filing first",
-   "public_commit_sha": "PENDING-PUSH",
+   "public_commit_sha": "93791385071342333dbc862d039a06ae8f1b2f77",
    "private_commit_class": "PRIVATE_RETAINED",
    "verification": "Magistrate's independent examination; live remote verified",
    "status": "CLOSED",
