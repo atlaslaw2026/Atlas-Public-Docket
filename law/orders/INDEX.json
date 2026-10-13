@@ -427,6 +427,26 @@
    "id": "O-GATE-ACTIVATION-RECONSIDERATION",
    "title": "O-GATE-ACTIVATION-RECONSIDERATION — Magistrate disposition: live gate activation AUTHORIZED with entered waivers and residual warnings (reconsideration, 2026-10-12)",
    "public_body": true
+  },
+  {
+   "id": "O-HUMAN-SUMMONS-PURGE-ADJUDICATION",
+   "title": "O-HUMAN-SUMMONS-PURGE-ADJUDICATION — Human Summons: adjudication of the 2026-10-12 PII purge (2026-10-12)",
+   "public_body": true
+  },
+  {
+   "id": "O-INTRA-LAW-TENSIONS",
+   "title": "O-INTRA-LAW-TENSIONS — Magistrate disposition: the two intra-law tensions (purge exception vs no-rewrite; scope of no-rewrite) (2026-10-12)",
+   "public_body": true
+  },
+  {
+   "id": "O-BLOCKLIST-DECLINE-RULING",
+   "title": "O-BLOCKLIST-DECLINE-RULING — Magistrate disposition: activation without the blocklist secret NOT authorized; ruleset step suspended (2026-10-12)",
+   "public_body": true
+  },
+  {
+   "id": "O-GATE-LIVE-QUESTION-RULING",
+   "title": "O-GATE-LIVE-QUESTION-RULING — Magistrate disposition: no form of the gate goes live tonight; 7-of-7 green needs no new referral (2026-10-12)",
+   "public_body": true
   }
  ],
  "authoritative_for_law": false
