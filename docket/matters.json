@@ -273,6 +273,30 @@
     "pointer": "EVT-PUB-M-012",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-013",
+   "title": "Live gate activation — reconsideration; AUTHORIZED with entered waivers and residual warnings",
+   "filing_request": "Human referral 2026-10-12: reconsider the PUB-M-012 activation hold on new evidence (8 green tests, T7 waived, hygiene declined, tensions decided) — \"I approve making it live.\"",
+   "governing_authority": [
+    "O-GATE-ACTIVATION-RECONSIDERATION (2026-10-12)",
+    "O-GATE-ACTIVATION-REFERRED-QUESTION (2026-10-12)",
+    "O-VESTED-MAGISTRATE",
+    "O-PROVE-DONE",
+    "J-0002",
+    "Atlas Rule 5"
+   ],
+   "ruling_disposition": "Activation AUTHORIZED (v1.2.1 to live master, master-publication-gate ruleset, blocklist secret; scope strictly limited). PUB-M-012 HOLD lifted/superseded. T7 waived and hygiene declined entered as decided (residuals accepted, not remediated). Forged-approval defect remains OPEN at validator layer. Five residual warnings as terms of authorization (canary first; secret before ruleset Active).",
+   "implementation": "Order filed in law/orders/ and INDEX.json; activation not yet performed — canary filing first",
+   "public_commit_sha": "PENDING-PUSH",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Magistrate's independent examination; live remote verified",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-013",
+    "reviewed": true
+   }
   }
  ]
 }

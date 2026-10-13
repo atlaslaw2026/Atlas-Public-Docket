@@ -221,3 +221,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-012` (evidence packages retained in the working record) |
+
+---
+
+## PUB-M-013
+
+**Live gate activation — reconsideration: authorized with entered waivers**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-013 |
+| Filing / request | Human referral 2026-10-12: reconsider the PUB-M-012 activation hold on new evidence — "Bring it back to her with new evidence and I approve making it live." New record: 8 green disposable-repo tests (T1–T6, T5b) with raw evidence; T7 waived by the Human; credential hygiene declined by the Human; the two intra-law tensions decided the same evening. |
+| Review | Vested Magistrate under O-VESTED-MAGISTRATE examined the prior disposition, the disposable-repo evidence bundle, the explicit waiver/decline/approval statements, and the tensions holdings — with genuine Argument and Counterargument. |
+| Judgment / Order | [O-GATE-ACTIVATION-RECONSIDERATION](../law/orders/O-GATE-ACTIVATION-RECONSIDERATION.md) (2026-10-12): activation AUTHORIZED — v1.2.1 six files to live `master`, `master-publication-gate` ruleset (Active, no bypasses, required check `validator`), `DOCKET_NAME_BLOCKLIST` secret; scope strictly limited. PUB-M-012 HOLD lifted and superseded. Waivers entered as decided: T7 waived (positive control unproven — his choice), hygiene declined (broad credential remains — his choice). Forged-approval defect remains OPEN at the validator layer, contained at the platform layer (T5/T5b). Five residual warnings entered as the terms of authorization, including: first live filing is a synthetic canary; secret populated before the ruleset goes Active. |
+| Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json` (Human content approval: "go ahead and put that as matter 13 on the docket," 2026-10-12). Activation itself not yet performed — awaits the Human's execution sequence (canary filing first). |
+| Public commit | Order published 2026-10-12 — pushed to `atlaslaw2026/Atlas-Public-Docket` (Human content approval granted same day). |
+| Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
+| Status | **CLOSED** |
+| Evidence pointer | `pointer: EVT-PUB-M-013` (disposable-repo evidence retained in the working record: atlas-test-evidence.json, atlas-test-evidence-report.md) |
