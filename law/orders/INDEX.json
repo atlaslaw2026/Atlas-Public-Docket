@@ -2,7 +2,7 @@
   "orders": [
     {
       "id": "O-AI-CHALLENGER-V1",
-      "title": "O-AI-CHALLENGER-V1 \u2014 ORDER: Prospective AI forward challenger",
+      "title": "O-AI-CHALLENGER-V1 — ORDER: Prospective AI forward challenger",
       "public_body": true
     },
     {
@@ -12,17 +12,17 @@
     },
     {
       "id": "O-ALG1-V1-PAPER-FORWARD-GITHUB-PROPOSED",
-      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB \u2014 PROPOSED ORDER",
+      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB — PROPOSED ORDER",
       "public_body": true
     },
     {
       "id": "O-ALG1-V1-PAPER-FORWARD-GITHUB",
-      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB \u2014 ORDER",
+      "title": "O-ALG1-V1-PAPER-FORWARD-GITHUB — ORDER",
       "public_body": true
     },
     {
       "id": "O-ALG1-V1-PAPER-FORWARD",
-      "title": "O-ALG1-V1-PAPER-FORWARD \u2014 ORDER",
+      "title": "O-ALG1-V1-PAPER-FORWARD — ORDER",
       "public_body": true
     },
     {
@@ -37,12 +37,12 @@
     },
     {
       "id": "O-ATLAS-CONTINUATION-LAW-PROPOSED",
-      "title": "O-ATLAS-CONTINUATION-LAW \u2014 PROPOSED ORDER",
+      "title": "O-ATLAS-CONTINUATION-LAW — PROPOSED ORDER",
       "public_body": true
     },
     {
       "id": "O-CAPITAL-AT-RISK",
-      "title": "O-CAPITAL-AT-RISK \u2014 ORDER: Capital-at-risk; TARGET_STRATEGIC_CASH = 0% for the next AI challenger",
+      "title": "O-CAPITAL-AT-RISK — ORDER: Capital-at-risk; TARGET_STRATEGIC_CASH = 0% for the next AI challenger",
       "public_body": true
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "id": "O-FORWARD-TRACKING",
-      "title": "O-FORWARD-TRACKING \u2014 ORDER",
+      "title": "O-FORWARD-TRACKING — ORDER",
       "public_body": true
     },
     {
@@ -67,17 +67,17 @@
     },
     {
       "id": "O-GC-002-MANDATORY-CAPABILITY-DISCOVERY-REUSE-INTAKE",
-      "title": "O-GC-002 \u2014 Mandatory Capability Discovery and Reuse Intake",
+      "title": "O-GC-002 — Mandatory Capability Discovery and Reuse Intake",
       "public_body": true
     },
     {
       "id": "O-GC-003-ATLAS-V4-PORTABLE-BOOTSTRAP",
-      "title": "O-GC-003 \u2014 Atlas V4 Portable Bootstrap and Authoritative Docket",
+      "title": "O-GC-003 — Atlas V4 Portable Bootstrap and Authoritative Docket",
       "public_body": true
     },
     {
       "id": "O-GC-004-CAPABILITY-ACCOUNTING-BEFORE-COMPLETION",
-      "title": "O-GC-004 \u2014 Capability Accounting Before Completion or Human Escalation",
+      "title": "O-GC-004 — Capability Accounting Before Completion or Human Escalation",
       "public_body": true
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "id": "O-J-0012",
-      "title": "O-J-0012 \u2014 ORDER: Adopt Universal AI Usage Accounting (J-0012)",
+      "title": "O-J-0012 — ORDER: Adopt Universal AI Usage Accounting (J-0012)",
       "public_body": true
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "id": "O-PROJECT-1-1-FORWARD-MONITORING",
-      "title": "O-PROJECT-1-1-FORWARD-MONITORING \u2014 ORDER",
+      "title": "O-PROJECT-1-1-FORWARD-MONITORING — ORDER",
       "public_body": false,
       "private_fields": "REDACTED"
     },
@@ -370,52 +370,57 @@
     },
     {
       "id": "O-V2-001",
-      "title": "Order O-V2-001 \u2014 Build private Governance V2 (this job)",
+      "title": "Order O-V2-001 — Build private Governance V2 (this job)",
       "public_body": true
     },
     {
       "id": "O-V2-002",
-      "title": "Order O-V2-002 \u2014 Governance V2 Viewer application, branch, and endpoint",
+      "title": "Order O-V2-002 — Governance V2 Viewer application, branch, and endpoint",
       "public_body": true
     },
     {
       "id": "O-V2-003-PROPOSED",
-      "title": "Proposed Order O-V2-003 \u2014 Adopt Atlas Goal as project-docket Dkt. 1",
+      "title": "Proposed Order O-V2-003 — Adopt Atlas Goal as project-docket Dkt. 1",
       "public_body": true
     },
     {
       "id": "O-VERIFICATION-STANDARD",
-      "title": "O-VERIFICATION-STANDARD \u2014 ORDER: Probability gives answers, verification gives truth",
+      "title": "O-VERIFICATION-STANDARD — ORDER: Probability gives answers, verification gives truth",
       "public_body": true
     },
     {
       "id": "O-PROVE-DONE",
-      "title": "O-PROVE-DONE \u2014 ORDER: Nobody gets to say done until someone's tried to prove them wrong",
+      "title": "O-PROVE-DONE — ORDER: Nobody gets to say done until someone's tried to prove them wrong",
       "public_body": true
     },
     {
       "id": "O-GC-005",
-      "title": "O-GC-005 \u2014 Decision Boundary: No Default Human Menu",
+      "title": "O-GC-005 — Decision Boundary: No Default Human Menu",
       "public_body": true
     },
     {
       "id": "O-RESULTING-STATE-VERIFICATION",
-      "title": "O-RESULTING-STATE-VERIFICATION \u2014 ORDER: Action success is not objective completion; done is a factual claim earned from the resulting state",
+      "title": "O-RESULTING-STATE-VERIFICATION — ORDER: Action success is not objective completion; done is a factual claim earned from the resulting state",
       "public_body": true
     },
     {
       "id": "O-VESTED-MAGISTRATE",
-      "title": "O-VESTED-MAGISTRATE \u2014 ORDER: Establishing the Vested Magistrate; computationally spawned, institutionally vested, superior within its jurisdiction",
+      "title": "O-VESTED-MAGISTRATE — ORDER: Establishing the Vested Magistrate; computationally spawned, institutionally vested, superior within its jurisdiction",
       "public_body": true
     },
     {
       "id": "O-DELIVERY-READINESS-VERIFICATION",
-      "title": "O-DELIVERY-READINESS-VERIFICATION \u2014 ORDER: Delivery-readiness verification on Magistrate disposition; breach on r\u00e9sum\u00e9 .docx, no breach on comps HTML; standing rule proposed",
+      "title": "O-DELIVERY-READINESS-VERIFICATION — ORDER: Delivery-readiness verification on Magistrate disposition; breach on résumé .docx, no breach on comps HTML; standing rule proposed",
       "public_body": true
     },
     {
       "id": "O-PRIVACY-PRE-PUBLICATION-DUTY",
-      "title": "O-PRIVACY-PRE-PUBLICATION-DUTY \u2014 ORDER: Pre-publication privacy duty on Magistrate disposition; breach found (narrow); no history rewrite per Art. VIII \u00a75; standing rule proposed",
+      "title": "O-PRIVACY-PRE-PUBLICATION-DUTY — ORDER: Pre-publication privacy duty on Magistrate disposition; breach found (narrow); no history rewrite per Art. VIII §5; standing rule proposed",
+      "public_body": true
+    },
+    {
+      "id": "O-GATE-ACTIVATION-REFERRED-QUESTION",
+      "title": "O-GATE-ACTIVATION-REFERRED-QUESTION — Magistrate disposition: live gate activation not authorized at this time (referred question, 2026-10-12)",
       "public_body": true
     }
   ],
