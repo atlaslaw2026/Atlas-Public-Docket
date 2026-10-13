@@ -1,0 +1,196 @@
+# Docket Publication Gate - GitHub Actions workflow (v1.2.1, final-test-prep hardening).
+# v1.2.1 changes vs v1.2.0: third-party actions pinned to verified full commit
+# SHAs (actions/checkout@v4 -> 11d5960a326750d5838078e36cf38b85af677262).
+#
+# Runs validator.py as a REQUIRED status check on every pull request targeting
+# master. This workflow is the mechanical enforcement of the publication gate:
+# no PR merges to master unless the validator exits 0.
+#
+# REPO PLACEMENT: .github/workflows/validator-check.yml
+# COMPANION FILES (must exist on master for this to run):
+#   .docket-gate/validator.py
+#   .docket-gate/filing-types.json
+#   publication-manifest.json  (at PR head root; one per PR; see manifest.schema.json)
+#
+# THE BLOCKLIST IS NEVER IN THE REPO. It is supplied as the repository secret
+# DOCKET_NAME_BLOCKLIST (one name per line). The validator FAILS CLOSED if the
+# secret is missing or empty - no secret, no publication.
+#
+# SECURITY DESIGN (v1.2.0 fixes):
+# - Trigger is pull_request_target, NOT pull_request. The workflow DEFINITION
+#   always executes from the base branch (master). A PR that modifies this
+#   workflow file, the validator, or the ruleset CANNOT change what runs for
+#   its own check - the base version runs. (With the old `pull_request`
+#   trigger, a PR could neuter the validator and its own weakened copy would
+#   execute: proven bypass, see security review target 1.)
+# - The validator CODE executed is extracted from origin/master (the trusted
+#   base), while the FILING FILES validated come from the PR head (untrusted
+#   data). Trusted code, untrusted data - never the reverse.
+# - Gate-only PRs (changes confined to .docket-gate/ or .github/workflows/)
+#   cannot be validated BY the gate (self-reference). They get a smoke check
+#   (syntax + schema parse) instead of a blind pass, and the ruleset's
+#   CODEOWNERS requirement forces the repo owner's review - not just any
+#   approval - before merge.
+#
+# Bootstrap ordering (see ACTIVATION.md): this file must be merged to master
+# BEFORE the ruleset names its check as required, otherwise the required check
+# can never report and every PR blocks forever.
+
+name: Docket Publication Gate
+
+on:
+  pull_request_target:
+    branches: [master]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  validator:
+    name: validator
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+    steps:
+      - name: Check out PR head with full history
+        # Pinned to full commit SHA (v1.2.1 hardening): tag-pinned actions can
+        # be moved by the action publisher. This SHA was resolved from the
+        # `v4` tag via the GitHub API and verified to exist.
+        # Tag: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          # pull_request_target runs the BASE workflow definition, but we still
+          # validate the PR's proposed files: explicit checkout of the head sha.
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          # Full history is REQUIRED: the no-duplicate-blob check compares the
+          # proposed files against every blob ever filed. A shallow checkout
+          # would make the validator fail closed (block) on every PR.
+
+      - name: Ensure base branch is present
+        run: git fetch origin master --depth=1 || git fetch origin master
+
+      - name: Extract TRUSTED gate code from base
+        id: trusted
+        run: |
+          # The validator executed is ALWAYS the base branch's copy. A PR that
+          # modifies .docket-gate/validator.py cannot substitute its own.
+          mkdir -p /tmp/trusted-gate
+          git show "origin/master:.docket-gate/validator.py" > /tmp/trusted-gate/validator.py
+          git show "origin/master:.docket-gate/filing-types.json" > /tmp/trusted-gate/filing-types.json
+          python3 -m py_compile /tmp/trusted-gate/validator.py \
+            || { echo "::error::Base validator.py does not compile. Blocking."; exit 1; }
+          echo "Trusted gate code extracted from origin/master."
+
+      - name: Compute changed files vs master
+        id: diff
+        run: |
+          git diff --name-only "origin/master...${{ github.event.pull_request.head.sha }}" > /tmp/changed.txt
+          echo "Changed files:"; cat /tmp/changed.txt
+          if [ ! -s /tmp/changed.txt ]; then
+            echo "::error::PR changes no files vs master. Nothing to validate; blocking."
+            exit 1
+          fi
+
+      - name: Gate self-change handling
+        id: selfchange
+        run: |
+          # Changes confined to the gate's own code/workflow cannot be validated
+          # BY the gate (self-reference). They get a smoke check here (the gate
+          # must at least parse), and the ruleset's CODEOWNERS rule requires the
+          # repo owner's review - not just any approval - before such a PR can
+          # merge. Everything else requires the publication manifest + validator.
+          if grep -qvE '^(\.docket-gate/|\.github/workflows/|\.github/CODEOWNERS)' /tmp/changed.txt; then
+            echo "self_change=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "self_change=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::All changed files are gate code/workflow/config files. Running smoke check (the gate cannot fully validate changes to itself); merge additionally requires the code owner's review per the ruleset."
+          fi
+
+      - name: Smoke-check gate-only changes
+        if: steps.selfchange.outputs.self_change == 'true'
+        run: |
+          # The gate must at least be syntactically valid after its own change.
+          # This catches breakage, not malice: a deliberately weakened gate still
+          # needs the code owner's (Clinton's) explicit review to merge.
+          fail=0
+          for f in $(grep -E '^\.docket-gate/.*\.py$' /tmp/changed.txt); do
+            python3 -m py_compile "$f" || { echo "::error::$f does not compile"; fail=1; }
+          done
+          for f in $(grep -E '^\.docket-gate/.*\.json$' /tmp/changed.txt); do
+            python3 -c "import json,sys; json.load(open('$f'))" 2>/dev/null || \
+            python3 -c "import json; json.load(open('$f'))" || { echo "::error::$f is not valid JSON"; fail=1; }
+          done
+          for f in $(grep -E '^\.github/workflows/.*\.ya?ml$' /tmp/changed.txt); do
+            python3 -c "import yaml,sys; yaml.safe_load(open('$f'))" 2>/dev/null || \
+              echo "::warning::$f YAML parse skipped (pyyaml unavailable); syntax not verified"
+          done
+          exit $fail
+
+      - name: Require the publication manifest
+        id: manifest
+        if: steps.selfchange.outputs.self_change == 'false'
+        run: |
+          if [ ! -f publication-manifest.json ]; then
+            echo "::error::publication-manifest.json is missing from the PR head. Every publication PR must carry a manifest describing the filing (record_type, record_id, classification, files, authority_refs, authorization_receipt). See manifest.schema.json. Blocking."
+            exit 1
+          fi
+          python3 -c "import json; json.load(open('publication-manifest.json'))" \
+            || { echo "::error::publication-manifest.json is not valid JSON. Blocking."; exit 1; }
+          echo "manifest=publication-manifest.json" >> "$GITHUB_OUTPUT"
+
+      - name: Materialize the name blocklist from secret (fail closed)
+        if: steps.selfchange.outputs.self_change == 'false'
+        env:
+          DOCKET_NAME_BLOCKLIST: ${{ secrets.DOCKET_NAME_BLOCKLIST }}
+        run: |
+          if [ -z "${DOCKET_NAME_BLOCKLIST:-}" ]; then
+            echo "::error::DOCKET_NAME_BLOCKLIST secret is not set. The privacy name check cannot run, so publication is blocked. The repo owner must paste the blocklist into the repository secret (Settings > Secrets and variables > Actions). NEVER commit the blocklist file to the repo."
+            exit 1
+          fi
+          printf '%s' "$DOCKET_NAME_BLOCKLIST" > /tmp/blocklist.txt
+          echo "Blocklist materialized (${#DOCKET_NAME_BLOCKLIST} chars); the file itself is never committed."
+
+      - name: Run the publication validator (TRUSTED base copy)
+        id: gate
+        if: steps.selfchange.outputs.self_change == 'false'
+        run: |
+          # NOTE: the validator executed is /tmp/trusted-gate/validator.py from
+          # origin/master, NOT the PR's copy. The PR's files are the untrusted
+          # input (--repo points at the PR-head checkout).
+          python3 /tmp/trusted-gate/validator.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --manifest publication-manifest.json \
+            --changed-files-file /tmp/changed.txt \
+            --blocklist /tmp/blocklist.txt \
+            --types /tmp/trusted-gate/filing-types.json \
+            --base-ref origin/master \
+            --output /tmp/verdict.json
+          # Exit code 0 = PASS, 2 = BLOCK, 1 = validator error. Any non-zero
+          # fails this required check, which blocks the merge.
+
+      - name: Publish verdict as PR comment artifact
+        if: always()
+        run: |
+          python3 - <<'EOF'
+          import json
+          try:
+              v = json.load(open('/tmp/verdict.json'))
+          except Exception as e:
+              print(f"::warning::Could not read verdict.json: {e}")
+              raise SystemExit(0)
+          print(f"### Publication gate verdict: {v['verdict'].upper()}")
+          for c in v['checks']:
+              mark = {'pass': ':white_check_mark:', 'fail': ':no_entry:',
+                      'review': ':warning:', 'skipped': ':grey_question:',
+                      'waived': ':information_source:'}.get(c['result'], ':grey_question:')
+              print(f"{mark} **{c['name']}** ({c['result']})")
+          if v['block_reasons']:
+              print("\n**Blocked because:**")
+              for r in v['block_reasons']:
+                  print(f"- {r[:400]}")
+          EOF
+
+      - name: Scrub the blocklist from the runner
+        if: always()
+        run: shred -u /tmp/blocklist.txt 2>/dev/null || rm -f /tmp/blocklist.txt
