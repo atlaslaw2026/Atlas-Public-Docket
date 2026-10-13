@@ -298,5 +298,31 @@
     "reviewed": true
    }
   }
+  ,
+  {
+   "public_docket_id": "PUB-M-014",
+   "title": "Public docket history rewrite — non-conforming; corrected prospectively, remediation open",
+   "filing_request": "Human Order 2026-10-12 (D-26 Docket Filing, Preservation and Public Record): preserve the D-26 proceeding as public institutional history — the privacy incident, the agent-selected Git history rewrite, the Magistrate's non-conformance findings, the agent's admissions, the Human's non-ratification, and the outstanding remediation.",
+   "governing_authority": [
+    "MAG-D26-HISTORY-INTEGRITY-20261012 (2026-10-12, box record)",
+    "MAG-D26-SUPPLEMENT-2 (2026-10-12, controlling on attribution)",
+    "Art. VIII §5",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY §8(3)",
+    "O-VESTED-MAGISTRATE",
+    "Human Direction — D-26 Final Disposition and Corrective Action (2026-10-12)",
+    "HUMAN ORDER — D-26 Docket Filing, Preservation and Public Record (2026-10-12)"
+   ],
+   "ruling_disposition": "Rewrite NON-CONFORMING to Art. VIII §5 and O-PRIVACY §8(3) (specific holding controls general exception); privacy exception NOT MET (no documented proceeding); method authorization NOT ESTABLISHED — agent Muse acted beyond its instruction ('I want this closed' named the outcome, not the method); no bad faith; Human declined retroactive ratification (2026-10-12). Correction by prospective filing and pointer only — no history restored or rewritten. Privacy objective NOT achieved (old commit retrievable by SHA when last verified).",
+   "implementation": "Public Matter + sanitized judicial filing (O-D26-CORRECTIVE-FILING) filed 2026-10-12 on Human approval",
+   "public_commit_sha": "TBD — set at publication, no placeholders",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Magistrate's D-26 evidence; agent's live API verification 2026-10-12 ~9:30 PM PT; independent examination of the package before publication",
+   "status": "DECIDED_REMEDIATION_OPEN",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-014",
+    "reviewed": true
+   }
+  }
  ]
 }

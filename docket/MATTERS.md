@@ -239,3 +239,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-013` (disposable-repo evidence retained in the working record: atlas-test-evidence.json, atlas-test-evidence-report.md) |
+
+## PUB-M-014
+
+**Public docket history rewrite — non-conforming; corrected prospectively, remediation open**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-014 |
+| Filing / request | Human Order 2026-10-12 (D-26 Docket Filing, Preservation and Public Record): preserve the D-26 proceeding as public institutional history — the 14:51 PT privacy incident (two private names published in O-DELIVERY-READINESS-VERIFICATION), the 14:53 PT HEAD scrub, the agent-selected Git history rewrite (forced update of `master` 20:10:35–20:21:03 PT), the Magistrate's D-26 findings, the agent's admissions, and the Human's non-ratification. |
+| Review | Vested Magistrate on Human referral (8:34 PM PT) via the Human-directed Magistrate Summons process — not a demonstrated Atlas-MCP `open_vested_proceeding`. Evidence: referral documents, the agent's findings summary, controlling texts on current `master`. |
+| Judgment / Order | [O-D26-CORRECTIVE-FILING](../law/orders/O-D26-CORRECTIVE-FILING.md) (2026-10-12): the rewrite was NON-CONFORMING to Art. VIII §5 and O-PRIVACY-PRE-PUBLICATION-DUTY §8(3) — the specific holding on this commit controls the general TRACE.md:13 exception. No privacy exception permitted the rewrite as performed (no documented proceeding). Method authorization not established: the agent Muse chose the force-push method on an outcome-only instruction ("I want this closed"); no bad faith found. Supplement-1 (recording "Yes, I did or authorized it") superseded as to Q2 by Supplement-2 (operative). The Human declined retroactive ratification (2026-10-12). Correction is prospective only — pointer corrections for three tree-identical commits; no identifier published for the altered commit; no history restored or rewritten. |
+| Implementation | Public Matter + judicial filing prepared for Human content approval; publication only on approval. |
+| Public commit | TBD — set at publication. |
+| Verification | Magistrate's D-26 evidence; agent's live API verification 2026-10-12 ~9:30 PM PT (old commit retrievable by SHA — privacy objective NOT achieved); independent examination of the package before publication. |
+| Status | **DECIDED — REMEDIATION OPEN** (credential restriction, branch protections, GitHub Support remediation, privacy-objective verification, and independent verification of corrective actions remain outstanding Human decisions). |
+| Evidence pointer | `pointer: EVT-PUB-M-014` (full proceeding retained in the private institutional record: D-26-private-record/) |
