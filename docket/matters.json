@@ -250,6 +250,29 @@
     "pointer": "EVT-PUB-M-011",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-012",
+   "title": "Live gate activation — referred question; activation not authorized on this record",
+   "filing_request": "Human referral 2026-10-12: whether the v1.2.1 publication gate should be installed and activated on the live public docket now.",
+   "governing_authority": [
+    "O-GATE-ACTIVATION-REFERRED-QUESTION (2026-10-12)",
+    "O-VESTED-MAGISTRATE",
+    "O-PROVE-DONE",
+    "J-0002",
+    "Atlas Rule 5"
+   ],
+   "ruling_disposition": "Activation NOT authorized on this record — no valid activation order; not prudent (7 GitHub tests unexecuted, forged-approval OPEN, hygiene undone, tensions undecided). Prerequisites: tests green, hygiene done, tensions decided, fresh explicit Human activation order.",
+   "implementation": "Order filed in law/orders/ and INDEX.json; no live activation performed",
+   "public_commit_sha": "4a50be478cf3683a175bc57ced2dea8cf5b0de97",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Magistrate's independent examination; live remote verified",
+   "status": "CLOSED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-012",
+    "reviewed": true
+   }
   }
  ]
 }

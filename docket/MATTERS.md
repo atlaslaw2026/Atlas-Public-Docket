@@ -203,3 +203,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Magistrate's independent examination (both commits, timestamps, policy text); live remote verified. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-011` (`PRIVATE_RETAINED`, reviewed: true — identities retained in the private record keyed to the public order) |
+
+---
+
+## PUB-M-012
+
+**Live gate activation — referred question on installing the v1.2.1 publication gate**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-012 |
+| Filing / request | Human referral 2026-10-12: whether the v1.2.1 publication gate should be installed and activated on the live public docket now. The Human's informal direction ("just do it") was superseded the same evening by his formal referral of the question to the Magistrate ("let the magistrate decide"). |
+| Review | Vested Magistrate under O-VESTED-MAGISTRATE examined the filing compliance audit, the v1.2.1 repair package, both security reviews, the 32-test evidence, the unexecuted 7-test GitHub matrix, and the Human's conflicting directions — with genuine Argument and Counterargument. |
+| Judgment / Order | [O-GATE-ACTIVATION-REFERRED-QUESTION](../law/orders/O-GATE-ACTIVATION-REFERRED-QUESTION.md) (2026-10-12): activation NOT authorized on this record — no valid activation order exists; not prudent (7 GitHub tests unexecuted, forged-approval defect proven and OPEN, credential hygiene undone, two intra-law tensions undecided). Prerequisites in order: tests green, hygiene done, tensions decided, fresh explicit Human activation order. v1.2.1 not impeached ("not yet," not "never"). |
+| Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json` (Human content approval granted same day). No live activation performed. |
+| Public commit | Order published 2026-10-12 — pushed to `atlaslaw2026/Atlas-Public-Docket` (commit `4a50be4`). |
+| Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
+| Status | **CLOSED** |
+| Evidence pointer | `pointer: EVT-PUB-M-012` (evidence packages retained in the working record) |
