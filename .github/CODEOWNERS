@@ -1,0 +1,6 @@
+# Gate code and workflow are owned by the repo owner. Changes to the
+# enforcement mechanism itself require the owner's review specifically
+# (ruleset: require_code_owner_reviews=true) - not just any approval.
+.docket-gate/ @atlaslaw2026
+.github/workflows/ @atlaslaw2026
+.github/CODEOWNERS @atlaslaw2026
