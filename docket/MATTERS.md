@@ -255,3 +255,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Magistrate's D-26 evidence; agent's live API verification 2026-10-12 ~9:30 PM PT (old commit retrievable by SHA — privacy objective NOT achieved); independent examination of the package before publication. |
 | Status | **DECIDED — REMEDIATION OPEN** (credential restriction, branch protections, GitHub Support remediation, privacy-objective verification, and independent verification of corrective actions remain outstanding Human decisions). |
 | Evidence pointer | `pointer: EVT-PUB-M-014` (full proceeding retained in the private institutional record: D-26-private-record/) |
+
+## PUB-M-015
+
+**Interlocutory Ruling 7A — decision on 0666 evidence token copies (AtlasClose credential exposure)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-015 |
+| Filing / request | Human Principal (Clinton Brown) direct order 2026-10-15 3:19 PM PT to publish Interlocutory Ruling 7A on the public docket; number corrected to PUB-M-015 by direct order 2026-10-15 3:23 PM PT (PUB-M-014 already occupied by D-26). |
+| Review | Human-summoned Magistrate Summons agent adjudication (not Atlas-MCP open_vested_proceeding). Ruling source sha256 `c3b57f909e4770657196e6574d906d150322e18d5aaa5b6818c2ece43928d7de`. |
+| Judgment / Order | [O-ATLASCLOSE-INTERLOCUTORY-7A](../law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md) (2026-10-15): authorize Ship to copy 10 cutover evidence token copies into a root-only sealed folder, verify sha256 before/after, then replace agent-readable 0666 store copies with hash-only stubs. No other deletion, rotation, ceremony, or deploy. |
+| Implementation | Order published to this repository under Human content direction; Ship execution and Mag verification remain outstanding on the operational record. |
+| Public commit | TBD — set at publication. |
+| Verification | Source sha256 match before publish; body of order is the Mag ruling verbatim after the publication header. |
+| Status | **ORDERED — EXECUTION PENDING** |
+| Evidence pointer | `pointer: EVT-PUB-M-015` (full Mag audit trail and Ship reports retained in the private/working record) |

@@ -323,6 +323,29 @@
     "pointer": "EVT-PUB-M-014",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-015",
+   "title": "Interlocutory Ruling 7A — sealed copy of 0666 evidence token copies (AtlasClose)",
+   "filing_request": "Human Principal direct order 2026-10-15 3:19 PM PT to publish Interlocutory Ruling 7A; number PUB-M-015 by direct order 2026-10-15 3:23 PM PT",
+   "governing_authority": [
+    "Human Principal direct publication orders 2026-10-15 3:19 PM PT and 3:23 PM PT",
+    "MAG-ATLASCLOSE-INTERLOCUTORY-7A-20261015 (sha256 c3b57f909e4770657196e6574d906d150322e18d5aaa5b6818c2ece43928d7de)",
+    "O-ATLASCLOSE-INTERLOCUTORY-7A",
+    "Human Summons 2026-10-15 (preservation path; Mag agent adjudication)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)"
+   ],
+   "ruling_disposition": "ORDERED: Ship copies 10 cutover evidence token copies to root-only sealed folder, verifies hashes, then replaces 0666 store copies with hash-only stubs. Nothing else deleted; no rotation, ceremony, or deploy.",
+   "implementation": "Order filed in law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md and recorded in law/orders/INDEX.json; public matter row added",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Source sha256 match; published body equals Mag ruling after publication header",
+   "status": "ORDERED_EXECUTION_PENDING",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-015",
+    "reviewed": true
+   }
   }
  ]
 }
