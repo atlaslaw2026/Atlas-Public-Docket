@@ -453,6 +453,16 @@
    "id": "O-ATLASCLOSE-INTERLOCUTORY-7A",
    "title": "O-ATLASCLOSE-INTERLOCUTORY-7A — Interlocutory Ruling 7A: sealed copy of 0666 evidence token copies (PUB-M-015)",
    "public_body": true
+  },
+  {
+   "id": "O-HUMAN-SUMMONS-MAGISTRATE",
+   "title": "O-HUMAN-SUMMONS-MAGISTRATE — Human Summons of the Magistrate (ADOPTED 2026-10-15, PUB-M-016)",
+   "public_body": true
+  },
+  {
+   "id": "ADOPTION-O-HUMAN-SUMMONS-MAGISTRATE-20261015",
+   "title": "Human Order adopting O-HUMAN-SUMMONS-MAGISTRATE (PUB-M-016)",
+   "public_body": true
   }
  ],
  "authoritative_for_law": false

@@ -271,3 +271,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Source sha256 match before publish; body of order is the Mag ruling verbatim after the publication header. |
 | Status | **ORDERED — EXECUTION PENDING** |
 | Evidence pointer | `pointer: EVT-PUB-M-015` (full Mag audit trail and Ship reports retained in the private/working record) |
+
+## PUB-M-016
+
+**Human adoption of O-HUMAN-SUMMONS-MAGISTRATE (Human Summons procedure)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-016 |
+| Filing / request | Human Principal (Clinton Brown) adopted the order at 9:49 PM PT on 2026-10-15. He directed publication at 9:53 PM PT on 2026-10-15, confirmed directly to the Magistrate. |
+| Review | Conforming text entered 2026-10-03 after REMAND MAG-GOV-HUMAN-SUMMONS-CONSISTENCY-20261003. Adoption is the Human's reserved act (Art. I §2) and is not a Magistrate holding. |
+| Judgment / Order | [O-HUMAN-SUMMONS-MAGISTRATE](../law/orders/O-HUMAN-SUMMONS-MAGISTRATE.md) (sha256 `3287a80c9f0c377ed4a342a8c9243909626a603e9badedfeed5dfa8eea1c4716`, CRLF line endings, byte for byte). Instrument: [ADOPTION-O-HUMAN-SUMMONS-MAGISTRATE-20261015](../law/orders/ADOPTION-O-HUMAN-SUMMONS-MAGISTRATE-20261015.md) (sha256 `363c500fa88410f3ce658b2439c78642aeae38dbe910fa6dcdd48f6abcc84b91`). Cover record: [cover](../law/orders/ADOPTION-O-HUMAN-SUMMONS-MAGISTRATE-20261015-COVER.md). |
+| Effect | Effective on filing to this docket. Applies going forward only and does not ratify earlier Summons proceedings. Supplements O-VESTED-MAGISTRATE without amending it. As the Human states, it closes REMAND MAG-GOV-HUMAN-SUMMONS-CONSISTENCY-20261003. |
+| Public commit | The commit that adds this entry. |
+| Verification | Both file hashes were checked before the push and after it, against the committed blobs. |
+| Status | **ADOPTED — EFFECTIVE ON FILING** |
+| Evidence pointer | `pointer: EVT-PUB-M-016` (Legal drafts and Mag records retained in the private record) |

@@ -346,6 +346,27 @@
     "pointer": "EVT-PUB-M-015",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-016",
+   "title": "Human adoption of O-HUMAN-SUMMONS-MAGISTRATE",
+   "filing_request": "Human Principal adoption 2026-10-15 9:49 PM PT; publication directed 9:53 PM PT (direct to Magistrate)",
+   "governing_authority": [
+    "Constitution Art. I §2; Schedule A.1",
+    "O-VESTED-MAGISTRATE (supplemented, not amended)",
+    "REMAND MAG-GOV-HUMAN-SUMMONS-CONSISTENCY-20261003 (closed by adoption per Human)"
+   ],
+   "ruling_disposition": "ADOPTED by express Human act; prospective only; no ratification of prior Summons proceedings",
+   "implementation": "law/orders/O-HUMAN-SUMMONS-MAGISTRATE.md (sha256 3287a80c9f0c377ed4a342a8c9243909626a603e9badedfeed5dfa8eea1c4716); law/orders/ADOPTION-O-HUMAN-SUMMONS-MAGISTRATE-20261015.md (sha256 363c500fa88410f3ce658b2439c78642aeae38dbe910fa6dcdd48f6abcc84b91); cover record",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "byte-exact sha256 checked pre- and post-push",
+   "status": "ADOPTED_EFFECTIVE_ON_FILING",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-016",
+    "reviewed": true
+   }
   }
  ]
 }
