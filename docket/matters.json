@@ -367,6 +367,27 @@
     "pointer": "EVT-PUB-M-016",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-017",
+   "title": "Human decision: O-PROVE-DONE stays published",
+   "filing_request": "2026-10-17 internal law-book review: a working note described O-PROVE-DONE as left unpublished by Human decision, but the order has been on this docket since 2026-09-24; no instrument of such a decision was located; question referred to the Human",
+   "governing_authority": [
+    "Constitution Art. I (Human sovereignty); Art. VIII §5 (no rewriting of filings)",
+    "Human decision, Clinton Brown, 2026-10-17 11:25 PM PT, verbatim: \"yes, publish i'd love to see a new entry on the github public docket, which read the filing rules\"; confirmation, verbatim: \"yes and who has authority to place issues on the docket?\"",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)"
+   ],
+   "ruling_disposition": "DECIDED by express Human act: O-PROVE-DONE stays published as filed; text not edited; no new law",
+   "implementation": "Public matter row added; law/orders/O-PROVE-DONE.md unchanged (sha256 ec4b73dc4401dc4593817d4d9bbac02b21cfe6b19c74e9a00edad23c42e9f49f)",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "O-PROVE-DONE sha256 checked before and after the push",
+   "status": "DECIDED_PUBLISHED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-017",
+    "reviewed": true
+   }
   }
  ]
 }

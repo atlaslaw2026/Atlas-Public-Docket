@@ -287,3 +287,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Both file hashes were checked before the push and after it, against the committed blobs. |
 | Status | **ADOPTED — EFFECTIVE ON FILING** |
 | Evidence pointer | `pointer: EVT-PUB-M-016` (Legal drafts and Mag records retained in the private record) |
+
+---
+
+## PUB-M-017
+
+**Human decision: O-PROVE-DONE stays published**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-017 |
+| Filing / request | A 2026-10-17 internal law-book review found a conflict. A working note described the standing order O-PROVE-DONE as left unpublished by Human decision, yet the order has been on this docket since it was filed on 2026-09-24, and later public orders cite it. The review located no instrument recording a decision to leave it unpublished. The question went to the Human. |
+| Review | Publication is the Human's decision (Constitution Art. I). Not a Magistrate holding. Privacy check of the order text under PRIVATE_EVIDENCE_POLICY and Atlas Rule 4 before this entry. |
+| Judgment / Order | Human decision, Clinton Brown, 11:25 PM PT on 2026-10-17. His words, verbatim: "yes, publish i'd love to see a new entry on the github public docket, which read the filing rules". Asked to confirm that this means O-PROVE-DONE stays public with a docket entry recording his approval, he answered, verbatim: "yes and who has authority to place issues on the docket?" Controlling order unchanged: [O-PROVE-DONE](../law/orders/O-PROVE-DONE.md) (standing User Order, 2026-09-24, BINDING). |
+| Effect | O-PROVE-DONE stays published as filed. Its text is not edited (Constitution Art. VIII §5). If any earlier direction was to leave it unpublished, this later decision controls its publication. No new law. The order's substance and status are unchanged. |
+| Public commit | The commit that adds this entry. |
+| Verification | `law/orders/O-PROVE-DONE.md` sha256 `ec4b73dc4401dc4593817d4d9bbac02b21cfe6b19c74e9a00edad23c42e9f49f`, checked before and after the push. |
+| Status | **DECIDED — PUBLISHED** |
+| Evidence pointer | `pointer: EVT-PUB-M-017` (`PRIVATE_RETAINED`, reviewed: true; the review notes and the Human's messages are retained in the private record) |
