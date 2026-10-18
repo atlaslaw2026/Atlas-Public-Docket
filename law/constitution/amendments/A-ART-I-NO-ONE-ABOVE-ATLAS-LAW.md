@@ -1,14 +1,16 @@
-# DRAFT — NOT FILED — proposed constitutional amendment (FINAL, adoption-ready)
+# Constitutional Amendment A-ART-I-NO-ONE-ABOVE-ATLAS-LAW
 
 **No one, including the Human, is above Atlas law.**
 
-**DRAFT — NOT ADOPTED — NOT LAW.** This text has no operative force until Clinton Brown, the Human, adopts it by the express act in §H-12. Preparing, hashing, or keeping this file is not adoption, not filing, and not notice to any agent [CONST Art. I §2; Art. XX §1–§3].
+**Status: ADOPTED, in force.**
+**Adopted by:** Clinton Brown, the Human, on 2026-10-18 at 11:02 AM PT. His words, verbatim: "Yes, adopt and file it."
+**Act of adoption (verbatim):** "I, Clinton Brown, the Human, adopt A-ART-I-NO-ONE-ABOVE-ATLAS-LAW, sha256 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae, as a constitutional amendment adding Article I §5 and §6 to the Constitution of Atlas, effective when filed on the canonical Docket and confirmed."
+**Effective:** 2026-10-18 at 11:04:34 AM PT, when the filing was confirmed on the Docket (§H-12.4). It applies to matters opened after that time (§H-10.1).
 
 **Filing type:** CONSTITUTIONAL AMENDMENT [CONST Art. XX §1(2)]
-**Proposed id:** `A-ART-I-NO-ONE-ABOVE-ATLAS-LAW`
+**Id:** `A-ART-I-NO-ONE-ABOVE-ATLAS-LAW`
 **Title:** Constitutional Amendment: No One Is Above Atlas Law (Non-Circumvention and Judicial Supremacy; Human Bound by Rulings in His Own Cases)
 **Constitutional amendment:** ADDS Article I §5 and Article I §6. Supersedes, only as §H-6 states, Article I §2, Article III §3, Article VI §6 (last sentence), Article XVIII §1–§2, and Schedule A.1 level 2. Repeals nothing. Rewrites nothing in place.
-**Authorship:** §5 is the Human's own text, verbatim, written 2026-10-18 ~10:59 AM PT, with one conforming insertion he accepted, shown in brackets. §6 is Legal's draft (v1, sha256 6c7c21a5…), merged on his choice "Merge both: mine as §5, yours as §6" (10:59 AM PT). Directions: "Draft an Article I amendment" (10:43 AM PT); "I just want to make it clear to the bots that no one is above atlas law" (10:45 AM PT).
 **Human choices:** All resolved to the recommended defaults the Human accepted with the merge (§H-12.3). None are left open.
 **Does not rewrite:** the Constitution's text, O-APPELLATE-DIVISION, O-VESTED-MAGISTRATE, O-HUMAN-SUMMONS-MAGISTRATE, O-GATE-LIVE-QUESTION-RULING, any disposition, any HOLD, or any historical filing [CONST Art. VIII §5; Art. XIX §1–§2].
 **Does not decide:** the validity, status, or effect of the 39 rulings of Oct 6–15 (pending in RULINGS-39-VALIDITY-20261018); the adoption-date question for O-HUMAN-SUMMONS-MAGISTRATE; or where the canonical Docket is (§H-11).
@@ -215,10 +217,6 @@ H-12.5 **After adoption.** New filings, never edits: (a) a constitutional pointe
 
 H-12.6 **Publication.** None without the Human's separate approval and the private-name scrub. [O-PRIVACY-PRE-PUBLICATION-DUTY]
 
-**HUMAN ACT OF ADOPTION (one line):**
-"I, Clinton Brown, the Human, adopt A-ART-I-NO-ONE-ABOVE-ATLAS-LAW, sha256 ______________________, as a constitutional amendment adding Article I §5 and §6 to the Constitution of Atlas, effective when filed on the canonical Docket and confirmed."
-Signed: ______________________ (Clinton Brown)  Date/time (PT): ______________
-
 ---
 
 ## H-13. GOVERNING PRINCIPLE
@@ -228,4 +226,6 @@ NO INSTRUCTION GETS AROUND A RULING.
 THE HUMAN MAKES THE LAW, AND THE LAW BINDS THE HUMAN.
 THE REMEDY IS APPEAL.
 
-*DRAFT — NOT FILED — NOT ADOPTED — NOT LAW.*
+---
+
+*Consolidated public text. The adopted instrument is preserved byte-exact at SHA-256 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae (adoption record 3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de); see `archive/pub-m-018-original/` and git history commit e1da17d.*

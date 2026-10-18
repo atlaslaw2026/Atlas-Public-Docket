@@ -401,6 +401,7 @@
    "ruling_disposition": "ADOPTED by express Human act as a constitutional amendment adding Article I §5 and §6; prospective only; canonical-Docket location question left open by its own terms",
    "implementation": "law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md (sha256 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae); law/constitution/amendments/ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018.md (sha256 3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de); cover record; law/constitution/amendments/INDEX.json; ATLAS_CONSTITUTION.md and CURRENT_OPERATIVE_CONSTITUTION.json unchanged",
    "public_commit_sha": "e1da17d267f60cb25cb6ed934b2c29cb183ce5e2",
+   "files_moved_by": "PUB-M-019: the four files listed above were moved unchanged to archive/pub-m-018-original/; the public text is now the consolidated law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md",
    "correction_note": "commit e1da17d267f60cb25cb6ed934b2c29cb183ce5e2 was published by Magistrate Summons at 3:22 PM PT 2026-10-18 on the Human's approval (3:07 PM PT in Legal's chat, confirmed directly to the keeper at 3:22 PM PT). Its commit message \"DRAFT, local only, not pushed\" and its author label \"Legal (draft - not published)\" are leftovers from Legal's local draft and are wrong; the published files are the approved bytes (A-ART-I 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae, ADOPTION 3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de), and the amendment is ADOPTED and in force since 11:04:34 AM PT 2026-10-18. Corrected by PUB-M-018-C.",
    "private_commit_class": "PRIVATE_RETAINED",
    "verification": "byte-exact sha256 checked pre- and post-push",
@@ -408,6 +409,26 @@
    "evidence_pointer": {
     "evidence_class": "PRIVATE_RETAINED",
     "pointer": "EVT-PUB-M-018",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-019",
+   "title": "One clean public text of constitutional amendment A-ART-I-NO-ONE-ABOVE-ATLAS-LAW",
+   "filing_request": "Human request 2026-10-18 3:27 PM PT, verbatim: \"One clean file: the adopted amendment as law, with my adoption and effective date, no draft labels, and remove the other files from view\"; confirmed 3:28 PM PT that the clean file is the one he already approved (same words, labels off, status on)",
+   "governing_authority": [
+    "Constitution Art. I (Human sovereignty); Art. VIII §5; Art. XIX (no rewriting of filings)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)"
+   ],
+   "ruling_disposition": "PUBLISHED as a consolidated public text; publication form only; no new filing, no new law; operative text unchanged",
+   "implementation": "law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md replaced by the consolidated public text (sha256 5d82d6745f5beffe3cc2eed03bc1750f88e3aca80aed836b4ea394e80632e604); originals moved unchanged to archive/pub-m-018-original/ (A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md sha256 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae; ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018.md sha256 3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de; cover record; INDEX.json); history not rewritten (originals also at commit e1da17d)",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "operative text matches the adopted bytes word for word; moved files keep their sha256",
+   "status": "PUBLISHED_CONSOLIDATED",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-019",
     "reviewed": true
    }
   }
