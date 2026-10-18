@@ -39,6 +39,7 @@ Sanitized public Atlas governance docket and portfolio. Not the private operatio
 | [PUB-M-013](docket/MATTERS.md#pub-m-013) | Live gate activation, reconsidered: AUTHORIZED with entered waivers — T7 waived, hygiene declined, forged-approval still open |
 | [PUB-M-014](docket/MATTERS.md#pub-m-014) | Public docket history rewrite: non-conforming — corrected prospectively, remediation open (D-26) |
 | [PUB-M-016](docket/MATTERS.md#pub-m-016) | Human Summons procedure adopted: the Human may summon the one Magistrate Office; no appeal created |
+| [PUB-M-018](docket/MATTERS.md#pub-m-018) | Constitutional amendment: no one, including the Human, is above Atlas law (Article I §5–§6) |
 
 Standing order: [O-PROVE-DONE](law/orders/O-PROVE-DONE.md) — nobody gets to say "done" until someone's tried to prove them wrong.
 

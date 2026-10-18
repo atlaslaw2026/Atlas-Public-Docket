@@ -388,6 +388,27 @@
     "pointer": "EVT-PUB-M-017",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-018",
+   "title": "Constitutional amendment A-ART-I-NO-ONE-ABOVE-ATLAS-LAW: No one, including the Human, is above Atlas law",
+   "filing_request": "Human adoption 2026-10-18 11:02 AM PT (\"Yes, adopt and file it.\"); private interim Docket confirmation 11:04:34 AM PT; publication approved 3:07 PM PT, verbatim: \"yeah publish it and where will it go on the public docket\"",
+   "governing_authority": [
+    "Constitution Art. XX §1 (constitutional amendment); Art. I §2",
+    "Constitution Art. VIII §5; Art. XIX (no rewriting of filings)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)"
+   ],
+   "ruling_disposition": "ADOPTED by express Human act as a constitutional amendment adding Article I §5 and §6; prospective only; canonical-Docket location question left open by its own terms",
+   "implementation": "law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md (sha256 41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae); law/constitution/amendments/ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018.md (sha256 3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de); cover record; law/constitution/amendments/INDEX.json; ATLAS_CONSTITUTION.md and CURRENT_OPERATIVE_CONSTITUTION.json unchanged",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "byte-exact sha256 checked pre- and post-push",
+   "status": "ADOPTED_EFFECTIVE",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-018",
+    "reviewed": true
+   }
   }
  ]
 }

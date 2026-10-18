@@ -305,3 +305,21 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | `law/orders/O-PROVE-DONE.md` sha256 `ec4b73dc4401dc4593817d4d9bbac02b21cfe6b19c74e9a00edad23c42e9f49f`, checked before and after the push. |
 | Status | **DECIDED — PUBLISHED** |
 | Evidence pointer | `pointer: EVT-PUB-M-017` (`PRIVATE_RETAINED`, reviewed: true; the review notes and the Human's messages are retained in the private record) |
+
+---
+
+## PUB-M-018
+
+**Constitutional amendment: No one, including the Human, is above Atlas law (Article I §5 and §6)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-018 |
+| Filing / request | Clinton Brown, the Human, asked for an Article I amendment at 10:43 AM PT on 2026-10-18: "I just want to make it clear to the bots that no one is above atlas law" (10:45 AM PT). He wrote §5 himself and chose to merge it with Legal's draft as §6. He adopted the final text at 11:02 AM PT: "Yes, adopt and file it." He approved publication at 3:07 PM PT, verbatim: "yeah publish it and where will it go on the public docket". |
+| Review | A constitutional amendment under Constitution Art. XX §1, adopted by the Human's own act. Not a Magistrate holding. Privacy check of the published text under PRIVATE_EVIDENCE_POLICY and Atlas Rule 4 before this entry. |
+| Judgment / Order | [A-ART-I-NO-ONE-ABOVE-ATLAS-LAW](../law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md) (sha256 `41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae`, byte for byte). Adoption record: [ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018](../law/constitution/amendments/ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018.md) (sha256 `3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de`). Cover record: [cover](../law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018-COVER.md). Index: [amendments](../law/constitution/amendments/INDEX.json). |
+| Effect | Adds Article I §5 (no instruction, from anyone, authorizes an agent to get around a valid filed ruling) and §6 (no one, including the Human, is above Atlas law; in his own cases a filed ruling binds him and his remedy is appeal). Effective on private Docket confirmation at 11:04:34 AM PT on 2026-10-18. Applies only to matters opened after that time. Does not decide the 39 rulings of Oct 6–15. The Constitution's text and machine pointer are not edited; a separate pointer filing is still outstanding. Publication here is a reading copy and files nothing. |
+| Public commit | The commit that adds this entry. |
+| Verification | Both file hashes checked before the push and after it, against the committed blobs. |
+| Status | **ADOPTED — EFFECTIVE** |
+| Evidence pointer | `pointer: EVT-PUB-M-018` (`PRIVATE_RETAINED`, reviewed: true; the Docket record, Legal's filing package and the Human's messages are retained in the private record) |

@@ -1,0 +1,23 @@
+{
+ "schema_version": "atlas-public-constitutional-amendments-index-1.0",
+ "description": "Reading index of constitutional amendments published on this docket. Not law and not a constitutional pointer. Amendment text is published byte for byte; ATLAS_CONSTITUTION.md is never edited in place (Art. XX §1(4)).",
+ "authoritative_for_law": false,
+ "amendments": [
+  {
+   "id": "A-ART-I-NO-ONE-ABOVE-ATLAS-LAW",
+   "title": "Constitutional Amendment: No One Is Above Atlas Law (adds Article I §5 and §6)",
+   "articles_added": ["Article I §5", "Article I §6"],
+   "adopted_by": "Clinton Brown (the Human)",
+   "adopted_pt": "2026-10-18 11:02 AM PT",
+   "effective": "2026-10-18T11:04:34-07:00",
+   "effective_basis": "Private interim Docket confirmation by the Magistrate Summons agent (instrument §H-12.4); canonical-Docket location question left open (instrument §H-11 item 1)",
+   "text": "law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW.md",
+   "text_sha256": "41225c397d83ee4bc5fe02bfe27deebfc67f18872047eeaecb28f506ed8d82ae",
+   "adoption_record": "law/constitution/amendments/ADOPTION-A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018.md",
+   "adoption_record_sha256": "3621819c5e2eb98a0e21cc62de1b7e0ce7522db48a286a7b83bf0525eeff65de",
+   "cover_record": "law/constitution/amendments/A-ART-I-NO-ONE-ABOVE-ATLAS-LAW-20261018-COVER.md",
+   "public_docket_id": "PUB-M-018",
+   "constitutional_pointer_moved": false
+  }
+ ]
+}
