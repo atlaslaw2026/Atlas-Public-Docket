@@ -390,3 +390,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | A line-level diff shows only the listed passages changed; line counts unchanged. The files on the public repository match the reviewed corrected files. |
 | Status | **COMPLETED — SECURITY CORRECTION** |
 | Evidence pointer | `pointer: EVT-PUB-M-022` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |
+
+## PUB-M-023
+
+**Privacy correction of the public reading copy of J-0021**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-023 |
+| Filing / request | Clinton Brown, the Human, approved this publication on 2026-10-19 at 3:14 PM PT, verbatim: "Approve these exact bytes and push PUB-M-023". Legal prepared the correction as a publication-form privacy correction under a Magistrate disposition retained on the private record. |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). Not a judgment correction. Not new law. |
+| Judgment / Order | None changed. The public [J-0021](../law/judgments/J-0021.json) is a privacy-redacted reading copy. The authoritative J-0021 is unchanged at the pinned judgment-set commit `9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982` named in CURRENT_LAW.json. No holding, finding, or line of reasoning is changed. The CURRENT_LAW pin is not moved. |
+| Effect | A private business name and a requisition number that remained in the public copy of J-0021 are replaced with neutral labels ([business D], [withheld]). [business D] is the label the docket already uses for the same business in O-J-0021-OBJECTIVE-CONTROL and O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL (PUB-M-021). Four lines change: two evidence-path locators and two sentences. Role descriptors are kept. Affected files: [law/judgments/J-0021.json](../law/judgments/J-0021.json), `docket/MATTERS.md`, `docket/matters.json`. Head-only correction; history is not rewritten. |
+| Public commit | `f9acedb7dc0a5e4761f294311b893b8cbe1be92f` (the J-0021 edit); this entry is added by the following commit. |
+| Verification | A line-level diff shows only labels changed on 4 lines; line count unchanged (82); the file parses as JSON. The file on the public repository matches the reviewed corrected file (sha256 `659224f378f6bd1369def6bf70829362ceb2c444bcba2cdb0991960230eb38c6`). |
+| Status | **COMPLETED — PRIVACY CORRECTION (READING COPY)** |
+| Evidence pointer | `pointer: EVT-PUB-M-023` (`PRIVATE_RETAINED`, reviewed: true; Legal's package, the Magistrate disposition, the names key and the Human's approval are retained in the private record) |

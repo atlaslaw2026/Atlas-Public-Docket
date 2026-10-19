@@ -491,6 +491,26 @@
     "pointer": "EVT-PUB-M-022",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-023",
+   "title": "Privacy correction of the public reading copy of J-0021",
+   "filing_request": "Human approval 2026-10-19 3:14 PM PT, verbatim: \"Approve these exact bytes and push PUB-M-023\"; correction prepared by Legal as a publication-form privacy correction under a Magistrate disposition retained on the private record",
+   "governing_authority": [
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)",
+    "Constitution Art. XIX (no rewriting of filings)"
+   ],
+   "ruling_disposition": "COMPLETED as a privacy correction of a reading copy; publication form only; no judgment correction; authoritative J-0021 unchanged at pinned judgment-set commit 9fb60fa0bf2d983d4c7f781c3df35cd4cc0ae982; CURRENT_LAW pin not moved; no new law",
+   "implementation": "A private business name and a requisition number replaced with neutral labels ([business D], [withheld]) on 4 lines of law/judgments/J-0021.json (two evidence-path locators, two sentences); role descriptors kept; no holding, finding or reasoning changed; head-only correction, history not rewritten",
+   "public_commit_sha": "f9acedb7dc0a5e4761f294311b893b8cbe1be92f",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "line-level diff shows only labels changed on 4 lines; line count unchanged (82); JSON parses; file matches the reviewed corrected file",
+   "status": "COMPLETED_PRIVACY_CORRECTION_READING_COPY",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-023",
+    "reviewed": true
+   }
   }
  ]
 }
