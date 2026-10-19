@@ -40,7 +40,7 @@ FACTUAL RECORD → AI ARGUMENT → COUNTERARGUMENT → RETURN FOR HUMAN JUDGMENT
 
 4. Do not prevent unrelated authorized Atlas projects from continuing merely because this proceeding is open.
 
-5. Use Project 1-2 as the principal factual example of local optimization. Do not treat Natera wording as the Governance issue. The question is why Atlas produced that wording.
+5. Use Project 1-2 as the principal factual example of local optimization. Do not treat [business D] wording as the Governance issue. The question is why Atlas produced that wording.
 
 6. Do not solve the issue by prompt decoration alone.
 
@@ -48,7 +48,7 @@ FACTUAL RECORD → AI ARGUMENT → COUNTERARGUMENT → RETURN FOR HUMAN JUDGMENT
 
 ## Purpose of this proceeding
 
-Not: how to make Natera’s email sound better.
+Not: how to make [business D]’s email sound better.
 
 **HOW DOES ATLAS KNOW WHAT IT IS ACTUALLY TRYING TO ACCOMPLISH WHEN IT PERFORMS ANY TASK?**
 

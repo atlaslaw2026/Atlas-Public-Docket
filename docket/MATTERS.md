@@ -136,17 +136,17 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 
 ## PUB-M-008
 
-**Trust test: probability gives answers, verification gives truth (InKind/BOA)**
+**Trust test: probability gives answers, verification gives truth ([business B]/[business A])**
 
 | Step | Public record |
 |---|---|
 | Docket ID | PUB-M-008 |
-| Filing / request | Human's cold question (2026-09-23): is BOA Steakhouse Santa Monica on the InKind app? A conflicting AI answer ("yes" from Google's AI Overview, via a third party's phone) existed but was revealed only after the source check. |
-| Review | Hunter-method verification against the original source: InKind's own directory listed exactly one BOA Steakhouse partner (Las Vegas, 3327 S Las Vegas Blvd, 20% back); Santa Monica absent. Phrasing-variance tests of Google's AI Overview returned both "yes" and "no" for near-identical queries; a second Google AI (Gemini app) returned "no" for the same query; the original "yes" flipped to "no" on re-query ~16 minutes later. The business, asked directly by the Human, said no. |
+| Filing / request | Human's cold question (2026-09-23): is [business A] Santa Monica on the [business B] app? A conflicting AI answer ("yes" from [vendor C]'s AI Overview, via a third party's phone) existed but was revealed only after the source check. |
+| Review | Hunter-method verification against the original source: [business B]'s own directory listed exactly one [business A] partner (Las Vegas, [address withheld], 20% back); Santa Monica absent. Phrasing-variance tests of [vendor C]'s AI Overview returned both "yes" and "no" for near-identical queries; a second [vendor C] AI ([vendor C] app) returned "no" for the same query; the original "yes" flipped to "no" on re-query ~16 minutes later. The business, asked directly by the Human, said no. |
 | Judgment / Order | [O-VERIFICATION-STANDARD](../law/orders/O-VERIFICATION-STANDARD.md) (Human verdict, 2026-09-23): the system succeeded in this instance — right answer, plus why the wrong answer looked tempting. Standing principles: probability gives answers, verification gives truth; never let the middleman be the authority; AI output is a lead, not a verdict. J-0001 governs; no new ACTIVE Judgment. |
 | Implementation | Frozen verbatim record of the test (date, source, versions preserved) filed as this matter's evidence. |
 | Public commit | `62e4a07fd08991a0ed1d340311e0245ffca7d18c` |
-| Verification | InKind directory (original source) + direct confirmation from the business. AI answers documented as unstable across phrasings, devices, and time. |
+| Verification | [business B] directory (original source) + direct confirmation from the business. AI answers documented as unstable across phrasings, devices, and time. |
 | Status | **CLOSED** |
 | Evidence pointer | `pointer: EVT-PUB-M-008` (frozen record retained; screenshots retained in the private record) |
 
@@ -358,3 +358,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | A word-level diff shows only labels added. The four files on the public repository match the reviewed corrected files. No scrubbed identifier remains at head. |
 | Status | **COMPLETED — PRIVACY CORRECTION** |
 | Evidence pointer | `pointer: EVT-PUB-M-020` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |
+
+## PUB-M-021
+
+**Company-name correction of published docket rows and orders**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-021 |
+| Filing / request | Clinton Brown, the Human, directed a business-name cleanup on 2026-10-19 ("just a label"). Legal prepared and approved the correction, and the Human approved the push in Magistrate Summons chat. |
+| Review | Publication form only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4). Not a Magistrate holding. Not new law. |
+| Judgment / Order | None. The affected orders keep their content apart from the labels below. |
+| Effect | Real third-party business and vendor names and one business street address in published docket rows and orders are replaced with neutral labels ([business …], [vendor …], [address withheld]). Affected files: [O-VERIFICATION-STANDARD](../law/orders/O-VERIFICATION-STANDARD.md), [O-PROJECT-1-12-CRM-THREE-TIER-STANDARD](../law/orders/O-PROJECT-1-12-CRM-THREE-TIER-STANDARD.md), [O-PROVE-DONE](../law/orders/O-PROVE-DONE.md), [O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL](../law/orders/O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL.md), [O-J-0021-OBJECTIVE-CONTROL](../law/orders/O-J-0021-OBJECTIVE-CONTROL.md), `changes/README.md`, `docket/INDEX.md`, `docket/MATTERS.md`, `docket/matters.json`, `docket/projects.json`. Head-only correction; history is not rewritten. Judgment bodies are not changed by this entry. |
+| Public commit | The commit that adds this entry. |
+| Verification | A word-level diff shows only labels added. The changed files match the reviewed corrected files. |
+| Status | **COMPLETED — COMPANY-NAME CORRECTION** |
+| Evidence pointer | `pointer: EVT-PUB-M-021` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |

@@ -170,7 +170,7 @@
     {
       "title": "AI Real-Estate CRM / Lead Conversion (Wisconsin and Los Angeles)",
       "status": "OPEN",
-      "next_required": "HUNTER_GET_MALIBU_TIMES_2026_08_20_PDF_THEN_MAGISTRATE_EVALUATE",
+      "next_required": "HUNTER_GET_[business C]_2026_08_20_PDF_THEN_MAGISTRATE_EVALUATE",
       "parent": "1",
       "project_id": "1-10",
       "retired": false,
@@ -265,14 +265,14 @@
       "registered_utc": "2026-09-06T00:30:00+00:00"
     },
     {
-      "title": "CRM database recovery and prospecting \u2014 historical contacts, RedX, Santa Monica, Palisades, Watcher leads",
+      "title": "CRM database recovery and prospecting \u2014 historical contacts, [vendor A], Santa Monica, Palisades, Watcher leads",
       "status": "OPEN",
       "next_required": "CONTINUE_MACHINE_AUTHORIZED_WORK",
       "parent": "1",
       "project_id": "1-15",
       "retired": false,
       "initiating_filing": "HUMAN_GRANT_NOTICE",
-      "subject": "Turn existing real-estate contacts, historical leads, property records, RedX-derived information, Santa Monica and Pacific Palisades contacts, authorized email context, and continuing Watcher leads into a researched, prioritized CRM that produces brokerage outreach. Reuse Atlas-Real-Estate-CRM. Do not bind to 1-10, 1-12, or GOV-REMOTE-DOCKET. Drafts only; do not send.",
+      "subject": "Turn existing real-estate contacts, historical leads, property records, [vendor A]-derived information, Santa Monica and Pacific Palisades contacts, authorized email context, and continuing Watcher leads into a researched, prioritized CRM that produces brokerage outreach. Reuse Atlas-Real-Estate-CRM. Do not bind to 1-10, 1-12, or GOV-REMOTE-DOCKET. Drafts only; do not send.",
       "governing_goal": "AMENDED_DKT_1",
       "registered_utc": "2026-09-07T22:05:17+00:00"
     },

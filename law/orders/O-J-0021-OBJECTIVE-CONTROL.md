@@ -29,4 +29,4 @@
 
 9. Implementation evidence: `findings/F-J-0021-IMPLEMENTATION.md`. Required test: `validation/test_j0021_objective.py`.
 
-10. Project 1-2: set JOB_OBJECTIVE on `JOB_PROJECT_1_2_GOVERNED_JOB_SEARCH`. Outreach composition task_kind `COMPOSE_EMPLOYER_LETTER` derives the commercial TASK_PURPOSE stated in J-0021. Do not overwrite Natera first-pass.
+10. Project 1-2: set JOB_OBJECTIVE on `JOB_PROJECT_1_2_GOVERNED_JOB_SEARCH`. Outreach composition task_kind `COMPOSE_EMPLOYER_LETTER` derives the commercial TASK_PURPOSE stated in J-0021. Do not overwrite [business D] first-pass.

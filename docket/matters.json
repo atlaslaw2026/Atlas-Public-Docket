@@ -157,8 +157,8 @@
   },
   {
    "public_docket_id": "PUB-M-008",
-   "title": "Trust test: probability gives answers, verification gives truth (InKind/BOA)",
-   "filing_request": "Human's cold question 2026-09-23: is BOA Steakhouse Santa Monica on the InKind app? Conflicting Google AI 'yes' revealed only after the source check",
+   "title": "Trust test: probability gives answers, verification gives truth ([business B]/[business A])",
+   "filing_request": "Human's cold question 2026-09-23: is [business A] Santa Monica on the [business B] app? Conflicting [vendor C] AI 'yes' revealed only after the source check",
    "governing_authority": [
     "O-VERIFICATION-STANDARD (Human order 2026-09-23)",
     "J-0001"
@@ -168,7 +168,7 @@
    "before_commit_sha": "ed6e8780fcdb4dd1e3153081ee81034789176048",
    "public_commit_sha": "62e4a07fd08991a0ed1d340311e0245ffca7d18c",
    "private_commit_class": "PRIVATE_RETAINED",
-   "verification": "InKind directory (original source) + direct business confirmation; AI answers documented unstable",
+   "verification": "[business B] directory (original source) + direct business confirmation; AI answers documented unstable",
    "status": "CLOSED",
    "evidence_pointer": {
     "evidence_class": "PRIVATE_RETAINED",
@@ -449,6 +449,26 @@
    "evidence_pointer": {
     "evidence_class": "PRIVATE_RETAINED",
     "pointer": "EVT-PUB-M-020",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-021",
+   "title": "Company-name correction of published docket rows and orders",
+   "filing_request": "Human direction 2026-10-19 (business-name cleanup, \"just a label\"); correction prepared and approved by Legal; push approved by the Human in Magistrate Summons chat",
+   "governing_authority": [
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)",
+    "Constitution Art. XIX (no rewriting of filings)"
+   ],
+   "ruling_disposition": "COMPLETED as a company-name correction; publication form only; not a Magistrate holding; no new law",
+   "implementation": "Real third-party business and vendor names and one business street address in published docket rows and orders replaced with neutral labels ([business ...], [vendor ...], [address withheld]) in law/orders/O-VERIFICATION-STANDARD.md, law/orders/O-PROJECT-1-12-CRM-THREE-TIER-STANDARD.md, law/orders/O-PROVE-DONE.md, law/orders/O-GOAL-DERIVATION-AND-JOB-OBJECTIVE-CONTROL.md, law/orders/O-J-0021-OBJECTIVE-CONTROL.md, changes/README.md, docket/INDEX.md, docket/MATTERS.md, docket/matters.json, docket/projects.json; no other text changed; head-only correction, history not rewritten; judgment bodies not changed by this entry",
+   "public_commit_sha": "TBD_AT_PUBLICATION",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "word-level diff shows only labels added; changed files match the reviewed corrected files",
+   "status": "COMPLETED_COMPANY_NAME_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-021",
     "reviewed": true
    }
   }

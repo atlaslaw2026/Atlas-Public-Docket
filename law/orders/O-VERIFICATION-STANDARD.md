@@ -5,7 +5,7 @@
 **Date:** 2026-09-23
 **Order id:** `O-VERIFICATION-STANDARD`
 **Caption:** VERIFICATION STANDARD — PROBABILITY GIVES ANSWERS, VERIFICATION GIVES TRUTH
-**Human source:** Main-chat trust test of 2026-09-23 (InKind/BOA) and Human verdict thereon
+**Human source:** Main-chat trust test of 2026-09-23 ([business B]/[business A]) and Human verdict thereon
 **Implements / supplements:** J-0001, O-HUNTER-EVIDENCE-ACQUISITION-CONTINUITY, O-LIBRARIAN-SOURCE-ADMISSIBILITY
 **Does not create a new ACTIVE Judgment.** Disk ACTIVE judgment set remains pinned to `CURRENT_LAW.json` `current_sha`.
 **Does not authorize live money.**
@@ -25,7 +25,7 @@ IT IS SO ORDERED.
 
 ## Demonstration
 
-2026-09-23: Human's cold question — is BOA Steakhouse Santa Monica on the InKind app? — with a conflicting Google AI "yes" revealed only after the check. Hunter-method verification against InKind's own directory: exactly one BOA Steakhouse partner (Las Vegas); Santa Monica absent. Google's AI returned both "yes" and "no" for near-identical phrasings; a second Google AI returned "no" for the same query; the original "yes" flipped to "no" on re-query sixteen minutes later. The business, asked directly by the Human, said no. Human verdict: the system succeeded in this instance — right answer, plus why the wrong answer looked tempting. Recorded as PUB-M-008.
+2026-09-23: Human's cold question — is [business A] Santa Monica on the [business B] app? — with a conflicting [vendor C] AI "yes" revealed only after the check. Hunter-method verification against [business B]'s own directory: exactly one [business A] partner (Las Vegas); Santa Monica absent. [vendor C]'s AI returned both "yes" and "no" for near-identical phrasings; a second [vendor C] AI returned "no" for the same query; the original "yes" flipped to "no" on re-query sixteen minutes later. The business, asked directly by the Human, said no. Human verdict: the system succeeded in this instance — right answer, plus why the wrong answer looked tempting. Recorded as PUB-M-008.
 
 ## Implementation
 

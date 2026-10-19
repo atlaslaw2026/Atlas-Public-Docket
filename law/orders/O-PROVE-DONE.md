@@ -27,7 +27,7 @@ IT IS SO ORDERED.
 
 ## Demonstration
 
-2026-09-24: the Human challenged the agent's account of the 2026-09-23 InKind timeline — the record had drifted from what actually happened. The agent corrected the record rather than defending it. Personal-track challenge working as designed: the Human as counter-argument, the record amended not erased.
+2026-09-24: the Human challenged the agent's account of the 2026-09-23 [business B] timeline — the record had drifted from what actually happened. The agent corrected the record rather than defending it. Personal-track challenge working as designed: the Human as counter-argument, the record amended not erased.
 
 ## Implementation
 
