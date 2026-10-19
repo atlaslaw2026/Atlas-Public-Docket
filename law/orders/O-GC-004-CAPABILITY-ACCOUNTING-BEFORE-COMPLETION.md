@@ -6,7 +6,7 @@
 **Order id:** `O-GC-004`  
 **Caption:** ORDER GC 004  
 **Canonical id:** G-343  
-**Job:** `JOB_PROJECT_1_10_REAL_ESTATE_CRM` (live production test on the current Rucker CRM cycle; the rule is standing)  
+**Job:** `JOB_PROJECT_1_10_REAL_ESTATE_CRM` (live production test on the current [private person F] CRM cycle; the rule is standing)  
 **Human source:** Cursor conversation issuing the Order text (2026-09-06)
 
 **Does not independently authorize:** paid generation, external communication, manuscript modification, deployment, dangerous operations, live trading, or third-party outreach.
@@ -62,7 +62,7 @@ Existing job findings and evidence attachments, Magistrate review fields, and de
 
 ## 8. Live production test
 
-Apply this requirement to the current Project 1-10 Rucker CRM cycle as a live production test. Do not tell the worker which capabilities must produce a particular answer.
+Apply this requirement to the current Project 1-10 [private person F] CRM cycle as a live production test. Do not tell the worker which capabilities must produce a particular answer.
 
 ## 9. Non-expansion of authority
 

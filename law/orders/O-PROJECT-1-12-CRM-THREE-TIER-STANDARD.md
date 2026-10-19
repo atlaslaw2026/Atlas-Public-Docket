@@ -41,7 +41,7 @@ No package is complete or eligible for delivery to the Human principal until it 
 
 ## 4. Visual quality assurance required — AMENDED 2026-09-07
 
-The Human-approved Rucker, Anderson, Trapnell, and Malibu finished outputs (Section 5) are the demonstrated production-quality reference set for every tier they cover. A worker may adapt substance and structure to the particular deal, but the finished artifact must meet or exceed the demonstrated visual quality, clarity, organization, usability, and professional presentation of those Human-approved outputs.
+The Human-approved [private person F], [private person G], [private person H], and Malibu finished outputs (Section 5) are the demonstrated production-quality reference set for every tier they cover. A worker may adapt substance and structure to the particular deal, but the finished artifact must meet or exceed the demonstrated visual quality, clarity, organization, usability, and professional presentation of those Human-approved outputs.
 
 This is not a content requirement alone. It applies to the rendered artifact itself, independent of whether the underlying facts and analysis are correct.
 
@@ -64,10 +64,10 @@ The actual, bug-fixed source template for each of the six documents is durably s
 
 This standard is evidenced by four worked Project 1-12 leads, registered in `Atlas-Real-Estate-CRM/evidence/crm/project_1_12/CRM_INTELLIGENCE_REFERENCE_STANDARDS.json`:
 
-- **STD-1-12-RUCKER-LA-PROBATE** — 620 Bay Street, Santa Monica. CA probate / IAEA authority, Prop 19, TitlePro evidence chain. Level 1 only (pre-dates this Order's Level 2/3 requirement).
-- **STD-1-12-ANDERSON-WI-FORECLOSURE** — 719 Madison St, Mineral Point, WI. Wis. Stat. ch. 846 judicial foreclosure. First full three-tier package.
-- **STD-1-12-TRAPNELL-WI-FORECLOSURE** — S7415 Red Mound Ave, De Soto, WI. Second WI foreclosure; thin-margin, compressed-timeline lead; demonstrates honest calibration when the equity story is weak. Full three-tier package, Reports 7-12 in `D:\CRM_Reports`.
-- **STD-1-12-MALIBU-PCH-TRUSTEE-SALE** — 21201 Pacific Coast Hwy, Malibu, CA (T.S.# 88954). CA non-judicial trustee's sale; OCR-only source with an unresolved owner identity; demonstrates the standard adapting Level 2/3 scope (no Seller Report, no Outreach Plan) when a required fact is genuinely UNKNOWN rather than inventing one. Level 1/2/3 package, Reports 13-16 in `D:\CRM_Reports`.
+- **STD-1-12-[private person F]-LA-PROBATE** — [address withheld]. CA probate / IAEA authority, Prop 19, TitlePro evidence chain. Level 1 only (pre-dates this Order's Level 2/3 requirement).
+- **STD-1-12-[private person G]-WI-FORECLOSURE** — [address withheld], WI. Wis. Stat. ch. 846 judicial foreclosure. First full three-tier package.
+- **STD-1-12-[private person H]-WI-FORECLOSURE** — [address withheld], WI. Second WI foreclosure; thin-margin, compressed-timeline lead; demonstrates honest calibration when the equity story is weak. Full three-tier package, Reports 7-12 in `D:\CRM_Reports`.
+- **STD-1-12-MALIBU-PCH-TRUSTEE-SALE** — [address withheld], CA (T.S.# [withheld]). CA non-judicial trustee's sale; OCR-only source with an unresolved owner identity; demonstrates the standard adapting Level 2/3 scope (no Seller Report, no Outreach Plan) when a required fact is genuinely UNKNOWN rather than inventing one. Level 1/2/3 package, Reports 13-16 in `D:\CRM_Reports`.
 
 These examples demonstrate required depth, discipline, and honest adaptation — they are not rigid universal templates. A future lead's actual facts govern its own document set, per the existing governing principle already on file in `CRM_INTELLIGENCE_REFERENCE_STANDARDS.json`.
 
