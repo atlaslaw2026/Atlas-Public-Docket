@@ -471,6 +471,26 @@
     "pointer": "EVT-PUB-M-021",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-022",
+   "title": "Security correction of published gate and credential-handling orders",
+   "filing_request": "Human direction 2026-10-19, verbatim: \"get our internatl [sic] security behavior off docket for sure\"; correction prepared by Legal; push approved by the Human in Magistrate Summons chat",
+   "governing_authority": [
+    "Human direction 2026-10-19 (publication form and security)",
+    "Constitution Art. XIX (no rewriting of filings)"
+   ],
+   "ruling_disposition": "COMPLETED as a security correction; publication form only; not a Magistrate holding; no new law",
+   "implementation": "Operational security details replaced with behavior-level wording in law/orders/O-GATE-ACTIVATION-REFERRED-QUESTION.md, law/orders/O-GATE-ACTIVATION-RECONSIDERATION.md, law/orders/O-BLOCKLIST-DECLINE-RULING.md, law/orders/O-GATE-LIVE-QUESTION-RULING.md, law/orders/O-D26-CORRECTIVE-FILING.md, law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md, law/orders/INDEX.json, docket/MATTERS.md, docket/matters.json (rows PUB-M-012 to PUB-M-015), README.md; findings, holdings, dispositions and Human-approval provenance unchanged; in-file correction notices added; head-only correction, history not rewritten",
+   "public_commit_sha": "3841c33da16d06f7279456822f4c0aec756bc574",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "line-level diff shows only the listed passages changed; line counts unchanged; changed files match the reviewed corrected files",
+   "status": "COMPLETED_SECURITY_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-022",
+    "reviewed": true
+   }
   }
  ]
 }

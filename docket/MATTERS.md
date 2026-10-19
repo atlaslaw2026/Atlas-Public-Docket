@@ -374,3 +374,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | A word-level diff shows only labels added. The changed files match the reviewed corrected files. |
 | Status | **COMPLETED — COMPANY-NAME CORRECTION** |
 | Evidence pointer | `pointer: EVT-PUB-M-021` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |
+
+## PUB-M-022
+
+**Security correction of published gate and credential-handling orders**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-022 |
+| Filing / request | Clinton Brown, the Human, directed on 2026-10-19, verbatim: "get our internatl [sic] security behavior off docket for sure". Legal prepared the correction, and the Human approved the push in Magistrate Summons chat. |
+| Review | Publication form and security only. Not a Magistrate holding. Not new law. |
+| Judgment / Order | None. Every affected order keeps its findings, holdings, disposition, and Human-approval provenance. |
+| Effect | Operational security details (configuration names, file locations and permissions, test-by-test attack results, and the specifics of known weaknesses and remediation steps) in previously published orders and docket rows are replaced with behavior-level descriptions of what was decided and done. Each changed order carries an in-file correction notice. Affected files: law/orders/O-GATE-ACTIVATION-REFERRED-QUESTION.md, law/orders/O-GATE-ACTIVATION-RECONSIDERATION.md, law/orders/O-BLOCKLIST-DECLINE-RULING.md, law/orders/O-GATE-LIVE-QUESTION-RULING.md, law/orders/O-D26-CORRECTIVE-FILING.md, law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md, law/orders/INDEX.json, docket/MATTERS.md, docket/matters.json (rows PUB-M-012 to PUB-M-015), README.md. Head-only correction; history is not rewritten. |
+| Public commit | `3841c33da16d06f7279456822f4c0aec756bc574` (the order edits); this entry is added by the following commit. |
+| Verification | A line-level diff shows only the listed passages changed; line counts unchanged. The files on the public repository match the reviewed corrected files. |
+| Status | **COMPLETED — SECURITY CORRECTION** |
+| Evidence pointer | `pointer: EVT-PUB-M-022` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |
