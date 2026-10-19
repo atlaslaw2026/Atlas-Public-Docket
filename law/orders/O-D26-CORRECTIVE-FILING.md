@@ -1,6 +1,6 @@
 # O-D26-CORRECTIVE-FILING — Prospective Correction of the 2026-10-12 Master History Rewrite
 
-**Date:** 2026-10-12
+**Date:** 2026-10-12 *(Security correction PUB-M-022, 2026-10-19: operational security details replaced with behavior-level wording; findings, holdings and disposition unchanged; head-only — history not rewritten.)*
 **Matter:** D-26 (MATTER-D26-PUBLIC-DOCKET-HISTORY-REWRITE-20261012, Project 1-17);
   public Matter PUB-M-014
 **Authority:** HUMAN ORDER — D-26 Docket Filing, Preservation and Public Record
@@ -117,10 +117,10 @@ in all three cases — identical trees, identical content:
 
 ## 7. Outstanding obligations (decided: NO; pending Human decision)
 
-1. Restrict agent credentials (least privilege; rotation of the used credential
-   warranted — reason: excess power, not compromise).
-2. GitHub branch protections against unauthorized history rewriting.
-3. GitHub Support remediation for the previously exposed private information
+1. Agent access-control hardening [security detail withheld]
+   (reason: excess power, not compromise).
+2. Additional repository-level safeguards for the public record.
+3. Hosting-provider remediation for the previously exposed private information
    (request prepared, not submitted).
 4. Verify the privacy objective is actually achieved — **it is not**: the old
    commit remained retrievable by SHA when last properly verified (2026-10-12

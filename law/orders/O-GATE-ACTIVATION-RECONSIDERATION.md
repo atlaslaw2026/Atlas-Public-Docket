@@ -3,19 +3,19 @@
 **Magistrate instance:** Vested Magistrate under O-VESTED-MAGISTRATE (2026-09-28), on the Human's referral of 2026-10-12 ("Bring it back to her ... and I approve making it live").
 **Prior disposition:** O-GATE-ACTIVATION-REFERRED-QUESTION (2026-10-12), which WITHHELD activation and set four prerequisites.
 **Question presented:** On the new record, is activation of the v1.2.1 publication gate on the live `atlaslaw2026/Atlas-Public-Docket` now AUTHORIZED?
-**Status of this instrument:** APPROVED AND FILED. The Human gave content approval 2026-10-12 ("go ahead and put that as matter 13 on the docket"). Filed as public-docket order O-GATE-ACTIVATION-RECONSIDERATION the same day.
+**Status of this instrument:** APPROVED AND FILED. The Human gave content approval 2026-10-12 ("go ahead and put that as matter 13 on the docket"). Filed as public-docket order O-GATE-ACTIVATION-RECONSIDERATION the same day. *(Security correction PUB-M-022, 2026-10-19: operational security details replaced with behavior-level wording; findings, holdings and disposition unchanged; head-only — history not rewritten.)*
 
 ---
 
 ## I. EVIDENCE EXAMINED DIRECTLY (J-0001 per item)
 
-1. **O-GATE-ACTIVATION-REFERRED-QUESTION** (prior disposition) — KNOWN: activation withheld; four prerequisites in order (tests green T1–T7; credential hygiene; tensions decided; fresh explicit order).
-2. **Disposable-repo test evidence** (`atlas-test-evidence.json`; `atlas-test-evidence-report.md`) — KNOWN: T1–T6 plus T5b all green on the live GitHub platform: direct push refused 409 (master HEAD `fb37a67b` unchanged); manifest-less PR check-failed and merge-blocked (PR #2); valid PR check-passed but merge-blocked without approval (PR #3); neutered-validator PR blocked by the trusted base copy (PR #4); rewritten exfil-workflow PR inert — base definition ran, 15 run-log files contain no exfil marker (PR #5); forged receipt PASSED the validator but merge refused (PR #6); agent self-approval rejected by GitHub outright, 422 "can not approve your own pull request," 0 approvals recorded (T5b); gate-only change smoke-passed, merge held for code-owner review (PR #8).
+1. **O-GATE-ACTIVATION-REFERRED-QUESTION** (prior disposition) — KNOWN: activation withheld; four prerequisites in order (tests green T1–T7; security hardening; tensions decided; fresh explicit order).
+2. **Disposable-repo test evidence** (raw evidence retained in the private record) — KNOWN: T1–T6 plus T5b all green on the live platform: every adversarial attempt in the matrix — unauthorized direct changes, incomplete or tampered filings, attempts to disable or alter the checking machinery, a forged approval record, and agent self-approval — was refused at the platform boundary, and a gate-only change was held for owner review. [specific test mechanics withheld]
 3. **T7 waiver** — KNOWN: the Human explicitly waived the genuine-approval positive control ("waive the other test"). The positive control is UNPROVEN; the inference that genuine approval would unblock rests on T5b's inverse proof plus GitHub's documented behavior — INFERRED, not KNOWN.
-4. **Hygiene decline** — KNOWN: the Human explicitly declined credential hygiene ("I don't want to do that"). The agent-accessible admin credential remains broad — KNOWN.
+4. **Hardening decline** — KNOWN: the Human explicitly declined a recommended security-hardening step ("I don't want to do that"). The associated risk remains — KNOWN.
 5. **Tensions disposition** — KNOWN (holdings decided this evening by a fellow magistrate instance; draft pending the Human's content approval for filing): (1) Art. VIII §5 forbids falsifying rewrites; TRACE.md:13's purge exception stands conditioned (openly recorded, alters no findings, secret/PII only, Human per-incident approval); PUB-M-011's no-rewrite holding stands for filed decisional substance; (2) no-rewrite binds the whole public-repo history; anti-falsification extends to the private record; private amendment procedure is the Human's to define.
 6. **The Human's activation statement** — KNOWN, verbatim: "I approve making it live," issued 2026-10-12 after the test evidence existed and after the tensions were decided, in direct answer to the go-live question.
-7. **The Human's informed posture** — KNOWN from the referred record: before approving, he was told plainly that T7's positive control is unproven, that declining hygiene leaves the impersonation risk, and that the forged-approval defect remains OPEN at the validator layer.
+7. **The Human's informed posture** — KNOWN from the referred record: before approving, he was told plainly that T7's positive control is unproven, that declining the hardening step leaves a known risk in place, and that the known approval-validation weakness remains OPEN.
 
 ## II. GOVERNING AUTHORITY
 
@@ -27,40 +27,40 @@
 
 1. The central evidentiary gap that decided PUB-M-012 is closed. The prior Counterargument's load-bearing claim — "no boundary has been built on any GitHub repository"; "no unauthorized actor has failed at any GitHub boundary" — is no longer true. Four distinct attacks failed at real platform boundaries, with raw evidence.
 2. The Human's approval is fresh, explicit, and informed. It postdates the test evidence; its referent (activating the v1.2.1 gate on the live docket) is unambiguous in context; and the record shows the residual risks were stated to him plainly before he gave it. This is not the superseded informal remark of PUB-M-012 Count 1.
-3. Waiver and decline are lawful exercises of ultimate authority. The prerequisites were this office's construction of what his standing law required; he is the author of that law and may modify it. T7's waiver accepts an inference in place of a proof — his prerogative. The hygiene decline accepts a known risk — his prerogative.
-4. The forged-approval boundary is stronger than PUB-M-012 knew. T5+T5b demonstrate end-to-end on the live platform what the disclosure's closure criteria described: a forged-receipt PR refused at merge, with the agent demonstrably unable to self-approve, impersonate, or bypass via the token. The validator-layer defect remains OPEN, but it is contained by a structural platform control, not by diligence.
+3. Waiver and decline are lawful exercises of ultimate authority. The prerequisites were this office's construction of what his standing law required; he is the author of that law and may modify it. T7's waiver accepts an inference in place of a proof — his prerogative. The hardening decline accepts a known risk — his prerogative.
+4. The approval boundary is stronger than PUB-M-012 knew. T5+T5b demonstrate end-to-end on the live platform that a forged approval does not become effective and that the agent cannot approve its own filing. The known weakness remains OPEN, but it is contained by a structural platform control, not by diligence.
 
 ## IV. COUNTERARGUMENT (activation still withheld)
 
-1. **Waiver is not evidence.** The Human can waive T7, but waiver does not make the positive control proven. If genuine Human review somehow failed to unblock a valid filing (ruleset misconfiguration, code-owner edge), the first discovery would be on the live docket. J-0002's spirit still marks this a live unknown, waived but not answered.
-2. **Declined hygiene is declined safety.** The impersonation boundary that T5b proved rests on GitHub's author-approval exclusion — but the broad admin credential remains the single point of failure it was in PUB-M-012. "The agent cannot self-approve" is true of the token's PR authorship; it says nothing about what the credential could do elsewhere.
-3. **The validator-layer defect is OPEN by definition.** A fabricated receipt with a correct hash still PASSES the gate's own check — proven again, live, in T5. Activation puts a gate on the live docket whose primary check is blind to the exact attack it was built to deter, with containment resting entirely on the platform's review rule.
-4. **The live environment is new.** The tests ran on `atlas-test`, not the live repo. Ruleset misapplication on the live `master` (wrong check context, secret unpopulated) fails closed — which is safe but could freeze legitimate filings, the deny-all shape this project has already produced twice.
+1. **Waiver is not evidence.** The Human can waive T7, but waiver does not make the positive control proven. If genuine Human review somehow failed to unblock a valid filing (a configuration error or review-rule edge case), the first discovery would be on the live docket. J-0002's spirit still marks this a live unknown, waived but not answered.
+2. **Declined hardening is declined safety.** The approval boundary that T5b proved rests on a platform rule — but the risk the declined step would have addressed remains exactly as it was in PUB-M-012. What the tests proved about one boundary says nothing about that risk.
+3. **The known weakness is OPEN by definition.** It was proven again, live, in T5. Activation puts a gate on the live docket whose own check does not catch that weakness, with containment resting entirely on the platform's review rule.
+4. **The live environment is new.** The tests ran on a disposable repository, not the live repo. Misapplied configuration on the live repository fails closed — which is safe but could freeze legitimate filings, the deny-all shape this project has already produced twice.
 
 ## V. FINDINGS
 
-1. The PUB-M-012 prerequisites are now: (1) tests green T1–T6+T5b with raw evidence, T7 WAIVED by the Human — SATISFIED AS MODIFIED; (2) credential hygiene — WAIVED BY DECLINE (risk accepted, not remediated); (3) tensions — DECIDED (holdings rendered); (4) fresh explicit order — PRESENT ("I approve making it live").
+1. The PUB-M-012 prerequisites are now: (1) tests green T1–T6+T5b with raw evidence, T7 WAIVED by the Human — SATISFIED AS MODIFIED; (2) security hardening — WAIVED BY DECLINE (risk accepted, not remediated); (3) tensions — DECIDED (holdings rendered); (4) fresh explicit order — PRESENT ("I approve making it live").
 2. The Human's waiver and decline are effective: no prerequisite stands beyond his explicit will as a matter of authority. As a matter of fact, the waived/declined items leave real, known residuals (Findings 3–4).
 3. T7's positive control is UNPROVEN (J-0001); the operative inference (genuine approval unblocks) is INFERRED from T5b plus platform documentation.
-4. The forged-approval defect remains OPEN at the validator layer (KNOWN, T5) and CONTAINED at the platform layer (KNOWN, T5+T5b).
+4. The known approval-validation weakness remains OPEN (KNOWN, T5) and CONTAINED by a platform control (KNOWN, T5+T5b).
 5. The "I approve making it live" statement constitutes the fresh, explicit Human activation order PUB-M-012 required: it is later than the evidence, unambiguous in referent, and informed.
 
 ## VI. HOLDINGS
 
-**1. Activation is AUTHORIZED.** The v1.2.1 publication gate (six files, hashes per FINAL-DISCLOSURE.md §2) may be installed and activated on the live `atlaslaw2026/Atlas-Public-Docket`: commit of the six files to `master`, creation of the `master-publication-gate` ruleset (Active, no bypasses, required check `validator`, per the tested configuration), and provisioning of the `DOCKET_NAME_BLOCKLIST` secret. Scope is limited to exactly this; any change to the gate's logic, any other repository, or any credential change is NOT authorized by this order.
+**1. Activation is AUTHORIZED.** The v1.2.1 publication gate (six files, hashes per the final disclosure) may be installed and activated on the live `atlaslaw2026/Atlas-Public-Docket`: installation of the six files, creation of the gate's enforcement rule per the tested configuration, and provisioning of the gate's private screening configuration. Scope is limited to exactly this; any change to the gate's logic, any other repository, or any credential change is NOT authorized by this order.
 
 **2. The PUB-M-012 HOLD is lifted and superseded** to the extent of Holding 1. The prior Count 1 (no valid order) is cured by Finding 5; the prior Count 2 (imprudence) is retired by the executed evidence, subject to the warnings below.
 
-**3. The waivers are entered as decided.** T7 is waived — the positive control is unproven by the Human's explicit choice. Credential hygiene is declined — the broad admin credential remains by the Human's explicit choice. Neither waiver manufactures the missing evidence or remediates the risk; both are recorded as accepted residuals, not as satisfied prerequisites.
+**3. The waivers are entered as decided.** T7 is waived — the positive control is unproven by the Human's explicit choice. Security hardening is declined — the associated risk remains by the Human's explicit choice. Neither waiver manufactures the missing evidence or remediates the risk; both are recorded as accepted residuals, not as satisfied prerequisites.
 
-**4. The forged-approval defect remains OPEN** at the validator layer, as directed. T5/T5b are entered as containment evidence, not as closure.
+**4. The known approval-validation weakness remains OPEN**, as directed. T5/T5b are entered as containment evidence, not as closure.
 
 ## VII. RESIDUAL WARNINGS (not conditions precedent — the Human has ruled on those — but the informed terms of this authorization)
 
-1. **First live filing is a canary.** The first publication PR after activation should be a synthetic, low-stakes filing, observed end-to-end (check green, Human approval, merge), before any real filing depends on the gate.
-2. **The live blocklist secret will contain real protected names.** Access to the live repo's Settings → Secrets must be limited accordingly; the secret is the one place real private names live on the GitHub side.
-3. **Populate the secret before the ruleset goes Active,** or every publication PR fails closed until it is (safe, but a freeze).
-4. **The broad admin credential remains the single point of failure** he declined to remediate. If it is ever rotated or downscoped later, the publishing path must be re-verified.
+1. **First live filing is a synthetic test.** The first publication after activation should be a synthetic, low-stakes filing, observed end-to-end (check green, Human approval, merge), before any real filing depends on the gate.
+2. **The gate's private screening configuration will contain protected information.** Access to it must be limited accordingly. [security detail withheld]
+3. **Complete the gate's configuration before enforcement is switched on,** or every publication fails closed until it is (safe, but a freeze).
+4. **The risk left by the declined hardening step remains** — he declined to remediate it. If the relevant access is ever changed later, the publishing path must be re-verified.
 5. **The tensions disposition's holdings stand as decided;** its filing remains an administrative step on his approval — it does not gate this authorization.
 
 ## VIII. WHAT REMAINS UNDECIDED, AND WHOSE IT IS
@@ -77,7 +77,7 @@
 
 ## X. NEXT ACTOR AND ACT
 
-The **Human** reads this disposition and decides: (a) content approval (which effects the authorization); (b) filing of this disposition and the tensions disposition as public-docket orders; (c) matter designation; (d) the canary filing. The **invoking agent** shall take no activation step until (a) is expressly given.
+The **Human** reads this disposition and decides: (a) content approval (which effects the authorization); (b) filing of this disposition and the tensions disposition as public-docket orders; (c) matter designation; (d) the synthetic first filing. The **invoking agent** shall take no activation step until (a) is expressly given.
 
 ---
 

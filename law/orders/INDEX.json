@@ -435,7 +435,7 @@
   },
   {
    "id": "O-BLOCKLIST-DECLINE-RULING",
-   "title": "O-BLOCKLIST-DECLINE-RULING — Magistrate disposition: activation without the blocklist secret NOT authorized; ruleset step suspended (2026-10-12)",
+   "title": "O-BLOCKLIST-DECLINE-RULING — Magistrate disposition: activation without the gate's private screening configuration NOT authorized; enforcement step suspended (2026-10-12)",
    "public_body": true
   },
   {
@@ -451,7 +451,7 @@
   },
   {
    "id": "O-ATLASCLOSE-INTERLOCUTORY-7A",
-   "title": "O-ATLASCLOSE-INTERLOCUTORY-7A — Interlocutory Ruling 7A: sealed copy of 0666 evidence token copies (PUB-M-015)",
+   "title": "O-ATLASCLOSE-INTERLOCUTORY-7A — Interlocutory Ruling 7A: sealing of exposed credential evidence copies (PUB-M-015)",
    "public_body": true
   },
   {

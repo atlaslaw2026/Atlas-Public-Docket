@@ -215,7 +215,7 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Docket ID | PUB-M-012 |
 | Filing / request | Human referral 2026-10-12: whether the v1.2.1 publication gate should be installed and activated on the live public docket now. The Human's informal direction ("just do it") was superseded the same evening by his formal referral of the question to the Magistrate ("let the magistrate decide"). |
 | Review | Vested Magistrate under O-VESTED-MAGISTRATE examined the filing compliance audit, the v1.2.1 repair package, both security reviews, the 32-test evidence, the unexecuted 7-test GitHub matrix, and the Human's conflicting directions — with genuine Argument and Counterargument. |
-| Judgment / Order | [O-GATE-ACTIVATION-REFERRED-QUESTION](../law/orders/O-GATE-ACTIVATION-REFERRED-QUESTION.md) (2026-10-12): activation NOT authorized on this record — no valid activation order exists; not prudent (7 GitHub tests unexecuted, forged-approval defect proven and OPEN, credential hygiene undone, two intra-law tensions undecided). Prerequisites in order: tests green, hygiene done, tensions decided, fresh explicit Human activation order. v1.2.1 not impeached ("not yet," not "never"). |
+| Judgment / Order | [O-GATE-ACTIVATION-REFERRED-QUESTION](../law/orders/O-GATE-ACTIVATION-REFERRED-QUESTION.md) (2026-10-12): activation NOT authorized on this record — no valid activation order exists; not prudent (7 platform tests unexecuted, a known approval-validation weakness proven and OPEN, recommended security hardening undone, two intra-law tensions undecided). Prerequisites in order: tests green, hardening done, tensions decided, fresh explicit Human activation order. v1.2.1 not impeached ("not yet," not "never"). |
 | Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json` (Human content approval granted same day). No live activation performed. |
 | Public commit | Order published 2026-10-12 — pushed to `atlaslaw2026/Atlas-Public-Docket` (commit `4a50be4`). |
 | Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
@@ -231,14 +231,14 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Step | Public record |
 |---|---|
 | Docket ID | PUB-M-013 |
-| Filing / request | Human referral 2026-10-12: reconsider the PUB-M-012 activation hold on new evidence — "Bring it back to her with new evidence and I approve making it live." New record: 8 green disposable-repo tests (T1–T6, T5b) with raw evidence; T7 waived by the Human; credential hygiene declined by the Human; the two intra-law tensions decided the same evening. |
+| Filing / request | Human referral 2026-10-12: reconsider the PUB-M-012 activation hold on new evidence — "Bring it back to her with new evidence and I approve making it live." New record: 8 green disposable-repo tests (T1–T6, T5b) with raw evidence; T7 waived by the Human; recommended security hardening declined by the Human; the two intra-law tensions decided the same evening. |
 | Review | Vested Magistrate under O-VESTED-MAGISTRATE examined the prior disposition, the disposable-repo evidence bundle, the explicit waiver/decline/approval statements, and the tensions holdings — with genuine Argument and Counterargument. |
-| Judgment / Order | [O-GATE-ACTIVATION-RECONSIDERATION](../law/orders/O-GATE-ACTIVATION-RECONSIDERATION.md) (2026-10-12): activation AUTHORIZED — v1.2.1 six files to live `master`, `master-publication-gate` ruleset (Active, no bypasses, required check `validator`), `DOCKET_NAME_BLOCKLIST` secret; scope strictly limited. PUB-M-012 HOLD lifted and superseded. Waivers entered as decided: T7 waived (positive control unproven — his choice), hygiene declined (broad credential remains — his choice). Forged-approval defect remains OPEN at the validator layer, contained at the platform layer (T5/T5b). Five residual warnings entered as the terms of authorization, including: first live filing is a synthetic canary; secret populated before the ruleset goes Active. |
-| Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json` (Human content approval: "go ahead and put that as matter 13 on the docket," 2026-10-12). Activation itself not yet performed — awaits the Human's execution sequence (canary filing first). |
+| Judgment / Order | [O-GATE-ACTIVATION-RECONSIDERATION](../law/orders/O-GATE-ACTIVATION-RECONSIDERATION.md) (2026-10-12): activation AUTHORIZED — installation of the v1.2.1 gate on the live docket, with its enforcement rule and private screening configuration, per the tested configuration; scope strictly limited. PUB-M-012 HOLD lifted and superseded. Waivers entered as decided: T7 waived (positive control unproven — his choice), hardening declined (known risk remains — his choice). A known approval-validation weakness remains OPEN, contained by a separate platform control (T5/T5b). Five residual warnings entered as the terms of authorization, including: the first live filing is a synthetic test filing; the gate's configuration is completed before enforcement is switched on. |
+| Implementation | Order filed in `law/orders/` and recorded in `law/orders/INDEX.json` (Human content approval: "go ahead and put that as matter 13 on the docket," 2026-10-12). Activation itself not yet performed — awaits the Human's execution sequence (synthetic test filing first). |
 | Public commit | Order published 2026-10-12 — pushed to `atlaslaw2026/Atlas-Public-Docket` (Human content approval granted same day). |
 | Verification | Magistrate's independent examination of the evidence packages; live remote verified. |
 | Status | **CLOSED** |
-| Evidence pointer | `pointer: EVT-PUB-M-013` (disposable-repo evidence retained in the working record: atlas-test-evidence.json, atlas-test-evidence-report.md) |
+| Evidence pointer | `pointer: EVT-PUB-M-013` (disposable-repo evidence retained in the working record) |
 
 ## PUB-M-014
 
@@ -253,22 +253,22 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Implementation | Public Matter + judicial filing prepared for Human content approval; publication only on approval. |
 | Public commit | TBD — set at publication. |
 | Verification | Magistrate's D-26 evidence; agent's live API verification 2026-10-12 ~9:30 PM PT (old commit retrievable by SHA — privacy objective NOT achieved); independent examination of the package before publication. |
-| Status | **DECIDED — REMEDIATION OPEN** (credential restriction, branch protections, GitHub Support remediation, privacy-objective verification, and independent verification of corrective actions remain outstanding Human decisions). |
+| Status | **DECIDED — REMEDIATION OPEN** (security-control and provider remediation items, privacy-objective verification, and independent verification of corrective actions remain outstanding Human decisions). |
 | Evidence pointer | `pointer: EVT-PUB-M-014` (full proceeding retained in the private institutional record: D-26-private-record/) |
 
 ## PUB-M-015
 
-**Interlocutory Ruling 7A — decision on 0666 evidence token copies (AtlasClose credential exposure)**
+**Interlocutory Ruling 7A — decision on sealing exposed credential evidence copies (AtlasClose credential exposure)**
 
 | Step | Public record |
 |---|---|
 | Docket ID | PUB-M-015 |
 | Filing / request | Human Principal (Clinton Brown) direct order 2026-10-15 3:19 PM PT to publish Interlocutory Ruling 7A on the public docket; number corrected to PUB-M-015 by direct order 2026-10-15 3:23 PM PT (PUB-M-014 already occupied by D-26). |
 | Review | Human-summoned Magistrate Summons agent adjudication (not Atlas-MCP open_vested_proceeding). Ruling source sha256 `c3b57f909e4770657196e6574d906d150322e18d5aaa5b6818c2ece43928d7de`. |
-| Judgment / Order | [O-ATLASCLOSE-INTERLOCUTORY-7A](../law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md) (2026-10-15): authorize Ship to copy 10 cutover evidence token copies into a root-only sealed folder, verify sha256 before/after, then replace agent-readable 0666 store copies with hash-only stubs. No other deletion, rotation, ceremony, or deploy. |
+| Judgment / Order | [O-ATLASCLOSE-INTERLOCUTORY-7A](../law/orders/O-ATLASCLOSE-INTERLOCUTORY-7A.md) (2026-10-15): authorize Ship to move 10 exposed credential evidence copies into a restricted location agents cannot read, verify integrity before and after, then remove the exposed copies, leaving non-sensitive placeholders. No other deletion, rotation, ceremony, or deploy. |
 | Implementation | Order published to this repository under Human content direction; Ship execution and Mag verification remain outstanding on the operational record. |
 | Public commit | TBD — set at publication. |
-| Verification | Source sha256 match before publish; body of order is the Mag ruling verbatim after the publication header. |
+| Verification | Source sha256 match before publish; body of order was the Mag ruling verbatim after the publication header (operational details later replaced with a behavior-level summary under PUB-M-022; the original text is preserved in history). |
 | Status | **ORDERED — EXECUTION PENDING** |
 | Evidence pointer | `pointer: EVT-PUB-M-015` (full Mag audit trail and Ship reports retained in the private/working record) |
 
