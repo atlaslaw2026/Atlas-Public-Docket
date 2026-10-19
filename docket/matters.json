@@ -431,6 +431,26 @@
     "pointer": "EVT-PUB-M-019",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-020",
+   "title": "Privacy correction of four published orders",
+   "filing_request": "Human approval 2026-10-19 12:37 PM PT, verbatim: \"Yes, push the name scrub to the public docket\"; correction prepared by Legal under the standing rule that nothing goes public until private names are scrubbed",
+   "governing_authority": [
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 (publication form)",
+    "Constitution Art. XIX (no rewriting of filings)"
+   ],
+   "ruling_disposition": "COMPLETED as a privacy correction; publication form only; not a Magistrate holding; no new law",
+   "implementation": "Private individual identifiers and street addresses remaining in four previously published orders replaced with neutral labels ([private person ...], [address withheld], [withheld], [company W], private file path withheld): law/orders/O-PROJECT-1-12-CRM-THREE-TIER-STANDARD.md, law/orders/O-GC-004-CAPABILITY-ACCOUNTING-BEFORE-COMPLETION.md, law/orders/O-HUMAN-CLARIFICATION.md, law/orders/O-DELIVERY-READINESS-VERIFICATION.md; no other text changed; head-only correction, history not rewritten",
+   "public_commit_sha": "fd23e415a65efac91b2dddba6eca6ddbc88fd9a0",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "word-level diff shows only labels added; the four files on origin match the reviewed corrected files; no scrubbed identifier remains at head",
+   "status": "COMPLETED_PRIVACY_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-020",
+    "reviewed": true
+   }
   }
  ]
 }

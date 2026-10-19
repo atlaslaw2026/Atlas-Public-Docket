@@ -342,3 +342,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | The operative text (§5 and §6) and all numbered sections of the consolidated file match the adopted bytes word for word. The four moved files keep their sha256 values. Privacy check under PRIVATE_EVIDENCE_POLICY and Atlas Rule 4 before this entry. |
 | Status | **PUBLISHED — CONSOLIDATED TEXT** |
 | Evidence pointer | `pointer: EVT-PUB-M-019` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-020
+
+**Privacy correction of four published orders**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-020 |
+| Filing / request | Clinton Brown, the Human, approved on 2026-10-19 at 12:37 PM PT, verbatim: "Yes, push the name scrub to the public docket". The correction was prepared by Legal under the standing rule that nothing goes public until private names are scrubbed. |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4). Not a Magistrate holding. Not new law. |
+| Judgment / Order | None. The four orders keep their content apart from the labels below. |
+| Effect | Private individual identifiers and street addresses that remained in four previously published orders are replaced with neutral labels ([private person …], [address withheld], [withheld], [company W], private file path withheld), bringing the public copies in line with the already scrubbed Law Book v2. Affected files: [O-PROJECT-1-12-CRM-THREE-TIER-STANDARD](../law/orders/O-PROJECT-1-12-CRM-THREE-TIER-STANDARD.md), [O-GC-004-CAPABILITY-ACCOUNTING-BEFORE-COMPLETION](../law/orders/O-GC-004-CAPABILITY-ACCOUNTING-BEFORE-COMPLETION.md), [O-HUMAN-CLARIFICATION](../law/orders/O-HUMAN-CLARIFICATION.md), [O-DELIVERY-READINESS-VERIFICATION](../law/orders/O-DELIVERY-READINESS-VERIFICATION.md). Head-only correction; history is not rewritten. |
+| Public commit | `fd23e415a65efac91b2dddba6eca6ddbc88fd9a0` (the order edits); this entry is added by a following commit. |
+| Verification | A word-level diff shows only labels added. The four files on the public repository match the reviewed corrected files. No scrubbed identifier remains at head. |
+| Status | **COMPLETED — PRIVACY CORRECTION** |
+| Evidence pointer | `pointer: EVT-PUB-M-020` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's approval are retained in the private record) |
