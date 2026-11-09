@@ -556,7 +556,7 @@
   },
   {
    "public_docket_id": "PUB-M-028",
-   "title": "MCR-BREF94-20261027-1 — Public case docket (CourtListener-style; 148 linked rows; 144 cleaned reading copies)",
+   "title": "MCR-BREF94-20261027-1 — Public case docket (148 linked rows; 144 cleaned reading copies)",
    "filing_request": "Human exact-bytes approval first-hand 2026-11-09 12:29 PM PST (Legal chat card), verbatim: \"Yes, publish the MCR-BREF94 case docket using manifest sha b5e6e531c6eededd0f017f8a26a2fbb52f93fbcf5338952ce64ff9448970e8a6\"",
    "governing_authority": [
     "CONST Art. I §1–§2 (Human direction)",
@@ -611,6 +611,26 @@
    "evidence_pointer": {
     "evidence_class": "PRIVATE_RETAINED",
     "pointer": "EVT-PUB-M-029-S1",
+    "reviewed": true
+   }
+  },
+  {
+   "public_docket_id": "PUB-M-030",
+   "title": "Wording correction of five case docket pages (outside company name removed)",
+   "filing_request": "Human exact-bytes approval first-hand 2026-11-09 2:57 PM PST (Legal chat card), verbatim with the company name labelled: \"Yes, replace the [outside company name] wording: publish the 10 docket pages in PAGES-SHA256SUMS.txt sha d376c978c18ff663e6fdc0a921217818d7276d5cc61bd5bac4bb3f334d444645, and remove the same word from the MCR-BREF94 row in MATTERS.md\"",
+   "governing_authority": [
+    "CONST Art. I §1–§2 (Human direction)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "Head-only publication-form correction; no ruling, order or record changed; earlier commits are kept as they are",
+   "implementation": "law/dockets/<CASE>/DOCKET.md and DOCKET.html for MCR-BREF94-20261027-1, PROVE-DONE-20260927, MAG-1-2-HWC-HOLD-20260825, MAGISTRATE-MATTER-1-9-REF-S3-20261001 and PROJECT-1-1-FINAL-JUDGMENT-20260824 (10 files; approved list sha256 d376c978c18ff663e6fdc0a921217818d7276d5cc61bd5bac4bb3f334d444645): status line and banner wording only; the same word removed from the PUB-M-028 row title",
+   "public_commit_sha": "efad2f074d30f101bc8f657d0f04e9b6fb4ce73d",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "all 10 files match the approved list; only the status line and banner changed; privacy check clean (only the Human's name); no file under law/dockets/ or docket/ contains the removed name after this commit",
+   "status": "PUBLISHED_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-030",
     "reviewed": true
    }
   }

@@ -441,7 +441,7 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 
 ## PUB-M-028
 
-**MCR-BREF94-20261027-1 — Public case docket (CourtListener-style; 148 linked rows)**
+**MCR-BREF94-20261027-1 — Public case docket (148 linked rows)**
 
 | Step | Public record |
 |---|---|
@@ -486,3 +486,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | All 12 files match the approved list (sha256 `f46024e2788408a22ab55e6e2176f4c83376d64b32f26c4662c544cc5c246cc5`). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential, and no chat ids or local paths. |
 | Status | **PUBLISHED (READING COPIES)** |
 | Evidence pointer | `pointer: EVT-PUB-M-029-S1` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-030
+
+**Wording correction of five case docket pages (outside company name removed)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-030 |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 2:57 PM PST (Legal chat card), verbatim with the company name labelled: "Yes, replace the [outside company name] wording: publish the 10 docket pages in PAGES-SHA256SUMS.txt sha d376c978c18ff663e6fdc0a921217818d7276d5cc61bd5bac4bb3f334d444645, and remove the same word from the MCR-BREF94 row in MATTERS.md". |
+| Review | Publication form only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private record controls. |
+| Pages | DOCKET.md and DOCKET.html for [MCR-BREF94-20261027-1](../law/dockets/MCR-BREF94-20261027-1/DOCKET.md), [PROVE-DONE-20260927](../law/dockets/PROVE-DONE-20260927/DOCKET.md), [MAG-1-2-HWC-HOLD-20260825](../law/dockets/MAG-1-2-HWC-HOLD-20260825/DOCKET.md), [MAGISTRATE-MATTER-1-9-REF-S3-20261001](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/DOCKET.md) and [PROJECT-1-1-FINAL-JUDGMENT-20260824](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/DOCKET.md). Only the status line and banner changed. The same word was removed from the PUB-M-028 row title. |
+| Effect | Head-only publication-form correction. No ruling, order or record is changed; earlier commits are kept as they are. |
+| Public commit | `efad2f074d30f101bc8f657d0f04e9b6fb4ce73d` (the 10 pages); this entry and the PUB-M-028 title edit are in the following commit. |
+| Verification | All 10 files match the approved list (sha256 `d376c978c18ff663e6fdc0a921217818d7276d5cc61bd5bac4bb3f334d444645`). Privacy check found only the Human's name. No file under law/dockets/ or docket/ contains the removed name after this commit. |
+| Status | **PUBLISHED (CORRECTION)** |
+| Evidence pointer | `pointer: EVT-PUB-M-030` (`PRIVATE_RETAINED`, reviewed: true) |
