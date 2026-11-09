@@ -454,3 +454,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Every record matches the approved manifest (144 of 144). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential; chat ids and local paths were replaced with labels. Credential-shaped words are policy wording or redacted text only. |
 | Status | **PUBLISHED (READING COPIES)** |
 | Evidence pointer | `pointer: EVT-PUB-M-028` (`PRIVATE_RETAINED`, reviewed: true; the originals, Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-029
+
+**All-case public dockets, batch 1 (four matters; 24 cleaned reading copies)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-029 |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 2:25 PM PST (Legal chat card), verbatim: "Yes, publish batch 1 using manifest shas f4c243586d16ee822d891e81f48606d87ee7ae83abcc05254203cf44e0f0d75c, 38f15d47ebadbaa6803a33914b1fe92214830eaaed382da5a4aefede68def045, 1352ad829d55b660b667d026bd18317e5bedb2c0d4b47cbcc4eb04f59b6a7fd6, 33c0d2dc3067433a625ad2486347fa2546936f5b559dd3a928fd6bd4e6de3e13". |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private record controls. |
+| Dockets | [MAG-1-2-HWC-HOLD-20260825](../law/dockets/MAG-1-2-HWC-HOLD-20260825/) (2 records, [manifest](../law/dockets/MAG-1-2-HWC-HOLD-20260825/MANIFEST.json) sha256 `f4c243586d16ee822d891e81f48606d87ee7ae83abcc05254203cf44e0f0d75c`); [PROJECT-1-1-FINAL-JUDGMENT-20260824](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/) (7 records, [manifest](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/MANIFEST.json) sha256 `38f15d47ebadbaa6803a33914b1fe92214830eaaed382da5a4aefede68def045`); [PROVE-DONE-20260927](../law/dockets/PROVE-DONE-20260927/) (7 records, [manifest](../law/dockets/PROVE-DONE-20260927/MANIFEST.json) sha256 `1352ad829d55b660b667d026bd18317e5bedb2c0d4b47cbcc4eb04f59b6a7fd6`); [MAGISTRATE-MATTER-1-9-REF-S3-20261001](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/) (8 records, [manifest](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/MANIFEST.json) sha256 `33c0d2dc3067433a625ad2486347fa2546936f5b559dd3a928fd6bd4e6de3e13`). |
+| Effect | Publication only. No ruling, order or record is changed. |
+| Public commit | `258430f5e91f2f6ec93153014a55be950972e23e` (the four case dockets); this entry is added by the following commit. |
+| Verification | Every record matches its approved manifest (24 of 24). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential; chat ids and local paths were replaced with labels. Credential-shaped words are policy wording only. |
+| Status | **PUBLISHED (READING COPIES)** |
+| Evidence pointer | `pointer: EVT-PUB-M-029` (`PRIVATE_RETAINED`, reviewed: true; the originals, Legal's package and the Human's messages are retained in the private record) |

@@ -573,6 +573,26 @@
     "pointer": "EVT-PUB-M-028",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-029",
+   "title": "All-case public dockets, batch 1 — MAG-1-2-HWC-HOLD-20260825, PROJECT-1-1-FINAL-JUDGMENT-20260824, PROVE-DONE-20260927, MAGISTRATE-MATTER-1-9-REF-S3-20261001 (24 cleaned reading copies)",
+   "filing_request": "Human exact-bytes approval first-hand 2026-11-09 2:25 PM PST (Legal chat card), verbatim: \"Yes, publish batch 1 using manifest shas f4c243586d16ee822d891e81f48606d87ee7ae83abcc05254203cf44e0f0d75c, 38f15d47ebadbaa6803a33914b1fe92214830eaaed382da5a4aefede68def045, 1352ad829d55b660b667d026bd18317e5bedb2c0d4b47cbcc4eb04f59b6a7fd6, 33c0d2dc3067433a625ad2486347fa2546936f5b559dd3a928fd6bd4e6de3e13\"",
+   "governing_authority": [
+    "CONST Art. I §1–§2 (Human direction)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "Publication of four matters' case records as public reading copies; no ruling changed",
+   "implementation": "law/dockets/<CASE>/: MANIFEST.json and records/ for each case. MAG-1-2-HWC-HOLD-20260825 (2 records, manifest sha256 f4c243586d16ee822d891e81f48606d87ee7ae83abcc05254203cf44e0f0d75c); PROJECT-1-1-FINAL-JUDGMENT-20260824 (7 records, 38f15d47ebadbaa6803a33914b1fe92214830eaaed382da5a4aefede68def045); PROVE-DONE-20260927 (7 records, 1352ad829d55b660b667d026bd18317e5bedb2c0d4b47cbcc4eb04f59b6a7fd6); MAGISTRATE-MATTER-1-9-REF-S3-20261001 (8 records, 33c0d2dc3067433a625ad2486347fa2546936f5b559dd3a928fd6bd4e6de3e13)",
+   "public_commit_sha": "258430f5e91f2f6ec93153014a55be950972e23e",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "every record matches its approved manifest (24/24 across four manifests); privacy check clean for private names (other than the Human)/companies/addresses/emails/tokens, chat ids and local paths; credential-shaped text is policy wording only; originals retained in the private record",
+   "status": "PUBLISHED_READING_COPIES",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-029",
+    "reviewed": true
+   }
   }
  ]
 }
