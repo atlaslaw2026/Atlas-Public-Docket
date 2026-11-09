@@ -518,3 +518,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Both files match the approved list (sha256 `430cfacfa35bc4ec641097093e67103780c91e864c98c453b4d648fbf7fa60b2`). One line changed in each; J-0011.json parses. Privacy check clean. No file in the repository at HEAD contains the removed name. |
 | Status | **PUBLISHED (CORRECTION)** |
 | Evidence pointer | `pointer: EVT-PUB-M-031` (`PRIVATE_RETAINED`, reviewed: true) |
+
+## PUB-M-032
+
+**Security scrub of two dockets (neutral labels)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-032 |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 3:34 PM PST (Legal chat card), verbatim: "Yes, publish the 44 files in PAGES-SHA256SUMS.txt sha f76ac29fc560f79a681f8df3c3f91126b8be7e59e33ac272b8b06924dc365b0b". |
+| Review | Security scrub of two dockets (neutral labels), under the MAG-J0021-NAME-CORRECTION-20261019 M2 disposition, Holdings 1–4, and A-ART-VIII §13(4). The private record controls. |
+| Dockets | [MCR-BREF94-20261027-1](../law/dockets/MCR-BREF94-20261027-1/DOCKET.md) and [MAGISTRATE-MATTER-1-9-REF-S3-20261001](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/DOCKET.md): 44 files (38 records, 2 manifests, 4 docket pages). |
+| Effect | Head-only publication-form correction. No ruling, order or record is changed; earlier commits are kept as they are. |
+| Public commit | `055f7ccbcaed6ec661f2212e60bcaec9863a679d` (the 44 files); this entry is added by the following commit. |
+| Verification | All 44 files match the approved list (sha256 `f76ac29fc560f79a681f8df3c3f91126b8be7e59e33ac272b8b06924dc365b0b`); both manifests match every record they list. |
+| Status | **PUBLISHED (CORRECTION)** |
+| Evidence pointer | `pointer: EVT-PUB-M-032` (`PRIVATE_RETAINED`, reviewed: true) |

@@ -655,6 +655,27 @@
     "pointer": "EVT-PUB-M-031",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-032",
+   "title": "Security scrub of two dockets (neutral labels)",
+   "filing_request": "Human exact-bytes approval first-hand 2026-11-09 3:34 PM PST (Legal chat card), verbatim: \"Yes, publish the 44 files in PAGES-SHA256SUMS.txt sha f76ac29fc560f79a681f8df3c3f91126b8be7e59e33ac272b8b06924dc365b0b\"",
+   "governing_authority": [
+    "CONST Art. I §1–§2 (Human direction)",
+    "MAG-J0021-NAME-CORRECTION-20261019 M2 disposition, Holdings 1–4",
+    "A-ART-VIII §13(4) (Human's separate yes on exact bytes)"
+   ],
+   "ruling_disposition": "Security scrub of two dockets (neutral labels); head-only; no ruling changed; earlier commits kept",
+   "implementation": "law/dockets/MCR-BREF94-20261027-1/ and law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/: 44 files (38 records, 2 manifests, 4 docket pages); approved list sha256 f76ac29fc560f79a681f8df3c3f91126b8be7e59e33ac272b8b06924dc365b0b",
+   "public_commit_sha": "055f7ccbcaed6ec661f2212e60bcaec9863a679d",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "all 44 files match the approved list; both manifests match every record they list",
+   "status": "PUBLISHED_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-032",
+    "reviewed": true
+   }
   }
  ]
 }
