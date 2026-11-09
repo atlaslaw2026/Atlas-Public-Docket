@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "matter": "MAGISTRATE-MATTER-1-9-REF-S3-20261001",
+  "generated": "2026-11-09",
+  "revision": "ready-r2",
+  "record_count": 8,
+  "records": [
+    {
+      "file": "001-instance-constitution-briefs-folder.md",
+      "sha256": "5bc486b2873c4e08d8c8d4b6fa9b072c6a89a3227600f6378ce65444dea82c3a",
+      "bytes": 3212
+    },
+    {
+      "file": "002-argument-brief.md",
+      "sha256": "6a94823cb2b43d7cf40ada5d4cb2ce1a768355efc4af3dd29f97e386ce559355",
+      "bytes": 19513
+    },
+    {
+      "file": "003-counterargument-brief.md",
+      "sha256": "4e859f7009f7213042699972a93a78e1d549052b590f9a06b2e94b4af6a9a388",
+      "bytes": 14847
+    },
+    {
+      "file": "004-instance-constitution-decision-pack.md",
+      "sha256": "360db4cfe5ee3f24b941a51d813b4e9757da76875c85d440c6dbcc92b894aa21",
+      "bytes": 2872
+    },
+    {
+      "file": "005-magistrate-decision.md",
+      "sha256": "f5fe2470abdb8d68bcad1e54ec623e4efb01d8df3104f8cb420db6219cb427d6",
+      "bytes": 18548
+    },
+    {
+      "file": "006-statement-of-reasons.md",
+      "sha256": "de8ef80355b2ea5035a5271775aabe4591e6ffe0624e6a6ec52d483d754d10fa",
+      "bytes": 12818
+    },
+    {
+      "file": "007-execution-gate-observation.md",
+      "sha256": "f60d6976ea7f92860be9acb47d50e7ae86e8bcdb5cf695b563db0075f01e4e40",
+      "bytes": 2992
+    },
+    {
+      "file": "008-resulting-state.md",
+      "sha256": "fdca1833b5733b3cb12bf77f26a587047e8b110151698fe7681d29096567ac0e",
+      "bytes": 2371
+    }
+  ]
+}

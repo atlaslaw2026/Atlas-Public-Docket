@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "matter": "MAG-1-2-HWC-HOLD-20260825",
+  "generated": "2026-11-09",
+  "revision": "ready-r2",
+  "record_count": 2,
+  "records": [
+    {
+      "file": "001-mag-1-2-hwc-hold-disposition.md",
+      "sha256": "20ebdc3a2e508cd251e8a9a38946d8b790534af752e1e45d93ffaa654e2bd335",
+      "bytes": 2141
+    },
+    {
+      "file": "002-mag-1-2-hwc-repair-proven-still-hold.md",
+      "sha256": "f5b1274e5ad166966edc641e021a387527dc2a09eb61350a30f1411a7e288e30",
+      "bytes": 2383
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "matter": "PROJECT-1-1-FINAL-JUDGMENT-20260824",
+  "generated": "2026-11-09",
+  "revision": "ready-r2",
+  "record_count": 7,
+  "records": [
+    {
+      "file": "001-dkt-0071-goal-final-judgment.md",
+      "sha256": "5623036c825c40514268986e26ba239ebc4b7cf9819c5634cd95b3bda431c3bf",
+      "bytes": 1497
+    },
+    {
+      "file": "002-dkt-0072-notice-a-j-0016-ca-j-0016.md",
+      "sha256": "2dc6f2c8553841b173701c73d3a46c58905af0b3fc7d2c144a1f7128c03a1655",
+      "bytes": 1053
+    },
+    {
+      "file": "003-dkt-0073-judgment-j-0016.md",
+      "sha256": "95d091acfa959ec1999d723cdb8c42b56eb62ed11c61e2a5a2be3fd04ba99ecb",
+      "bytes": 1472
+    },
+    {
+      "file": "004-dkt-0074-order-forward-monitoring.md",
+      "sha256": "8dcfa558403949d116d68cdaadba5b30dbefcadc8c46aa444344fe4b1136f790",
+      "bytes": 1525
+    },
+    {
+      "file": "005-dkt-0075-notice-human-readable-pdf.md",
+      "sha256": "cc757a48fc472cb4277f6dc441273749d09f1e7ab41db7c29315c78ab5dbf346",
+      "bytes": 1405
+    },
+    {
+      "file": "006-dkt-0076-clerk-notice-packet-recorded.md",
+      "sha256": "715ceae9f929310c4fb846cc3bfecdb2475c834d3f91ff497ac732c734bd5807",
+      "bytes": 1510
+    },
+    {
+      "file": "007-final-judgment-pdf-reading-copy.md",
+      "sha256": "cbbec4bb75c2d856331df2458ee6dd4d9eb150f542fb9ff53cdcb6f968b9a7a2",
+      "bytes": 12056
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "matter": "PROVE-DONE-20260927",
+  "generated": "2026-11-09",
+  "revision": "ready-r2",
+  "record_count": 7,
+  "records": [
+    {
+      "file": "002-filing-notes-prove-done-pack.md",
+      "sha256": "0977fee04f59ebe2b873e231b1c4104556bb9b2ac3f0ce1d59b817f90274f772",
+      "bytes": 2510
+    },
+    {
+      "file": "003-order-section9-cite.md",
+      "sha256": "d0b4401675b99e028411303674286d218a3243d348244cb6a82f4d8895d71991",
+      "bytes": 4041
+    },
+    {
+      "file": "004-evidence-index-box.md",
+      "sha256": "6e9ac934c08653247336e3ccd66a3fa1f03110eb50ce8e9fddc2cce0fb737955",
+      "bytes": 2905
+    },
+    {
+      "file": "005-dice-prove-20260927.md",
+      "sha256": "a725c7ae9b9d03f55b04193c10441b0155e180266bb76db14b2bbbff0115a599",
+      "bytes": 13357
+    },
+    {
+      "file": "006-mag-sealed-disposition.md",
+      "sha256": "153865aa0179d7dd414d06b8569a21f531aacb7aeac1eb4094c9a5932dcd184d",
+      "bytes": 10299
+    },
+    {
+      "file": "007-mag-conduct-result.md",
+      "sha256": "ba58d749445788adde2aeba7631f6383defab7f917671dfeed2470c7a2a647d2",
+      "bytes": 31192
+    },
+    {
+      "file": "008-cross-matter-sealed-disposition-cite.md",
+      "sha256": "763f301db7a9c47dbe16c0f1bb638ac88d8024a9155895cc604de645c12a595e",
+      "bytes": 1033
+    }
+  ]
+}
