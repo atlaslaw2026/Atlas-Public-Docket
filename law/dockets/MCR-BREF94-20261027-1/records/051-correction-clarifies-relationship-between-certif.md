@@ -141,7 +141,7 @@ Related provisions:
 
 ## 6. Spawn method, no shared memory or teammates, conflict screening
 6.1 VERIFIED. SPAWN-METHOD-ADDENDUM-1 says:
-- Each panelist is a fresh knowledgeWork subagent. Its only setup input is its SPAWN-PROMPT file, sent verbatim.
+- Each panelist is a fresh [subagent type]. Its only setup input is its SPAWN-PROMPT file, sent verbatim.
 - CreateAgent is not used, because it cannot withhold memory or the roster.
 - It supersedes AD5-REQUIREMENTS Part D step 3 and SEATING-RECORD-2-DRAFT, which are left unedited.
 - This matches [Human statement] ("No … shared memory or teammate access").
@@ -151,7 +151,7 @@ Related provisions:
 - The canary is evidence that no conversation context was passed. Whether a subagent launched from the spawner's session is excluded is not for the certifier to decide.
 6.3 The canary (Clerk's issue 1):
 - VERIFIED, from Clerk's own transcript:
-  - At about position 4904, Clerk called Task with subagent_type "knowledgeWork", description "MCR panel spawn canary". The prompt was only: "Canary check. Do not use any tools. Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1".
+  - At about position 4904, Clerk called Task with subagent_type "[subagent type]", description "MCR panel spawn canary". The prompt was only: "Canary check. Do not use any tools. Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1".
   - Clerk then called ReadTranscript on [AGENT-ID].
   - The returned text is the same as the filed canary file. That text includes the header "positions 0–3 of 4" followed by only two entries: the user turn (timestamp plus user_query) and the reply "CANARY-OK MCR-BREF94-20261027-1".
   - So the 2-of-4 gap was in the platform's output, not introduced by Clerk's copying.
@@ -159,10 +159,10 @@ Related provisions:
   - The certifier tried to read the subagent directly. ReadTranscript refused: "No session, agent, or subagent you can read from here has the id …". So the canary stays CORROBORATED-BY-CAPTURE, as Summons labelled it.
   - No new canary was run.
 - What the canary proves:
-  - A knowledgeWork subagent launched that way received no parent conversation, memory_context or teammates block in its rendered first entry.
+  - A [subagent type] launched that way received no parent conversation, memory_context or teammates block in its rendered first entry.
   - It obeyed a no-tools instruction.
 - What it does not prove:
-  - (i) That no platform system layer was added. The addendum itself admits this.
+  - (i) That no [bot platform] system layer was added. The addendum itself admits this.
   - (ii) INFERRED, from the certifier's own executor: a subagent of this kind can receive, outside its rendered user_query, a user_info block listing mounted persistent stores, a skills catalog and a dynamic-tool catalog. A transcript rendering may not show these. Stores and skills are exactly what template item B3 asks about.
   - (iii) That the real panelists, whose prompts differ and who do use tools, will start the same way.
   - (iv) What the two unshown positions contain.
@@ -220,8 +220,8 @@ panel/P3/DISCLOSURE-P3.md re-hashed now: 7de03c0292e151fe9b207aeec7505035e72a5ab
 
 ## Exceptions, in summary (Secretary's statements; not findings of the keeper)
 - **E1:** AD-5.2(c) is unresolved. Each seat is a subagent launched from the spawner's session. If that launch method is held invalid, all three seats fail, and the certificate does not cure it.
-- **E2:** the platform system layer is not visible in any transcript. The seats' descriptions of it are self-reports.
-- **E3:** the panelists can see the env-var names GH_TOKEN, GITHUB_GROKBOT_PAT and XAI_API_KEY, have a Shell with network egress, and have connectors able to post or email. None was used. The exposure is INFERRED/UNKNOWN.
+- **E2:** the [bot platform] system layer is not visible in any transcript. The seats' descriptions of it are self-reports.
+- **E3:** the panelists can see the env-var names [credential variable], [credential variable] and [credential variable], have a Shell with network egress, and have connectors able to post or email. None was used. The exposure is INFERRED/UNKNOWN.
 - **E4:** P2's [PRIVATE-PATH] write and rm -f, outside its write root, self-reported. Secretary calls this "contrary to 'Delete nothing'" and leaves the legal effect to Legal or the panel.
 - **E5:** P3 rewrote its own disclosure in place before filing (chmod u+w, rewrite, back to 0444). Secretary calls this CONFLICTED, minor, against "overwrite nothing".
 - **E6:** P1's erratum (47 corrected to 48). It has no effect on substance.

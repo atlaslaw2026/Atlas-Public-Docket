@@ -31,10 +31,10 @@ PRIVATE record. Not published (AD-16.6 / AD-12.3).
    - The files: AD5-REQUIREMENTS.md, CHARTER.md, DISCLOSURE-TEMPLATE.md, DOCKET-SNAPSHOT-20261027-1940PT.md, LAW-MATERIALS-MANIFEST.sha256, LAW-MATERIALS-NOTES.md, RECORD-INDEX-SNAPSHOT.sha256, SEATING-RECORD-2-DRAFT.md, SPAWN-PROMPT-P1.md, SPAWN-PROMPT-P2.md, SPAWN-PROMPT-P3.md.
    - Note: the manifest predates, and does not cover, items 3 and 4. The keeper did not run the nested LAW-MATERIALS-MANIFEST check.
 3. **panel-seating/SPAWN-METHOD-ADDENDUM-1.md:** sha256 c4339202a8b11db88692b7beed876a34bb8d7e68ccbfa2b2fe71aadf6242297e, mode 444, 1891 bytes, mtime 20:39:08 PDT. VERIFIED.
-   - It states that each panelist is a fresh knowledgeWork subagent whose only setup input is its SPAWN-PROMPT-P# file, sent verbatim, and that CreateAgent is not used.
+   - It states that each panelist is a fresh [subagent type] whose only setup input is its SPAWN-PROMPT-P# file, sent verbatim, and that CreateAgent is not used.
    - It states that it supersedes the "CreateAgent" wording in AD5-REQUIREMENTS Part D step 3 and in SEATING-RECORD-2-DRAFT, and that both files are left unedited.
 4. **panel-seating/CANARY-RAW-TRANSCRIPT-20261027-2038PT.txt:** sha256 a03f029acc40fca861cf2895d4ef667c206c14c53501ce9c9312670433083fe1, mode 444, 683 bytes. Hash: VERIFIED.
-   - Contents (keeper read): a knowledgeWork subagent transcript, timestamp 8:38 PM PT. Position 0 is a user turn holding only a timestamp and a user_query ("Canary check … Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1"). The reply is exactly "CANARY-OK MCR-BREF94-20261027-1". No parent conversation, memory_context or teammates block appears.
+   - Contents (keeper read): a [subagent type] transcript, timestamp 8:38 PM PT. Position 0 is a user turn holding only a timestamp and a user_query ("Canary check … Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1"). The reply is exactly "CANARY-OK MCR-BREF94-20261027-1". No parent conversation, memory_context or teammates block appears.
    - "CLEAN" result: CORROBORATED-BY-CAPTURE. This is a capture made by Clerk; the keeper did not re-read the subagent itself.
    - Limits:
      - The header says "positions 0–3 of 4", but only two entries are shown.

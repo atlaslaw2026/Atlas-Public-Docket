@@ -21,7 +21,7 @@
 - ready-r2: both constitution entries kept (distinct instruments / instance ids). Entry 4 dated 2026-10-02 per Legal ruling (instance id MAGINST-20261002-…; decision 10:17:04 AM PDT).
 - Exact PDT times from Clerk for entries 1,5,7,8.
 - MANIFEST rebuilt from actual record bytes (stale __attempt2 hashes dropped).
-- Public records manifest sha256 `33c0d2dc3067433a625ad2486347fa2546936f5b559dd3a928fd6bd4e6de3e13` (`public/MANIFEST.json`).
+- Public records manifest sha256 `37eca01894fa4785265158071e0a4a38ae7e5f03d973c4989c0ac40f29a327b5` (`public/MANIFEST.json`).
 - Attachment / sealed withholds: see `WITHHELD.md`.
 
 ## Docket entries (8 total; 8 linked)

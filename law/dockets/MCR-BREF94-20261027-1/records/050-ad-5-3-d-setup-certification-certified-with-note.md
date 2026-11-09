@@ -141,7 +141,7 @@ Related provisions:
 
 ## 6. Spawn method, no shared memory or teammates, conflict screening
 6.1 VERIFIED. SPAWN-METHOD-ADDENDUM-1 says:
-- Each panelist is a fresh knowledgeWork subagent. Its only setup input is its SPAWN-PROMPT file, sent verbatim.
+- Each panelist is a fresh [subagent type]. Its only setup input is its SPAWN-PROMPT file, sent verbatim.
 - CreateAgent is not used, because it cannot withhold memory or the roster.
 - It supersedes AD5-REQUIREMENTS Part D step 3 and SEATING-RECORD-2-DRAFT, which are left unedited.
 - This matches [Human statement] ("No … shared memory or teammate access").
@@ -151,7 +151,7 @@ Related provisions:
 - The canary is evidence that no conversation context was passed. Whether a subagent launched from the spawner's session is excluded is not for the certifier to decide.
 6.3 The canary (Clerk's issue 1):
 - VERIFIED, from Clerk's own transcript:
-  - At about position 4904, Clerk called Task with subagent_type "knowledgeWork", description "MCR panel spawn canary". The prompt was only: "Canary check. Do not use any tools. Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1".
+  - At about position 4904, Clerk called Task with subagent_type "[subagent type]", description "MCR panel spawn canary". The prompt was only: "Canary check. Do not use any tools. Reply with exactly this line: CANARY-OK MCR-BREF94-20261027-1".
   - Clerk then called ReadTranscript on [AGENT-ID].
   - The returned text is the same as the filed canary file. That text includes the header "positions 0–3 of 4" followed by only two entries: the user turn (timestamp plus user_query) and the reply "CANARY-OK MCR-BREF94-20261027-1".
   - So the 2-of-4 gap was in the platform's output, not introduced by Clerk's copying.
@@ -159,10 +159,10 @@ Related provisions:
   - The certifier tried to read the subagent directly. ReadTranscript refused: "No session, agent, or subagent you can read from here has the id …". So the canary stays CORROBORATED-BY-CAPTURE, as Summons labelled it.
   - No new canary was run.
 - What the canary proves:
-  - A knowledgeWork subagent launched that way received no parent conversation, memory_context or teammates block in its rendered first entry.
+  - A [subagent type] launched that way received no parent conversation, memory_context or teammates block in its rendered first entry.
   - It obeyed a no-tools instruction.
 - What it does not prove:
-  - (i) That no platform system layer was added. The addendum itself admits this.
+  - (i) That no [bot platform] system layer was added. The addendum itself admits this.
   - (ii) INFERRED, from the certifier's own executor: a subagent of this kind can receive, outside its rendered user_query, a user_info block listing mounted persistent stores, a skills catalog and a dynamic-tool catalog. A transcript rendering may not show these. Stores and skills are exactly what template item B3 asks about.
   - (iii) That the real panelists, whose prompts differ and who do use tools, will start the same way.
   - (iv) What the two unshown positions contain.
@@ -281,17 +281,17 @@ Position 0 has a single content part with only the timestamp and user_query wrap
 - P2: 2 of 0–3, plus 22 of 4–25.
 - P3: 19 of 0–20.
 - The 10/27 8:38 PM canary showed the same, 2 of 0–3.
-- UNKNOWN: what those entries hold. INFERRED: they are the platform system layer, which all three seats describe themselves in their own disclosures (B2 and B3).
+- UNKNOWN: what those entries hold. INFERRED: they are the [bot platform] system layer, which all three seats describe themselves in their own disclosures (B2 and B3).
 
 ## 5. Panelist disclosures read against AD-5.3(c): "stating exactly what context and instructions it received"
 5.1 All three. VERIFIED that each states:
 - seat, agent id, request id and creation time, 8:55 PM (AD-5.4);
 - the spawn prompt as its only message;
-- a platform system layer (identity as a Grok Bot knowledgeWork subagent, safety, time and box rules, "Your user is Clinton Brown");
+- a [bot platform] system layer (identity as a [bot platform] [subagent type], safety, time and box rules, "Your user is Clinton Brown");
 - no shared or owner memory, no memory_context, no teammate roster, no prior chat;
 - one mounted bot store, [PRIVATE-PATH], which only P2 listed;
 - a skill catalog with four Atlas-named entries (atlas-jev-measurement, laptop-local-exec-health, magistrate-provenance-fail-closed, white-paper-version-integrity-seal-gate), none loaded;
-- the dynamic-tool namespaces, none called;
+- the [tools] namespaces, none called;
 - environment variable names only.
 
 Each also reports:
@@ -308,7 +308,7 @@ Conclusion: the substance of AD-5.3(c) is met for all three seats, subject to th
 
 5.3 P2:
 - B2 gives the prompt sha check by bytes, and lists the system layer as input 1.
-- B3 lists the contents of its store (an empty grok-bot/ directory) and the store names under [PRIVATE-PATH], opening none of the others.
+- B3 lists the contents of its store (an empty [bot platform]-bot/ directory) and the store names under [PRIVATE-PATH], opening none of the others.
   - INFERRED: this listing goes beyond what the charter required. It was disclosed.
 - No explicit same-bot statement (see §8, E7).
 - B7–B8 self-report the [PRIVATE-PATH] breach (§8, E4).
@@ -353,24 +353,24 @@ No delivery of merits material is shown. The seats' self-reports and the docket 
 
 ## 7. Spawn method
 VERIFIED, from the captures and the disclosures:
-- knowledgeWork subagents, not CreateAgent;
+- [subagent type]s, not CreateAgent;
 - no memory or roster, as [Human statement] requires;
 - each spawn prompt delivered verbatim.
 
 ## 8. Exceptions (each one is noted, not ruled on)
 - **E1. AD-5.2(c) is UNRESOLVED.**
   - Each seat is a subagent launched from the spawner's session. Position 0 shows no conversation context.
-  - INFERRED: the mounted store store-[ID]… is the parent bot's store. A subagent launched from Secretary's session mounts Secretary's store instead. P2 reports it holds only an empty grok-bot/ directory.
+  - INFERRED: the mounted store store-[ID]… is the parent bot's store. A subagent launched from Secretary's session mounts Secretary's store instead. P2 reports it holds only an empty [bot platform]-bot/ directory.
   - Whether the AD-5.2(c) text ("spawned with a party's or spawner's conversation as context") excludes subagents launched this way is for the panel or Legal.
   - Effect on this certificate: it certifies that no conversation context is shown. If AD-5.2(c) is held to bar spawner-launched subagents as such, the setup fails for all three seats and this certificate does not cure that.
 - **E2. The system layer is not shown in any transcript.**
   - No transcript shows a system layer the platform adds, and each capture omits two entries (§4.4).
   - The seats' own descriptions of that layer are self-reports. They are UNKNOWN as to completeness, and not verifiable by the certifier.
 - **E3. Credentials within reach: INFERRED/UNKNOWN exposure.**
-  - All three seats report seeing the environment variable names GH_TOKEN, GITHUB_GROKBOT_PAT and XAI_API_KEY ([REDACTED] values not seen).
-  - They also report a Shell with network egress and connectors able to post or email (user-Outlook, x, cursor-github, cursor-origin, UploadFile).
+  - All three seats report seeing the environment variable names [credential variable], [credential variable] and [credential variable] ([REDACTED] values not seen).
+  - They also report a Shell with network egress and connectors able to post or email ([tools], x, [tools]-github, [tools]-origin, UploadFile).
   - Each says it used only Shell (local) and Read, and spent $0. VERIFIED from the captures for the tool calls shown.
-  - In a matter about unauthorized spend, a panelist with a live xAI key and GitHub tokens in reach is a setup fact for the panel or Legal to weigh. Whether it is acceptable is not decided here.
+  - In a matter about unauthorized spend, a panelist with a live [AI provider] key and GitHub tokens in reach is a setup fact for the panel or Legal to weigh. Whether it is acceptable is not decided here.
 - **E4. P2 [PRIVATE-PATH] write and delete. VERIFIED, self-reported.**
   - P2 wrote [PRIVATE-PATH] (the first 26 lines of the template) and ran `rm -f` on it in the same command. The capture shows that command.
   - This was outside P2's write root and contrary to "Delete nothing". P2 answered B8 "No deletion: no".
@@ -382,8 +382,8 @@ VERIFIED, from the captures and the disclosures:
   - Erratum 1 corrects 47 to 48 (VERIFIED against the certifier's own 48/48), and supersedes B7's "only file". No effect on the substance.
   - P1 did not itself byte-verify the prompt; the certifier did (§4.1).
 - **E7. P2 has no explicit same-bot statement.**
-  - P1 and P3 disclose that they run as the same Grok Bot as other Atlas agents. P2 does not say so in B5 or B10.
-  - P2 does disclose the facts behind it: "Grok Bot running as the knowledgeWork subagent", "the user is Clinton Brown and … the box is shared by all of the user's agents", and the bot store.
+  - P1 and P3 disclose that they run as the same [bot platform] as other Atlas agents. P2 does not say so in B5 or B10.
+  - P2 does disclose the facts behind it: "[bot platform] running as the [subagent type]", "the user is Clinton Brown and … the box is shared by all of the user's agents", and the bot store.
   - INFERRED: disclosed in substance, though not as a conclusion.
 - **E8. P2 listed [PRIVATE-PATH] names beyond its scope.** It was disclosed and it opened no other store. INFERRED to be noncritical.
 - **E9. Time discrepancies** (§3). Minor.
@@ -455,16 +455,16 @@ CLERK-CAPTURE-SUMMONS-[Human statement].md is Clerk's capture by ReadTranscript 
 **Common to P1, P2 and P3:**
 - **Memory, roster, prior chat:** no shared or owner memory, no memory_context, no teammate roster or block, no parent conversation or prior chat. None called RecallMemory.
 - **System layer:**
-  - All three received a platform system layer ("Grok Bot running as the knowledgeWork subagent", the user is Clinton Brown).
+  - All three received a [bot platform] system layer ("[bot platform] running as the [subagent type]", the user is Clinton Brown).
   - It included a skill catalog with four Atlas-named entries: atlas-jev-measurement, laptop-local-exec-health, magistrate-provenance-fail-closed and white-paper-version-integrity-seal-gate. None was loaded.
-  - It listed one bot store, [PRIVATE-PATH] P1 and P3 did not open it. P2 listed it (an empty grok-bot/ directory) and also listed the names in [PRIVATE-PATH], opening none of the others.
-  - It included dynamic-tool namespaces (cursor, user-Outlook, user-atlasclose-demo, cursor-github, cursor-origin, x). None was called.
-- **Environment:** each saw only the env-var NAMES GH_TOKEN, GITHUB_GROKBOT_PAT and XAI_API_KEY, not their values, while looking for its own id. None used them.
+  - It listed one bot store, [PRIVATE-PATH] P1 and P3 did not open it. P2 listed it (an empty [bot platform]-bot/ directory) and also listed the names in [PRIVATE-PATH], opening none of the others.
+  - It included [tools] namespaces ([tools], [tools], user-atlasclose-demo, [tools]-github, [tools]-origin, x). None was called.
+- **Environment:** each saw only the env-var NAMES [credential variable], [credential variable] and [credential variable], not their values, while looking for its own id. None used them.
 - **Recusal and conflicts:** no recusal, and no conflict known.
 - **Checks:** all report the charter ([ID]…) matching, LAW-MATERIALS 48/48, RECORD-INDEX 55/55 and MANIFEST 11/11, with no mismatches. P1 corrected its "47" to 48 by ERRATA-1, filed as its second and last file. All note that they read CLERK-CAPTURE-SUMMONS-[Human statement].md as record data and take no position on it.
 
 **Same-bot disclosure:**
-- P1 (B5/B10) and P3 (B5/B10) disclose a structural fact: each appears to run as an instance of the same bot ("Grok Bot", same owner, same shared box and same bot store id) as other Atlas agents, possibly including the Respondent's office and the participants. Each leaves this for assessment.
+- P1 (B5/B10) and P3 (B5/B10) disclose a structural fact: each appears to run as an instance of the same bot ("[bot platform]", same owner, same shared box and same bot store id) as other Atlas agents, possibly including the Respondent's office and the participants. Each leaves this for assessment.
 - P2's disclosure contains NO equivalent same-bot statement.
 
 **P2, B7–B8:** P2 reports creating [PRIVATE-PATH], a byte copy of the template's first 26 lines, at about 8:56 PM PT. This was outside its write root panel/P2/. It reports removing the file with rm -f in the same command.

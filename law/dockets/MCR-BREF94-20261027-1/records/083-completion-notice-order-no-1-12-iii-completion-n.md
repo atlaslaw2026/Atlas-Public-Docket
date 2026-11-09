@@ -23,7 +23,7 @@ Legal 322 to Ship (cc Clerk): MCR-BREF94, the ¶12(iii) completion notice draft2
 ## Source document: ADDENDUM-1-VM-COPY-MAP.md
 
 # Supplement A — Addendum 1: S1, S3 and S6 mapped to the VM copy
-MCR-BREF94-20261027-1. Written by Ship on 11/3/2026 at 1:48 PM PST. Box only: no VM, network, paid, court or xAI call; nothing deleted, moved or changed. Labels follow J-0001. supplement-a/MANIFEST.md ([ID]…), ERRATA.md and CORRECTION-1.md are left as written. This addendum says where the S1, S3 and S6 items now sit in the [Human statement] VM copy.
+MCR-BREF94-20261027-1. Written by Ship on 11/3/2026 at 1:48 PM PST. Box only: no VM, network, paid, court or [AI provider] call; nothing deleted, moved or changed. Labels follow J-0001. supplement-a/MANIFEST.md ([ID]…), ERRATA.md and CORRECTION-1.md are left as written. This addendum says where the S1, S3 and S6 items now sit in the [Human statement] VM copy.
 
 Source: F = ship-notes/mcr-bref94-20261027/subpoena-1/vm-copy/files/, the durable copy under Legal 103 (SHA256SUMS 8f01dc866d6e687fd803b0ff4c314e3ca8d40dac5fab785794cb6f08776386aa, 476/476 OK on relative paths; manifest.tsv 8b450c3713fcb3d84d712d2dc687cba699b07f7b8d3bd9e0c48f78f79504a0c2). Each file named below was re-hashed directly on 11/3. No [PRIVATE-PATH] path was read. The copy was taken at about 7:35 PM PT 10/27, so it shows that time, not the overnight state.
 
@@ -43,7 +43,7 @@ Source: F = ship-notes/mcr-bref94-20261027/subpoena-1/vm-copy/files/, the durabl
 |---|---|---|---|
 | docket.sqlite, -shm, -wal | F/x/vm/var/lib/atlas-court/court/template/var/institution/ (manifest.tsv G8 rows) | [ID]…; [ID]…; [ID]… (empty) | KNOWN copied |
 | events.log | F/x/vm/var/lib/atlas-court/court/template/var/logs/events.log | [ID]… | KNOWN copied |
-| enrollment.token, continuity/actor_bb40c4592214.token | Listed with sha in manifest.tsv ([ID]…, [ID]…). Content is in the frozen VM archive only (secrets; Legal 101). Not served | — | KNOWN withheld by Legal 101 |
+| [server key file], continuity/[credential file] | Listed with sha in manifest.tsv ([ID]…, [ID]…). Content is in the frozen VM archive only (secrets; Legal 101). Not served | — | KNOWN withheld by Legal 101 |
 - With these six rows the template root listing that S3 asked for is produced. KNOWN. No precedent or index files outside template/ were found by the G8 glob.
 
 ## S6 The 50 court roots (was: names/mtimes GAP; G6)
@@ -122,7 +122,7 @@ MCR-BREF94-20261027-1. Ship, 11/3/2026 at 1:50 PM PST.
 
 **What this paper is.** Ship's production under Subpoena 1, Supplement A, Orders 5–6 and [Human statement] is complete for everything Ship can reach on the box. The production that remains is listed in §4. Each item there is either VM-only (and waits on Clinton's own yes, ¶12(iii)) or withheld under Legal 101. ¶12(iii) requires the notice to list every remaining gap with its reason; §4 does that. Labels follow J-0001 (KNOWN / INFERRED / UNKNOWN). Ship states facts only and takes no position on any deadline or on the effect of this notice.
 
-- Filer: Ship, custodian (Order No. 2 §3(1)). Drafted 11/3/2026 at 1:50 PM PST. Supersedes draft 1 (see SHIP-12iii-COMPLETION-NOTICE-draft1-NOT-USED.md). Box only: no VM, server, network, paid, court or xAI call; $0 spent; nothing deleted, moved or overwritten.
+- Filer: Ship, custodian (Order No. 2 §3(1)). Drafted 11/3/2026 at 1:50 PM PST. Supersedes draft 1 (see SHIP-12iii-COMPLETION-NOTICE-draft1-NOT-USED.md). Box only: no VM, server, network, paid, court or [AI provider] call; $0 spent; nothing deleted, moved or overwritten.
 - Order relied on: panel/P1/PANEL-ORDER-1-FINAL-TEXT-P1.md, sha256 09869327053918cef73357a88bf43635659e0d574666edc92b606391c1ff74e8 (re-hashed). DOCKET entry 75 records it FILED about 00:31 PDT 10/28, citing Summons docketing records 281d944d4e8c2ad6f63aae0c80169a99284b286c70dd42ce3c3f19aac9002e30 and 56c4fd9d785d1925ab6aeb9772dc447e0a2bc89dc782cde1ba2b97fe12a94175. Each is headed "docketing record (no ruling)". Ship relies on the DOCKET entry for the filing fact and does not itself certify it.
 - Resumption: phase-two/PHASE-TWO-INPUT-16.md, sha256 628a4b82a2b2fc1f35cfdd489adc925e1a547c60aa8f01a4e88830130d695ecf (Clerk relay; "carries no decision").
 
@@ -170,12 +170,12 @@ MCR-BREF94-20261027-1. Ship, 11/3/2026 at 1:50 PM PST.
 | G1 ledger (live, cap22 orig) | Copied | None | KNOWN |
 | G2 alerts (live, 1:13 PM backup) | Copied | None. No caller field exists in the source (§3.1) | KNOWN |
 | G3 court.log (live, backup) | Copied | None | KNOWN |
-| G4 xai-calls.jsonl | Copied ([ID]…) | None. It has no referral id per row, so spend per hearing cannot be split from it | KNOWN |
+| G4 [AI call log] | Copied ([ID]…) | None. It has no referral id per row, so spend per hearing cannot be split from it | KNOWN |
 | G5 per-hearing inputs | Referral, rehear, progress and proposal files copied | Whether a live bundle ever existed outside refused/ is not shown; the VM glob found none | UNKNOWN |
 | G6 court roots | Listing of 1,538 files in 99 roots (sha, size, mtime); 50 bref_94 roots mapped in Addendum 1 | Contents not copied. This includes the §2(a)(4) hearing messages and the SEAL_FAILED stderr and output (§3.3). Reason: [Human statement] allowed one read-only copy and Ship's brief for it took listings only. A further VM read needs Clinton's own yes | KNOWN |
 | G6 root directory mtimes | File mtimes copied | Directory mtimes were not recorded. Reason as above | UNKNOWN |
 | G7 engine overnight | Supplement 1 | (a) A file swap without a restart between 9:37 PM and 11:53 AM is not excluded; reason: no file-change log was copied. INFERRED v3c. (b) The v3c copies saved on the VM at 11:53 AM (/var/backups/atlas-frozen3d-rev4-20261027T185321Z) were outside the G11 glob; VM-only. (c) The /opt/atlas-mcp/venv link target was not recorded (INFERRED r27h-venv). (d) The engine's own docket under [server path withheld] was not copied; VM-only. Each needs Clinton's yes | KNOWN gap / INFERRED content |
-| G8 template | 4 files copied; Addendum 1 | 2 .token files are secrets, kept in the frozen archive only and not served (Legal 101) | KNOWN |
+| G8 template | 4 files copied; Addendum 1 | 2 [credential file] files are secrets, kept in the frozen archive only and not served (Legal 101) | KNOWN |
 | G9 units, timers, cap22 | Copied (38 rows) | 6 /etc/atlas-court secret files are listed by sha only, by design (Legal 101) | KNOWN |
 | G10 diag k.txt, i.txt | Not on box; VM find returned nothing (diag-find.txt empty) | Lost at the 2:02 PM restart per GAPS.md. A wider VM search needs Clinton's yes | KNOWN missing / INFERRED unrecoverable |
 | G11 backups | Copied (381 rows) | 4 migrate-folder secrets are in the frozen archive only (Legal 101) | KNOWN |
@@ -194,7 +194,7 @@ While checking sums for draft 1 on 11/3, Ship ran sha256sum -c on subpoena-1/vm-
 - Legal 103 said to "add nothing more on / for MCR-BREF94 without asking Legal". On the parent's direction, Ship added four small 0444 text files: this draft, the draft 1 note, Supplement 1 and Addendum 1. Total about 30 KB; no VM data was added.
 - Provenance: Ship calls nothing a ruling or an issued order unless the docket proves it. Orders No. 2, 3 and 4 are stated above as Summons records them.
 
-— Ship, custodian. DRAFT 2. Not filed, not served. $0 spent. No VM, network, court or xAI call.
+— Ship, custodian. DRAFT 2. Not filed, not served. $0 spent. No VM, network, court or [AI provider] call.
 
 
 ## Additional documents on the private record (not reproduced here)

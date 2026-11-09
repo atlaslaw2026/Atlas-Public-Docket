@@ -22,8 +22,8 @@
     },
     {
       "file": "004-preservation-notice-1-preservation-directed-for.md",
-      "sha256": "6d711208dbe0f3d5c0cfd6f6cfd91bfed8a6d0f955b43eb522524fdcbeaad57d",
-      "bytes": 2046
+      "sha256": "ff29e31145cf459d40608c67f1e3f8983982ef1fd0ecc082ab103b42fb2d6771",
+      "bytes": 2044
     },
     {
       "file": "005-service-note-see-service-rows-recorded-on-this-d.md",
@@ -52,8 +52,8 @@
     },
     {
       "file": "010-subpoena-request-1-atlas-counsel-requests-subpoe.md",
-      "sha256": "dc15e1b9ee5547ca75db05f846028bf0f549c11fb135cfc1d9a4fd8f94409ee3",
-      "bytes": 9111
+      "sha256": "500ba0314640dedc8634769e3fa53ff93a7be42bfd7d961611ffceb8526a108e",
+      "bytes": 9113
     },
     {
       "file": "011-order-no-2-subpoena-1-granted-r1-r7-ship-named-c.md",
@@ -67,8 +67,8 @@
     },
     {
       "file": "013-record-index-001-inventory-of-171-sealed-rulings.md",
-      "sha256": "06853f0842ba79da6e09cf53a71117e9badb5d2ab05123af2baff1074ad60aed",
-      "bytes": 59023
+      "sha256": "0f945dfb41a92ce9636ae22ed2f6ff48a74a7a592a5ad312a32861681e33da51",
+      "bytes": 59047
     },
     {
       "file": "014-cross-reference-related-judicial-authority-quest.md",
@@ -77,38 +77,38 @@
     },
     {
       "file": "015-records-request-01-notice-of-appearance-no-objec.md",
-      "sha256": "1fd6d9206001b239425ec04cbb9366b275e3d5961bb189dbd7e4c03a9d193e3d",
-      "bytes": 24259
+      "sha256": "1d76e805639dfbc1cc8156d48ca4bc4d7e817e93645fae556aac31a04b8b084f",
+      "bytes": 24261
     },
     {
       "file": "016-production-box-evidence-production-complete-0-no.md",
-      "sha256": "5ef0e94bc140b1852cdb18b2640a221afaf81508c9db4c1bf852311a655658e8",
-      "bytes": 9546
+      "sha256": "96cc3df86d937c0c31ff0c31ac0320c2a845dcf74487fbe2076970dd91a2e198",
+      "bytes": 9560
     },
     {
       "file": "017-order-no-3-rules-on-respondent-records-request-a.md",
-      "sha256": "50c7ec6fcf9c65b59e1c1b9ef35eb3c40398b6262c966d14a87ffb8997378381",
-      "bytes": 26828
+      "sha256": "6976028d173f48a2691aa5025b36dd3928fb109c4d451d8f096ec9f428f94fa2",
+      "bytes": 26891
     },
     {
       "file": "018-evidence-proffer-1-offered-with-supporting-human.md",
-      "sha256": "ecc8d266cbec65a00272ce3b178b70f79c48fcfc00b994540d68c6dfae1c77c8",
-      "bytes": 3637
+      "sha256": "3ffa08f75ef6d686b68b57ce268b9535d902ec64d43ca1632df58f2597be7dc1",
+      "bytes": 3669
     },
     {
       "file": "019-human-answer-approves-one-read-only-court-server.md",
-      "sha256": "a6f6166bcc9aa00fc4c4521dd08be1548355f2d31db83c3375a370a6398bed61",
-      "bytes": 1658
+      "sha256": "6b5bb9de64dbdb94a98599536965efbf8a4f61177d58daa6624d2bba7ad8878d",
+      "bytes": 1668
     },
     {
       "file": "020-order-no-4-evidence-proffer-1-received-as-exhibi.md",
-      "sha256": "c6524acea6c3908d6764d47a43be18265b63abadaf633095d6d9e8bf6aaffad4",
-      "bytes": 2987
+      "sha256": "52293ed191101f4ecfbb70e8eb9fd0a9164c8ef8ef347eb583975cf46db0aa40",
+      "bytes": 3003
     },
     {
       "file": "021-preservation-request-1-asks-urgent-preservation.md",
-      "sha256": "ba501a2eaf0edcaf7fea27f3e6551e33ac54d82cf59dbdb407f8f6f9f729d6d6",
-      "bytes": 16680
+      "sha256": "683afd7cfe6920872b3ceb76e4215fe706830d2b19e0e8f628e1fdc48e10b089",
+      "bytes": 16672
     },
     {
       "file": "022-notice-no-objection-to-supplemental-requests-s1.md",
@@ -127,8 +127,8 @@
     },
     {
       "file": "025-order-no-5-grants-preservation-request-1-at-zero.md",
-      "sha256": "acfcd1372cb51593da60f977288e72fb41eb490702ecb48d4647d9211206ea10",
-      "bytes": 4085
+      "sha256": "fda1cc09a8f9cf7b9299931d27385599c4c17b9e4a05bfff67793cc591de85ae",
+      "bytes": 4083
     },
     {
       "file": "026-order-no-6-grants-joinder-items-copy-only-at-zer.md",
@@ -177,8 +177,8 @@
     },
     {
       "file": "035-vm-copy-read-only-court-server-copy-under-human.md",
-      "sha256": "fbf556217fdda92a5cbb7810124ccf8dad78e1d72704bafd0f8aa79b9c498dd8",
-      "bytes": 4550
+      "sha256": "60dc949c2ac3c2379447622fceaa719d2cf346cff62847a6b67838bf438d5c22",
+      "bytes": 4604
     },
     {
       "file": "036-panel-seating-packet-prepared-not-executed-human.md",
@@ -202,8 +202,8 @@
     },
     {
       "file": "040-canary-spawn-method-canary-returns-clean-spawn-m.md",
-      "sha256": "8be71ffea5ed14582b1fa191b514fe964bb8aaea772838a10a6a42086089dcdd",
-      "bytes": 3563
+      "sha256": "4a76e33a9520354d9df69ce264418365df6cee195ce1ff02fe617e1be7d77b42",
+      "bytes": 3557
     },
     {
       "file": "041-certifier-disclosure-audit-reports-conflict-and.md",
@@ -222,13 +222,13 @@
     },
     {
       "file": "044-docketing-panel-seating-package-and-supplements.md",
-      "sha256": "1b9aaf9db44321f372f445652739794f30a0621433583c62469b5b410d31dcc4",
-      "bytes": 15071
+      "sha256": "bc5e61539d1b086845d72cb3a2c21400638f04cee0b8930193f3042ad3fe07a6",
+      "bytes": 15057
     },
     {
       "file": "045-pre-spawn-check-cannot-certify-yet-panelist-disc.md",
-      "sha256": "b62fd7822f488c49f25564604fee181aebf61ae61da0c20c539c369572dd9505",
-      "bytes": 18156
+      "sha256": "78e629e38fd26dfeb07565aeb0a44937f1ddec32e425b77f18c10e97af3e09e6",
+      "bytes": 18150
     },
     {
       "file": "046-hold-spawn-held-pending-human-answers-on-order-o.md",
@@ -242,33 +242,33 @@
     },
     {
       "file": "048-phase-one-disclosure-p1-disclosure-and-errata-fi.md",
-      "sha256": "91784f9560f03e6624a6c02109f68dde242010f7e3b499c4fae2eb6182d5bd40",
-      "bytes": 50192
+      "sha256": "8a0a67141564ab699c52a188c4d4099d37e9ec794a2a32effe8b90a8f0ba395a",
+      "bytes": 50378
     },
     {
       "file": "049-phase-one-disclosures-p2-and-p3-disclosures-file.md",
-      "sha256": "4667e9dc9b1a3189e5a29415fe580f5ab036f1ffaba6d79b09878d38e6e3bc6b",
-      "bytes": 97418
+      "sha256": "a17c11589b6af2e4ce11285d50b0238d74cf6a34b609a553b6eefc68226cdb4f",
+      "bytes": 97781
     },
     {
       "file": "050-ad-5-3-d-setup-certification-certified-with-note.md",
-      "sha256": "d8185b27eb71b724d24e1f68ce27a7bf07fa1333568530d5fb66d1fd0139fe85",
-      "bytes": 43441
+      "sha256": "698f3cc5fcf770c2bc94602539dd847275253c3985b9d450c65df1d74b2f2230",
+      "bytes": 43532
     },
     {
       "file": "051-correction-clarifies-relationship-between-certif.md",
-      "sha256": "ae1a6bf2a3ea17357f296ffa8be7d9a03cd2cdaf68e42efec42bbb6dc40e1f6d",
-      "bytes": 24585
+      "sha256": "31bcacbc34f677ae0a49bb64fed691cf9c0a772f64ae369167d5ba67dd871a2a",
+      "bytes": 24611
     },
     {
       "file": "052-phase-two-opened-matter-record-served-on-panel-m.md",
-      "sha256": "439a8818c268326d180e38af37a2ceeffb5431e019cd671de7e01639ef338cfc",
-      "bytes": 27582
+      "sha256": "7691e13548ab3c1d6c6bb46dfd239ed544c3132e28e64440c1ee46e5fd7f0ac9",
+      "bytes": 27579
     },
     {
       "file": "053-clerk-error-disclosed-nonconforming-phase-two-me.md",
-      "sha256": "bf39cbf2192aa93b4f216fb149917ed3c6b91e2eeccfbf7fcbfe137fcca4a985",
-      "bytes": 14613
+      "sha256": "27bd15def0aca7d6492a9ea363a796c78cabc91092b91447c45b649994754fae",
+      "bytes": 14645
     },
     {
       "file": "054-conforming-service-phase-two-input-1-served-on-p.md",
@@ -292,8 +292,8 @@
     },
     {
       "file": "058-seat-filings-draft-panel-order-no-1-materials-an.md",
-      "sha256": "6af6b610ffdb44514d34e3f4f3b60c914d9c4857e627a6d8f55eee970b5a6a17",
-      "bytes": 37951
+      "sha256": "defd932d6fe4feb6decb1217e56e49d0afb72e422852338c6c1df823e248fac7",
+      "bytes": 37979
     },
     {
       "file": "059-notice-on-draft-orders-respondent-notice-filed.md",
@@ -307,33 +307,33 @@
     },
     {
       "file": "061-status-note-no-panel-order-no-1-presented-yet-se.md",
-      "sha256": "b856c3ca6203ae131d58e218865f79abb65a98c925e3588ebec63fd3380733af",
-      "bytes": 20616
+      "sha256": "2946b886753f3ed0a8679a3ee7b129817ac500e0c5f3089c4230b90ca1d89ebe",
+      "bytes": 20622
     },
     {
       "file": "062-votes-further-votes-toward-consolidated-panel-or.md",
-      "sha256": "79dc23711b456c4058a51c10d9bbe2c74006d3a5b98dc2f8a7822bb8cd4eda9b",
-      "bytes": 14890
+      "sha256": "34facc46e84a0cce99aa7e0b3e0d4680b3f1640ec054f23e18d16b55977648f2",
+      "bytes": 14896
     },
     {
       "file": "063-consolidated-text-candidate-panel-order-no-1-con.md",
-      "sha256": "01f2373150bb6795e018b0aa21ec010d25c687282b04ac4aa2af6c07fc0a499b",
-      "bytes": 15423
+      "sha256": "a01d5fbcc63d7325645afc284cb0c5ea995e30850c9fcb8e92ea1c7b81c3efbe",
+      "bytes": 15433
     },
     {
       "file": "064-candidate-texts-two-candidate-panel-order-no-1-t.md",
-      "sha256": "50e297b53ae0250b92c7473c2e09f11c05a79c9f41616c93f40eac057aa6c10d",
-      "bytes": 45876
+      "sha256": "59ccde9a0e6cb8efaaf6cec6c33f433a4c1ac1fb21095288c33ef91b0088a0bf",
+      "bytes": 45912
     },
     {
       "file": "065-crossed-confirmations-confirmations-cross-no-tex.md",
-      "sha256": "1dfe5d5b3991b3024e35e9a858b4f480d58249a1938c4b27cac2517262df5e53",
-      "bytes": 46083
+      "sha256": "bd46916a9fef7ffae9ac8f7611bb28c415857f7007ab178ac9ee0d087f959cb5",
+      "bytes": 46118
     },
     {
       "file": "066-panel-order-no-1-three-seats-confirm-the-same-ex.md",
-      "sha256": "b9a5ae18ed589ad1251ded7c9c1e386cd6464a044ac5d617265a622fa6059e18",
-      "bytes": 45554
+      "sha256": "c2bfe7f5725cc3e5bb6818c712088f70a019733bc15396fdc5e4071a13a8407f",
+      "bytes": 45590
     },
     {
       "file": "067-response-jaq-filed-under-panel-order-no-1.md",
@@ -342,8 +342,8 @@
     },
     {
       "file": "068-tender-two-supporting-items-tendered-acceptance.md",
-      "sha256": "cb4f716a7fccfd70c9f5bba76501c7194e949c6fe73f82f0707f83ba887350ce",
-      "bytes": 78107
+      "sha256": "e1a9b5242b08fdb175d8403dadb3f8f0a0d9224da83bf28248032f875958a060",
+      "bytes": 78229
     },
     {
       "file": "069-draft-panel-order-no-2-draft-only-with-p1-vote-o.md",
@@ -377,8 +377,8 @@
     },
     {
       "file": "075-docketing-panel-order-no-1-filed-12-31-am-pt-10.md",
-      "sha256": "1d7bb1e118ff0b15a5489e69a585393c8b62f0cfdb15185174f72ef65c11a6f6",
-      "bytes": 28591
+      "sha256": "b5f7f0825b2ca6d0439397f8fe6f8821e0eb13363183f7dc8180dcc6c9165bd8",
+      "bytes": 28601
     },
     {
       "file": "076-resumption-notice-matter-resumed-after-human-all.md",
@@ -417,8 +417,8 @@
     },
     {
       "file": "083-completion-notice-order-no-1-12-iii-completion-n.md",
-      "sha256": "091711968da07ff2f8c95f47d6888e6ee3db577f090672f152957786c95bbd6f",
-      "bytes": 24473
+      "sha256": "85253cfaefb3a82561bf1d8f74738675351322dc2daa69c5fdfcf153f79e5235",
+      "bytes": 24506
     },
     {
       "file": "084-docketing-panel-orders-no-2-no-3-and-no-4-filed.md",
@@ -567,13 +567,13 @@
     },
     {
       "file": "113-resumption-after-usage-stop-seat-transfer-to-suc.md",
-      "sha256": "65954c4a86662fe5c2bb0bb02c90b96f48a569105b8d8c7aaa4d36492329b8f2",
-      "bytes": 16063
+      "sha256": "06931bfc99b8976889da5ab57676b7bb0fbd32a1348a5997a462710468588784",
+      "bytes": 16069
     },
     {
       "file": "114-motion-03-leave-to-file-merits-response-out-of-t.md",
-      "sha256": "8075b6395712e8fe7e9ecf03c47fd94823b414676d5d17112f5a6004f26b7bd6",
-      "bytes": 5210
+      "sha256": "17354959debc1b0bd4bf6dfd3675b306f838eef13b41c3863c4fa2752fd2b811",
+      "bytes": 5216
     },
     {
       "file": "115-response-to-motion-03-does-not-oppose-asks-equal.md",
@@ -582,13 +582,13 @@
     },
     {
       "file": "116-replacement-order-11-draft-replacement-order-no.md",
-      "sha256": "47f50c9be266fc2a68a937eb6f2163585e4c3ec87e29dc90c21c697c7ded0eb1",
-      "bytes": 14840
+      "sha256": "1306dfba6da42c7f15318940dcd648d4d7160138e4fef4fe2a274d680f099a4d",
+      "bytes": 14846
     },
     {
       "file": "117-docketing-panel-order-no-11-replacement-filed.md",
-      "sha256": "05457923cc83087c0ce72e8620172738c5f27886fe84e1ba56672a781ba1bacc",
-      "bytes": 9823
+      "sha256": "3c8411a5c0b2c2f24240e291ba5965f4b876e8cff47066280e1dd49302e022fa",
+      "bytes": 9829
     },
     {
       "file": "118-page-under-order-11-atlas-page-on-science-disclo.md",
@@ -725,5 +725,6 @@
       "sha256": "d80abe2c029dacfafe01f240af880ed966af6b83f54fce68804b82dca8581b1b",
       "bytes": 7520
     }
-  ]
+  ],
+  "note": "Security scrub reading copies prepared 2026-11-09 (r5b); holdings/dates unchanged."
 }

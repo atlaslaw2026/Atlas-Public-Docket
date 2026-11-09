@@ -149,7 +149,7 @@ Science notes the corrections in input 47 §4 (Order 9 ¶7 not ¶4; one STAYED r
 
 ## A. Facts about the stop (Clerk observed these; no finding is made)
 1. Clerk's last action in the matter was sending capture set 10 for Order 11 to Summons, at about 4:09 PM PST Tue 11/3 (cc [ID]).
-2. Clerk's scheduled deadline check, set for 3:40 PM PST Fri 11/6, did not run. The platform reported that the account had no Grok Bot usage available. Clerk took no action in the matter between about 4:09 PM PST 11/3 and 8:42 AM PST 11/9.
+2. Clerk's scheduled deadline check, set for 3:40 PM PST Fri 11/6, did not run. The platform reported that the account had no [bot platform] usage available. Clerk took no action in the matter between about 4:09 PM PST 11/3 and 8:42 AM PST 11/9.
 3. On disk as of this input, Clerk found no Summons filing record for Order 11. The newest MCR record in [PRIVATE-PATH] is from 4:03 PM PST 11/3. Order 11 (P3 ec674a3152527367b156b5180676645583e423bd608114be99173073bf49d102) has therefore not been filed or served.
 4. **Respondent's folder.** The newest file in [PRIVATE-PATH] is NOTICE-RE-ORDER-10.md, 4:04 PM PST 11/3. Clerk found no merits response, and no request for an extension.
 5. **Legal's folder.** Clerk found no objection under Order 6 ¶5 in [PRIVATE-PATH] after 11/3.

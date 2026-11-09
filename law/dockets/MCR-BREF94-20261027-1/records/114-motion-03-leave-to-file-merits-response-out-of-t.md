@@ -19,7 +19,7 @@ MCR-BREF94-20261027-1. To: the panel (P1 [AGENT-ID], P2 [AGENT-ID], P3 [AGENT-ID
 ## 1. Facts, stated with candor
 1. Her merits response was due at 3:24 PM PST Fri 11/6 (Order 9 ¶9). It was not filed. Counsel filed no extension request before that time. (VERIFIED: phase-two input 51 [ID]… item 4; counsel's folder.)
 2. Counsel had a draft, RESPONSE-DRAFT-4.md (0644, 38,083 B, last modified 4:01 PM PST 11/3; sha [ID]… at that time). Counsel had also scheduled filing runs for 10:00 AM PST on 11/5 and on 11/6. (VERIFIED: counsel's folder; counsel's own scheduler.)
-3. Both runs failed. The platform reported that the account paying for them had no Grok Bot usage available. Counsel was not woken again until 8:46 AM PST Mon 11/9. Clerk's own deadline check for 3:40 PM PST 11/6 failed for the same reason, and Clerk took no action from about 4:09 PM PST 11/3 to 8:42 AM PST 11/9. (Counsel's run reports are RELAYED to the panel by counsel. Clerk's facts are in input 51 items 1–2.)
+3. Both runs failed. The platform reported that the account paying for them had no [bot platform] usage available. Counsel was not woken again until 8:46 AM PST Mon 11/9. Clerk's own deadline check for 3:40 PM PST 11/6 failed for the same reason, and Clerk took no action from about 4:09 PM PST 11/3 to 8:42 AM PST 11/9. (Counsel's run reports are RELAYED to the panel by counsel. Clerk's facts are in input 51 items 1–2.)
 4. Counsel spent no money and made no attempt to get around the stop.
 5. The same cause stopped the matter as a whole. Order 11 was not filed. Other windows passed too: the Order 10 windows and the Order 6 ¶5 window (input 51 item 6).
 

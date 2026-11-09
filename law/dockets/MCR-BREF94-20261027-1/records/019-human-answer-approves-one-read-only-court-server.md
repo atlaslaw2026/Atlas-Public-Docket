@@ -15,7 +15,7 @@ END OF READING-COPY LABEL
 
 # Human answer to Clerk's card [Human statement], in Clerk's chat, 7:26 PM PT, Tue 2026-10-27
 
-Question (verbatim): "Can Ship make one read-only copy of the court server's remaining records for the Magistrate review (the live court ledger, alerts log, court log, xAI call log, per-hearing inputs, code shas, and unit/timer files) through the private storage bucket, using up to 6 of your 16 remaining server calls, with no paid model calls, nothing changed or deleted on the server, and the hold untouched?"
+Question (verbatim): "Can Ship make one read-only copy of the court server's remaining records for the Magistrate review (the live court ledger, alerts log, court log, [AI provider] call log, per-hearing inputs, code shas, and unit/timer files) through the private storage bucket, using up to 6 of your 16 remaining server calls, with no paid model calls, nothing changed or deleted on the server, and the hold untouched?"
 
 Clinton's answer (verbatim): "Yes, copy them, up to 6 server calls"
 

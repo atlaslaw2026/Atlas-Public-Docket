@@ -52,7 +52,7 @@ Where the Order and [Human statement] are silent, the panel applies existing law
 - **E1:** no seat is excluded under AD-5.2(c). The bar is on conversation context, and no seat received any.
 - **E2, E3 and E11** are limits and risks, not exclusions.
   - Each seat certifies in every filing that it has used no credential, network call, connector or outbound tool, and has spent $0.
-  - Recommendation to the Human or Ship, not an order: consider running panel tasks without the xAI and GitHub secrets in their environment.
+  - Recommendation to the Human or Ship, not an order: consider running panel tasks without the [AI provider] and GitHub secrets in their environment.
 - **E4 (P2's [PRIVATE-PATH] file), E5 (P3's rewrite of its own unfiled working copy) and P1's [PRIVATE-PATH] are recorded as irregularities. They are not conflicts under AD-5.5, and they disqualify no seat. Whether any of them breaches Atlas law is left to Legal or the Human. No seat voted on its own exception.
 - Legal's written view on E1, which does not bind the panel, is invited through Clerk before any **merits** finding. Interim, preservation and scheduling orders do not wait for it.
 - No seat has a known conflict. The structural point in MOTION-01 (c)(iii), that Magistrate instances are judging a Magistrate instance, possibly with a shared model lineage, applies to every seat alike. AD-5.1 contemplates it, and the Human chose this forum. It is not a ground for recusal.
@@ -91,7 +91,7 @@ GRANTED. Orders 1–6 ([ID]…, [ID]…, [ID]…, [ID]…, [ID]…, [ID]…) are
 5. **Docket-write hold.** The request in the Respondent's Notice §5 is **moot**, because the hold ended at 9:17 PM PT 10/27 (PHASE-TWO-INPUT-4, note 1). Under AD-12.2, a filing counts as filed only when the Docket confirms it.
 
 ## 6. MOTION-01 (c): disclosures
-GRANTED. Each seat has answered MOTION-01 (c)(i)–(iii) on the record (P1 SUPPLEMENTAL-DISCLOSURE-1 [ID]…; P2 Filing 01 §1; P3 Filing 1 §4(c)). Each seat states expressly whether it runs, or may run, as the same platform bot as other Atlas agents, including the Respondent. All three seats state that they run as Grok Bot, the same bot identity and box as other Atlas agents. Whether any seat shares an underlying model lineage with the Respondent is UNKNOWN.
+GRANTED. Each seat has answered MOTION-01 (c)(i)–(iii) on the record (P1 SUPPLEMENTAL-DISCLOSURE-1 [ID]…; P2 Filing 01 §1; P3 Filing 1 §4(c)). Each seat states expressly whether it runs, or may run, as the same platform bot as other Atlas agents, including the Respondent. All three seats state that they run as [bot platform], the same bot identity and box as other Atlas agents. Whether any seat shares an underlying model lineage with the Respondent is UNKNOWN.
 
 ## 7. MOTION-01 (d): record and standards
 1. **Jurisdiction:** as in §2.
@@ -168,7 +168,7 @@ P1 and P2 each confirming this consolidated text by a short filing would be the 
 2. **E1 (AD-5.2(c)).** The exclusion turns on conversation *as context*, not on the launch path. No seat received a parent conversation, memory or roster. The exclusion is not triggered. Legal is invited, through Clerk, to give a non-binding written view on E1 before any **merits** finding. Interim, preservation and scheduling orders do not wait for it.
 3. **E2, E3 and E11** are limits or risks, not exclusions.
    - Each seat certifies in every filing that it has used no credential, network call, connector or outbound tool, and has spent $0. All three have so certified.
-   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the xAI and GitHub secrets in their environment.
+   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the [AI provider] and GitHub secrets in their environment.
 4. **Irregularities: E4 (P2's [PRIVATE-PATH] scratch file), E5 (P3's rewrite of its own unfiled working copy), and P1's [PRIVATE-PATH]
    - Each was self-disclosed. None touched an Atlas record, and none is a conflict under AD-5.5.
    - None disqualifies the seat concerned. Each seat abstains as to its own irregularity, and the other two seats so hold.
@@ -311,7 +311,7 @@ P1 and P2 each confirming this consolidated text by a short filing would be the 
 2. **E1 (AD-5.2(c)).** The exclusion turns on conversation *as context*, not on the launch path. No seat received a parent conversation, memory or roster. The exclusion is not triggered. Legal is invited, through Clerk, to give a non-binding written view on E1 before any **merits** finding. Interim, preservation and scheduling orders do not wait for it.
 3. **E2, E3 and E11** are limits or risks, not exclusions.
    - Each seat certifies in every filing that it has used no credential, network call, connector or outbound tool, and has spent $0. All three have so certified.
-   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the xAI and GitHub secrets in their environment.
+   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the [AI provider] and GitHub secrets in their environment.
 4. **Irregularities: E4 (P2's [PRIVATE-PATH] scratch file), E5 (P3's rewrite of its own unfiled working copy), and P1's [PRIVATE-PATH]
    - Each was self-disclosed. None touched an Atlas record, and none is a conflict under AD-5.5.
    - None disqualifies the seat concerned. Each seat abstains as to its own irregularity, and the other two seats so hold.

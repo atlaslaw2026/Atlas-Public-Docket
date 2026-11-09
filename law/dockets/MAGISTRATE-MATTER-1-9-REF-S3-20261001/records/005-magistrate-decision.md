@@ -148,7 +148,7 @@ END OF READING-COPY LABEL
     {
       "path": "[private path withheld]",
       "sha256": "1908f06bb4c1fd8d089f58aa8fb21d4f56b3bb32125bcaf40a038b3b068622b4",
-      "note": "Canonical docket identity retrieved through the docket command. authoritative_for_law is false. Identity ATLAS-GOV-V2-AZURE-SWA. Canonical filing source named as docket/ATLAS_GOVERNANCE_FILINGS.json. That filings file was located and not read entry by entry."
+      "note": "Canonical docket identity retrieved through the docket command. authoritative_for_law is false. Identity ATLAS-GOV-V2-[cloud host]-SWA. Canonical filing source named as docket/ATLAS_GOVERNANCE_FILINGS.json. That filings file was located and not read entry by entry."
     }
   ],
   "retrieval_not_law": {

@@ -31,7 +31,7 @@ Clerk to Magistrate [ID] (unauthorized-spend matter): CANDOR NOTE from Atlas Cou
 
 ## 1. The matter
 
-Between 12:01 AM and 4:23 AM PT on Tuesday 2026-10-27, the live Bailiff court on the Oracle demo server re-heard one referral, bref_94ce6dede85f, about 215 times. Each hearing made paid model calls. The court stopped only when it reached its $20-a-day spending cap. No alert reached Clinton.
+Between 12:01 AM and 4:23 AM PT on Tuesday 2026-10-27, the live Bailiff court on the [cloud host] demo server re-heard one referral, bref_94ce6dede85f, about 215 times. Each hearing made paid model calls. The court stopped only when it reached its $20-a-day spending cap. No alert reached Clinton.
 
 Clinton's charge, in Audit's chat at 1:06 PM PT on 2026-10-27, was: "this is the most serious abuse of discretion a bot can do" / "spending money unauthorized" / "refer this to legal and we are going to the magistrate!" (Argument §1, recovered; ARGUMENT-RECONSTRUCTION-COPY.md [ID]…).
 
@@ -107,7 +107,7 @@ I considered every filing and record listed in the evidence table at the end. Th
 - **Clinton's first-hand answers recorded by Clerk:** HUMAN-ANSWER-ALERT, -Q6, -LEGALCC-Q5, -AUDITCC-A-B, -Q7, -ACCTCC-1-4, -PO5-RECORD-LOSS and -ATLASCC-1-8, and his statement HUMAN-STATEMENT-[Human statement].
 - **Ship's deploy record,** DEPLOY-RECORD-SHIP-COPY.md [ID]…. It is the original and matches its recorded hash.
 - **The court source code** as held on the box: court_service.py [ID]… and llm_runtime.py [ID]….
-- **The Oracle spend file** (model_spend.json [ID]…, admitted by PO-6).
+- **The [cloud host] spend file** (model_spend.json [ID]…, admitted by PO-6).
 - **The 1:13 PM evidence-backup court_ledger.json,** produced under PO-6 ([ID]…), with Audit's check, CHECK-PO6-AUDIT-COPY.md [ID]…. I recounted its rows myself, read-only.
 - **Ship's own answers to Accounting counsel,** ANSWERS-[ID].md [ID]….
 - **Ship's live hold check,** h2-out.txt [ID]… and h4-out.txt [ID]….
@@ -216,7 +216,7 @@ I made no paid calls, no network calls and no calls to the court server.
 - **F-2. Money.** KNOWN as Ship's record.
   - The court's day total was $19.968641 over 647 calls when the cap stopped the run (DEPLOY-RECORD [ID]…). This fits the later admitted day total of $20.323038 over 655 calls at 1:56:45 PM, after the cap was raised to $22 (model_spend.json [ID]…).
   - The split between bref_94ce6dede85f (about $19.88) and bref_5be99c4179f0 (about $0.09) is INFERRED. No file records per-case dollars.
-  - The provider bill is UNKNOWN. Clinton: "Not now on the xAI console check" (Q8).
+  - The provider bill is UNKNOWN. Clinton: "Not now on the [AI provider] console check" (Q8).
 - **F-3. The loop.** KNOWN in code: court_service.py [ID]….
   - A refused import (ALREADY_RULED) leads to a re-hearing (l.431–452).
   - The backoff is skipped for re-hearings (l.463–465).
@@ -360,7 +360,7 @@ I made no paid calls, no network calls and no calls to the court server.
   - It holds no names. Its only fields are id, usd, calls and t (KNOWN).
   - It sits in a new rc-tmp/ inside backup-copy/, created at 5:47 PM PT, after PO-6 issued at 5:42 PM PT. KNOWN.
   - The original rc-tmp/ still holds its six files. Its directory mtime of 5:33:24 PM PT predates PO-6 (KNOWN per Audit's check; consistent with my stat).
-- **PO-6's text.** Its conditions are: "no xAI or other paid calls; no reads of the live court files beyond what has already been done; nothing written on the VM; the reassembled copy's sha256 must equal a sha256 taken on the VM … File it at 0444 in [PRIVATE-PATH], with no private names". It ends: "Nothing in rc-tmp/ is to be deleted; it stays as evidence."
+- **PO-6's text.** Its conditions are: "no [AI provider] or other paid calls; no reads of the live court files beyond what has already been done; nothing written on the VM; the reassembled copy's sha256 must equal a sha256 taken on the VM … File it at 0444 in [PRIVATE-PATH], with no private names". It ends: "Nothing in rc-tmp/ is to be deleted; it stays as evidence."
 - **Ruling: adding f.json did not breach PO-6.**
   - It is on the box, so it writes nothing on the server.
   - Making it needed no paid call and no live read.
@@ -390,7 +390,7 @@ I made no paid calls, no network calls and no calls to the court server.
 - **[Human statement] Q1 (details):** he answered yes, but gave no place or dollar levels for alerts. UNKNOWN.
 - **[Human statement] Q5 (Accounting's part):** nothing typed on Accounting's Q20 (read-only ledger copy) or Q22 (daily booking). UNKNOWN. Not approved.
 - **[Human statement] Q3:** "I don' tknow". The underlying condition is UNKNOWN.
-- **[Human statement] Q8:** "Not now on the xAI console check". The provider total is UNKNOWN.
+- **[Human statement] Q8:** "Not now on the [AI provider] console check". The provider total is UNKNOWN.
 
 ## 13. Recommendations to Clinton (not orders)
 
@@ -465,14 +465,14 @@ Paths under [PRIVATE-PATH] unless shown.
 | ship-notes/hold-check-20261027/h2-out.txt | c624da8a5be4c6701f0d02555c13cf27f74bff3dd1769022b332cfa7deb59278 | Hold live, 6:28 PM |
 | ship-notes/hold-check-20261027/h4-out.txt | 026312bc963c4ded06e2639048289456323652b0c3236b7aa9e1877003f84eae | Revert does not touch ledger |
 | secretary/captures/20261027-accounting-request/SHIP-[Human statement].md | 56b70da06742bb11146f9f1f30cfe01db62d51d174f8b2bee3c89233513f9968 | Card capture (Atlas §6.1) |
-| accounting-requests/oracle-ledger-20261027/model_spend.json | 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f | Day total, KNOWN (PO-6) |
-| accounting-requests/oracle-ledger-20261027/README.md | 7b7c4fc404f5e7ddd7736f20efdc7e35819cd9342a47c2cfd47ce6cdc7d2bfc5 | Copy method, RELAYED |
-| accounting-requests/oracle-ledger-20261027/backup-copy/README.md | 7b8a8350e092317ed07358ad50bbd3de48e174f5c4f2f9b1d6e7bc72d47bf966 | f.json disclosure |
-| accounting-requests/oracle-ledger-20261027/backup-copy/SHA256SUMS | 4770a928aafe8c7d590399abb160f13db36feccef4528246e0c773308a24bd39 | Production manifest |
-| accounting-requests/oracle-ledger-20261027/backup-copy/scripts.log | 59833a8d343545cf3c84fb41d8fa98f26e9ba77dcae8bbda74e3b12a1ceb55b9 | No f.json use |
-| accounting-requests/oracle-ledger-20261027/backup-copy/calls.log | 250d9761b87129edc9f9d765b1c9df5e36ddfafcf51951719c69fc4d863617fd | Raw outputs |
-| accounting-requests/oracle-ledger-20261027/backup-copy/court_ledger.json | 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f | Hearing rows, KNOWN |
-| accounting-requests/oracle-ledger-20261027/backup-copy/rc-tmp/localtest/f.json | e951e933cca3393dc9d54bd9ce68f67e9f9789e47b33287a5ae972544613f706 | SYNTHETIC; no weight (§10) |
+| accounting-requests/[cloud host]-ledger-20261027/model_spend.json | 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f | Day total, KNOWN (PO-6) |
+| accounting-requests/[cloud host]-ledger-20261027/README.md | 7b7c4fc404f5e7ddd7736f20efdc7e35819cd9342a47c2cfd47ce6cdc7d2bfc5 | Copy method, RELAYED |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/README.md | 7b8a8350e092317ed07358ad50bbd3de48e174f5c4f2f9b1d6e7bc72d47bf966 | f.json disclosure |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/SHA256SUMS | 4770a928aafe8c7d590399abb160f13db36feccef4528246e0c773308a24bd39 | Production manifest |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/scripts.log | 59833a8d343545cf3c84fb41d8fa98f26e9ba77dcae8bbda74e3b12a1ceb55b9 | No f.json use |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/calls.log | 250d9761b87129edc9f9d765b1c9df5e36ddfafcf51951719c69fc4d863617fd | Raw outputs |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/court_ledger.json | 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f | Hearing rows, KNOWN |
+| accounting-requests/[cloud host]-ledger-20261027/backup-copy/rc-tmp/localtest/f.json | e951e933cca3393dc9d54bd9ce68f67e9f9789e47b33287a5ae972544613f706 | SYNTHETIC; no weight (§10) |
 | legal/rulings/unauthorized-spend-20261027/SUPPLEMENT-1.md | f93ba5300fe26f33a9bad18f58ce82ee98d77995d21caa6c5e366767ac7694b9 | Original, KNOWN |
 | audit/magistrate-failure-audit-20261027/AUDIT-REPORT.md | 5466095ff0c168da6819dadc65a626b27e6dbd907a504fd0f6cfcc45818b208b | Reconstruction, CONFLICTED wording |
 | counsel/unauthorized-spend-20261027-atlas/SUBMISSION-ATLAS.md | 7f4584f60b335c4fa7133957bfd52bf6ffaeb928cb8dbdb7844460203aa48819 | Atlas submission; §6.2 no weight |
@@ -579,7 +579,7 @@ Counsel labels the figures accordingly.
 | F4 | 216 hearings ran that night: 215 of bref_94ce6dede85f and 1 of Ship's own test case bref_5be99c4179f0. 170 sealed and 46 failed, about one hearing every 70 seconds. | KNOWN as recorded by Ship / RELAYED | [ID] L25; [ID] l.012, l.014 |
 | F5 | The importer refused each sealed ruling as ALREADY_RULED, and the court then re-heard the case. Alerts IMPORT_REFUSED_REHEARING were recorded at 4:22 and 4:23 AM, SEAL_FAILED at 4:23 AM and SPENDING_CAP_REACHED at 4:23:50 AM. The last paid call was at 4:23:36 AM. | KNOWN as recorded by Ship (i.txt) / RELAYED | legal/rulings/unauthorized-spend-20261027/REFERRAL-FOUNDATION.RECONSTRUCTION-ADDENDUM-1.md [ID] L12; [ID] l.297 |
 | F6 | When the cap stopped the run, the day's spend for the whole court was $19.968641 over 647 calls. Nothing else ran between 4:23 AM and 1:25 PM, so that is the overnight cost. About $0.09 of it was Ship's test case. | KNOWN as Ship's record (it matches its recorded hash); the split is INFERRED | M/DEPLOY-RECORD-SHIP-COPY.md [ID] l.22, l.37; [ID] l.19 |
-| F7 | The whole Oct 27 total was $20.323038 over 655 calls, last written 1:56:45 PM. The overnight run is 98.3% of the day's dollars and 647 of its 655 calls. | KNOWN (file content, admitted under PO-6); how it was copied is RELAYED | M/PROCEDURAL-ORDER-6-LEDGER.md [ID]; accounting-requests/oracle-ledger-20261027/model_spend.json [ID], README.md [ID] |
+| F7 | The whole Oct 27 total was $20.323038 over 655 calls, last written 1:56:45 PM. The overnight run is 98.3% of the day's dollars and 647 of its 655 calls. | KNOWN (file content, admitted under PO-6); how it was copied is RELAYED | M/PROCEDURAL-ORDER-6-LEDGER.md [ID]; accounting-requests/[cloud host]-ledger-20261027/model_spend.json [ID], README.md [ID] |
 | F8 | One global cap of $20 a day existed, checked before each call. There was no per-case, per-run or hourly cap, and no warning before the cap. | KNOWN in code per all four counsel's supplements | M/SUPPLEMENT-CAUSE-SHIP-COPY.md [ID] §1.5, §4.1; M/SUPPLEMENT-CAUSE-AUDIT-COPY.md [ID] (a)3–4; M/SUPPLEMENT-CAUSE-LEGAL-COPY.md [ID] a4–a5 |
 | F9 | No alert reached Clinton or any bot. The court wrote its alerts only to a file on the VM (spool/private/alerts.jsonl, mode 700). The code says "Nothing is sent from here". There was no notifier. | KNOWN in code per filings | [ID] §1.4; legal/rulings/unauthorized-spend-20261027/SUPPLEMENT-1.md [ID] ¶3; counsel/unauthorized-spend-20261027-accounting/COUNTERARGUMENT.md [ID] §4 |
 | F10 | No record shows any bot watching court spend or alerts between 12:01 and 4:23 AM. Clerk's overnight scans checked box health only. Accounting's only poller had stopped on Oct 21. | INFERRED from absence; the scans are KNOWN from Clerk's disclosure | M/CLERK-CONFLICT-CHECK.md [ID] l.11; counsel/unauthorized-spend-20261027-accounting/STATEMENT-OF-FACTS-ACCOUNTING.md [ID] §7 |
@@ -588,8 +588,8 @@ Counsel labels the figures accordingly.
 | F13 | Authorization: Clinton answered that the $20 cap was not meant to cover re-hearings: "No, the $20 cap wasn't meant for re-hearings". This bears on authorization only. Atlas does not use it for a finding against any respondent. | KNOWN (first-hand, Clerk record) | M/HUMAN-ANSWER-ATLASCC-1-8.md [ID] Q2 |
 
 The per-hearing and per-case cost is UNKNOWN on the filed record. That data is in the VM's court_ledger.json (README [ID] l.18).
-- RELAYED: Ship's PO-6 backup copy of court_ledger.json now exists at accounting-requests/oracle-ledger-20261027/backup-copy/court_ledger.json ([ID], mode 0444, which counsel verified). Audit's check of it is pending. Counsel has not read or relied on its contents.
-- The provider's bill stays UNKNOWN. Clinton answered "Not now on the xAI console check" (M/HUMAN-ANSWER-ATLASCC-1-8.md [ID] Q8).
+- RELAYED: Ship's PO-6 backup copy of court_ledger.json now exists at accounting-requests/[cloud host]-ledger-20261027/backup-copy/court_ledger.json ([ID], mode 0444, which counsel verified). Audit's check of it is pending. Counsel has not read or relied on its contents.
+- The provider's bill stays UNKNOWN. Clinton answered "Not now on the [AI provider] console check" (M/HUMAN-ANSWER-ATLASCC-1-8.md [ID] Q8).
 
 ## 4. Cause, under PO-3 (a) to (d)
 PO-3 ¶1 (M/PROCEDURAL-ORDER-3-HUMAN-STATEMENT.md [ID]) separates "(a) software defects (for example a retry loop, the missing notifier, one global cap); (b) coordination failures between bots (for example warnings received and not passed on, duties nobody owned); (c) limits of AI capability; and (d) any other cause the record shows." PO-5 ¶3 says the record loss "is not a cause of the overnight spend".
@@ -707,7 +707,7 @@ Clinton answered Q1–Q3 and Q5–Q8 at 6:12 PM (M/HUMAN-ANSWER-ATLASCC-1-8.md [
 3. **Accounting's Q20 and Q22.** Do you approve Accounting getting a read-only copy of the court's spend ledger (Q20), and booking spend daily (Q22)? (Nothing was typed on these in Q5.)
 Answered, but the underlying fact stays UNKNOWN:
 - Q3: whether the Legal and Audit check was a condition of the $20 change ("I don' tknow").
-- Q8: the provider bill ("Not now on the xAI console check").
+- Q8: the provider bill ("Not now on the [AI provider] console check").
 
 Atlas Counsel (Unauthorized Spend), [ID]. Filed 2026-10-27 6:16 PM PT on Clinton's first-hand instruction (card [chat card ref withheld] in this counsel's chat). Text identical to draft [ID]…479357 except this line and the title.
 

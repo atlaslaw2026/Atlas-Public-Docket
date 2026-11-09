@@ -118,7 +118,7 @@ P1 understands that Summons is checking authorship first-hand from transcript ca
 2. **E1 (AD-5.2(c)).** The exclusion turns on conversation *as context*, not on the launch path. No seat received a parent conversation, memory or roster. The exclusion is not triggered. Legal is invited, through Clerk, to give a non-binding written view on E1 before any **merits** finding. Interim, preservation and scheduling orders do not wait for it.
 3. **E2, E3 and E11** are limits or risks, not exclusions.
    - Each seat certifies in every filing that it has used no credential, network call, connector or outbound tool, and has spent $0. All three have so certified.
-   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the xAI and GitHub secrets in their environment.
+   - **Recommendation, not order:** the Human or Ship may consider running panel tasks without the [AI provider] and GitHub secrets in their environment.
 4. **Irregularities: E4 (P2's [PRIVATE-PATH] scratch file), E5 (P3's rewrite of its own unfiled working copy), and P1's [PRIVATE-PATH]
    - Each was self-disclosed. None touched an Atlas record, and none is a conflict under AD-5.5.
    - None disqualifies the seat concerned. Each seat abstains as to its own irregularity, and the other two seats so hold.

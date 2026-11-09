@@ -61,7 +61,7 @@ Bucket route (Legal ruling 84, legal/cc-backfill-20261027/84-ship-215-bucket.txt
 - ONE bucket copy can carry ALL VM-only items G1-G13 together in a single tar.xz for about 5 calls in total (6 with a pre-listing of sizes). Adding an item to the same copy costs about 0 more calls.
 - The object stays in the bucket; deleting it needs Clinton's yes.
 
-1 KB route (Oracle run-command output cap): about 900 base85 characters, about 720 bytes of xz, per call, plus 1 call for sha/stat. Shown for comparison only.
+1 KB route ([cloud host] run-command output cap): about 900 base85 characters, about 720 bytes of xz, per call, plus 1 call for sha/stat. Shown for comparison only.
 
 Estimates are INFERRED from the sizes given. Sizes are KNOWN where a sha or byte count is cited, and INFERRED otherwise.
 
@@ -71,7 +71,7 @@ Estimates are INFERRED from the sizes given. Sizes are KNOWN where a sha or byte
 | G1 | Live court_ledger.json, plus cap22 orig/court_ledger.json | /var/lib/atlas-court/spool/private/court_ledger.json; /var/backups/atlas-court-cap22-20261027T203015Z/orig/court_ledger.json | Live [ID]…, 166,094 B KNOWN (h2-out 6:28 PM PT); orig about 165 KB INFERRED; xz about 10 KB each (the 1:13 PM backup was 9,796 B xz) | 4-5 calls | 15-16 calls each (PO-6 took 15) |
 | G2 | alerts.jsonl, live plus the 1:13 PM backup | /var/lib/atlas-court/spool/private/alerts.jsonl; /var/backups/atlas-court-evidence-20261027-201338/ copy | Backup [ID]…, 34,774 B KNOWN; live at least that; xz about 4-6 KB INFERRED | 4-5 calls | 7-10 calls |
 | G3 | court.log, live plus the 1:13 PM backup | /var/log/atlas-court/court.log; the 201338 backup copy | Backup [ID]…, 298,251 B KNOWN; live larger, UNKNOWN; xz about 25-45 KB INFERRED | 4-5 calls | 35-65 calls |
-| G4 | xai-calls.jsonl (per-call model, cost, ts) | /var/log/atlas-court/xai-calls.jsonl | UNKNOWN; at least 655 rows on Oct 27 INFERRED; about 100-300 KB raw | 4-5 calls | 20-60 calls |
+| G4 | [AI call log] (per-call model, cost, ts) | /var/log/atlas-court/[AI call log] | UNKNOWN; at least 655 rows on Oct 27 INFERRED; about 100-300 KB raw | 4-5 calls | 20-60 calls |
 | G5 | Per-hearing inputs: referral, rehear file, progress file, proposals entry; live bundle | /var/lib/atlas-court/spool/inbox/referrals/bref_94ce6dede85f.json, inbox/rehear/…, outbox/progress/… ([ID] at 1:13 PM), private/proposals/…, private/bundles/ | Small; UNKNOWN; about 5-20 KB INFERRED | 4-5 calls | 6-15 calls |
 | G6 | 50 bref_94 court roots (INFERRED to be failed attempts; keep_court_roots false) | /var/lib/atlas-court/court/courts/* | UNKNOWN; could be MBs (each is a copy of the template docket) | 4-5 calls (list sizes first, +1) | not practical |
 | G7 | Deployed package and engine shas: magistrate_provider, MAGISTRATE_INSTRUCTION_v1, bailiff_referral, bailiff_demo, package, ovested, etc. | VM package tree (RECORD-INDEX item 1 names /opt/atlas-court/tree-f3b/src/atlas_mcp/); engine copy path UNKNOWN | Shas only, about 1-3 KB | 1-2 calls (sha listing; content is on the box if shas match) | 2-3 calls |
@@ -83,7 +83,7 @@ Estimates are INFERRED from the sizes given. Sizes are KNOWN where a sha or byte
 | G13 | Oct 26 filing-run transcript (RECORD-INDEX item 12) | NOT a VM item: on the box, cited in INDEX A1 | 47,853 B | 0 | 0 |
 | G14 | 171 refused bundles (ruling texts) | spool/private/bundles/refused/ | 47,173,054 B; xz 696,452 B KNOWN | PENDING: the other worker, card [Human statement], cap 6 calls, in progress (#23 at 7:13 PM PT) | about 968 calls |
 
-Recommended ask for Clinton's card: one bucket copy of G1-G12 together, cap 6 server calls: (1) size/sha pre-listing, (2) PAR create, (3) stage, (4) tar.xz+PUT with before/after shas, (5) GET, (6) spare. Stop at a 7th. No paid xAI or Jev calls. Live files are read only, nothing is restarted, and the queue hold is untouched.
+Recommended ask for Clinton's card: one bucket copy of G1-G12 together, cap 6 server calls: (1) size/sha pre-listing, (2) PAR create, (3) stage, (4) tar.xz+PUT with before/after shas, (5) GET, (6) spare. Stop at a 7th. No paid [AI provider] or Jev calls. Live files are read only, nothing is restarted, and the queue hold is untouched.
 
 ## Cross-walk: RECORD-INDEX-001 sec.4 (l.273-287) to these gaps
 1 = G7, G9 (court-config and model.json are on the box: KNOWN by reconstruction and sha). 2 = G7 (source on the box, INDEX A1). 3 = G14, G6. 4 = G5. 5 = G2, G3. 6 = G4. 7 = G1, G11. 8 = G11. 9 = G9 (the pre-cap22 versions are on the box, reconstructed). 10 = G10. 11 = G8. 12 = G13 (box). 13 = none (INDEX A1).
@@ -96,7 +96,7 @@ Recommended ask for Clinton's card: one bucket copy of G1-G12 together, cap 6 se
 ## Source document: MANIFEST.md
 
 # MANIFEST: MCR-BREF94-20261027-1 (Order 1 para 5 production). Custodian: Ship
-Built 2026-10-27, 7:15-7:35 PM PT. Box only: no server, OCI, VM, network or model call. Spend: $0. Originals unchanged. All produced files are 0444.
+Built 2026-10-27, 7:15-7:35 PM PT. Box only: no server, [cloud host], VM, network or model call. Spend: $0. Originals unchanged. All produced files are 0444.
 
 ## A. Folder [PRIVATE-PATH]
 INDEX.md (para 5 a-e, with Addendum A), GAPS.md, MANIFEST.md, EVIDENCE-COPIES.tar.xz, SHA256SUMS, subpoena-1/ (MANIFEST.md, SHA256SUMS). File shas are in SHA256SUMS.
@@ -107,8 +107,8 @@ INDEX.md (para 5 a-e, with Addendum A), GAPS.md, MANIFEST.md, EVIDENCE-COPIES.ta
 ## B. EVIDENCE-COPIES.tar.xz members (38; tar mode 0444)
 | member | sha256 | bytes | mtime | source |
 |---|---|---|---|---|
-| box/accounting-requests/oracle-ledger-20261027/backup-copy/court_ledger.json | 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f | 164706 | 2026-10-27 18:05:52 PT | = [PRIVATE-PATH] |
-| box/accounting-requests/oracle-ledger-20261027/model_spend.json | 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f | 73 | 2026-10-27 17:38:27 PT | = [PRIVATE-PATH] |
+| box/accounting-requests/[cloud host]-ledger-20261027/backup-copy/court_ledger.json | 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f | 164706 | 2026-10-27 18:05:52 PT | = [PRIVATE-PATH] |
+| box/accounting-requests/[cloud host]-ledger-20261027/model_spend.json | 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f | 73 | 2026-10-27 17:38:27 PT | = [PRIVATE-PATH] |
 | box/audit/cloud-only-cutover-[ID]/bundles-addendum3/pkg/vm-bundle/SHA256SUMS | 2c1a92651575655b61e78cd9b98e4a136e47e764e945a422c93aa1c0576f2b4d | 1150 | 2026-10-27 14:34:45 PT | = [PRIVATE-PATH] |
 | box/audit/cloud-only-cutover-[ID]/bundles-addendum3/pkg/vm-bundle/atlas-court-check.py | 8d44e4df4a937e59efe8a2305a6f5996c44148fc7a6817581198fddd4e61395a | 7287 | 2026-10-27 14:34:45 PT | = [PRIVATE-PATH] |
 | box/audit/cloud-only-cutover-[ID]/bundles-addendum3/pkg/vm-bundle/atlas-court.service | 69f1aa24d1f1086b4944effb3e5549559b2a10ddfd7c0377bb0d05c51a31074f | 2386 | 2026-10-27 14:34:45 PT | = [PRIVATE-PATH] |
@@ -186,7 +186,7 @@ INDEX.md (para 5 a-e, with Addendum A), GAPS.md, MANIFEST.md, EVIDENCE-COPIES.ta
 ## D. Scrub and blank log
 - Scanned every archive member before writing, for these patterns:
   - private names: the SCRUB-REPORT list, plus third-party terms
-  - secrets: xai-/sk- keys, PRIVATE KEY blocks, "api_key" values, Bearer tokens
+  - secrets: [credential pattern], [credential pattern], "[credential variable]" values, [credential pattern]
   - email addresses
 - Result: 0 hits. 0 scrubs and 0 blanks, so every copy is byte-identical to its source.
 - model.json and court-config.json hold key-file PATHS only, not key material, and are left as they are. This document does not repeat them.

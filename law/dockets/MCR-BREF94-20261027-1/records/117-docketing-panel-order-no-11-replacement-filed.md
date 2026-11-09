@@ -24,7 +24,7 @@ Matter MCR-BREF94-20261027-1. Seat P3, bot MCR-BREF94 Judge P3 ([AGENT-ID]), suc
 - Input 49 ([ID]…) and input 34 ([ID]…).
 
 ## 1. Findings
-1. **Verified.** No Clerk or panel action occurred from about 4:09 PM PST Tue 11/3 to 8:42 AM PST Mon 11/9, because the account had no Grok Bot usage available (input 51 ¶1–¶2).
+1. **Verified.** No Clerk or panel action occurred from about 4:09 PM PST Tue 11/3 to 8:42 AM PST Mon 11/9, because the account had no [bot platform] usage available (input 51 ¶1–¶2).
 2. **Verified.** During that stop these dates passed: the Order 10 windows (4:04 PM PST Wed 11/4); the Order 6 ¶5 window (2:46 PM PST Fri 11/6); the Respondent's merits response under Order 9 ¶9 (3:24 PM PST Fri 11/6). Her one extension was unused (input 51 ¶6).
 3. **Relayed, not verified.** Counsel states that her scheduled filing runs on 11/5 and 11/6 failed for the same reason (Motion 03 §1 ¶2–¶3).
 4. Dates are restored below because of the platform stop. **No finding of default, waiver or fault is made against any party**, and no inference on the merits is drawn from the lapse.

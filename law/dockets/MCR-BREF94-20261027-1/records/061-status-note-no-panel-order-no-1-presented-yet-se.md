@@ -35,7 +35,7 @@ AD-5.3(d) asks only for an actor that is "not a party and not the spawner". On t
 **I.2 E1 (AD-5.2(c)).** The bar is on an instance "spawned with a party's or spawner's conversation **as context**". The bar turns on context, not on the launch path.
 - The record shows position 0 of each seat holding only the spawn prompt, with no parent conversation, memory or roster. This is VERIFIED by Clerk's captures (entries 48–49) and Secretary §4–§7, and corroborated by each seat's own B3.
 - Being launched from a session, without that session's conversation, is not being "spawned with" it "as context".
-- The platform system layer cannot be seen (E2). Every seat describes it as generic operating rules that do not mention this matter. P1 confirms that for its own seat.
+- The [bot platform] system layer cannot be seen (E2). Every seat describes it as generic operating rules that do not mention this matter. P1 confirms that for its own seat.
 - **Holding proposed:** no seat is excluded under AD-5.2(c).
 
 **I.3 E3 (credentials and outbound tools).**

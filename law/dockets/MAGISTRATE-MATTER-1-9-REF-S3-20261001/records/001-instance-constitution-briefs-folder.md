@@ -22,7 +22,7 @@ END OF READING-COPY LABEL
 | Referral | `REF-1-9-S3-DIVERGENCE-20261001` |
 | Referral record | `[private path withheld] (first line) and `[private path withheld] |
 | Spawning authority | O-VESTED-MAGISTRATE §I: a Magistrate may be computationally spawned for a matter properly referred. Human instruction 2026-10-01 to finish this open referral according to the rules. The prior instance `MAGINST-HREF-20260930-df9a5799984b` ordered the referral and is not the adjudicator of it. |
-| Spawning actor | Cursor filing actor on the live Atlas checkout. Not Claude Code session `5ab13989`. This actor identifies the referred question and supplies the referral record. It does not decide the referral, select between reviews, or change resolver semantics. |
+| Spawning actor | [filing tool] filing actor on the live Atlas checkout. Not [AI model] session `5ab13989`. This actor identifies the referred question and supplies the referral record. It does not decide the referral, select between reviews, or change resolver semantics. |
 | Office | An independently instantiated Magistrate agent. Not `magistrate_vested.py`. Not `conduct_independent_review`. Those paths are evidence if she retrieves them. They are not this adjudication. |
 
 ## What is committed to this Office

@@ -73,8 +73,8 @@ panel/P3/DISCLOSURE-P3.md re-hashed now: 7de03c0292e151fe9b207aeec7505035e72a5ab
 
 ## Exceptions, in summary (Secretary's statements; not findings of the keeper)
 - **E1:** AD-5.2(c) is unresolved. Each seat is a subagent launched from the spawner's session. If that launch method is held invalid, all three seats fail, and the certificate does not cure it.
-- **E2:** the platform system layer is not visible in any transcript. The seats' descriptions of it are self-reports.
-- **E3:** the panelists can see the env-var names GH_TOKEN, GITHUB_GROKBOT_PAT and XAI_API_KEY, have a Shell with network egress, and have connectors able to post or email. None was used. The exposure is INFERRED/UNKNOWN.
+- **E2:** the [bot platform] system layer is not visible in any transcript. The seats' descriptions of it are self-reports.
+- **E3:** the panelists can see the env-var names [credential variable], [credential variable] and [credential variable], have a Shell with network egress, and have connectors able to post or email. None was used. The exposure is INFERRED/UNKNOWN.
 - **E4:** P2's [PRIVATE-PATH] write and rm -f, outside its write root, self-reported. Secretary calls this "contrary to 'Delete nothing'" and leaves the legal effect to Legal or the panel.
 - **E5:** P3 rewrote its own disclosure in place before filing (chmod u+w, rewrite, back to 0444). Secretary calls this CONFLICTED, minor, against "overwrite nothing".
 - **E6:** P1's erratum (47 corrected to 48). It has no effect on substance.

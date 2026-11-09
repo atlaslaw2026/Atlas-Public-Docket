@@ -29,18 +29,18 @@ Authority: card [Human statement]. Clinton answered first-hand at 7:26 PM PT Oct
 - Per-file shas: SHA256SUMS in this folder (archive plus 475 unpacked files) and MANIFEST.md.
 
 ## VM writes
-Ship's script created no files on the VM and used no heredocs there. Python tarfile streamed to stdout, then xz, then curl PUT. Reads used O_NOATIME. Nothing on the server was changed or deleted. The hold, the ledger and the services were not touched, and no paid model calls were made. Side effects outside Ship's control: Oracle's run-command record holds the script text, including the PAR URL (accepted by Legal), and sudo writes auth-log lines.
+Ship's script created no files on the VM and used no heredocs there. Python tarfile streamed to stdout, then xz, then curl PUT. Reads used O_NOATIME. Nothing on the server was changed or deleted. The hold, the ledger and the services were not touched, and no paid model calls were made. Side effects outside Ship's control: [cloud host]'s run-command record holds the script text, including the PAR URL (accepted by Legal), and sudo writes auth-log lines.
 
 ## Where the PAR URL lives
 - Box: [PRIVATE-PATH] (0600) and [PRIVATE-PATH] (0600).
 - The rc.sh temp body [PRIVATE-PATH], which rc.sh removed.
-- Oracle's run-command record (kept 7 days).
+- [cloud host]'s run-command record (kept 7 days).
 - It is not in argv, the environment, any VM file, any ledger or any output.
 
 ## Deviations
 1. The streamed route replaces Legal ruling 84's separate staging call. Legal needs to be told.
 2. The PAR URL is in the run-command text (accepted by Legal).
-3. SECRETS SWEPT IN. The G11 glob copied /var/backups/atlas-court-migrate/20261022T014556Z/moved/_etc_atlas-court/{xai.key,court.key,referral.key,clerk.token} in full. Their shas equal the live /etc/atlas-court files, so they are LIVE secrets. The G8 template's enrollment.token and continuity actor token were also copied. These 6 are inside a.tar.xz (box, now 0400) and inside the bucket object. They were not unpacked or printed. Rotating the keys or deleting the object needs Clinton's decision.
+3. SECRETS SWEPT IN. The G11 glob copied /var/backups/atlas-court-migrate/20261022T014556Z/moved/_etc_atlas-court/{[server key file],[server key file],[server key file],[server key file]} in full. Their shas equal the live /etc/atlas-court files, so they are LIVE secrets. The G8 template's [server key file] and continuity actor [credential file] were also copied. These 6 are inside a.tar.xz (box, now 0400) and inside the bucket object. They were not unpacked or printed. Rotating the keys or deleting the object needs Clinton's decision.
 4. During setup I ran rm -f on my own scratch file [PRIVATE-PATH] (created minutes earlier in [PRIVATE-PATH]) before rewriting it.
 5. Box test artifacts remain in [PRIVATE-PATH], and par.json and c26.sh are kept. Nothing was cleared.
 6. G10: diag-magistrate-1233 was not found on the VM. The parent handles the box copy.

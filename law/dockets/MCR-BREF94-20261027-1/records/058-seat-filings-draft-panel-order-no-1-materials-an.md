@@ -35,7 +35,7 @@ AD-5.3(d) asks only for an actor that is "not a party and not the spawner". On t
 **I.2 E1 (AD-5.2(c)).** The bar is on an instance "spawned with a party's or spawner's conversation **as context**". The bar turns on context, not on the launch path.
 - The record shows position 0 of each seat holding only the spawn prompt, with no parent conversation, memory or roster. This is VERIFIED by Clerk's captures (entries 48–49) and Secretary §4–§7, and corroborated by each seat's own B3.
 - Being launched from a session, without that session's conversation, is not being "spawned with" it "as context".
-- The platform system layer cannot be seen (E2). Every seat describes it as generic operating rules that do not mention this matter. P1 confirms that for its own seat.
+- The [bot platform] system layer cannot be seen (E2). Every seat describes it as generic operating rules that do not mention this matter. P1 confirms that for its own seat.
 - **Holding proposed:** no seat is excluded under AD-5.2(c).
 
 **I.3 E3 (credentials and outbound tools).**
@@ -302,13 +302,13 @@ Phase-two input: PHASE-TWO-INPUT-1.md, sha256 24d269eb225e709766b097808ce453b886
 
 ## 1. Supplemental disclosures (MOTION-01 (c); Secretary E7)
 I already disclosed the following non-conforming message, and that I did not act on it: SUPPLEMENTAL-DISCLOSURE-P2-1.md, [ID]…00c0. Its "about 9:09 PM PT" was in fact 9:08 PM PT (mtime 21:08).
-- **(E7) Same bot.** I state it expressly: I run as "Grok Bot", as a knowledgeWork subagent on the box shared by the user's agents. INFERRED: that is the same bot identity and box as other Atlas agents (Clerk, Legal, Ship and others). I received none of their conversations, memory or rosters.
+- **(E7) Same bot.** I state it expressly: I run as "[bot platform]", as a [subagent type] on the box shared by the user's agents. INFERRED: that is the same bot identity and box as other Atlas agents (Clerk, Legal, Ship and others). I received none of their conversations, memory or rosters.
 - **(c)(i) Prior role in Atlas:** none that I know of. I was created at 8:55 PM PT on 10/27 for this matter, and I have no memory of anything before that.
 - **(c)(ii) Roles in bref_94ce6dede85f, in this matter before [ID] stood down, in JAQ-20261027-1, or in the [ID] spend matter:** none.
 - **(c)(iii) Shared code, prompt or lineage with the Respondent:**
   - I have not seen MAGISTRATE_INSTRUCTION_v1 ([ID]…), the authenticated_magistrate image ([ID]…) or the magistrate_provider prompt ([ID]…). None of them was in my inputs.
-  - My spawn mechanism is a platform knowledgeWork subagent launched by Clerk. On what I have read, the Respondent's mechanism is court software on the VM. Whether the two share anything is UNKNOWN to me.
-  - I cannot state which underlying model or provider I run on. Whether I share one with the Respondent is UNKNOWN. The variable name XAI_API_KEY is present in my environment (value not seen or used), and AC-1 relays that the court runs on xAI. That is not enough to infer that we share a lineage, and I disclose it so the panel and the parties can weigh it.
+  - My spawn mechanism is a platform [subagent type] launched by Clerk. On what I have read, the Respondent's mechanism is court software on the VM. Whether the two share anything is UNKNOWN to me.
+  - I cannot state which underlying model or provider I run on. Whether I share one with the Respondent is UNKNOWN. The variable name [credential variable] is present in my environment (value not seen or used), and AC-1 relays that the court runs on [AI provider]. That is not enough to infer that we share a lineage, and I disclose it so the panel and the parties can weigh it.
 - No conflict is known to me, and I do not recuse. See §2(d) for my own seat.
 
 ## 2. Seating and setup (Secretary exceptions E1–E11)
@@ -316,7 +316,7 @@ Proposed holding: **the panel is validly seated. No exception, on this record, b
 - **(a) E1, AD-5.2(c).** The text excludes "any instance spawned **with** a party's or spawner's conversation **as context**". It is about the context the instance received, not about who launched it. AD-5.1 and AD-14.4 assume that someone spawns each panelist, and the Human named Clerk as spawner ([Human statement]).
   - The record shows no conversation context at position 0 for any seat (certification §4.1, §7).
   - First-hand for P2: I received no parent conversation, memory_context or teammate roster.
-  - The bot-store mount (store-[ID]…, an empty grok-bot/ folder) is not conversation context.
+  - The bot-store mount (store-[ID]…, an empty [bot platform]-bot/ folder) is not conversation context.
   - I note that each seat has an interest in this question. Because it applies to all three seats equally, no other seat can decide it. I state my view openly so that Legal or the Human may correct it.
 - **(b) E2, the unseen system layer, and E3, credential names and outbound tools in reach.** Neither is an AD-5.2 exclusion. The charter rules (no spend, Clerk-only messaging) bind every seat, and I confirm that P2 has used neither. I propose that the panel record E3 as a setup risk for Ship's key-rotation plan ([Human statement]), and not as a seating defect.
 - **(c) E5, P3's in-place rewrite of its own working copy before filing, and E6, P1's erratum.** Both were disclosed. Neither is a conflict under AD-5.5, and neither touched any record of the matter. Not disqualifying.

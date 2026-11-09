@@ -26,7 +26,7 @@ Scrub and blank log: 0 private-name hits and 0 secret hits in the produced copie
 
 ## R1: hearing rows, inputs, outputs, ruling texts, bundle, progress file
 - Hearing rows (KNOWN, all 220 bref_94 rows through 1:13 PM PT; INDEX A3):
-  - `box/accounting-requests/oracle-ledger-20261027/backup-copy/court_ledger.json` 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f (164706 B, 2026-10-27 18:05 PT)
+  - `box/accounting-requests/[cloud host]-ledger-20261027/backup-copy/court_ledger.json` 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f (164706 B, 2026-10-27 18:05 PT)
   - derived `derived/HEARINGS-bref94.tsv` 33aac8230c4fecfe4533443887ec88090729b2179781c127b4731e5882a82158 (25496 B, 2026-10-27 19:20 PT)
 - Ruling texts and bundles (KNOWN, cited, not copied): the 171 refused bundles at [PRIVATE-PATH], COMBINED 4c6f9687daca1803dd675897a50dad82b51135ba231b0d9dbbde9f0aa10d8b3d, 47,173,054 B. Records: [PRIVATE-PATH] [ID]… and RECORD-215b.md [ID]…. Bundle listing: `box/ship-notes/ruling-copy-215-20261027/RECORD.md` e6b322f69e525a03901df97186150b1f47c26d7938e78a90b1e051133364c0a7 (2944 B, 2026-10-27 19:02 PT).
 - GAP: per-hearing inputs and package, the referral, rehear and progress files, and proposals (G5); the 49 failed-attempt court roots (G6); the live bundle (G5).
@@ -51,10 +51,10 @@ Scrub and blank log: 0 private-name hits and 0 secret hits in the produced copie
 - GAP G2 (priority 2). The backup sha [ID]… (34,774 B) is KNOWN only from DEPLOY-RECORD.
 - KNOWN code: alerts are only appended (court_service.py l.382-387).
 
-## R4: xai-calls.jsonl, model_spend.json, court.log, court_ledger.json (live and backups)
-- model_spend.json, live as read: `box/accounting-requests/oracle-ledger-20261027/model_spend.json` 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f (73 B, 2026-10-27 17:38 PT)
-- court_ledger.json, 1:13 PM backup: `box/accounting-requests/oracle-ledger-20261027/backup-copy/court_ledger.json` 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f (164706 B, 2026-10-27 18:05 PT)
-- GAP: live ledger (G1, priority 1); court.log (G3, priority 3); xai-calls.jsonl (G4); the 1:13 PM model_spend backup [ID] (G11).
+## R4: [AI call log], model_spend.json, court.log, court_ledger.json (live and backups)
+- model_spend.json, live as read: `box/accounting-requests/[cloud host]-ledger-20261027/model_spend.json` 249ae884ca997213ca417039982a62eade8a8b91705e0a948a4ac83186ea678f (73 B, 2026-10-27 17:38 PT)
+- court_ledger.json, 1:13 PM backup: `box/accounting-requests/[cloud host]-ledger-20261027/backup-copy/court_ledger.json` 727c52f64b9e40d4fb04fa2984241aca18585b2c3f8ea9e3848e8670914cad7f (164706 B, 2026-10-27 18:05 PT)
+- GAP: live ledger (G1, priority 1); court.log (G3, priority 3); [AI call log] (G4); the 1:13 PM model_spend backup [ID] (G11).
 
 ## R5: courtwatch.py, units and timers including the cap revert, any notifier
 - courtwatch.py in force: `reconstructed/atlas-courtwatch.py` aa158f079e887284cb45bcfb0f2983285ca216f51290031f499852f1f77ec494 (2400 B, 2026-10-27 14:34 PT)

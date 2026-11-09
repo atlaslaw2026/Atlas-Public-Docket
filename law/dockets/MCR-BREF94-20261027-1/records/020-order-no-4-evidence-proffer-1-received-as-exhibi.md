@@ -28,7 +28,7 @@ The proffer is RECEIVED into the record as Exhibit AC-1. This was done at the Hu
 Being received means the message is part of the record. It is not yet relied on for any finding. On the present record:
 - **VERIFIED:** the text of [chat card ref withheld], and that it was posted in Atlas Counsel's chat at 7:25 PM PT on 2026-10-27.
 - **INFERRED (author unknown):** who wrote it. The proffer itself notes the text reads as Ship's, and may be a relay or paste.
-- **RELAYED, not verified:** its account of the Human's message [Human statement], and its statement that the court runs on xAI on Oracle.
+- **RELAYED, not verified:** its account of the Human's message [Human statement], and its statement that the court runs on [AI provider] on [cloud host].
 - **Human's stated view, not a finding:** [Human statement], "yes this was for the demo we are in court about", is recorded as the Human's view of its subject.
 
 Relevance is RESERVED. On its face, [chat card ref withheld] concerns a later decision about a live test run and the no-paid-testing rule. It does not directly concern the 215 hearings of 12:01 to 4:23 AM PT on Oct 27, or what the Respondent could see or do in them. A party relying on it must explain how it bears on Questions 1 to 3.

@@ -21,7 +21,7 @@ END OF READING-COPY LABEL
 | Matter | `1-9` |
 | Referral | `REF-1-9-S3-DIVERGENCE-20261001` |
 | Spawning authority | Human instruction to finish the open referral under the standing rule that the filing actor supplies the matter and the record, and the Magistrate retrieves her own governing authorities. Filing standing for an unresolved Magistrate-jurisdiction question: `HO-MAGISTRATE-FILING-REFERRAL-STANDING-20260927`. |
-| Spawning actor | Cursor session that located the open referral. That actor summarized prior decisions before this constitution. It does not control this disposition. |
+| Spawning actor | [filing tool] session that located the open referral. That actor summarized prior decisions before this constitution. It does not control this disposition. |
 | Adjudicator | A separately constituted computational agent. Not `magistrate_vested.py`. Not `atlas_gov.magistrate_independent.conduct_independent_review`. |
 
 ## Record supplied
