@@ -553,6 +553,26 @@
     "pointer": "EVT-PUB-M-027",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-028",
+   "title": "MCR-BREF94-20261027-1 — Public case docket (CourtListener-style; 148 linked rows; 144 cleaned reading copies)",
+   "filing_request": "Human exact-bytes approval first-hand 2026-11-09 12:29 PM PST (Legal chat card), verbatim: \"Yes, publish the MCR-BREF94 case docket using manifest sha b5e6e531c6eededd0f017f8a26a2fbb52f93fbcf5338952ce64ff9448970e8a6\"",
+   "governing_authority": [
+    "CONST Art. I §1–§2 (Human direction)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "Publication of the matter's case docket as public reading copies; no ruling changed; the merits decision (PUB-M-026) and O-LANDMARK-MAGISTRATE-STOP (PUB-M-027) are linked as already published",
+   "implementation": "law/dockets/MCR-BREF94-20261027-1/: DOCKET.md and DOCKET.html (case page), records/ (144 cleaned reading copies), MANIFEST.json (sha256 b5e6e531c6eededd0f017f8a26a2fbb52f93fbcf5338952ce64ff9448970e8a6), WITHHELD.md (attachments withheld, with reasons); privacy labels for chat ids and local paths",
+   "public_commit_sha": "b10401b29b1cb3c5aa84f76e5da340f2d65a50fa",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "every record matches the approved manifest (144/144); privacy check clean for private names/companies/addresses/emails/tokens, chat ids and local paths; credential-shaped text is policy wording or redacted only; originals retained in the private record",
+   "status": "PUBLISHED_READING_COPIES",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-028",
+    "reviewed": true
+   }
   }
  ]
 }

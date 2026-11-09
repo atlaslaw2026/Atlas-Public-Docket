@@ -438,3 +438,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential. Human turn/card ids were replaced with labels; absolute box paths were generalized; draft-status marks for this instrument were replaced with ADOPTED language. Holdings of the adopted main Order are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `08d583a3b8cf34f3e37413a3a59da92b2fb442ce3bc34ad789b33a71ed444059`). |
 | Status | **ADOPTED — EFFECTIVE (PUBLISHED AS READING COPY)** |
 | Evidence pointer | `pointer: EVT-PUB-M-027` (`PRIVATE_RETAINED`, reviewed: true; the adoption record, Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-028
+
+**MCR-BREF94-20261027-1 — Public case docket (CourtListener-style; 148 linked rows)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-028 |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 12:29 PM PST (Legal chat card), verbatim: "Yes, publish the MCR-BREF94 case docket using manifest sha b5e6e531c6eededd0f017f8a26a2fbb52f93fbcf5338952ce64ff9448970e8a6". |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private record controls. |
+| Docket | [Case docket page](../law/dockets/MCR-BREF94-20261027-1/DOCKET.md) ([HTML](../law/dockets/MCR-BREF94-20261027-1/DOCKET.html)), with [144 cleaned reading copies](../law/dockets/MCR-BREF94-20261027-1/records/), the [manifest](../law/dockets/MCR-BREF94-20261027-1/MANIFEST.json) and the [withheld-attachments list](../law/dockets/MCR-BREF94-20261027-1/WITHHELD.md). Entries 145–148 link to records already published (PUB-M-026, PUB-M-027). |
+| Effect | Publication only. No ruling, order or record is changed. |
+| Public commit | `b10401b29b1cb3c5aa84f76e5da340f2d65a50fa` (the case docket); this entry is added by the following commit. |
+| Verification | Every record matches the approved manifest (144 of 144). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential; chat ids and local paths were replaced with labels. Credential-shaped words are policy wording or redacted text only. |
+| Status | **PUBLISHED (READING COPIES)** |
+| Evidence pointer | `pointer: EVT-PUB-M-028` (`PRIVATE_RETAINED`, reviewed: true; the originals, Legal's package and the Human's messages are retained in the private record) |
