@@ -511,6 +511,27 @@
     "pointer": "EVT-PUB-M-023",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-026",
+   "title": "Panel Decision on the Merits (Q1–Q3), MCR-BREF94-20261027-1 (issued; public reading copy)",
+   "filing_request": "Human publication direction 2026-11-09 10:55 AM PT, verbatim: \"publish the decision on the docket\"; exact-bytes approval first-hand 2026-11-09 11:07 AM PT, verbatim: \"Yes\" (reading copy sha256 12842c2f7b65965e024b46f928516e69174261b593b0e94a934a7fafd406e154)",
+   "governing_authority": [
+    "O-APPELLATE-DIVISION (panel decision; AD-5.6 two-seat confirmation; AD-12.2 docketing)",
+    "Decision §8 (nothing public until private names are scrubbed)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "ISSUED; effective 2026-11-09 10:18:24 PST on private Docket entry 145 after P1/P2 confirmation of source sha256 724c9b0ec9b1dc201bc1a2e1c25454e864992523420a70c462298b9584fc5e5d; Q1/Q2/Q3 as in the decision; publication is a reading copy and files nothing; no new law",
+   "implementation": "law/judgments/PANEL-DECISION-MCR-BREF94-20261027-MERITS-Q1-Q3.md: labelled ISSUED public reading copy (sha256 12842c2f7b65965e024b46f928516e69174261b593b0e94a934a7fafd406e154); privacy labels for agent short ids, Human turn ids, and one internal temporary path; pre-issuance drafting status marks replaced with ISSUED language",
+   "public_commit_sha": "f30c8dbae372f20591179bc675e9d35e5de507aa",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "privacy check clean for private names/companies/addresses/emails/tokens; labelled substitutions only; holdings unchanged in substance; public file matches reviewed reading copy",
+   "status": "ISSUED_EFFECTIVE_PUBLISHED_READING_COPY",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-026",
+    "reviewed": true
+   }
   }
  ]
 }

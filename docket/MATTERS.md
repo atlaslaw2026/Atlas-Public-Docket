@@ -406,3 +406,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | A line-level diff shows only labels changed on 4 lines; line count unchanged (82); the file parses as JSON. The file on the public repository matches the reviewed corrected file (sha256 `659224f378f6bd1369def6bf70829362ceb2c444bcba2cdb0991960230eb38c6`). |
 | Status | **COMPLETED — PRIVACY CORRECTION (READING COPY)** |
 | Evidence pointer | `pointer: EVT-PUB-M-023` (`PRIVATE_RETAINED`, reviewed: true; Legal's package, the Magistrate disposition, the names key and the Human's approval are retained in the private record) |
+
+## PUB-M-026
+
+**Panel Decision on the Merits (Q1–Q3), MCR-BREF94-20261027-1 (issued; public reading copy)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-026 |
+| Filing / request | Clinton Brown, the Human, directed publication on 2026-11-09 at 10:55 AM PT (Clerk chat), verbatim: "publish the decision on the docket". Legal prepared the scrubbed public reading copy. He approved these exact bytes first-hand on 2026-11-09 at 11:07 AM PT, verbatim: "Yes", answering the question whether to publish this decision on the public docket as PUB-M-026 using the scrubbed reading copy sha256 12842c2f…e154. |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY; decision §8). Not new law. The private-record decision and Summons docket entry 145 control. |
+| Judgment / Order | [Panel Decision on the Merits, Q1–Q3](../law/judgments/PANEL-DECISION-MCR-BREF94-20261027-MERITS-Q1-Q3.md), public reading copy. A labelled ISSUED header is followed by the decision text with privacy labels. Authoritative private source sha256 `724c9b0ec9b1dc201bc1a2e1c25454e864992523420a70c462298b9584fc5e5d`. Public reading copy sha256 `12842c2f7b65965e024b46f928516e69174261b593b0e94a934a7fafd406e154`. |
+| Effect | Effective on the private Docket at 2026-11-09 10:18:24 PST (Summons entry 145), after P1 and P2 confirmed the exact bytes. Q1: authority in law within each committed matter to take notice of an earlier ruling; no means to exercise it; a one-order stay used once; no power to stay other hearings or to enjoin, established. Q2: no adverse finding; any fault not established. Q3: yes — Atlas's implementation obstructed the Magistrate's independence. Six prospective recommendations to the Human (§6) are not law. Publication is a reading copy and files nothing. |
+| Public commit | `f30c8dbae372f20591179bc675e9d35e5de507aa` (the reading copy); this entry is added by the following commit. |
+| Verification | Privacy check found no private person name, outside business name, street address, email, token or credential. Agent short ids, two Human turn ids, and one internal temporary path were replaced with labels. Pre-issuance drafting status marks were replaced with ISSUED language. Holdings are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `12842c2f7b65965e024b46f928516e69174261b593b0e94a934a7fafd406e154`). |
+| Status | **ISSUED — EFFECTIVE (PUBLISHED AS READING COPY)** |
+| Evidence pointer | `pointer: EVT-PUB-M-026` (`PRIVATE_RETAINED`, reviewed: true; the Docket record, Legal's package and the Human's messages are retained in the private record) |
