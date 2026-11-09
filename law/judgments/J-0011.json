@@ -6,7 +6,7 @@
   "issue_presented": "May the Atlas Governance V2 human Viewer constitute a second current-law authority, pointer, or competing branch of Governance?",
   "known_facts": [
     {
-      "fact": "User Order of 2026-08-23 requires a CourtListener-style Viewer inside private Atlas-Governance-V2, reading canonical artifacts and rendering PDFs.",
+      "fact": "User Order of 2026-08-23 requires a court-docket-style Viewer inside private Atlas-Governance-V2, reading canonical artifacts and rendering PDFs.",
       "evidence": "law/orders/O-V2-002.md"
     },
     {
