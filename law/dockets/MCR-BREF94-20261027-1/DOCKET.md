@@ -1,6 +1,6 @@
 # Case Docket — MCR-BREF94-20261027-1
 
-**Status:** Public reading copy for publication (PUB-M-028). CourtListener-style case docket with public reading copies for every entry.
+**Status:** Public reading copy (PUB-M-028). Case docket with a public reading copy of every entry.
 **Folder:** `v4/` (authoritative). Prior `v3/` held by Summons pre-push; Clerk cross-check applied.
 **Prepared:** 2026-11-09 (America/Los_Angeles). Spend $0.
 **Clerk cross-check:** LEGAL-PUBLIC-DOCKET-V2-CROSSCHECK-20261109 (Clerk, 2026-11-09) applied (rows 1–145 source-faithful; 146–148 labelled post-matter).

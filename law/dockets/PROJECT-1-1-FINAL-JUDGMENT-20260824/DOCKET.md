@@ -1,6 +1,6 @@
 # Case Docket — PROJECT-1-1-FINAL-JUDGMENT-20260824
 
-**Status:** Public reading copy prepared for publication. CourtListener-style case docket with public reading copies for every entry.
+**Status:** Public reading copy. Case docket with a public reading copy of every entry.
 **Prepared:** 2026-11-09 (America/Los_Angeles). Spend $0.
 **Batch:** all-case-dockets Batch 1 ready-r2 (Clerk cross-check LEGAL-381 applied).
 
