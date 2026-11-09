@@ -470,3 +470,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Every record matches its approved manifest (24 of 24). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential; chat ids and local paths were replaced with labels. Credential-shaped words are policy wording only. |
 | Status | **PUBLISHED (READING COPIES)** |
 | Evidence pointer | `pointer: EVT-PUB-M-029` (`PRIVATE_RETAINED`, reviewed: true; the originals, Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-029-S1
+
+**All-case public dockets, batch 1: supplement adding the four case docket pages**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-029-S1 (supplements PUB-M-029) |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 2:32 PM PST (Legal chat card), verbatim: "Yes, also publish the batch 1 docket pages (DOCKET.md, DOCKET.html and WITHHELD.md for the four cases), the 12 files in PAGES-SHA256SUMS.txt sha f46024e2788408a22ab55e6e2176f4c83376d64b32f26c4662c544cc5c246cc5". |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private record controls. |
+| Docket pages | [MAG-1-2-HWC-HOLD-20260825](../law/dockets/MAG-1-2-HWC-HOLD-20260825/DOCKET.md) ([HTML](../law/dockets/MAG-1-2-HWC-HOLD-20260825/DOCKET.html), [withheld list](../law/dockets/MAG-1-2-HWC-HOLD-20260825/WITHHELD.md)); [PROJECT-1-1-FINAL-JUDGMENT-20260824](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/DOCKET.md) ([HTML](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/DOCKET.html), [withheld list](../law/dockets/PROJECT-1-1-FINAL-JUDGMENT-20260824/WITHHELD.md)); [PROVE-DONE-20260927](../law/dockets/PROVE-DONE-20260927/DOCKET.md) ([HTML](../law/dockets/PROVE-DONE-20260927/DOCKET.html), [withheld list](../law/dockets/PROVE-DONE-20260927/WITHHELD.md)); [MAGISTRATE-MATTER-1-9-REF-S3-20261001](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/DOCKET.md) ([HTML](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/DOCKET.html), [withheld list](../law/dockets/MAGISTRATE-MATTER-1-9-REF-S3-20261001/WITHHELD.md)). |
+| Effect | Publication only. No ruling, order or record is changed. PUB-M-029 is not altered; this entry completes it. |
+| Public commit | `953fa3676a9a322a92cc4f781901b635ec4455c7` (the 12 docket pages); this entry is added by the following commit. |
+| Verification | All 12 files match the approved list (sha256 `f46024e2788408a22ab55e6e2176f4c83376d64b32f26c4662c544cc5c246cc5`). Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential, and no chat ids or local paths. |
+| Status | **PUBLISHED (READING COPIES)** |
+| Evidence pointer | `pointer: EVT-PUB-M-029-S1` (`PRIVATE_RETAINED`, reviewed: true; Legal's package and the Human's messages are retained in the private record) |
