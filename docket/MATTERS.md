@@ -422,3 +422,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Privacy check found no private person name, outside business name, street address, email, token or credential. Agent short ids, two Human turn ids, and one internal temporary path were replaced with labels. Pre-issuance drafting status marks were replaced with ISSUED language. Holdings are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `12842c2f7b65965e024b46f928516e69174261b593b0e94a934a7fafd406e154`). |
 | Status | **ISSUED — EFFECTIVE (PUBLISHED AS READING COPY)** |
 | Evidence pointer | `pointer: EVT-PUB-M-026` (`PRIVATE_RETAINED`, reviewed: true; the Docket record, Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-027
+
+**O-LANDMARK-MAGISTRATE-STOP — Landmark Human Order (adopted; public reading copy)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-027 |
+| Filing / request | Clinton Brown, the Human, adopted the main Order first-hand on 2026-11-09 at 11:41 AM PST (Legal chat card), verbatim: "Yes, adopt the main O-LANDMARK-MAGISTRATE-STOP order (draft 12) as Atlas law". He kept the own-hand amendment for later, verbatim: "Keep the own-hand fix amendment for later, don't adopt it now". He directed publication the same minute: "we should push this to the publish docket" / "and then send me the link". Legal prepared the scrubbed public reading copy. He approved these exact bytes first-hand on 2026-11-09 at 11:53 AM PST, verbatim: "Yes, publish O-LANDMARK-MAGISTRATE-STOP as PUB-M-027 using the copy sha 08d583a3…ed444059". |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private adoption record controls. |
+| Judgment / Order | [O-LANDMARK-MAGISTRATE-STOP](../law/orders/O-LANDMARK-MAGISTRATE-STOP.md), public reading copy. A labelled ADOPTED header is followed by the adoption record and the main Human Order text with privacy labels. The optional Art. XX own-hand-fix amendment is reproduced and marked NOT ADOPTED (held). Authoritative private adoption record sha256 `436b040daa03b8b50404d9a6ec1efc8611ee2cb3c5c328a7d3c219083e91dacf`. Source memo sha256 `a169fd55b01c1e98193085a176bd21d6fea8cf431e37ff3bb5a8eb1fcbbcfd84`. Public reading copy sha256 `08d583a3b8cf34f3e37413a3a59da92b2fb442ce3bc34ad789b33a71ed444059`. |
+| Effect | Adopted as Atlas law going forward only, 2026-11-09 11:41 AM PST. Does not overrule the MCR-BREF94 panel. Grants the Magistrate authority to stop Atlas work without Human approval, to order fixes, and to see the whole Docket; requires a technically enforceable stop register (Rule Q). Outer Human limits (spend, deletes, keys, Oracle/public-server plan-yes, Update/Reset) stand. Own-hand software fix amendment is not adopted. Publication is a reading copy. |
+| Public commit | `d088e50e82d5b965306d45c112129262473b06eb` (the reading copy); this entry is added by the following commit. |
+| Verification | Privacy check found no private person name (other than the Human), outside business name, street address, email, token or credential. Human turn/card ids were replaced with labels; absolute box paths were generalized; draft-status marks for this instrument were replaced with ADOPTED language. Holdings of the adopted main Order are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `08d583a3b8cf34f3e37413a3a59da92b2fb442ce3bc34ad789b33a71ed444059`). |
+| Status | **ADOPTED — EFFECTIVE (PUBLISHED AS READING COPY)** |
+| Evidence pointer | `pointer: EVT-PUB-M-027` (`PRIVATE_RETAINED`, reviewed: true; the adoption record, Legal's package and the Human's messages are retained in the private record) |

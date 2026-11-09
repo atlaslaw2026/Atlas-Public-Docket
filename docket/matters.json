@@ -532,6 +532,27 @@
     "pointer": "EVT-PUB-M-026",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-027",
+   "title": "O-LANDMARK-MAGISTRATE-STOP — Landmark Human Order (adopted; public reading copy)",
+   "filing_request": "Human adoption 2026-11-09 11:41 AM PST, main Order yes / own-hand amendment held; publication direction same minute; exact-bytes approval first-hand 2026-11-09 11:53 AM PST, verbatim: \"Yes, publish O-LANDMARK-MAGISTRATE-STOP as PUB-M-027 using the copy sha 08d583a3…ed444059\" (reading copy sha256 08d583a3b8cf34f3e37413a3a59da92b2fb442ce3bc34ad789b33a71ed444059)",
+   "governing_authority": [
+    "CONST Art. I §1–§2 / §6(2) (Human Order)",
+    "CONST Schedule A.1",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "ADOPTED as Atlas law 2026-11-09 11:41 AM PST; going forward only; does not overrule MCR-BREF94; main package (stop without Human approval, compel-to-fix, whole Docket, Rules G–Q) in force; optional Art. XX own-hand amendment NOT ADOPTED (held); publication is a reading copy",
+   "implementation": "law/orders/O-LANDMARK-MAGISTRATE-STOP.md: labelled ADOPTED public reading copy (sha256 08d583a3b8cf34f3e37413a3a59da92b2fb442ce3bc34ad789b33a71ed444059); privacy labels for Human turn/card ids; absolute box paths generalized; amendment section labelled NOT ADOPTED (held)",
+   "public_commit_sha": "d088e50e82d5b965306d45c112129262473b06eb",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "privacy check clean for private names/companies/addresses/emails/tokens; labelled substitutions only; adopted holdings unchanged in substance; public file matches reviewed reading copy",
+   "status": "ADOPTED_EFFECTIVE_PUBLISHED_READING_COPY",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-027",
+    "reviewed": true
+   }
   }
  ]
 }
