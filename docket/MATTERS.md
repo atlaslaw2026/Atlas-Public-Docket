@@ -502,3 +502,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | All 10 files match the approved list (sha256 `d376c978c18ff663e6fdc0a921217818d7276d5cc61bd5bac4bb3f334d444645`). Privacy check found only the Human's name. No file under law/dockets/ or docket/ contains the removed name after this commit. |
 | Status | **PUBLISHED (CORRECTION)** |
 | Evidence pointer | `pointer: EVT-PUB-M-030` (`PRIVATE_RETAINED`, reviewed: true) |
+
+## PUB-M-031
+
+**Wording correction of the O-V2-002 and J-0011 public reading copies (outside company name replaced with a neutral label)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-031 |
+| Filing / request | Clinton Brown, the Human, approved the exact bytes first-hand on 2026-11-09 at 3:09 PM PST (Legal chat card), verbatim: "Yes, publish the scrubbed public reading copies of O-V2-002 and J-0011 in SHA256SUMS.txt sha 430cfacfa35bc4ec641097093e67103780c91e864c98c453b4d648fbf7fa60b2". |
+| Review | Publication form and privacy only, under the MAG-J0021-NAME-CORRECTION-20261019 M2 disposition, Holdings 1–4, and A-ART-VIII §13(4). The private record controls. |
+| Files | [O-V2-002](../law/orders/O-V2-002.md) and [J-0011](../law/judgments/J-0011.json): one word each, an outside company name replaced with the neutral label "court-docket-style". |
+| Effect | Head-only publication-form privacy correction of two reading copies. The authoritative order and judgment, their substance and the current-law pin are unchanged (M2 Holding 5). Earlier commits are kept as they are. |
+| Public commit | `23575b49ded682e78bf5dce018419c1356e11f2f` (the two reading copies); this entry is added by the following commit. |
+| Verification | Both files match the approved list (sha256 `430cfacfa35bc4ec641097093e67103780c91e864c98c453b4d648fbf7fa60b2`). One line changed in each; J-0011.json parses. Privacy check clean. No file in the repository at HEAD contains the removed name. |
+| Status | **PUBLISHED (CORRECTION)** |
+| Evidence pointer | `pointer: EVT-PUB-M-031` (`PRIVATE_RETAINED`, reviewed: true) |

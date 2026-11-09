@@ -633,6 +633,28 @@
     "pointer": "EVT-PUB-M-030",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-031",
+   "title": "Wording correction of the O-V2-002 and J-0011 public reading copies (outside company name replaced with a neutral label)",
+   "filing_request": "Human exact-bytes approval first-hand 2026-11-09 3:09 PM PST (Legal chat card), verbatim: \"Yes, publish the scrubbed public reading copies of O-V2-002 and J-0011 in SHA256SUMS.txt sha 430cfacfa35bc4ec641097093e67103780c91e864c98c453b4d648fbf7fa60b2\"",
+   "governing_authority": [
+    "CONST Art. I §1–§2 (Human direction)",
+    "MAG-J0021-NAME-CORRECTION-20261019 M2 disposition, Holdings 1–4 (reading-copy publication-form privacy correction)",
+    "A-ART-VIII §13(4) (Human's separate yes on exact bytes)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "Head-only publication-form privacy correction of two reading copies; the authoritative order and judgment, their substance and the current-law pin are unchanged (M2 Holding 5); earlier commits are kept as they are",
+   "implementation": "law/orders/O-V2-002.md and law/judgments/J-0011.json: one word each, an outside company name replaced with the neutral label court-docket-style (approved list sha256 430cfacfa35bc4ec641097093e67103780c91e864c98c453b4d648fbf7fa60b2)",
+   "public_commit_sha": "23575b49ded682e78bf5dce018419c1356e11f2f",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "both files match the approved list; one line changed in each; J-0011.json parses; privacy check clean; whole repository at HEAD has no remaining instance of the removed name",
+   "status": "PUBLISHED_CORRECTION",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-031",
+    "reviewed": true
+   }
   }
  ]
 }
