@@ -676,6 +676,26 @@
     "pointer": "EVT-PUB-M-032",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-033",
+   "title": "O-REPRESENTATION-STANDING — Every bot gets counsel (adopted; public reading copy)",
+   "filing_request": "Human adoption 2026-11-12 12:25 PM PST, r2 yes, draft choices left as written; publication direction same afternoon; exact-bytes approval 2026-11-12 12:34 PM PST",
+   "governing_authority": [
+    "CONST Art. I §2 (Human Order)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "ADOPTED as Atlas law 2026-11-12 12:25 PM PST; applies to open matters on filing; not retroactive to finally decided matters; automatic counsel for bot parties, challenge right, and fail-closed no-merits-ruling rule in force; R-7 software not yet built; publication is a reading copy",
+   "implementation": "law/orders/O-REPRESENTATION-STANDING.md: labelled ADOPTED public reading copy (sha256 57811957af68019732a22085f6b46304e3be22ddc722f5f9f6261edbd15c0278); privacy labels for Human turn/card ids; private paths omitted or generalized; matter-specific transition lines generalized",
+   "public_commit_sha": "953a728959f7104864a425dd105e06cf2b3905ab",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "privacy check clean for private names/companies/addresses/emails/tokens; labelled substitutions only; adopted holdings unchanged in substance; public file matches reviewed reading copy",
+   "status": "ADOPTED_EFFECTIVE_PUBLISHED_READING_COPY",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-033",
+    "reviewed": true
+   }
   }
  ]
 }

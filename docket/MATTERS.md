@@ -534,3 +534,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | All 44 files match the approved list (sha256 `f76ac29fc560f79a681f8df3c3f91126b8be7e59e33ac272b8b06924dc365b0b`); both manifests match every record they list. |
 | Status | **PUBLISHED (CORRECTION)** |
 | Evidence pointer | `pointer: EVT-PUB-M-032` (`PRIVATE_RETAINED`, reviewed: true) |
+
+## PUB-M-033
+
+**O-REPRESENTATION-STANDING — Every bot gets counsel (adopted; public reading copy)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-033 |
+| Filing / request | Clinton Brown, the Human, adopted O-REPRESENTATION-STANDING r2 first-hand on 2026-11-12 at 12:25 PM PST (Magistrate Summons chat card), verbatim: "Yes, adopt O-REPRESENTATION-STANDING r2 (sha 0ee2ad31) as Atlas law." He left all three of the draft's choices as written. He directed publication the same afternoon: "can you publish the new law on the public docket when you get it". Legal prepared the scrubbed public reading copy. He approved these exact bytes on 2026-11-12 at 12:34 PM PST (first-hand, Legal chat card). |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private adoption record controls. |
+| Judgment / Order | [O-REPRESENTATION-STANDING](../law/orders/O-REPRESENTATION-STANDING.md), public reading copy. A labelled ADOPTED header is followed by the adopted Order text with privacy labels. Authoritative adopted original sha256 `0ee2ad31268546d88813219e54aea8f82edd3f27d6823a4cfbd6f710b584f274`. Public reading copy sha256 `57811957af68019732a22085f6b46304e3be22ddc722f5f9f6261edbd15c0278`. |
+| Effect | Adopted as Atlas law 2026-11-12 12:25 PM PST. Applies on filing to every open matter with no final disposition. Not retroactive to matters already finally decided (CONST Art. XIX). Every bot party gets counsel automatically; a bot may challenge legally insufficient representation; no merits ruling against a party with no seated counsel and no accepted waiver. R-7 software is not yet built; R-4.1 is enforced by hand until then. Publication is a reading copy. |
+| Public commit | `953a728959f7104864a425dd105e06cf2b3905ab` (the order file); this entry is added by the following commit. |
+| Verification | Privacy check found no private person name (other than the Human), outside business or product name, street address, email, token or credential. Human turn/card ids were replaced with labels; paths and hashes of private files were omitted or replaced with public paths; matter-specific transition lines were generalized; draft-status marks were replaced with ADOPTED language. Holdings of the adopted Order are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `57811957af68019732a22085f6b46304e3be22ddc722f5f9f6261edbd15c0278`). |
+| Status | **ADOPTED — EFFECTIVE (PUBLISHED AS READING COPY)** |
+| Evidence pointer | `pointer: EVT-PUB-M-033` (`PRIVATE_RETAINED`, reviewed: true; the adoption record, Legal's package and the Human's messages are retained in the private record) |
