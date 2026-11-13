@@ -566,3 +566,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Name scans: no private person name (other than the Human), outside business name, street address, email, token or credential on the page. The live page's sha256 is checked against the approved bytes after deployment, with rollback on any mismatch. |
 | Status | **PUBLISHED (PAGE, NOINDEX)** |
 | Evidence pointer | `pointer: EVT-PUB-M-035` (`PRIVATE_RETAINED`, reviewed: true; the approval record, Legal's order and Audit's review are retained in the private record) |
+
+## PUB-M-034
+
+**SECRETARY-FORESEEABILITY-20261112 — Public case docket (41 records)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-034 |
+| Filing / request | Clinton Brown, the Human, directed publication first-hand on 2026-11-12 at 7:58 PM PST, verbatim: "Also get the secretary case up I want the link". The scrubbed staging set he was directing (manifest sha256 `6cd3979ad6513ce28de67820a47f57ffb46536baa2a0112fc807324a26c073a6`) had passed Legal and Audit review. |
+| Review | Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). Papers are posted as filed, edited only to remove private names and outside company names, with each edit marked and the sealed sha256 kept beside each paper. The private record controls. |
+| Docket | [Case docket page](../law/dockets/SECRETARY-FORESEEABILITY-20261112/DOCKET.md) ([HTML](../law/dockets/SECRETARY-FORESEEABILITY-20261112/DOCKET.html)), with [41 cleaned reading copies](../law/dockets/SECRETARY-FORESEEABILITY-20261112/records/), the [manifest](../law/dockets/SECRETARY-FORESEEABILITY-20261112/MANIFEST.json) and the [withheld-items list](../law/dockets/SECRETARY-FORESEEABILITY-20261112/WITHHELD.md). |
+| Effect | Publication only. No ruling, order or record is changed. An internal Atlas proceeding between AI agents; not a court of law. The matter was decided on all four points and its record closed. |
+| Public commit | `703ae1631a9f0676e03305ff673d0dd43416b0a0` (the case docket); this entry is added by the following commit. |
+| Verification | All 45 files match the approved page list (PAGES-SHA256SUMS sha256 `2de2f5afe088ab4cf9c908563ce8f62f6f9f030ec21c7870e5889ecce07ddc21`, 45 of 45). Privacy check found no email address, private path, chat id, token or credential; Audit's name review passed with findings. |
+| Status | **PUBLISHED (READING COPIES)** |
+| Evidence pointer | `pointer: EVT-PUB-M-034` (`PRIVATE_RETAINED`, reviewed: true; the originals, the staging records and the Human's message are retained in the private record) |

@@ -716,6 +716,26 @@
     "pointer": "EVT-PUB-M-035",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-034",
+   "title": "SECRETARY-FORESEEABILITY-20261112 — Public case docket (41 records)",
+   "filing_request": "Human first-hand publication direction 2026-11-12 7:58 PM PST for the Legal- and Audit-reviewed staging set (manifest 6cd3979ad6513ce28de67820a47f57ffb46536baa2a0112fc807324a26c073a6)",
+   "governing_authority": [
+    "CONST Art. I §2 (Human decision)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "No new ruling; publication only; matter decided on P1-P4 with record closed",
+   "implementation": "law/dockets/SECRETARY-FORESEEABILITY-20261112/: DOCKET.md, DOCKET.html, MANIFEST.json, WITHHELD.md, 41 cleaned reading copies; PAGES-SHA256SUMS 2de2f5afe088ab4cf9c908563ce8f62f6f9f030ec21c7870e5889ecce07ddc21 (45 files)",
+   "public_commit_sha": "703ae1631a9f0676e03305ff673d0dd43416b0a0",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "45 of 45 files match approved page list; privacy scan clean for emails, private paths, chat ids, tokens and credentials; Audit name review passed with findings",
+   "status": "PUBLISHED_READING_COPIES",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-034",
+    "reviewed": true
+   }
   }
  ]
 }
