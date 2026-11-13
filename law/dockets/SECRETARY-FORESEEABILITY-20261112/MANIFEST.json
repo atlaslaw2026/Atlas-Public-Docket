@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "matter": "SECRETARY-FORESEEABILITY-20261112",
+  "generated": "2026-11-12",
+  "revision": "stage-r4h",
+  "record_count": 41,
+  "records": [
+    {
+      "file": "001-complaint-r2-clinton-brown-v-secretary-alleged-b.md",
+      "sha256": "bc9c923569fdf29d083c5af234804d60314b8f9036f5e87d0be9e5782f1e48b2",
+      "bytes": 34842
+    },
+    {
+      "file": "002-matter-opened-internal-docket-opened-on-legal-51.md",
+      "sha256": "d49d0219d262c9087b44b8f8c8475348c08ca4bd3e5648211d3bea38a4ef4f33",
+      "bytes": 10786
+    },
+    {
+      "file": "003-magistrate-seated.md",
+      "sha256": "54a4a5577a9be5c2e6b7074d088dff9bb0a9971e3170a7c610579330c169630b",
+      "bytes": 5909
+    },
+    {
+      "file": "004-conflict-disclosure-notice-to-respondent-order-1.md",
+      "sha256": "b84fb3a8db984c077d9cfac2725dee364d1f7a6928599c45495877f2c889874c",
+      "bytes": 17859
+    },
+    {
+      "file": "005-service-on-respondent.md",
+      "sha256": "5fcbfd954e190fc20d50ff80a276d967155c5eb5c810d671d9ca6e243344b7c9",
+      "bytes": 11013
+    },
+    {
+      "file": "006-counsel-for-respondent-authorized.md",
+      "sha256": "8fccf0e9de1af2e839eabfaeda1d9ae10f6d0ed4d01a38f44a8b24166e627dc9",
+      "bytes": 3457
+    },
+    {
+      "file": "007-service-record-1-and-build-manager-s6-list.md",
+      "sha256": "2adab3f4c6110de26eeef09901f94665735ffc94e16ccd6b2573fec49f1140eb",
+      "bytes": 15341
+    },
+    {
+      "file": "008-counsel-for-respondent-seated.md",
+      "sha256": "791fa7c915cf04d0c0ad3beb3a7708c175c542a087292377f5a367bd73a79bbb",
+      "bytes": 5395
+    },
+    {
+      "file": "009-deadline-confirmed-s6-accepted-clerical-correcti.md",
+      "sha256": "e34571c02c70e187ab2eb15862014bffc2e720d50b07224df8410c0321f4972d",
+      "bytes": 5136
+    },
+    {
+      "file": "010-complainant-s-exhibit-1-ongoing-harm-reverse-s-r.md",
+      "sha256": "a5330ca469aa09bab99c6b9321176fd08344f8f41c5d0b82915ecff8862047f4",
+      "bytes": 8833
+    },
+    {
+      "file": "011-complainant-s-notice-of-authorities-no-1.md",
+      "sha256": "ed207a177330b82f2071aa4e58f7c6565d178d1f2542b127f91978a582b45f6b",
+      "bytes": 8182
+    },
+    {
+      "file": "012-order-2-r-1-2-party-finding.md",
+      "sha256": "0f88de2c37ec67a0daeed3835944adbbd21dfff142b7e5366a752f18b20c8c89",
+      "bytes": 14904
+    },
+    {
+      "file": "013-erratum-to-the-order-2-docket-record.md",
+      "sha256": "fe0677ef5d77b53fbcd78d23accd48b13840f1b59baeb674354a21a0a94a23c8",
+      "bytes": 2732
+    },
+    {
+      "file": "014-secretary-counsel-s-r-1-4-conflict-disclosure.md",
+      "sha256": "c4eaed0206bb03e61cc62cb6a5b8b9cc23a69c1fe20bf9227d30f86b45f2b445",
+      "bytes": 145401
+    },
+    {
+      "file": "015-counsel-for-build-manager-seated-order-2-a.md",
+      "sha256": "830d00ef0e17ee9c775daf86ee3f4b46103c1087a87480317dc7a1ef0fdd1264",
+      "bytes": 8145
+    },
+    {
+      "file": "016-magistrate-s-directions-counsel-filing-path-fixe.md",
+      "sha256": "090f9bc09168ec0cf7ee85dd6aff2a4b1848d2ef91a99d18d29b978150477888",
+      "bytes": 3879
+    },
+    {
+      "file": "017-complainant-s-amendment-no-1-and-motion-to-vacat.md",
+      "sha256": "762dc7c6c97ef67d4a87b717e6e5be23abecfcbc39bef0a12abf8480766be702",
+      "bytes": 4664
+    },
+    {
+      "file": "018-batch-clerk-cc-0cbfdec0eea1-ea4aa1e30987-27094c2.md",
+      "sha256": "62a790890b37d0e57ff12df3ece9c3ab0b66b7f5b486d0e2c6384decf52f2775",
+      "bytes": 14011
+    },
+    {
+      "file": "019-counterargument-cover-note-service-record-2.md",
+      "sha256": "71d76e575a438f657f5078ad3456eb702253c3f9747899f4fbc267a3263a2417",
+      "bytes": 8019
+    },
+    {
+      "file": "020-order-3-scheduling.md",
+      "sha256": "427719490a8e5cf3a7cb4da7f83096c05aca1088f70a24decabd81714db8b393",
+      "bytes": 5398
+    },
+    {
+      "file": "021-bm-sealed-statement-and-counsel-adoption.md",
+      "sha256": "ec2d385847f013f2457ee635de3ccca0e29a0f30e1db82dd7a5167d8f9e4fb02",
+      "bytes": 5172
+    },
+    {
+      "file": "022-bm-p4-response-order-3-a-s6-addendum-1.md",
+      "sha256": "366a1f8571edac77e72802194701e9b2950af02a603a76bf5b6d90ce6ca88e54",
+      "bytes": 31341
+    },
+    {
+      "file": "023-motion-2-order-4-complainant-s-reply.md",
+      "sha256": "b789d25385791628d2de781c887b2459ac3d20537f84e846f192cb2bb25233f7",
+      "bytes": 38266
+    },
+    {
+      "file": "024-response-to-motion-2-bm-sealed-s6-addendum-copy.md",
+      "sha256": "993ff6ca7fd846a0f985531662ae52c191d72ce6ec76faf6883e34c462a126aa",
+      "bytes": 5755
+    },
+    {
+      "file": "025-respondent-s-answers-under-order-4.md",
+      "sha256": "1d8495c41215b75f476cccf1f36b20cdabbb90ba6bf08d49bb3234d22f785f03",
+      "bytes": 25266
+    },
+    {
+      "file": "026-order-5-briefing-schedule-and-close.md",
+      "sha256": "431608196d9a5b22429facd47fef8386f59553383e918e3198bea622d0b7b80a",
+      "bytes": 5013
+    },
+    {
+      "file": "027-complainant-s-further-reply-order-5-item-3.md",
+      "sha256": "9bd5a2f4aea9b38253c1caeffa03dfa33f7a03734736766d4bd4c9843e7f856c",
+      "bytes": 16055
+    },
+    {
+      "file": "028-respondent-s-sur-reply-order-5-item-4-briefing-c.md",
+      "sha256": "b2eb0be043ec9b3bdfd7b1a703d50dcb7ebd50a0f0c381eee112c078c6fcb960",
+      "bytes": 7321
+    },
+    {
+      "file": "029-order-6-notice-of-record-matter-time-labels.md",
+      "sha256": "ca7e1f70d31db74673fa9a8deabfc4ae99e78bd86f15647c7f7bc88d57ecaf44",
+      "bytes": 6201
+    },
+    {
+      "file": "030-respondent-s-note-under-order-6-also-order-3-a-s.md",
+      "sha256": "7a865a7f0fb9537a28e654cf806e6936b71d0bdf06310435ca6f3efaa6d09fb9",
+      "bytes": 8234
+    },
+    {
+      "file": "031-order-6-a.md",
+      "sha256": "e0ed7b2aba2734ffe594801d09819817d816de5da50edf8000184c6e8605d159",
+      "bytes": 4917
+    },
+    {
+      "file": "032-secretary-s-r-2-3-consent-complainant-s-3-a-supp.md",
+      "sha256": "3060c2a48e7fd3d53911b5561108c8a9e3e75f2a8c4af77d248772033f1ee4e3",
+      "bytes": 15435
+    },
+    {
+      "file": "033-order-7-closing-the-record.md",
+      "sha256": "5326bdf4a9cc4f6b73af2e502c4c8aace0a82300057d12bb2c44f852aecc0a05",
+      "bytes": 5226
+    },
+    {
+      "file": "034-respondent-s-answer-order-7-item-3-order-8-timin.md",
+      "sha256": "5474159e04fd37d8b1e0d9545a058368d5c44c66357715fcd4a67f1f8b4cd04d",
+      "bytes": 9600
+    },
+    {
+      "file": "035-bm-s-order-3-a-supplement-p4-and-order-6-note-wa.md",
+      "sha256": "dddaacfb29807aa1add55cbe11b9b12c1e04d5dd5b5c90bcceb7464296f83b26",
+      "bytes": 5751
+    },
+    {
+      "file": "036-secretary-counsel-s-written-waiver-of-its-p4-ans.md",
+      "sha256": "a10f43a879caa2044373729ac04d0415f587159345664d2e4a4e491f2b5d5983",
+      "bytes": 3321
+    },
+    {
+      "file": "037-legal-s-written-waiver-511-h-of-its-p4-answer-al.md",
+      "sha256": "9a1eeef179ad09c328d64ab86265cf6a51ca07ee7e026b7781f9fa461a7edeaf",
+      "bytes": 4004
+    },
+    {
+      "file": "038-disposition-part-1-p1-p3.md",
+      "sha256": "a4bb14c51123c633fd179c4a2e4607c23829a798a8aa7ea3b633a113a62a7817",
+      "bytes": 19249
+    },
+    {
+      "file": "039-disposition-part-2-p4-matter-decided.md",
+      "sha256": "fddb60656c192444fe42173553d61b5c94d0aa06956afcd4d88424f127055e06",
+      "bytes": 15778
+    },
+    {
+      "file": "040-complainant-s-objection-and-motion-for-a-close-o.md",
+      "sha256": "25622d5da5f9f8637dda49b3898f227ccf3ef6df2902842af62105dd02a82e6d",
+      "bytes": 15338
+    },
+    {
+      "file": "041-order-9-on-the-motion-for-a-close-of-record-rule.md",
+      "sha256": "61fda757bab5c2fee62285d0c994849aff794169263b08ffb3c74630d6828bc2",
+      "bytes": 7745
+    }
+  ]
+}
