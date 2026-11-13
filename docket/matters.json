@@ -696,6 +696,26 @@
     "pointer": "EVT-PUB-M-033",
     "reviewed": true
    }
+  },
+  {
+   "public_docket_id": "PUB-M-035",
+   "title": "Atlas Law page — public list of Atlas laws and practices (r3d)",
+   "filing_request": "Human exact-bytes approval 2026-11-12 4:24 PM PST (Legal chat card); Legal posting order same minute",
+   "governing_authority": [
+    "CONST Art. I §2 (Human decision)",
+    "O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY (publication form)"
+   ],
+   "ruling_disposition": "No new ruling; publication only; 23 items labelled Atlas law (with adoption date) or Practice; pending and under-check items labelled; reading copies labelled",
+   "implementation": "Page deployed on the Atlas demo site with noindex (not in this repository); law.html = ATLAS-LAW.html sha256 948d283d577884654a69a02316784da6f0c8a23fb0e8d0513f5ba4a835604aba; PUBLIC-SHA256SUMS sha256 2905e933e64259e778e282a31ce21f209986bc545f971c412bcdd79bec0d177d (23 files)",
+   "public_commit_sha": "NOT_APPLICABLE_PAGE_OUTSIDE_REPOSITORY",
+   "private_commit_class": "PRIVATE_RETAINED",
+   "verification": "Legal wording/privacy review; Audit delta check PASS with findings (heading nit only); name scans clean; live sha checked against approved bytes after deployment",
+   "status": "PUBLISHED_PAGE_NOINDEX",
+   "evidence_pointer": {
+    "evidence_class": "PRIVATE_RETAINED",
+    "pointer": "EVT-PUB-M-035",
+    "reviewed": true
+   }
   }
  ]
 }

@@ -550,3 +550,19 @@ Public commit SHAs below refer to **this** repository. Private Governance V2 SHA
 | Verification | Privacy check found no private person name (other than the Human), outside business or product name, street address, email, token or credential. Human turn/card ids were replaced with labels; paths and hashes of private files were omitted or replaced with public paths; matter-specific transition lines were generalized; draft-status marks were replaced with ADOPTED language. Holdings of the adopted Order are unchanged in substance. The file on the public repository matches the reviewed reading copy (sha256 `57811957af68019732a22085f6b46304e3be22ddc722f5f9f6261edbd15c0278`). |
 | Status | **ADOPTED — EFFECTIVE (PUBLISHED AS READING COPY)** |
 | Evidence pointer | `pointer: EVT-PUB-M-033` (`PRIVATE_RETAINED`, reviewed: true; the adoption record, Legal's package and the Human's messages are retained in the private record) |
+
+## PUB-M-035
+
+**Atlas Law page — public list of Atlas laws and practices (r3d)**
+
+| Step | Public record |
+|---|---|
+| Docket ID | PUB-M-035 |
+| Filing / request | Clinton Brown, the Human, approved posting these exact bytes first-hand on 2026-11-12 at 4:24 PM PST (Legal chat card), verbatim: "Yes, post the Atlas Law page r3d (948d283d)". Legal ordered the posting the same minute. |
+| Review | Wording and privacy review by Legal; Audit delta check of version r3d passed with findings (one heading nit, no content change). Publication form and privacy only (O-PRIVACY-PRE-PUBLICATION-DUTY / Atlas Rule 4 / PRIVATE_EVIDENCE_POLICY). The private adoption records control. |
+| Judgment / Order | No new ruling. The page lists 23 items, each labelled either Atlas law (with its adoption date) or Practice; pending items are labelled not adopted, and items whose adoption record is still being checked are marked "under check". Scrubbed texts are labelled public reading copies whose sealed sha256 will not match. |
+| Effect | Publication only. Nothing on the page changes any law, ruling or record. Atlas Law is the internal governance of an AI institution; it is not a court of law and not legal advice. The page is served with noindex. |
+| Public page | Deployed by the operator on the Atlas demo site (not in this repository). Approved bytes: `law.html` = `ATLAS-LAW.html` sha256 `948d283d577884654a69a02316784da6f0c8a23fb0e8d0513f5ba4a835604aba`; file list PUBLIC-SHA256SUMS sha256 `2905e933e64259e778e282a31ce21f209986bc545f971c412bcdd79bec0d177d` (23 files). Any change needs a new approval. |
+| Verification | Name scans: no private person name (other than the Human), outside business name, street address, email, token or credential on the page. The live page's sha256 is checked against the approved bytes after deployment, with rollback on any mismatch. |
+| Status | **PUBLISHED (PAGE, NOINDEX)** |
+| Evidence pointer | `pointer: EVT-PUB-M-035` (`PRIVATE_RETAINED`, reviewed: true; the approval record, Legal's order and Audit's review are retained in the private record) |
